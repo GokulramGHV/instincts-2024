@@ -1,8 +1,8 @@
 import Image from 'next/image';
 export default function PetalPattern() {
   return (
-    <>
-      <div className="w-fit absolute z-30 -left-[18px] bottom-[76px] sm:-left-[25px] sm:bottom-[98px] xl:-left-[30px] xl:bottom-[140px]">
+    <div className="absolute z-30 -left-[18px] sm:-left-[25px]  xl:-left-[30px] bottom-[6vh]">
+      <div>
         {[1, 2, 3, 4].map((i) => (
           <Image
             key={i}
@@ -14,7 +14,7 @@ export default function PetalPattern() {
           />
         ))}
       </div>
-      <div className="w-fit flex absolute z-30 -left-[18px] bottom-10 sm:-left-[25px] sm:bottom-12  xl:-left-[30px] xl:bottom-20">
+      <div className="flex">
         {[1, 2, 3, 4, 5].map((i) => (
           <Image
             key={i}
@@ -26,6 +26,6 @@ export default function PetalPattern() {
           />
         ))}
       </div>
-    </>
+    </div>
   );
 }

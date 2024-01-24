@@ -22,7 +22,7 @@ export default function HeroSection() {
   }, [slideNo]);
 
   return (
-    <section className="relative flex h-screen flex-col justify-center items-center  overflow-hidden w-full p-8 sm:px-16 sm:py-12 md:px-24 md:py-20 2xl:py-28 2xl:px-36">
+    <section className="relative flex h-screen flex-col justify-center items-center  overflow-hidden w-full py-[5vh] px-[10vw] ">
       <SpinningBackground slideNo={slideNo} />
       <div className="z-10 relative w-full h-full">
         <PetalPattern />
