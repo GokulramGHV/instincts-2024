@@ -3,12 +3,12 @@ import Image from 'next/image';
 import { useEffect } from 'react';
 
 const images = [
-  '/landing_images/arudhra.png',
-  '/landing_images/andrea 1.png',
-  '/landing_images/crowd.png',
-  '/landing_images/siddharth.png',
-  '/landing_images/n2k.png',
-  '/landing_images/flame 1.png',
+  '/landing_images/arudhra.jpg',
+  '/landing_images/andrea.jpg',
+  '/landing_images/crowd.jpg',
+  '/landing_images/siddharth.jpg',
+  '/landing_images/n2k.jpg',
+  '/landing_images/flame.jpg',
 ];
 
 export default function HeroCarousel({ slideNo }) {
