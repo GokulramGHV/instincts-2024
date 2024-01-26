@@ -36,7 +36,7 @@ export default function GalleryCarousel() {
 
   return (
     <div key={currentIndex} className="flex z-10">
-      <div className='flex w-[65vw] h-[60vh] relative'>
+      <div className='flex w-[70vw] h-[65vh] relative'>
         <img
           src={images[currentIndex]}
           className='h-full w-full object-cover rounded-3xl transition-opacity duration-200 ease-in-out absolute'
