@@ -1,10 +1,11 @@
 'use client';
 import Image from 'next/image';
 
-export default function AboutUs() {
+export default function AboutUs({slideNo}) {
+    console.log(slideNo)
     return(
         <div className='bg-[#B0E9F9] min-h-screen w-full flex flex-col justify-center p-5'>
-            <div className='mx-auto flex md:flex-row flex-col justify-center relative'>
+            <div className='mx-auto flex md:flex-row flex-col justify-center relative py-20'>
                 <div class="my-auto mx-auto md:mx-0 z-10">
                     <img src="/about_us/blimp.png" />
                 </div>
@@ -27,7 +28,7 @@ export default function AboutUs() {
                     <img src="/about_us/bottom.png" class="w-full h-full" />
                 </div>
             </div>
-                <div className="bg-white md:w-[40%] p-5 md:mx-0 mx-auto z-20">
+                <div className="bg-white md:w-[40%] p-5 md:mx-0 mx-auto z-20 text-xs">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum sed sunt illo qui nulla dolorem eos nobis adipisci blanditiis exercitationem amet optio dignissimos minus, reiciendis ducimus id dolore cum temporibus.
                     <br /> <br />
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos repudiandae illum atque aspernatur facere impedit, molestiae animi quod! Maiores nesciunt accusamus ipsa. Nobis quidem at et accusantium eos provident obcaecati!
