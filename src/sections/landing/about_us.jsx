@@ -28,7 +28,7 @@ export default function AboutUs({slideNo}) {
                     <img src="/about_us/bottom.png" class="w-full h-full" />
                 </div>
             </div>
-                <div className="bg-white md:w-[40%] p-5 md:mx-0 mx-auto z-20 text-xs">
+                <div className="bg-white md:w-[40%] p-5 md:mx-0 mx-auto z-20 lg:text-base text-xs">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum sed sunt illo qui nulla dolorem eos nobis adipisci blanditiis exercitationem amet optio dignissimos minus, reiciendis ducimus id dolore cum temporibus.
                     <br /> <br />
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos repudiandae illum atque aspernatur facere impedit, molestiae animi quod! Maiores nesciunt accusamus ipsa. Nobis quidem at et accusantium eos provident obcaecati!
