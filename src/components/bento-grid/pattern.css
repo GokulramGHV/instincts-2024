@@ -1,0 +1,37 @@
+.animate-move {
+    animation: move 3000ms linear infinite;
+}
+
+.animate-move:nth-child(1) {
+    animation-delay: 0s;
+}
+
+.animate-move:nth-child(2) {
+    animation-delay: 500ms;
+}
+
+.animate-move:nth-child(3) {
+    animation-delay: 1s;
+}
+
+.animate-move:nth-child(4) {
+    animation-delay: 1.5s;
+}
+
+.animate-move:nth-child(5) {
+    animation-delay: 2s;
+}
+
+.animate-move:nth-child(6) {
+    animation-delay: 2.5s;
+}
+
+@keyframes move {
+    0% {
+        transform: translateX(-110%);
+    }
+
+    100% {
+        transform: translateX(1000%);
+    }
+}
