@@ -8,7 +8,7 @@ export default function Footer() {
       <DefaultLayout />
       <MobileLayout />
       <Image
-        src="/logos/instincts_footer.svg"
+        src="/logos/Instincts_footer.svg"
         alt="instincts_logo"
         className="w-full"
         width={1440}
