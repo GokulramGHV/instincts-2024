@@ -1,4 +1,5 @@
 import AboutUs from '@/sections/landing/about_us';
+import Footer from '@/sections/footer/footer';
 import HeroSection from '@/sections/landing/hero-section';
 
 export default function Home() {
@@ -6,6 +7,7 @@ export default function Home() {
     <main className="min-h-screen">
       <HeroSection />
       <AboutUs />
+      <Footer />
     </main>
   );
 }
