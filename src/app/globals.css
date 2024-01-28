@@ -2,8 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.cdnfonts.com/css/satoshi');
-
 @keyframes spin {
   to {
     transform: rotate(360deg);
