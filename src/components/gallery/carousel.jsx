@@ -41,18 +41,20 @@ export default function Carousel() {
         {images.map((image, index) => <img
           key={image}
           src={image}
-          className='h-full sm:absolute snap-center aspect-[900/520] object-cover'
-          style={{ opacity: currentIndex === index ? 1 : 0, transition: 'opacity .3s ease-in-out' }}
+          className={'h-full sm:absolute snap-center aspect-[900/520] object-cover ' + (currentIndex !== index ? 'inactive-image' : '') }
+          style={{ transition: 'opacity .3s ease-in-out' }}
+          alt=''
           />)}
         <div className='h-full w-1/2 z-20 hidden sm:block' onClick={handlePrevious}></div>
         <div className='h-full w-1/2 z-20 hidden sm:block' onClick={handleNext}></div>
       </div>
 
       <div className='h-4 right-0 left-0 bottom-[-1.5rem] flex gap-2 justify-center absolute sm:hidden'>
-        {images.map((img, index) => (
+        {images.map((image, index) => (
           <span
-          style={{ backgroundColor: currentIndex === index ? '#4FB6F0' : '#D9D9D9' }}
-          className={`w-2 h-2 rounded-full`}></span>
+            key={image}
+            style={{ backgroundColor: currentIndex === index ? '#4FB6F0' : '#D9D9D9' }}
+            className={`w-2 h-2 rounded-full`}></span>
           ))}
       </div>
     </>  
