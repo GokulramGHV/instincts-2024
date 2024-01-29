@@ -11,3 +11,7 @@
 .bg-spin {
   animation: spin 15s linear infinite;
 }
+
+.scrollbar-hidden::-webkit-scrollbar {
+  display: none;
+}
