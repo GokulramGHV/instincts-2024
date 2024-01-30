@@ -7,19 +7,19 @@ export default function DefaultLayout() {
     <div className="lg:md:flex w-full items-center justify-between p-16 hidden">
       <div className="lg:md:flex gap-20 hidden">
         <div className="flex flex-col gap-5">
-          <p className="text-slate-50 font-satoshi">SOCIALS</p>
-          <div className="flex flex-col">
+          <p className="text-slate-50 text-[22px] font-satoshi">SOCIALS</p>
+          <div className="flex flex-col gap-2">
             <Socials />
           </div>
         </div>
         <div className="flex flex-col gap-5">
-          <p className="text-slate-50 font-satoshi">REACH OUT</p>
-          <div className="flex flex-col">
+          <p className="text-slate-50 font-satoshi text-[22px]">REACH OUT</p>
+          <div className="flex flex-col gap-2">
             <ReachOut />
           </div>
         </div>
         <div className="flex flex-col gap-5">
-          <p className="text-slate-50 font-satoshi">JOIN US</p>
+          <p className="text-slate-50 font-satoshi text-[22px]">JOIN US</p>
           <JoinUs />
         </div>
       </div>

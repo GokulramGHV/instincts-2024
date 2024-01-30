@@ -7,7 +7,7 @@ import { Row } from './Row';
 const Title = ({ name, activeIndex, index }) => {
   return (
     <Row gap={5}>
-      <p className="text-white text-xl font-satoshi">{name}</p>
+      <p className="text-white text-xl font-satoshi font-light">{name}</p>
       {activeIndex === index ? (
         <FaMinus color="white" />
       ) : (
@@ -48,18 +48,15 @@ export default function Accordion() {
   ];
 
   return (
-    <div>
+    <div className="flex flex-col w-full items-center justify-center">
       {categories.map((category, index) => (
         <div key={index} className="mb-4">
-          <button
-            onClick={() => handleClick(index)}
-            className="w-full p-3 text-left"
-          >
+          <button onClick={() => handleClick(index)} className="w-full p-3">
             {category.title}
           </button>
           {activeIndex === index && (
-            <div className="p-8 bg-[#52a0ff] ease-out rounded-lg">
-              <p>{category.content}</p>
+            <div className={`flex flex-col justify-center items-center gap-2`}>
+              {category.content}
             </div>
           )}
         </div>
