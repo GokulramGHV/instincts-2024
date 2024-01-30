@@ -26,10 +26,10 @@ export default function Wheel() {
       style={{
         backgroundImage: 'url("shapes/wheel.svg")',
         backgroundSize: 'contain',
-        width: '2.5rem',
-        height: '2.5rem',
+        backgroundRepeat: 'no-repeat',
         ...spring
       }}
+      className='w-full aspect-square'
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
     />

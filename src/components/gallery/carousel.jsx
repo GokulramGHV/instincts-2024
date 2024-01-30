@@ -37,11 +37,12 @@ export default function Carousel() {
     <>
       <div
         onScroll={handleSwipe}
-        className='h-full w-full relative bg-white scrollbar-hidden flex overflow-x-scroll rounded-3xl snap-mandatory snap-x'>
+        className='h-full w-full relative bg-[#CCCCCC] scrollbar-hidden flex overflow-x-scroll rounded-3xl snap-mandatory snap-x'>
         {images.map((image, index) => <img
+          loading='lazy'
           key={image}
           src={image}
-          className={'h-full sm:absolute snap-center aspect-[900/520] object-cover ' + (currentIndex !== index ? 'inactive-image' : '') }
+          className={'h-full mr-[1px] sm:absolute snap-center aspect-[900/520] object-cover ' + (currentIndex !== index ? 'inactive-image' : '') }
           style={{ transition: 'opacity .3s ease-in-out' }}
           alt=''
           />)}

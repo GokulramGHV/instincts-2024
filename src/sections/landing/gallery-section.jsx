@@ -1,8 +1,6 @@
 "use client"
 import Carousel from "@/components/gallery/carousel";
 import GalleryDesign from "@/components/gallery/gallery_design";
-import Squiggly from "@/components/gallery/squiggly";
-import Wheel from "@/components/gallery/wheel";
 
 
 export default function GallerySection() {
@@ -18,19 +16,22 @@ export default function GallerySection() {
             </div>
     
             {/* Second div with Carousel on top */}
-            <div className='w-[80%] sm:w-auto sm:h-[55%] aspect-[900/520] relative'>
+            <div className='w-[80%] sm:w-auto sm:h-[65%] aspect-[900/520] relative'>
                 <Carousel />
                 <GalleryDesign />
                 <div 
                     id="gallery-title" 
-                    className="absolute top-[-2.5rem] sm:top-[-3.5rem] right-4 flex items-center justify-self-end">
-                        <img src="shapes/title_wheel_1.svg" className='w-4 sm:w-6' alt="" />
-                        <img src="shapes/title_wheel_2.svg" className='w-4 sm:w-6' alt="" />
-                        <img src="shapes/title_wheel_3.svg" className='w-4 sm:w-6' alt="" />
-                        <img src="shapes/gallery_title.svg" className='h-[2rem] sm:h-[3rem] mx-1' alt="" />
-                        <div className="flex flex-col">
-                            <img src="shapes/title_wheel_1.svg" className='w-4 sm:w-6' alt="" />
-                            <img src="shapes/title_wheel_3.svg" className='w-4 sm:w-6' alt="" />
+                    className="absolute right-4 flex items-center justify-self-end h-[14%] top-[-15.5%]">
+                        {/* top-[-2.5rem] h-[2rem] 
+                        sm:top-[-3.5rem] sm:h-[3rem]
+                        2xl:top-[-6.5rem] 2xl:h-[6rem] 2xl:right-8 */}
+                        <img src="shapes/title_wheel_1.svg" className='h-1/2' alt="" />
+                        <img src="shapes/title_wheel_2.svg" className='h-1/2' alt="" />
+                        <img src="shapes/title_wheel_3.svg" className='h-1/2' alt="" />
+                        <img src="shapes/gallery_title.svg" className='h-full mx-1' alt="" />
+                        <div className="flex flex-col h-full">
+                            <img src="shapes/title_wheel_1.svg" className='h-1/2' alt="" />
+                            <img src="shapes/title_wheel_3.svg" className='h-1/2' alt="" />
                         </div>
                 </div>
             </div>
