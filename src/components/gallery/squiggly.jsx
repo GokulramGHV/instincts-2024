@@ -41,7 +41,7 @@ export default function Squiggly({ vertical }) {
   }
   return (
     <div
-      className='overflow-hidden absolute w-[33%] right-[-8%] bottom-[-13%]'
+      className='overflow-hidden absolute w-[29%] right-[-8%] bottom-[-12%]'
     >
       <animated.div
         className='w-[133%]'
