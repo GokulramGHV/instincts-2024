@@ -25,8 +25,8 @@ export default function DefaultLayout() {
       </div>
       <div className="mb-20 flex gap-10 items-center justify-center">
         <Row gap={10}>
-          <Image src="/logos/SNU.png" alt="snu_logo" width={100} height={100} />
-          <Image src="/logos/SSN.png" alt="snu_logo" width={100} height={100} />
+          <Image src="/logos/SNU.png" alt="snu_logo" width={140} height={140} />
+          <Image src="/logos/SSN.png" alt="snu_logo" width={140} height={140} />
         </Row>
       </div>
     </div>
