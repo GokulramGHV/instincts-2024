@@ -11,7 +11,7 @@ export default function AboutUs() {
           <div className="my-auto mx-auto md:mx-0 z-10">
             <img src="/about_us/blimp.png" />
           </div>
-          <div className="hidden md:block -ml-3 z-0 md:-ml-5 lg:w-64 xl:w-60 2xl:w-40">
+          <div className="hidden md:block -ml-3 z-0 md:-ml-5 lg:w-64 xl:w-60 2xl:w-40 -mr-3">
             <div className="h-1/2">
               <img src="/about_us/top.svg" className="h-full float-bottom" />
             </div>
@@ -27,7 +27,7 @@ export default function AboutUs() {
               <img src="/about_us/bottom.svg" className="w-full h-full" />
             </div>
           </div>
-          <div className="bg-white md:w-[40%] p-5 md:mx-0 mx-auto z-20 lg:text-base text-xs">
+          <div className="bg-white md:w-[40%] p-5 z-20 lg:text-base text-xs">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum sed
             sunt illo qui nulla dolorem eos nobis adipisci blanditiis
             exercitationem amet optio dignissimos minus, reiciendis ducimus id
