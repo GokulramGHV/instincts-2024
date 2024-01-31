@@ -11,3 +11,16 @@
 .bg-spin {
   animation: spin 15s linear infinite;
 }
+
+@keyframes marqueeRep {
+  0% {
+    transform: translateX(-100vw);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+.marqueeDiv {
+  animation: marqueeRep 100s linear infinite;
+}
