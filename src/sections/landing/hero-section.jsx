@@ -1,12 +1,13 @@
-'use client';
-import CarouselPagination from '@/components/landing/carousel-pagination';
-import Countdown from '@/components/landing/countdown';
-import HeroCarousel from '@/components/landing/hero-carousel';
-import PetalPattern from '@/components/landing/petal-pattern';
-import Sparkles from '@/components/landing/sparkles';
-import SpinningBackground from '@/components/landing/spinning-background';
-import Image from 'next/image';
-import { useEffect, useState } from 'react';
+"use client";
+import CarouselPagination from "@/components/landing/carousel-pagination";
+import Countdown from "@/components/landing/countdown";
+import HeroCarousel from "@/components/landing/hero-carousel";
+import PetalPattern from "@/components/landing/petal-pattern";
+import Sparkles from "@/components/landing/sparkles";
+import SpinningBackground from "@/components/landing/spinning-background";
+import Image from "next/image";
+import { useEffect, useState } from "react";
+import { FaBars } from "react-icons/fa";
 
 export default function HeroSection() {
   const [slideNo, setSlideNo] = useState(1);
@@ -53,8 +54,13 @@ export default function HeroSection() {
             alt="SNU"
             width={504}
             height={200}
-            className="z-20 w-60 sm:w-96 xl:w-fit"
+            className="z-40 w-60 sm:w-96 xl:w-fit "
           />
+          <div
+            className="absolute cursor-pointer height:auto  right-8 top-8 sm:right-10 sm:top-10 z-30 flex items-center gap-5 sm:gap-10"
+            onClick={() => setOverlayVisible(!isOverlayVisible)}
+          ></div>
+
           <div className="z-20 absolute left-[50%] top-[50%] transform translate-x-[-50%] translate-y-[-50%]">
             <Countdown slideNo={slideNo} />
           </div>
