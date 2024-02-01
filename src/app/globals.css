@@ -11,3 +11,14 @@
 .bg-spin {
   animation: spin 15s linear infinite;
 }
+
+.scrollbar-hidden::-webkit-scrollbar {
+  display: none;
+}
+
+
+@media screen and (min-width: 640px) {
+  .inactive-image {
+      opacity: 0;
+    }
+}
