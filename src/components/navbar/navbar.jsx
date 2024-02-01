@@ -30,7 +30,7 @@ const Navbar = () => {
   return (
     <div className="z-10">
       <div
-        className="absolute cursor-pointer right-8 top-8 sm:right-60 sm:top-20 z-30"
+        className="absolute cursor-pointer z-30 right-0 top0 md:my-[calc(5vh+50px)] md:mx-[calc(10vw+70px)] my-[calc(5vh+20px-0.5rem)] mx-[calc(10vw+20px-0.5rem)] bg-black md:bg-inherit p-1 rounded md:p-0"
         onClick={() => setNavbarOpen(!isNavbarOpen)}
       >
         {isNavbarOpen ? (
@@ -58,23 +58,20 @@ const Navbar = () => {
             style={{
               transform: "translate(70%, 125%) scale(.5)",
             }}
-            className="transition-all absolute z-40 w-60 sm:w-96 xl:w-fit left-0 top-0 right-0 bottom-0 m-auto"
+            className="transition-all absolute z-40 w-60 sm:w-96 xl:w-fit lg:left-0 lg:top-0 lg:right-0 lg:bottom-0 lg:m-auto lg:block hidden"
           />
-          <div className="relative py-10 px-32 font-londrina-solid font-normal">
-            <ul
-              className="text-white text-3xl"
-              style={{ fontFamily: "Londrina Solid, sans-serif" }}
-            >
+          <div className="relative py-16 md:py-24 lg:py-10 px-16 md:px-24 lg:px-32 font-londrina-solid font-normal">
+            <ul style={{ fontFamily: "Londrina Solid, sans-serif" }}>
               {navOptions.map((option, index) => (
                 <li
                   key={index}
-                  className="mb-6 flex items-center transition-all duration-500 gap-10"
+                  className="mb-10 sm:mb-12 lg:mb-6 flex items-center transition-all duration-500 gap-10"
                 >
                   <div
                     className={`cursor-pointer ${
                       hoveredOption === option
-                        ? "text-black font-semibold text-7xl"
-                        : "text-white text-6xl"
+                        ? "text-black font-semibold md:text-7xl sm:text-6xl text-5xl "
+                        : "text-white md:text-6xl sm:text-5xl text-4xl"
                     }`}
                     onMouseOver={() => setHoveredOption(option)}
                     onMouseOut={() => setHoveredOption(null)}
