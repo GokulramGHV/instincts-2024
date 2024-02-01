@@ -9,7 +9,7 @@ export function Socials() {
       <Row gap={2}>
         <FaInstagram color="white" className="ml-[0.09rem]" size={30} />
         <Link
-          href={'/'}
+          href={'https://www.instagram.com/ssnsnucinstincts'}
           className="text-white font-semibold font-satoshi text-[22px]"
         >
           Instagram
