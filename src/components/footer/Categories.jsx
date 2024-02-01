@@ -11,6 +11,7 @@ export function Socials() {
         <Link
           href={'https://www.instagram.com/ssnsnucinstincts'}
           className="text-white font-semibold font-satoshi text-[22px]"
+          target="_blank"
         >
           Instagram
         </Link>
