@@ -50,15 +50,15 @@ const Navbar = () => {
         >
           <ul
             style={{ fontFamily: "Londrina Solid, sans-serif" }}
-            className="flex flex-col justify-between"
+            className="flex flex-col"
           >
             {navOptions.map((option, index) => (
               <li
                 key={index}
-                className="mb-10 sm:mb-12 lg:mb-6 flex items-center transition-all duration-500 gap-10"
+                className="flex flex-1 items-center transition-all duration-500"
               >
                 <div
-                  className={`cursor-pointer ${
+                  className={`cursor-pointer h-full ${
                     hoveredOption === option
                       ? "text-black font-semibold md:text-7xl sm:text-6xl text-5xl "
                       : "text-white md:text-6xl sm:text-5xl text-4xl"
