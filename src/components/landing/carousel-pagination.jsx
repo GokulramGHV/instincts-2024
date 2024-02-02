@@ -6,7 +6,7 @@ export default function CarouselPagination({ slideNo, setSlideNo }) {
           key={i}
           viewBox="0 0 66 66"
           className={`${
-            i === slideNo ? ' text-[#FFFCEA]' : 'text-transparent'
+            i === slideNo ? " text-[#FFFCEA]" : "text-transparent"
           } fill-current stroke-[#FFFCEA] w-10 sm:w-14 xl:w-[66px] transtion-all duration-700 ease-in-out lg:hover:scale-110 cursor-pointer`}
           onClick={() => setSlideNo(i)}
           xmlns="http://www.w3.org/2000/svg"

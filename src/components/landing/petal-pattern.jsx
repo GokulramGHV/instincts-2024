@@ -1,4 +1,4 @@
-import Image from 'next/image';
+import Image from "next/image";
 export default function PetalPattern() {
   return (
     <div className="absolute z-30 -left-[18px] sm:-left-[25px]  xl:-left-[30px] bottom-[6vh]">
