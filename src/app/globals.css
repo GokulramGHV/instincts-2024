@@ -12,13 +12,26 @@
   animation: spin 15s linear infinite;
 }
 
+@keyframes marqueeRep {
+  0% {
+    transform: translateX(-100vw);
+  }
+
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+.marqueeDiv {
+  animation: marqueeRep 100s linear infinite;
+}
+
 .scrollbar-hidden::-webkit-scrollbar {
   display: none;
 }
 
-
 @media screen and (min-width: 640px) {
   .inactive-image {
-      opacity: 0;
-    }
+    opacity: 0;
+  }
 }
