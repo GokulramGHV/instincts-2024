@@ -1,6 +1,6 @@
 "use client";
 
-import MarqueeClouds from "@/components/marquee-clouds";
+import MarqueeClouds from "@/components/about_us/marquee-clouds";
 
 export default function AboutUs() {
   return (
@@ -27,16 +27,17 @@ export default function AboutUs() {
               <img src="/about_us/bottom.svg" className="w-full h-full" />
             </div>
           </div>
-          <div className="bg-white md:w-[40%] p-5 z-20 lg:text-base text-xs">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum sed
-            sunt illo qui nulla dolorem eos nobis adipisci blanditiis
-            exercitationem amet optio dignissimos minus, reiciendis ducimus id
-            dolore cum temporibus.
-            <br /> <br />
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos
-            repudiandae illum atque aspernatur facere impedit, molestiae animi
-            quod! Maiores nesciunt accusamus ipsa. Nobis quidem at et
-            accusantium eos provident obcaecati!
+          <div className="bg-white md:w-[40%] p-7 z-10 lg:text-base text-xs">
+            Marching towards its 19th year, INSTINCTS has set a benchmark in
+            the conduct of college fests where intellectual, social, cultural and
+            artistic talents are brought to view. This alluring platform showcases
+            the latent talents of students from colleges across the nation.
+            Instincts has seen an average footfall of 30000+ every year.
+            <br /><br />
+            SSN SNUC Instincts is one of the most awaited cultural events in the
+            country. This year, Instincts will be held over three days with an
+            exciting prize pool of ₹5,00,000+ across 50 + events hosted by 20+
+            clubs!
           </div>
         </div>
       </div>
