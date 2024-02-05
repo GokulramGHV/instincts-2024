@@ -23,9 +23,8 @@ const navOptions = [
   { label: "GET PASSES", imageSrc: "/navbar_images/get_passes.png", link: "/" },
 ];
 
-const Navbar = () => {
-  const [hoveredOption, setHoveredOption] = useState(null); // Added state for hoveredOption
-  const [isNavbarOpen, setNavbarOpen] = useState(false);
+const Navbar = ({ isNavbarOpen, setNavbarOpen }) => {
+  const [hoveredOption, setHoveredOption] = useState(null);
 
   return (
     <div className="z-10">
