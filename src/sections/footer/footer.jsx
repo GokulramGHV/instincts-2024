@@ -10,7 +10,7 @@ export default function Footer() {
       <Image
         src="/logos/Instincts_footer.svg"
         alt="instincts_logo"
-        className="w-full"
+        className="w-full hidden lg:md:block"
         width={1440}
         height={50}
       />
