@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 export default function Footer() {
   return (
-    <footer className="bg-[#0C5AB9] w-full min-h-[90vh] flex flex-col items-center justify-between">
+    <footer className="bg-[#0C5AB9] w-full flex flex-col items-center justify-between">
       <DefaultLayout />
       <MobileLayout />
       <Image
