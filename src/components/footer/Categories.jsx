@@ -1,7 +1,7 @@
 import { FaInstagram } from 'react-icons/fa';
 import { Row } from './Row';
 import Link from 'next/link';
-import { RiFacebookBoxLine, RiLinkedinBoxLine } from 'react-icons/ri';
+import { RiFacebookBoxLine } from 'react-icons/ri';
 
 export function Socials() {
   return (
@@ -19,19 +19,11 @@ export function Socials() {
       <Row gap={2}>
         <RiFacebookBoxLine color="white" size={30} />
         <Link
-          href={'/'}
+          href={'https://www.facebook.com/instincts.ssn/'}
           className="text-white font-semibold font-satoshi text-[22px]"
+          target="_blank"
         >
           Facebook
-        </Link>
-      </Row>
-      <Row gap={2}>
-        <RiLinkedinBoxLine color="white" size={30} />
-        <Link
-          href={'/'}
-          className="text-white font-semibold font-satoshi text-[22px]"
-        >
-          LinkedIn
         </Link>
       </Row>
     </>
