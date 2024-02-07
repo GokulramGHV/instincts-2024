@@ -2,19 +2,7 @@ import React, { useEffect, useRef } from "react";
 import { HiUserGroup } from "react-icons/hi2";
 import { FaCalendar } from "react-icons/fa";
 
-const rules = [
-  "Team of 2.",
-  "Time limit : 60-120 seconds per team.",
-  "Pairs will be pitted against each other at random.",
-  "Team dynamics, cohesion of groove, creativity and audience response will be judged.",
-  "Usage of props is allowed.",
-  "Obscenity and vulgarity will not be entertained.",
-  "Inflammable objects, water and heavy objects are not allowed on stage.",
-  "Decisions of the judges and coordinators will be final and binding.",
-  "The Organizing Committee reserves the right to modify the event at any point.",
-];
-
-const EventModal = ({ isModalOpen, setModalOpen }) => {
+const EventModal = ({ isModalOpen, setModalOpen, event }) => {
   const yScroll = typeof window !== "undefined" ? window.scrollY : 0;
   const ref = useRef();
 
@@ -63,7 +51,7 @@ const EventModal = ({ isModalOpen, setModalOpen }) => {
             gap: "38px",
           }}
         >
-          <h1 className="font-extrabold text-6xl">2v2 Dance Battle</h1>
+          <h1 className="font-extrabold text-6xl">{event.title}</h1>
           <div
             className="flex items-center gap-[38px]"
             style={{
@@ -75,36 +63,23 @@ const EventModal = ({ isModalOpen, setModalOpen }) => {
           >
             <div className="flex items-center gap-2">
               <HiUserGroup className="text-3xl" color="grey" />
-              <span className="text-3xl font-medium">2</span>
+              <span className="text-3xl font-medium">{event.perTeam}</span>
             </div>
             <div className="flex items-center gap-2">
               <FaCalendar className="text-3xl" color="grey" />
-              <span className="text-3xl font-medium">8 Mar</span>
+              <span className="text-3xl font-medium">{event.dayDetail}</span>
             </div>
-            <div className="flex items-center flex-col">
-              <span className="text-3xl font-extrabold">₹5000</span>
-              <span className="text-2xl font-light" style={{ color: "gray" }}>
-                First
-              </span>
-            </div>
-            <div className="flex items-center flex-col">
-              <span className="text-3xl font-extrabold">₹2500</span>
-              <span className="text-2xl font-light" style={{ color: "gray" }}>
-                Second
-              </span>
-            </div>
-            <div className="flex items-center flex-col">
-              <span className="text-3xl font-extrabold">₹1500</span>
-              <span className="text-2xl font-light" style={{ color: "gray" }}>
-                Third
-              </span>
-            </div>
+
+            {event.prize.map((p, index) => (
+              <div key={index} className="flex items-center flex-col">
+                <span className="text-3xl font-extrabold">₹{p.amount}</span>
+                <span className="text-2xl font-light" style={{ color: "gray" }}>
+                  {p.place}
+                </span>
+              </div>
+            ))}
           </div>
-          <div className="text-2xl font-medium">
-            Get your dance partner to duke it out with the best hip hop
-            freestyle dancers in the city. Watch the crowd roar as you showcase
-            your best moves in the cypher.
-          </div>
+          <div className="text-2xl font-medium">{event.description}</div>
           <div className="flex items-center">
             <hr
               style={{
@@ -134,7 +109,7 @@ const EventModal = ({ isModalOpen, setModalOpen }) => {
               color: "#505050",
             }}
           >
-            {rules.map((rule) => (
+            {event.rules.map((rule) => (
               <li className="text-xl mb-2 font-medium" key={rule}>
                 {rule}
               </li>
@@ -143,7 +118,16 @@ const EventModal = ({ isModalOpen, setModalOpen }) => {
           <div className="flex flex-col justify-center items-center">
             <span className="font-medium text-[21px]">FOR QUERIES</span>
             <span className="font-black text-[25px]">
-              73388 83803 / 78240 15392
+              {event.contacts.map((c, index) => {
+                return (
+                  <>
+                    <span>{c}</span>
+                    {index !== event.contacts.length - 1 && (
+                      <span>{" / "}</span>
+                    )}
+                  </>
+                );
+              })}
             </span>
           </div>
           <div
@@ -160,51 +144,39 @@ const EventModal = ({ isModalOpen, setModalOpen }) => {
               className="flex flex-col"
               style={{ flex: 1, gap: 28, height: "100%" }}
             >
-              <div
-                style={{
-                  flex: 1,
-                  display: "flex",
-                  flexDirection: "column",
-                  alignItems: "center",
-                  gap: 11,
-                  justifyContent: "space-between",
-                  height: "100%",
-                }}
-              >
+              {event.clubDetails.map((club, index) => (
                 <div
-                  className="bg-white"
-                  style={{ width: "100%", height: 124, borderRadius: 9 }}
-                ></div>
-                <span className="font-black text-[21px]">Rhythm</span>
-              </div>
-              <div
-                style={{
-                  flex: 1,
-                  display: "flex",
-                  flexDirection: "column",
-                  alignItems: "center",
-                  gap: 11,
-                  justifyContent: "space-between",
-                  height: "100%",
-                }}
-              >
-                <div
-                  className="bg-white"
-                  style={{ width: "100%", height: 124, borderRadius: 9 }}
-                ></div>
-                <span className="font-black text-[21px]">N2K</span>
-              </div>
+                  key={index}
+                  style={{
+                    flex: 1,
+                    display: "flex",
+                    flexDirection: "column",
+                    alignItems: "center",
+                    gap: 11,
+                    justifyContent: "space-between",
+                    height: "100%",
+                  }}
+                >
+                  <div
+                    className="bg-white"
+                    style={{ width: "100%", height: 124, borderRadius: 9 }}
+                  >
+                    <img
+                      src={club.img}
+                      alt="club-img"
+                      style={{
+                        objectFit: "contain",
+                        height: "100%",
+                        width: "100%",
+                      }}
+                    />
+                  </div>
+                  <span className="font-black text-[21px]">{club.name}</span>
+                </div>
+              ))}
             </div>
             <div className="font-medium text-[21px]" style={{ flex: 3 }}>
-              Step into the vibrant world of our Western Dance Club, where every
-              movement ignites the spirit of celebration! Embracing the theme of
-              "Viva La Fiesta," our dancers fuse passion with rhythm, delivering
-              electrifying performances that transport you to the heart of a
-              lively fiesta. With dynamic choreography and infectious energy, we
-              invite you to join us on a journey filled with pulsating beats and
-              sizzling moves, where every step is a celebration of life and
-              culture. Get ready to unleash your inner dancer and let the fiesta
-              begin!
+              {event.eventDetail}
             </div>
           </div>
           <button
@@ -215,7 +187,7 @@ const EventModal = ({ isModalOpen, setModalOpen }) => {
               color: "#E6FCFF",
             }}
           >
-            REGISTER: <span className="font-bold">₹100</span>
+            REGISTER: <span className="font-bold">₹{event.fee}</span>
           </button>
         </div>
       </div>
