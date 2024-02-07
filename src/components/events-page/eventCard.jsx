@@ -12,7 +12,7 @@ export default function EventCard({ eventImage, eventColor, eventTitle, eventDay
         setIsBeingHovered(false)
     }
     
-    return <div style={{ borderColor: isBeingHovered ? eventColor : "black" }} onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} className="lg:w-[calc(25%-20px)] md:w-[calc(33%-20px)] sm:w-[calc(45%-20px)] transition-colors flex flex-col md:lg:w-[calc(33.33%-20px)] h-80 bg-[#F2F2F2] rounded-xl box-border mr-5 mb-5 md:flex-wrap border-4 border-black">
+    return <div style={{ borderColor: isBeingHovered ? eventColor : "black" }} onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} className="lg:w-[calc(25%-20px)] md:w-[calc(33%-20px)] sm:w-[calc(45%-20px)] w-full transition-colors flex flex-col md:lg:w-[calc(33.33%-20px)] min-h-80 bg-[#F2F2F2] rounded-xl box-border mr-5 mb-12 md:flex-wrap border-4 border-black">
         <img className="w-full p-5" src={eventImage} alt="" />
         <div className="p-5">
             <h1 className="text-2xl font-bold">{eventTitle}</h1>
