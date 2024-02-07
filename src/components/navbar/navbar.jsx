@@ -10,7 +10,7 @@ const navOptions = [
   {
     label: "CLUB EVENTS",
     imageSrc: "/navbar_images/club_events.png",
-    link: "/",
+    link: "/events",
   },
   {
     label: "CENTRAL EVENTS",
