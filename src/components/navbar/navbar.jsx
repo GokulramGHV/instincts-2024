@@ -40,6 +40,7 @@ const Navbar = ({ isNavbarOpen, setNavbarOpen }) => {
       )}
       {isNavbarOpen && (
         <div
+        onMouseOut={() => setHoveredOption(null)}
           className="fixed h-[100vh] w-[100vw] z-20 bg-cover bg-black flex justify-between py-16 md:py-24 lg:py-10 px-16 md:px-24 lg:px-32"
           style={
             hoveredOption
@@ -50,6 +51,7 @@ const Navbar = ({ isNavbarOpen, setNavbarOpen }) => {
           <ul
             style={{ fontFamily: "Londrina Solid, sans-serif" }}
             className="flex flex-col"
+            
           >
             {navOptions.map((option, index) => (
               <li
@@ -63,7 +65,6 @@ const Navbar = ({ isNavbarOpen, setNavbarOpen }) => {
                       : "text-white md:text-6xl sm:text-5xl text-4xl"
                   }`}
                   onMouseOver={() => setHoveredOption(option)}
-                  onMouseOut={() => setHoveredOption(null)}
                 >
                   <Link
                     href={option.link}
