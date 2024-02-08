@@ -41,75 +41,73 @@ const Navbar = ({ isNavbarOpen, setNavbarOpen }) => {
       {isNavbarOpen && (
         <div
         onMouseOut={() => setHoveredOption(null)}
-          className="fixed h-[100vh] w-[100vw] z-20 bg-cover bg-black flex justify-between py-16 md:py-24 lg:py-10 px-16 md:px-24 lg:px-32"
-          style={
-            hoveredOption
-              ? { backgroundImage: `url(${hoveredOption.imageSrc})` }
-              : {}
-          }
+          className="fixed h-[100vh] w-[100vw] z-20 bg-black"
         >
-          <ul
-            style={{ fontFamily: "Londrina Solid, sans-serif" }}
-            className="flex flex-col"
+          {hoveredOption && <Image src={hoveredOption?.imageSrc} unoptimized width={0} height={0} sizes="100vw" className="absolute w-screen z-[-1]" />}
+          <div className=" flex justify-between py-16 md:py-24 lg:py-10 px-16 md:px-24 lg:px-32 h-screen w-screen">
+            <ul
+              style={{ fontFamily: "Londrina Solid, sans-serif" }}
+              className="flex flex-col"
             
-          >
-            {navOptions.map((option, index) => (
-              <li
-                key={index}
-                className="flex flex-1 items-center transition-all duration-500"
-              >
-                <div
-                  className={`cursor-pointer h-full ${
-                    hoveredOption === option
-                      ? "text-black font-semibold md:text-7xl sm:text-6xl text-5xl "
-                      : "text-white md:text-6xl sm:text-5xl text-4xl"
-                  }`}
-                  onMouseOver={() => setHoveredOption(option)}
+            >
+              {navOptions.map((option, index) => (
+                <li
+                  key={index}
+                  className="flex flex-1 items-center transition-all duration-500"
                 >
-                  <Link
-                    href={option.link}
-                    onClick={() => {
-                      setNavbarOpen(!isNavbarOpen);
-                      setHoveredOption(null);
-                    }}
+                  <div
+                    className={`cursor-pointer h-full ${
+                      hoveredOption === option
+                        ? "text-black font-semibold md:text-7xl sm:text-6xl text-5xl "
+                        : "text-white md:text-6xl sm:text-5xl text-4xl"
+                    }`}
+                    onMouseOver={() => setHoveredOption(option)}
                   >
-                    <p
-                      className="transition-text duration-200"
-                      style={
-                        hoveredOption !== option && hoveredOption !== null
-                          ? {
-                              color: "transparent",
-                              WebkitTextStrokeWidth: "2px",
-                              WebkitTextStrokeColor: "black",
-                            }
-                          : {}
-                      }
+                    <Link
+                      href={option.link}
+                      onClick={() => {
+                        setNavbarOpen(!isNavbarOpen);
+                        setHoveredOption(null);
+                      }}
                     >
-                      {option.label}
-                    </p>
-                  </Link>
+                      <p
+                        className="transition-text duration-200"
+                        style={
+                          hoveredOption !== option && hoveredOption !== null
+                            ? {
+                                color: "transparent",
+                                WebkitTextStrokeWidth: "2px",
+                                WebkitTextStrokeColor: "black",
+                              }
+                            : {}
+                        }
+                      >
+                        {option.label}
+                      </p>
+                    </Link>
+                  </div>
+                </li>
+              ))}
+            </ul>
+            <div className="flex flex-col justify-between items-end">
+              {isNavbarOpen && hoveredOption === null ? (
+                <div
+                  className="cursor-pointer z-30 bg-black md:bg-inherit p-1 rounded md:p-0 max-w-min"
+                  onClick={() => setNavbarOpen(!isNavbarOpen)}
+                >
+                  <RiCloseFill className="text-white text-3xl sm:text-4xl lg:text-5xl transition-transform transform hover:scale-110" />
                 </div>
-              </li>
-            ))}
-          </ul>
-          <div className="flex flex-col justify-between items-end">
-            {isNavbarOpen && hoveredOption === null ? (
-              <div
-                className="cursor-pointer z-30 bg-black md:bg-inherit p-1 rounded md:p-0 max-w-min"
-                onClick={() => setNavbarOpen(!isNavbarOpen)}
-              >
-                <RiCloseFill className="text-white text-3xl sm:text-4xl lg:text-5xl transition-transform transform hover:scale-110" />
-              </div>
-            ) : (
-              <div className=""></div>
-            )}
-            <Image
-              src="/logos/Instincts_white.svg"
-              alt="SNU"
-              width={250}
-              height={100}
-              className="lg:block hidden"
-            />
+              ) : (
+                <div className=""></div>
+              )}
+              <Image
+                src="/logos/Instincts_white.svg"
+                alt="SNU"
+                width={250}
+                height={100}
+                className="lg:block hidden"
+              />
+            </div>
           </div>
         </div>
       )}
