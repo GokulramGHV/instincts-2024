@@ -61,7 +61,7 @@ const EventModal = ({ isModalOpen, setModalOpen, event }) => {
           top: yScroll,
           background: "rgba(255, 255, 255, 0.5)",
         }}
-        className="absolute lg:top-inherit top-0 right-0 w-[100vw] h-[100vh] lg:py-[50px] lg:px-[100px] lg:overflow-y-scroll lg:block flex items-center p-[10px]"
+        className="absolute lg:top-inherit top-0 right-0 w-[100vw] h-[100vh] lg:py-[50px] lg:px-[100px] md:p-[50px] lg:overflow-y-scroll lg:block flex items-center p-[10px]"
       >
         <div
           ref={ref}
@@ -70,10 +70,10 @@ const EventModal = ({ isModalOpen, setModalOpen, event }) => {
             borderRadius: "20px",
             background: "white",
           }}
-          className="flex flex-col lg:gap-[38px] lg:py-[30px] lg:px-[20px] lg:max-h-[max-content] py-[20px] px-[25px] gap-[20px] max-h-[100%] overflow-y-auto"
+          className="flex flex-col lg:gap-[38px] md:py-[30px] md:px-[20px] lg:max-h-[max-content] py-[20px] px-[25px] gap-[20px] max-h-[100%] overflow-y-auto"
         >
           <div className="flex items-start justify-between">
-            <h1 className="font-extrabold lg:text-[50px] text-[30px]">
+            <h1 className="font-extrabold lg:text-[50px] md:text-[42px] text-[30px]">
               {event.title}
             </h1>
             <AiOutlineCloseCircle
@@ -87,7 +87,7 @@ const EventModal = ({ isModalOpen, setModalOpen, event }) => {
           {(isLargeScreen || currentInfo === "DETAILS") && (
             <>
               <div
-                className="flex items-center lg:gap-[38px] lg:flex-row lg:px-[15px] lg:py[10px] flex-col gap-[30px] py-[14px] px-[16px]  lg:self-start self-center"
+                className="flex items-center lg:gap-[38px] md:gap-[35px] lg:flex-row lg:px-[15px] lg:py[10px] md:p-[20px] flex-col gap-[30px] py-[14px] px-[16px]  lg:self-start self-center"
                 style={{
                   border: "1px solid gray",
                   borderRadius: 20,
@@ -97,19 +97,19 @@ const EventModal = ({ isModalOpen, setModalOpen, event }) => {
                 <div className="flex items-center lg:gap-[38px] gap-[30px]">
                   <div className="flex items-center gap-2">
                     <HiUserGroup
-                      className="lg:text-3xl text-[24px]"
+                      className="lg:text-3xl md:text-[32px] text-[24px]"
                       color="grey"
                     />
-                    <span className="lg:text-3xl font-bold text-[19px]">
+                    <span className="lg:text-3xl md:text-[30px] font-bold text-[19px]">
                       {event.perTeam}
                     </span>
                   </div>
                   <div className="flex items-center gap-2">
                     <FaCalendar
-                      className="lg:text-3xl text-[24px]"
+                      className="lg:text-3xl md:text-[32px] text-[24px]"
                       color="grey"
                     />
-                    <span className="lg:text-3xl font-bold text-[19px]">
+                    <span className="lg:text-3xl md:text-[30px] font-bold text-[19px]">
                       {event.dayDetail}
                     </span>
                   </div>
@@ -117,11 +117,11 @@ const EventModal = ({ isModalOpen, setModalOpen, event }) => {
                 <div className="flex items-center lg:gap-[38px] gap-[30px]">
                   {event.prize.map((p, index) => (
                     <div key={index} className="flex items-center flex-col">
-                      <span className="lg:text-3xl text-[19px] font-extrabold">
+                      <span className="lg:text-3xl md:text-[28px] text-[19px] font-extrabold">
                         ₹{p.amount}
                       </span>
                       <span
-                        className="lg:text-2xl text-[14px] font-light"
+                        className="lg:text-2xl md:text-[20px] text-[14px] font-light"
                         style={{ color: "gray" }}
                       >
                         {p.place}
@@ -130,7 +130,7 @@ const EventModal = ({ isModalOpen, setModalOpen, event }) => {
                   ))}
                 </div>
               </div>
-              <div className="lg:text-2xl font-medium text-[15px]">
+              <div className="lg:text-2xl md:text-[24px] font-medium text-[15px]">
                 {event.description}
               </div>
             </>
@@ -147,7 +147,7 @@ const EventModal = ({ isModalOpen, setModalOpen, event }) => {
                   }}
                 />
                 <span
-                  className="flex justify-center lg:text-2xl font-semibold text-[18px] lg:flex-[1] flex-[2]"
+                  className="flex justify-center lg:text-2xl md:text-[24px] text-[18px] font-semibold lg:flex-[1] flex-[2]"
                   style={{ letterSpacing: "4px" }}
                 >
                   RULES
@@ -161,7 +161,7 @@ const EventModal = ({ isModalOpen, setModalOpen, event }) => {
                 />
               </div>
               <ul
-                className="lg:px-[40px] px-[20px]"
+                className="lg:px-[40px] md:px-[30px] px-[20px]"
                 style={{
                   listStyleType: "disc",
                   color: "#505050",
@@ -169,7 +169,7 @@ const EventModal = ({ isModalOpen, setModalOpen, event }) => {
               >
                 {event.rules.map((rule) => (
                   <li
-                    className="lg:text-xl lg:mb-2 font-medium text-[16px] mb-1"
+                    className="lg:text-xl md:text-[20px] text-[16px] md:mb-2 font-medium  mb-1"
                     key={rule}
                   >
                     {rule}
@@ -182,10 +182,10 @@ const EventModal = ({ isModalOpen, setModalOpen, event }) => {
           {(isLargeScreen || currentInfo === "DETAILS") && (
             <>
               <div className="flex flex-col justify-center items-center">
-                <span className="font-medium lg:text-[21px] text-[14px]">
+                <span className="font-medium lg:text-[21px] md:text-[18px] text-[14px]">
                   FOR QUERIES
                 </span>
-                <span className="font-black lg:text-[25px] text-[18px]">
+                <span className="font-black lg:text-[25px] md:text-[22px] text-[18px]">
                   {event.contacts.map((c, index) => {
                     return (
                       <>
@@ -204,7 +204,7 @@ const EventModal = ({ isModalOpen, setModalOpen, event }) => {
           {(isLargeScreen || currentInfo === "ABOUT CLUB") && (
             <>
               <div
-                className="lg:p-[30px] flex lg:flex-row lg:gap-[40px] items-center justify-center p-[20px] flex-col gap-[20px]"
+                className="lg:p-[30px] flex lg:flex-row lg:gap-[40px] md:gap-[30px] items-center justify-center p-[20px] flex-col gap-[20px]"
                 style={{
                   backgroundColor: "#4FB6F0",
                   borderRadius: 12,
@@ -212,8 +212,8 @@ const EventModal = ({ isModalOpen, setModalOpen, event }) => {
                 }}
               >
                 <div
-                  className="flex lg:flex-col items-center justify-center"
-                  style={{ flex: 1, gap: 28, height: "100%" }}
+                  className="flex lg:flex-col items-center justify-center md:gap-[50px] gap-[20px]"
+                  style={{ flex: 1, height: "100%" }}
                 >
                   {event.clubDetails.map((club, index) => (
                     <div
@@ -224,7 +224,7 @@ const EventModal = ({ isModalOpen, setModalOpen, event }) => {
                         height: "100%",
                       }}
                     >
-                      <div className="lg:h-[125px] lg:w-[100%] h-[70px] w-[100px]">
+                      <div className="lg:h-[125px] lg:w-[100%] md:h-[100px] md:w-[140px] h-[70px] w-[100px]">
                         <Image
                           src={club.img}
                           alt="club-img"
@@ -239,14 +239,14 @@ const EventModal = ({ isModalOpen, setModalOpen, event }) => {
                           }}
                         />
                       </div>
-                      <span className="font-black lg:text-[21px] text-[15px]">
+                      <span className="font-black lg:text-[21px] md:text-[18px] text-[15px]">
                         {club.name}
                       </span>
                     </div>
                   ))}
                 </div>
                 <div
-                  className="font-medium lg:text-[21px] text-[14px] text-justify"
+                  className="font-medium lg:text-[21px] md:text-[18px] text-[14px] text-justify"
                   style={{ flex: 3 }}
                 >
                   {event.eventDetail}
@@ -262,22 +262,22 @@ const EventModal = ({ isModalOpen, setModalOpen, event }) => {
                   <div className="flex items-center gap-[5px]">
                     <span
                       name="button"
-                      className="text-[17px] font-bold underline decoration-2"
+                      className="md:text-[20px] text-[17px] font-bold underline decoration-2"
                       onClick={() => setCurrentInfo("RULES")}
                     >
                       RULES
                     </span>
-                    <IoIosArrowForward className="text-[17px]" />
+                    <IoIosArrowForward className="md:text-[20px] text-[17px]" />
                   </div>
                 </div>
               )}
               {currentInfo === "RULES" && (
                 <div className="flex justify-between">
                   <div className="flex items-center gap-[5px]">
-                    <IoIosArrowBack className="text-[17px]" />
+                    <IoIosArrowBack className="md:text-[20px] text-[17px]" />
                     <span
                       name="button"
-                      className="text-[17px] font-bold  underline decoration-2"
+                      className="md:text-[20px] text-[17px] font-bold  underline decoration-2"
                       onClick={() => setCurrentInfo("DETAILS")}
                     >
                       DETAILS
@@ -286,22 +286,22 @@ const EventModal = ({ isModalOpen, setModalOpen, event }) => {
                   <div className="flex items-center gap-[5px]">
                     <span
                       name="button"
-                      className="text-[17px] font-bold  underline decoration-2"
+                      className="md:text-[20px] text-[17px] font-bold  underline decoration-2"
                       onClick={() => setCurrentInfo("ABOUT CLUB")}
                     >
                       ABOUT CLUB
                     </span>
-                    <IoIosArrowForward className="text-[17px]" />
+                    <IoIosArrowForward className="md:text-[20px] text-[17px]" />
                   </div>
                 </div>
               )}
               {currentInfo === "ABOUT CLUB" && (
                 <div className="flex justify-start">
                   <div className="flex items-center gap-[5px]">
-                    <IoIosArrowBack className="text-[17px]" />{" "}
+                    <IoIosArrowBack className="md:text-[20px] text-[17px]" />{" "}
                     <span
                       name="button"
-                      className="text-[17px] font-bold  underline decoration-2"
+                      className="md:text-[20px] text-[17px] font-bold  underline decoration-2"
                       onClick={() => setCurrentInfo("RULES")}
                     >
                       RULES
@@ -313,7 +313,7 @@ const EventModal = ({ isModalOpen, setModalOpen, event }) => {
           )}
 
           <button
-            className="lg:text-[25px] font-medium lg:py-[23px] self-center lg:w-[70%] text-[20px] py-[15px] w-[100%]"
+            className="lg:text-[25px] md:text-[22px] text-[20px] font-medium lg:py-[23px] md:py-[20px] py-[15px] lg:w-[70%] w-[100%] self-center"
             style={{
               backgroundColor: "#43A363",
               borderRadius: 60,
