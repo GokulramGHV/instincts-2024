@@ -14,9 +14,9 @@ function getIsLargeScreen() {
 const EventModal = ({ isModalOpen, setModalOpen, event }) => {
   const yScroll = typeof window !== "undefined" ? window.scrollY : 0;
   const ref = useRef();
-
   const [isLargeScreen, setIsLargeScreen] = useState(getIsLargeScreen());
   const [currentInfo, setCurrentInfo] = useState("DETAILS");
+  const [isTooltipOpen, setTooltipOpen] = useState(false);
 
   const closeModal = () => {
     document.body.style.overflow = "inherit";
@@ -95,7 +95,11 @@ const EventModal = ({ isModalOpen, setModalOpen, event }) => {
                 }}
               >
                 <div className="flex items-center lg:gap-[38px] gap-[30px]">
-                  <div className="flex items-center gap-2">
+                  <div
+                    className="flex items-center gap-2 relative cursor-pointer"
+                    onMouseEnter={() => setTooltipOpen(true)}
+                    onMouseLeave={() => setTooltipOpen(false)}
+                  >
                     <HiUserGroup
                       className="lg:text-3xl md:text-[32px] text-[24px]"
                       color="grey"
@@ -103,6 +107,17 @@ const EventModal = ({ isModalOpen, setModalOpen, event }) => {
                     <span className="lg:text-3xl md:text-[30px] font-bold text-[19px]">
                       {event.perTeam}
                     </span>
+                    {isTooltipOpen && (
+                      <div
+                        className="lg:block hidden absolute bottom-[-90px] text-[21px] min-w-[max-content] bg-white px-[16px] py-[18px]"
+                        style={{
+                          border: "2px solid black",
+                          borderRadius: 13,
+                        }}
+                      >
+                        Participants must be a team of {event.perTeam} members.
+                      </div>
+                    )}
                   </div>
                   <div className="flex items-center gap-2">
                     <FaCalendar
