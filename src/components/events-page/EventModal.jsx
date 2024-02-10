@@ -1,35 +1,38 @@
-import React, { useEffect, useRef, useState } from "react";
-import { HiUserGroup } from "react-icons/hi2";
-import { FaCalendar } from "react-icons/fa";
-import { AiOutlineCloseCircle } from "react-icons/ai";
-import { IoIosArrowForward } from "react-icons/io";
-import { IoIosArrowBack } from "react-icons/io";
-import Image from "next/image";
+import React, { useEffect, useRef, useState } from 'react';
+import { HiUserGroup } from 'react-icons/hi2';
+import { FaCalendar } from 'react-icons/fa';
+import { AiOutlineCloseCircle } from 'react-icons/ai';
+import { IoIosArrowForward } from 'react-icons/io';
+import { IoIosArrowBack } from 'react-icons/io';
+import Image from 'next/image';
+import { Remarkable } from 'remarkable';
+
+let md = new Remarkable();
 
 function getIsLargeScreen() {
-  const width = typeof window != "undefined" ? window.innerWidth : 0;
+  const width = typeof window != 'undefined' ? window.innerWidth : 0;
   return width >= 1024;
 }
 
 const EventModal = ({ isModalOpen, setModalOpen, event }) => {
-  const yScroll = typeof window !== "undefined" ? window.scrollY : 0;
+  const yScroll = typeof window !== 'undefined' ? window.scrollY : 0;
   const ref = useRef();
   const [isLargeScreen, setIsLargeScreen] = useState(getIsLargeScreen());
-  const [currentInfo, setCurrentInfo] = useState("DETAILS");
+  const [currentInfo, setCurrentInfo] = useState('DETAILS');
   const [isTooltipOpen, setTooltipOpen] = useState(false);
 
   const closeModal = () => {
-    document.body.style.overflow = "inherit";
+    document.body.style.overflow = 'inherit';
     setModalOpen(false);
-    setCurrentInfo("DETAILS");
+    setCurrentInfo('DETAILS');
   };
 
   useEffect(() => {
     function handleResize() {
       setIsLargeScreen(getIsLargeScreen());
     }
-    window.addEventListener("resize", handleResize);
-    return () => window.removeEventListener("resize", handleResize);
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
   }, [isLargeScreen]);
 
   useEffect(() => {
@@ -38,19 +41,19 @@ const EventModal = ({ isModalOpen, setModalOpen, event }) => {
       if (
         ref.current &&
         !ref.current.contains(event.target) &&
-        event.target.getAttribute("name") !== "button"
+        event.target.getAttribute('name') !== 'button'
       ) {
         closeModal();
       }
     };
 
     if (isModalOpen) {
-      document.body.style.overflow = "hidden";
-      document.addEventListener("click", handleOutsideClick);
+      document.body.style.overflow = 'hidden';
+      document.addEventListener('click', handleOutsideClick);
     }
 
     return () => {
-      document.removeEventListener("click", handleOutsideClick);
+      document.removeEventListener('click', handleOutsideClick);
     };
   }, [isModalOpen, setModalOpen]);
 
@@ -59,16 +62,16 @@ const EventModal = ({ isModalOpen, setModalOpen, event }) => {
       <div
         style={{
           top: yScroll,
-          background: "rgba(255, 255, 255, 0.5)",
+          background: 'rgba(255, 255, 255, 0.5)',
         }}
         className="absolute lg:top-inherit top-0 right-0 w-[100vw] h-[100vh] lg:py-[50px] lg:px-[100px] md:p-[50px] lg:overflow-y-scroll lg:block flex items-center p-[10px]"
       >
         <div
           ref={ref}
           style={{
-            border: "5px solid black",
-            borderRadius: "20px",
-            background: "white",
+            border: '5px solid black',
+            borderRadius: '20px',
+            background: 'white',
           }}
           className="flex flex-col lg:gap-[38px] md:py-[30px] md:px-[20px] lg:max-h-[max-content] py-[20px] px-[25px] gap-[20px] max-h-[100%] overflow-y-auto"
         >
@@ -84,14 +87,14 @@ const EventModal = ({ isModalOpen, setModalOpen, event }) => {
             />
           </div>
 
-          {(isLargeScreen || currentInfo === "DETAILS") && (
+          {(isLargeScreen || currentInfo === 'DETAILS') && (
             <>
               <div
                 className="flex items-center lg:gap-[38px] md:gap-[35px] lg:flex-row lg:px-[15px] lg:py[10px] md:p-[20px] flex-col gap-[30px] py-[14px] px-[16px]  lg:self-start self-center"
                 style={{
-                  border: "1px solid gray",
+                  border: '1px solid gray',
                   borderRadius: 20,
-                  maxWidth: "max-content",
+                  maxWidth: 'max-content',
                 }}
               >
                 <div className="flex items-center lg:gap-[38px] gap-[30px]">
@@ -105,17 +108,17 @@ const EventModal = ({ isModalOpen, setModalOpen, event }) => {
                       color="grey"
                     />
                     <span className="lg:text-3xl md:text-[30px] font-bold text-[19px]">
-                      {event.perTeam}
+                      {event.teamSize}
                     </span>
                     {isTooltipOpen && (
                       <div
                         className="lg:block hidden absolute bottom-[-90px] text-[21px] min-w-[max-content] bg-white px-[16px] py-[18px]"
                         style={{
-                          border: "2px solid black",
+                          border: '2px solid black',
                           borderRadius: 13,
                         }}
                       >
-                        Participants must be a team of {event.perTeam} members.
+                        Participants must be a team of {event.teamSize} members.
                       </div>
                     )}
                   </div>
@@ -137,7 +140,7 @@ const EventModal = ({ isModalOpen, setModalOpen, event }) => {
                       </span>
                       <span
                         className="lg:text-2xl md:text-[20px] text-[14px] font-light"
-                        style={{ color: "gray" }}
+                        style={{ color: 'gray' }}
                       >
                         {p.place}
                       </span>
@@ -151,50 +154,42 @@ const EventModal = ({ isModalOpen, setModalOpen, event }) => {
             </>
           )}
 
-          {(isLargeScreen || currentInfo === "RULES") && (
+          {(isLargeScreen || currentInfo === 'RULES') && (
             <>
               <div className="flex items-center">
                 <hr
                   className="flex-[2]"
                   style={{
-                    borderBottom: "4px solid gray",
-                    borderRadius: "10px",
+                    borderBottom: '4px solid gray',
+                    borderRadius: '10px',
                   }}
                 />
                 <span
                   className="flex justify-center lg:text-2xl md:text-[24px] text-[18px] font-semibold lg:flex-[1] flex-[2]"
-                  style={{ letterSpacing: "4px" }}
+                  style={{ letterSpacing: '4px' }}
                 >
                   RULES
                 </span>
                 <hr
                   className="flex-[2]"
                   style={{
-                    borderBottom: "4px solid gray",
-                    borderRadius: "10px",
+                    borderBottom: '4px solid gray',
+                    borderRadius: '10px',
                   }}
                 />
               </div>
-              <ul
-                className="lg:px-[40px] md:px-[30px] px-[20px]"
-                style={{
-                  listStyleType: "disc",
-                  color: "#505050",
+              {/* <div className="max-h-[60vh] overflow-y-scroll w-full"> */}
+              <section
+                className="prose text-xl"
+                dangerouslySetInnerHTML={{
+                  __html: md.render(event?.rules),
                 }}
-              >
-                {event.rules.map((rule) => (
-                  <li
-                    className="lg:text-xl md:text-[20px] text-[16px] md:mb-2 font-medium  mb-1"
-                    key={rule}
-                  >
-                    {rule}
-                  </li>
-                ))}
-              </ul>
+              />
+              {/* </div> */}
             </>
           )}
 
-          {(isLargeScreen || currentInfo === "DETAILS") && (
+          {(isLargeScreen || currentInfo === 'DETAILS') && (
             <>
               <div className="flex flex-col justify-center items-center">
                 <span className="font-medium lg:text-[21px] md:text-[18px] text-[14px]">
@@ -206,7 +201,7 @@ const EventModal = ({ isModalOpen, setModalOpen, event }) => {
                       <>
                         <span>{c}</span>
                         {index !== event.contacts.length - 1 && (
-                          <span>{" / "}</span>
+                          <span>{' / '}</span>
                         )}
                       </>
                     );
@@ -216,27 +211,27 @@ const EventModal = ({ isModalOpen, setModalOpen, event }) => {
             </>
           )}
 
-          {(isLargeScreen || currentInfo === "ABOUT CLUB") && (
+          {(isLargeScreen || currentInfo === 'ABOUT CLUB') && (
             <>
               <div
                 className="lg:p-[30px] flex lg:flex-row lg:gap-[40px] md:gap-[30px] items-center justify-center p-[20px] flex-col gap-[20px]"
                 style={{
-                  backgroundColor: "#4FB6F0",
+                  backgroundColor: '#4FB6F0',
                   borderRadius: 12,
-                  color: "white",
+                  color: 'white',
                 }}
               >
                 <div
                   className="flex lg:flex-col items-center justify-center md:gap-[50px] gap-[20px]"
-                  style={{ flex: 1, height: "100%" }}
+                  style={{ flex: 1, height: '100%' }}
                 >
-                  {event.clubDetails.map((club, index) => (
+                  {event.clubLogos.map((club, index) => (
                     <div
                       key={index}
                       className="flex flex-col items-center gap-[11px] justify-between"
                       style={{
                         flex: 1,
-                        height: "100%",
+                        height: '100%',
                       }}
                     >
                       <div className="lg:h-[125px] lg:w-[100%] md:h-[100px] md:w-[140px] h-[70px] w-[100px]">
@@ -248,9 +243,9 @@ const EventModal = ({ isModalOpen, setModalOpen, event }) => {
                           sizes="100vw"
                           style={{
                             borderRadius: 10,
-                            objectFit: "cover",
-                            height: "100%",
-                            width: "100%",
+                            objectFit: 'cover',
+                            height: '100%',
+                            width: '100%',
                           }}
                         />
                       </div>
@@ -264,7 +259,7 @@ const EventModal = ({ isModalOpen, setModalOpen, event }) => {
                   className="font-medium lg:text-[21px] md:text-[18px] text-[14px] text-justify"
                   style={{ flex: 3 }}
                 >
-                  {event.eventDetail}
+                  {event.clubDescription}
                 </div>
               </div>
             </>
@@ -272,13 +267,13 @@ const EventModal = ({ isModalOpen, setModalOpen, event }) => {
 
           {!isLargeScreen && (
             <>
-              {currentInfo === "DETAILS" && (
+              {currentInfo === 'DETAILS' && (
                 <div className="flex justify-end">
                   <div className="flex items-center gap-[5px]">
                     <span
                       name="button"
                       className="md:text-[20px] text-[17px] font-bold underline decoration-2"
-                      onClick={() => setCurrentInfo("RULES")}
+                      onClick={() => setCurrentInfo('RULES')}
                     >
                       RULES
                     </span>
@@ -286,14 +281,14 @@ const EventModal = ({ isModalOpen, setModalOpen, event }) => {
                   </div>
                 </div>
               )}
-              {currentInfo === "RULES" && (
+              {currentInfo === 'RULES' && (
                 <div className="flex justify-between">
                   <div className="flex items-center gap-[5px]">
                     <IoIosArrowBack className="md:text-[20px] text-[17px]" />
                     <span
                       name="button"
                       className="md:text-[20px] text-[17px] font-bold  underline decoration-2"
-                      onClick={() => setCurrentInfo("DETAILS")}
+                      onClick={() => setCurrentInfo('DETAILS')}
                     >
                       DETAILS
                     </span>
@@ -302,7 +297,7 @@ const EventModal = ({ isModalOpen, setModalOpen, event }) => {
                     <span
                       name="button"
                       className="md:text-[20px] text-[17px] font-bold  underline decoration-2"
-                      onClick={() => setCurrentInfo("ABOUT CLUB")}
+                      onClick={() => setCurrentInfo('ABOUT CLUB')}
                     >
                       ABOUT CLUB
                     </span>
@@ -310,14 +305,14 @@ const EventModal = ({ isModalOpen, setModalOpen, event }) => {
                   </div>
                 </div>
               )}
-              {currentInfo === "ABOUT CLUB" && (
+              {currentInfo === 'ABOUT CLUB' && (
                 <div className="flex justify-start">
                   <div className="flex items-center gap-[5px]">
-                    <IoIosArrowBack className="md:text-[20px] text-[17px]" />{" "}
+                    <IoIosArrowBack className="md:text-[20px] text-[17px]" />{' '}
                     <span
                       name="button"
                       className="md:text-[20px] text-[17px] font-bold  underline decoration-2"
-                      onClick={() => setCurrentInfo("RULES")}
+                      onClick={() => setCurrentInfo('RULES')}
                     >
                       RULES
                     </span>
@@ -330,9 +325,9 @@ const EventModal = ({ isModalOpen, setModalOpen, event }) => {
           <button
             className="lg:text-[25px] md:text-[22px] text-[20px] font-medium lg:py-[23px] md:py-[20px] py-[15px] lg:w-[70%] w-[100%] self-center"
             style={{
-              backgroundColor: "#43A363",
+              backgroundColor: '#43A363',
               borderRadius: 60,
-              color: "#E6FCFF",
+              color: '#E6FCFF',
             }}
           >
             REGISTER: <span className="font-bold">₹{event.fee}</span>

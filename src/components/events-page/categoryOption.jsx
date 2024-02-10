@@ -1,4 +1,3 @@
-import { Satoshi } from "next/font/google"
 import { useState } from "react"
 
 
