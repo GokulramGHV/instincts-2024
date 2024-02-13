@@ -1,13 +1,14 @@
-"use client";
-import CarouselPagination from "@/components/landing/carousel-pagination";
-import Countdown from "@/components/landing/countdown";
-import HeroCarousel from "@/components/landing/hero-carousel";
-import PetalPattern from "@/components/landing/petal-pattern";
-import Sparkles from "@/components/landing/sparkles";
-import SpinningBackground from "@/components/landing/spinning-background";
-import Image from "next/image";
-import { useEffect, useState } from "react";
-import { FaBars } from "react-icons/fa";
+'use client';
+import CarouselPagination from '@/components/landing/carousel-pagination';
+import Countdown from '@/components/landing/countdown';
+import HeroCarousel from '@/components/landing/hero-carousel';
+import PetalPattern from '@/components/landing/petal-pattern';
+import Sparkles from '@/components/landing/sparkles';
+import SpinningBackground from '@/components/landing/spinning-background';
+import Navbar, { NavButton } from '@/components/navbar/navbar';
+import Image from 'next/image';
+import { useEffect, useState } from 'react';
+import { FaBars } from 'react-icons/fa';
 
 export default function HeroSection() {
   const [slideNo, setSlideNo] = useState(1);
@@ -48,6 +49,9 @@ export default function HeroSection() {
               height={178}
               className="w-16 sm:w-24 lg:w-32"
             />
+          </div>
+          <div className="absolute right-7 top-6 sm:right-10 sm:top-10 md:right-12 md:top-12">
+            <NavButton />
           </div>
           <Image
             src="/logos/Instincts_white.svg"

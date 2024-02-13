@@ -35,7 +35,7 @@ export const categories = [
 
 export const events = [
   {
-    title: 'REELS OF FIRE',
+    title: 'Reels of fire',
     dayDetail: 'TBD',
     category: 'Film',
     image: '/events-page/event-dummy.png',
@@ -67,7 +67,7 @@ export const events = [
     fee: '500/- per team',
   },
   {
-    title: 'LIGHTS CAMERA SALE!',
+    title: 'Lights Camera Sale!',
     dayDetail: 'TBD',
     category: 'Film',
     image: '/events-page/event-dummy.png',
@@ -79,7 +79,7 @@ export const events = [
       { place: 'THIRD', amount: 'TBD' },
     ],
     description: `The "Lights, Camera, Sale!" event will feature teams competing by bidding on movie-related questions and participating in exciting quiz rounds. Quiz enthusiasts and movie buffs, this is your chance to show your zeal and knowledge in the world of films, and it will be super fun, we promise! Each round introduces a new topic, and teams must provide diverse answers within a set time. Eliminations occur based on the points scored in each round.`,
-    rules: `### Round 1: Auction Time!**
+    rules: `### Round 1: Auction Time!
 This is a movie-based auction you wouldn’t have seen anywhere ever before. The auctioneer would announce the question (say number of movies with female protagonists) and teams bid on the number of such movies they know. The highest bidder answers the questions and on failing to, the next highest bidder gets the chance. The auction continues and the teams with the highest points proceed to the next round.
 
 ### Round 2: The Mega Movies Quiz!
@@ -95,7 +95,7 @@ Decode the series of pictures showcasing iconic scenes, just like the classical 
     fee: '200/- per team',
   },
   {
-    title: 'LIGHTS. CAMERA. THADHINGINATHOM.',
+    title: 'Lights. Camera. Thadhinginathom.',
     dayDetail: 'TBD',
     category: 'Classical Dance',
     image: '/events-page/event-dummy.png',
@@ -133,7 +133,7 @@ Decode the series of pictures showcasing iconic scenes, just like the classical 
     fee: 150,
   },
   {
-    title: 'CHATURANGA',
+    title: 'Chathuranga',
     dayDetail: 'TBD',
     category: 'Classical Dance',
     image: '/events-page/event-dummy.png',
@@ -335,7 +335,7 @@ Prepare yourself for a visual and rhythmic challenge. An audio-visual of a class
     fee: '200 (Club Pass)',
   },
   {
-    title: 'DESIGNATHON - TRACKS 1 & 2',
+    title: 'Designathon - Tracks 1 & 2',
     dayDetail: 'TBD',
     category: 'Design',
     image: '/events-page/event-dummy.png',
@@ -388,7 +388,7 @@ This event focuses on the ability of a designer to comprehend a given concept an
     fee: '200/- per individual',
   },
   {
-    title: 'INTERFACE-OFF',
+    title: 'Interface-Off',
     dayDetail: 'TBD',
     category: 'Design',
     image: '/events-page/event-dummy.png',
@@ -428,7 +428,7 @@ This event focuses on the ability of a designer to comprehend a given concept an
     fee: '200/- per team',
   },
   {
-    title: 'REEL IT',
+    title: 'Reel It',
     dayDetail: 'TBD',
     category: 'Design',
     image: '/events-page/event-dummy.png',
