@@ -50,7 +50,7 @@ export default function HeroSection() {
               className="w-16 sm:w-24 lg:w-32"
             />
           </div>
-          <div className="absolute right-7 top-6 sm:right-10 sm:top-10 md:right-12 md:top-12">
+          <div className="absolute right-7 top-6 sm:right-10 sm:top-10 md:right-12 md:top-12 z-30">
             <NavButton />
           </div>
           <Image
