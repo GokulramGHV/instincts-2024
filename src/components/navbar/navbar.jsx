@@ -62,10 +62,26 @@ const Navbar = () => {
               className="absolute w-screen z-[-1]"
             />
           )}
-          <div className=" flex justify-between py-16 md:py-24 lg:py-10 px-16 md:px-24 lg:px-32 h-screen w-screen">
+          {isNavOpen && hoveredOption === null && (
+            <div
+              className="fixed right-12 md:right-24 lg:right-32 top-16 cursor-pointer z-30 md:bg-inherit p-1 rounded md:p-0 max-w-min"
+              onClick={() => setNavOpen(!isNavOpen)}
+            >
+              <RiCloseFill className="text-white text-3xl sm:text-4xl lg:text-5xl transition-transform transform hover:scale-110" />
+            </div>
+          )}
+          <Image
+            src="/logos/Instincts_white.svg"
+            alt="SNU"
+            width={250}
+            height={100}
+            className="lg:block hidden fixed right-12 md:right-24 lg:right-32 bottom-16"
+          />
+
+          <div className="relative flex justify-between py-16 md:py-24 lg:py-10 px-12 md:px-24 lg:px-32 h-screen w-screen">
             <ul
               style={{ fontFamily: 'Londrina Solid, sans-serif' }}
-              className="flex flex-col"
+              className="flex flex-col w-full"
             >
               {navOptions.map((option, index) => (
                 <li
@@ -106,25 +122,6 @@ const Navbar = () => {
                 </li>
               ))}
             </ul>
-            <div className="flex flex-col justify-between items-end">
-              {isNavOpen && hoveredOption === null ? (
-                <div
-                  className="cursor-pointer z-30 bg-black md:bg-inherit p-1 rounded md:p-0 max-w-min"
-                  onClick={() => setNavOpen(!isNavOpen)}
-                >
-                  <RiCloseFill className="text-white text-3xl sm:text-4xl lg:text-5xl transition-transform transform hover:scale-110" />
-                </div>
-              ) : (
-                <div className=""></div>
-              )}
-              <Image
-                src="/logos/Instincts_white.svg"
-                alt="SNU"
-                width={250}
-                height={100}
-                className="lg:block hidden"
-              />
-            </div>
           </div>
         </div>
       )}
