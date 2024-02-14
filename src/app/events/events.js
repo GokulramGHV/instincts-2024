@@ -24,6 +24,10 @@ export const categories = [
     color: '#F6800E',
   },
   {
+    name: 'English Lit.',
+    color: '#05B163',
+  },
+  {
     name: 'Photography',
     color: '#00644C',
   },
@@ -117,7 +121,7 @@ export const events = [
 செங்கலை வைத்து வீடு கட்டலாம் வார்த்தைகளை
 வைத்து கதை கட்டலாம் வாருங்கள். தொடரியை போல்
 வார்த்தைகளை எடுத்து அதை கதையாய் தொடுக்க
-வெற்றி நமதே!
+வெற்றி நமதே!   
 1.ஒருங்கிணைப்பாளர் ஒரு வார்த்தையை சொல்லி துவங்குவார். அதற்கு தொடர்புடைய வார்த்தை ஒன்றை ஒரு குழு சொல்ல வேண்டும். அந்த வார்த்தைக்கு தொடர்புடைய வார்த்தையை மற்றொரு குழு சொல்ல வேண்டும்.
 2. இப்படி இரண்டு குழுக்கள் மாற்றி மாற்றி வார்த்தைகளை 5 நொடி இடைவெளிக்குள் சொல்ல வேண்டும். 20 வார்த்தைகள் வந்ததும். அந்த 20 வார்த்தைகளை வைத்து 2 குழுவும் தனி தனியாக கதை சொல்ல வேண்டும். கதையின் சுவை பொறுத்து மதிப்பெண்கள் வழங்கப்படும்.
     `,
@@ -136,6 +140,194 @@ export const events = [
       { name: 'Mudivizhi', img: '/events-page/event-dummy.png' },
     ],
     fee: '200/- per team',
+  },
+  {
+    title: 'Debate',
+    dayDetail: 'TBD',
+    category: 'English Lit.',
+    image: '/events-page/event-dummy.png',
+    color: '#05B163',
+    teamSize: '2',
+    prize: [
+      { place: 'FIRST', amount: 'TBD' },
+      { place: 'SECOND', amount: 'TBD' },
+      { place: 'THIRD', amount: 'TBD' },
+    ],
+    description: `Dear Debaters and Wordsmiths,
+    Step right up to the greatest show of intellect in town! We're thrilled to invite you to our debating extravaganza, where the carnival of ideas is in full swing. Roll up your sleeves, unleash your rhetoric, and join the lively spectacle at our cultural fest. This isn't just any debate—it's a carousel of wit, a tilt-a-whirl of viewpoints, and a rollercoaster of eloquence. So, tighten your grip on the microphone, as we promise a debate that'll leave you spinning with excitement. Let's turn the arena into a debate midway, where every argument is a game-changer. See you at the debate carnival—it's time to make your words the star attraction!    
+    `,
+    rules: `- Each debating round will consist of two teams - one to propose (for) the motion and one to oppose (against) the motion.
+- 3 minutes for each speaker to present their argument and 1 minute for rebuttal each.
+- Preparation time will be given for each topic.
+- Registration is on a first-come-first-serve basis.
+    `,
+    contacts: ['Yashasvee - 8925155539', 'Aditi - 9791011123'],
+    clubDescription: `Welcome to the English Literary Club (ELC) at SSN and SNUC, where the magic of literature bursts into vibrant life! Whether you're a seasoned wordsmith or a blossoming writer, our inclusive community revels in a kaleidoscope of talents. Join us for lively debates, stand-up extravaganzas, word puzzles that sizzle, literary jams that resonate, and more. At ELC, creativity knows no boundaries, and we invite everyone to join the fiesta of literary pursuits. Come, dance with words, be a part of our jubilant journey, where collaboration and inspiration celebrate in full fiesta flair!
+    `,
+    clubLogos: [
+      { name: 'SSN ELC', img: '/events-page/event-dummy.png' },
+      { name: 'SNUC ELC', img: '/events-page/event-dummy.png' },
+    ],
+    fee: 'TBD',
+  },
+  {
+    title: 'JAM',
+    dayDetail: 'TBD',
+    category: 'English Lit.',
+    image: '/events-page/event-dummy.png',
+    color: '#05B163',
+    teamSize: '1',
+    prize: [
+      { place: 'FIRST', amount: 'TBD' },
+      { place: 'SECOND', amount: 'TBD' },
+      { place: 'THIRD', amount: 'TBD' },
+    ],
+    description: `The fireworks are ready, the playlist is queued, and the crowd is electrified by the festival air. But oh wait, boredom is creeping into the shadows and threatening to ruin the party. To defeat them, you must capture the audience's attention successfully for an entire minute without errors. Behold, amid this lively celebration, a special room filled with laughter and cheer awaits your presence. Can you captivate the audience, and deliver a minute of funny magic, logic be damned? Are you ready for the ultimate challenge that could fill your pockets with prizes and treasures beyond your wildest dreams? Claim your place as the crowned champion of "Viva La Fiesta", by embracing the carnival spirit and letting the fiesta of a lifetime unfold!    
+    `,
+    rules: `- Each round of this game is for 60 seconds each.
+- Points are awarded for the amount of time spoken for, as well as correct objections.
+- In case of a wrong objection, points will be deducted.
+    `,
+    contacts: ['Anirudh - 9841817634', 'Raya - 8903060081'],
+    clubDescription: `Welcome to the English Literary Club (ELC) at SSN and SNUC, where the magic of literature bursts into vibrant life! Whether you're a seasoned wordsmith or a blossoming writer, our inclusive community revels in a kaleidoscope of talents. Join us for lively debates, stand-up extravaganzas, word puzzles that sizzle, literary jams that resonate, and more. At ELC, creativity knows no boundaries, and we invite everyone to join the fiesta of literary pursuits. Come, dance with words, be a part of our jubilant journey, where collaboration and inspiration celebrate in full fiesta flair!
+    `,
+    clubLogos: [
+      { name: 'SSN ELC', img: '/events-page/event-dummy.png' },
+      { name: 'SNUC ELC', img: '/events-page/event-dummy.png' },
+    ],
+    fee: 'TBD',
+  },
+  {
+    title: 'Stand-Up Comedy Contest',
+    dayDetail: 'TBD',
+    category: 'English Lit.',
+    image: '/events-page/event-dummy.png',
+    color: '#05B163',
+    teamSize: '1',
+    prize: [
+      { place: 'FIRST', amount: 'TBD' },
+      { place: 'SECOND', amount: 'TBD' },
+      { place: 'THIRD', amount: 'TBD' },
+    ],
+    description: `Exactly as the name suggests, the participants will be required to perform a set for a judge and an audience. Everybody is welcome, if you're funny, we'll laugh at your jokes. If not... Well, we'll laugh at you.
+    `,
+    rules: `- Keep your sets under 5 minutes.
+- Sets in English are preferred, Tamil and Hindi are okay as well.
+- Obscenity is to be avoided!
+- Kindly refrain from topics directly derogatory towards colleges, faculties, or any student.
+- Plagiarism will lead to disqualification.
+- Taking names of any person, reputed celebrities, or institutions will lead to instant disqualification.
+    `,
+    contacts: ['Aadithya - 9176312598', 'Rahil - 9840828309'],
+    clubDescription: `Welcome to the English Literary Club (ELC) at SSN and SNUC, where the magic of literature bursts into vibrant life! Whether you're a seasoned wordsmith or a blossoming writer, our inclusive community revels in a kaleidoscope of talents. Join us for lively debates, stand-up extravaganzas, word puzzles that sizzle, literary jams that resonate, and more. At ELC, creativity knows no boundaries, and we invite everyone to join the fiesta of literary pursuits. Come, dance with words, be a part of our jubilant journey, where collaboration and inspiration celebrate in full fiesta flair!
+    `,
+    clubLogos: [
+      { name: 'SSN ELC', img: '/events-page/event-dummy.png' },
+      { name: 'SNUC ELC', img: '/events-page/event-dummy.png' },
+    ],
+    fee: 'TBD',
+  },
+  {
+    title: 'A Musing Affair',
+    dayDetail: 'TBD',
+    category: 'English Lit.',
+    image: '/events-page/event-dummy.png',
+    color: '#05B163',
+    teamSize: '1',
+    prize: [
+      { place: 'FIRST', amount: 'TBD' },
+      { place: 'SECOND', amount: 'TBD' },
+      { place: 'THIRD', amount: 'TBD' },
+    ],
+    description: `Round 1: Alluring Ink
+    You look up at the sky, as the fireworks start. They arouse a sense of belonging and nostalgia in you. That makes you think of someone or something, a memory even. You see words over the fireworks, and before they rush away from you, you quickly open your notes app to write down as the fireworks fade away into the background
+    Round 2: Whimsical Wordsmith 
+    You're at the gala now, and some words start to glimmer, they're all connected somehow. You run, wanting more and they bring you into this realm of your making. Colour it the way you want, and spin that magical yarn. But, as time goes on the words fade away. Complete this realm using every word.
+    `,
+    rules: `- **Round 1**:
+  - 2-3 lines of written captions will be collected from participants, 90 - 120 seconds after each picture has been displayed.
+  - Captions will be judged and the best of them will be nominated to round 2.
+- **Round 2**:
+  - Make sure to include all the given words in the submission.
+  - Submissions, in the form of prose or poetry, will be accepted.
+  - Word limit:
+    - Poem: 70 lines
+    - Prose: 700 words
+  - Late submissions will not be accepted.
+  - The submissions must be entirely the original work of the participant.
+    `,
+    contacts: ['Abinaya - 9360630071', 'Sukirtha - 8525862033'],
+    clubDescription: `Welcome to the English Literary Club (ELC) at SSN and SNUC, where the magic of literature bursts into vibrant life! Whether you're a seasoned wordsmith or a blossoming writer, our inclusive community revels in a kaleidoscope of talents. Join us for lively debates, stand-up extravaganzas, word puzzles that sizzle, literary jams that resonate, and more. At ELC, creativity knows no boundaries, and we invite everyone to join the fiesta of literary pursuits. Come, dance with words, be a part of our jubilant journey, where collaboration and inspiration celebrate in full fiesta flair!
+    `,
+    clubLogos: [
+      { name: 'SSN ELC', img: '/events-page/event-dummy.png' },
+      { name: 'SNUC ELC', img: '/events-page/event-dummy.png' },
+    ],
+    fee: 'TBD',
+  },
+  {
+    title: 'Potpourri',
+    dayDetail: 'TBD',
+    category: 'English Lit.',
+    image: '/events-page/event-dummy.png',
+    color: '#05B163',
+    teamSize: '1',
+    prize: [
+      { place: 'FIRST', amount: 'TBD' },
+      { place: 'SECOND', amount: 'TBD' },
+      { place: 'THIRD', amount: 'TBD' },
+    ],
+    description: `A clown approaches with a cunning grin
+    Asks you to juggle word games, crosswords and puzzles for the win. 
+    
+    Will you choose to put your festive 'Instincts' to the test,
+    Don your carnival mask,
+    Attempt a Potpourri of games to complete the task?
+    You have a clown to best.    
+    `,
+    rules: `- Round 1 is a written quiz with puzzles.
+- Teams that clear Round 1 enter Round 2.
+- Round 2 will have miscellaneous games like dumb charades, Pictionary, etc.
+    `,
+    contacts: ['Nivedita - 7338757385', 'Farhaan - 8925149937'],
+    clubDescription: `Welcome to the English Literary Club (ELC) at SSN and SNUC, where the magic of literature bursts into vibrant life! Whether you're a seasoned wordsmith or a blossoming writer, our inclusive community revels in a kaleidoscope of talents. Join us for lively debates, stand-up extravaganzas, word puzzles that sizzle, literary jams that resonate, and more. At ELC, creativity knows no boundaries, and we invite everyone to join the fiesta of literary pursuits. Come, dance with words, be a part of our jubilant journey, where collaboration and inspiration celebrate in full fiesta flair!
+    `,
+    clubLogos: [
+      { name: 'SSN ELC', img: '/events-page/event-dummy.png' },
+      { name: 'SNUC ELC', img: '/events-page/event-dummy.png' },
+    ],
+    fee: 'TBD',
+  },
+  {
+    title: 'Stew',
+    dayDetail: 'TBD',
+    category: 'English Lit.',
+    image: '/events-page/event-dummy.png',
+    color: '#05B163',
+    teamSize: '1',
+    prize: [
+      { place: 'FIRST', amount: 'TBD' },
+      { place: 'SECOND', amount: 'TBD' },
+      { place: 'THIRD', amount: 'TBD' },
+    ],
+    description: `Embark on a daring adventure through treacherous seas, facing a merciless storm that leaves you with only a single life jacket as a potential lifeline. Skillfully plead your case before the captain to secure your journey. Once on board, immerse yourself in a captivating odyssey of tales and legends spun by master storytellers, transporting you to magical realms amid the vibrant colours and lively music of Carnaval. This treacherous path leads to a delectable stew, capturing the essence of celebration in every spoonful, making the feast worth the adventurous journey.
+    `,
+    rules: `- **Round 1 - Shipwreck**:
+  - Participants will be assigned famous personalities.
+  - 3 to 5 minutes of speaking time.
+- **Round 2 - Surprise!**
+  - Performances can be in either English or Tamil.
+  - Winners will be selected based on judges' discretion following eliminations from round 1.
+- Judges’ decisions are final.
+    `,
+    contacts: ['Smruthi - 7092230140', 'Ahana - 8925666996'],
+    clubDescription: `Welcome to the English Literary Club (ELC) at SSN and SNUC, where the magic of literature bursts into vibrant life! Whether you're a seasoned wordsmith or a blossoming writer, our inclusive community revels in a kaleidoscope of talents. Join us for lively debates, stand-up extravaganzas, word puzzles that sizzle, literary jams that resonate, and more. At ELC, creativity knows no boundaries, and we invite everyone to join the fiesta of literary pursuits. Come, dance with words, be a part of our jubilant journey, where collaboration and inspiration celebrate in full fiesta flair!
+    `,
+    clubLogos: [
+      { name: 'SSN ELC', img: '/events-page/event-dummy.png' },
+      { name: 'SNUC ELC', img: '/events-page/event-dummy.png' },
+    ],
+    fee: 'TBD',
   },
   {
     title: 'Draw with comali',

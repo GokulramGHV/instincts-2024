@@ -6,6 +6,8 @@ import { IoIosArrowForward } from 'react-icons/io';
 import { IoIosArrowBack } from 'react-icons/io';
 import Image from 'next/image';
 import { Remarkable } from 'remarkable';
+import CalendarIcon from '@/icons/calendarIcon';
+import TeamIcon from '@/icons/teamIcon';
 
 let md = new Remarkable();
 
@@ -62,7 +64,7 @@ const EventModal = ({ isModalOpen, setModalOpen, event }) => {
       <div
         style={{
           top: yScroll,
-          background: 'rgba(255, 255, 255, 0.5)',
+          background: 'rgba(0, 0, 0, 0.4)',
         }}
         className="absolute top-0 right-0 w-[100vw] h-[100vh] lg:py-[50px] lg:px-[100px] md:p-[50px] lg:overflow-y-scroll lg:block flex items-center p-[10px]"
       >
@@ -103,7 +105,8 @@ const EventModal = ({ isModalOpen, setModalOpen, event }) => {
                     onMouseEnter={() => setTooltipOpen(true)}
                     onMouseLeave={() => setTooltipOpen(false)}
                   >
-                    <HiUserGroup className="md:text-3xl text-xl" color="grey" />
+                    {/* <HiUserGroup className="md:text-3xl text-xl" color="grey" /> */}
+                    <TeamIcon className="fill-current w-6 md:w-7 xl:w-8" />
                     <span className="xl:text-3xl md:text-2xl font-bold text-[19px]">
                       {event.teamSize}
                     </span>
@@ -120,7 +123,8 @@ const EventModal = ({ isModalOpen, setModalOpen, event }) => {
                     )}
                   </div>
                   <div className="flex items-center gap-2">
-                    <FaCalendar className="md:text-3xl text-xl" color="grey" />
+                    {/* <FaCalendar className="md:text-3xl text-xl" color="grey" /> */}
+                    <CalendarIcon className="fill-current w-5 md:w-6 xl:w-7" />
                     <span className="xl:text-3xl md:text-2xl font-bold text-[19px]">
                       {event.dayDetail}
                     </span>
@@ -151,7 +155,7 @@ const EventModal = ({ isModalOpen, setModalOpen, event }) => {
                 <hr
                   className="flex-[2]"
                   style={{
-                    borderBottom: '4px solid gray',
+                    border: '2px solid #8F8D8D',
                     borderRadius: '10px',
                   }}
                 />
@@ -164,7 +168,7 @@ const EventModal = ({ isModalOpen, setModalOpen, event }) => {
                 <hr
                   className="flex-[2]"
                   style={{
-                    borderBottom: '4px solid gray',
+                    border: '2px solid #8F8D8D',
                     borderRadius: '10px',
                   }}
                 />
