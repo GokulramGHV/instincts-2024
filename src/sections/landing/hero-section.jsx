@@ -27,7 +27,7 @@ export default function HeroSection() {
     <section className="relative flex h-screen flex-col justify-center items-center  overflow-hidden w-full py-[5vh] px-[10vw] ">
       <SpinningBackground slideNo={slideNo} />
       <div className="z-10 relative w-full h-full">
-        <PetalPattern />
+        {/* <PetalPattern /> */}
         <CarouselPagination slideNo={slideNo} setSlideNo={setSlideNo} />
 
         <div className="z-10 relative flex flex-col justify-center items-center w-full h-full rounded-[20px] overflow-hidden">
