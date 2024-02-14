@@ -18,7 +18,10 @@ const navOptions = [
     imageSrc: '/navbar_images/central_events.png',
     link: '/',
   },
-  { label: 'GALLERY', imageSrc: '/navbar_images/gallery.png', link: '/' },
+  { label: 'GALLERY', 
+    imageSrc: '/navbar_images/gallery.png', 
+    link: '/#gallery_section' 
+  },
   { label: 'CONTACT US', imageSrc: '/navbar_images/contact_us.png', link: '/' },
   { label: 'SPONSORS', imageSrc: '/navbar_images/sponsors.png', link: '/' },
   { label: 'GET PASSES', imageSrc: '/navbar_images/get_passes.png', link: '/' },
