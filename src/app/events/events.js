@@ -94,8 +94,8 @@ export const events = [
     உங்களின் சொல்லாற்றளையும், நாவின்மையும் சோதித்துப் பார்க்க சாரல் தமிழ் மன்றம் களம் அமைக்க போகிறது!
     `,
     clubLogos: [
-      { name: "Saaral", img: "/events-page/event-dummy.png" },
-      { name: "Mudivizhi", img: "/events-page/event-dummy.png" },
+      { name: "Saaral", img: "/events-page/saaral.png" },
+      { name: "Mudivizhi", img: "/events-page/mudivili.png" },
     ],
     fee: "150",
   },
@@ -148,8 +148,8 @@ export const events = [
     உங்களின் சொல்லாற்றளையும், நாவின்மையும் சோதித்துப் பார்க்க சாரல் தமிழ் மன்றம் களம் அமைக்க போகிறது!
     `,
     clubLogos: [
-      { name: "Saaral", img: "/events-page/event-dummy.png" },
-      { name: "Mudivizhi", img: "/events-page/event-dummy.png" },
+      { name: "Saaral", img: "/events-page/saaral.png" },
+      { name: "Mudivizhi", img: "/events-page/mudivili.png" },
     ],
     fee: "200/- per team",
   },
@@ -177,8 +177,8 @@ export const events = [
     clubDescription: `Welcome to the English Literary Club (ELC) at SSN and SNUC, where the magic of literature bursts into vibrant life! Whether you're a seasoned wordsmith or a blossoming writer, our inclusive community revels in a kaleidoscope of talents. Join us for lively debates, stand-up extravaganzas, word puzzles that sizzle, literary jams that resonate, and more. At ELC, creativity knows no boundaries, and we invite everyone to join the fiesta of literary pursuits. Come, dance with words, be a part of our jubilant journey, where collaboration and inspiration celebrate in full fiesta flair!
     `,
     clubLogos: [
-      { name: "SSN ELC", img: "/events-page/event-dummy.png" },
-      { name: "SNUC ELC", img: "/events-page/event-dummy.png" },
+      { name: "SSN ELC", img: "/events-page/ssn_elc.png" },
+      { name: "SNUC ELC", img: "/events-page/snuc_elc.jpg" },
     ],
     fee: "TBD",
   },
@@ -204,8 +204,8 @@ export const events = [
     clubDescription: `Welcome to the English Literary Club (ELC) at SSN and SNUC, where the magic of literature bursts into vibrant life! Whether you're a seasoned wordsmith or a blossoming writer, our inclusive community revels in a kaleidoscope of talents. Join us for lively debates, stand-up extravaganzas, word puzzles that sizzle, literary jams that resonate, and more. At ELC, creativity knows no boundaries, and we invite everyone to join the fiesta of literary pursuits. Come, dance with words, be a part of our jubilant journey, where collaboration and inspiration celebrate in full fiesta flair!
     `,
     clubLogos: [
-      { name: "SSN ELC", img: "/events-page/event-dummy.png" },
-      { name: "SNUC ELC", img: "/events-page/event-dummy.png" },
+      { name: "SSN ELC", img: "/events-page/ssn_elc.png" },
+      { name: "SNUC ELC", img: "/events-page/snuc_elc.jpg" },
     ],
     fee: "TBD",
   },
@@ -234,8 +234,8 @@ export const events = [
     clubDescription: `Welcome to the English Literary Club (ELC) at SSN and SNUC, where the magic of literature bursts into vibrant life! Whether you're a seasoned wordsmith or a blossoming writer, our inclusive community revels in a kaleidoscope of talents. Join us for lively debates, stand-up extravaganzas, word puzzles that sizzle, literary jams that resonate, and more. At ELC, creativity knows no boundaries, and we invite everyone to join the fiesta of literary pursuits. Come, dance with words, be a part of our jubilant journey, where collaboration and inspiration celebrate in full fiesta flair!
     `,
     clubLogos: [
-      { name: "SSN ELC", img: "/events-page/event-dummy.png" },
-      { name: "SNUC ELC", img: "/events-page/event-dummy.png" },
+      { name: "SSN ELC", img: "/events-page/ssn_elc.png" },
+      { name: "SNUC ELC", img: "/events-page/snuc_elc.jpg" },
     ],
     fee: "TBD",
   },
@@ -272,8 +272,8 @@ export const events = [
     clubDescription: `Welcome to the English Literary Club (ELC) at SSN and SNUC, where the magic of literature bursts into vibrant life! Whether you're a seasoned wordsmith or a blossoming writer, our inclusive community revels in a kaleidoscope of talents. Join us for lively debates, stand-up extravaganzas, word puzzles that sizzle, literary jams that resonate, and more. At ELC, creativity knows no boundaries, and we invite everyone to join the fiesta of literary pursuits. Come, dance with words, be a part of our jubilant journey, where collaboration and inspiration celebrate in full fiesta flair!
     `,
     clubLogos: [
-      { name: "SSN ELC", img: "/events-page/event-dummy.png" },
-      { name: "SNUC ELC", img: "/events-page/event-dummy.png" },
+      { name: "SSN ELC", img: "/events-page/ssn_elc.png" },
+      { name: "SNUC ELC", img: "/events-page/snuc_elc.jpg" },
     ],
     fee: "TBD",
   },
@@ -305,8 +305,8 @@ export const events = [
     clubDescription: `Welcome to the English Literary Club (ELC) at SSN and SNUC, where the magic of literature bursts into vibrant life! Whether you're a seasoned wordsmith or a blossoming writer, our inclusive community revels in a kaleidoscope of talents. Join us for lively debates, stand-up extravaganzas, word puzzles that sizzle, literary jams that resonate, and more. At ELC, creativity knows no boundaries, and we invite everyone to join the fiesta of literary pursuits. Come, dance with words, be a part of our jubilant journey, where collaboration and inspiration celebrate in full fiesta flair!
     `,
     clubLogos: [
-      { name: "SSN ELC", img: "/events-page/event-dummy.png" },
-      { name: "SNUC ELC", img: "/events-page/event-dummy.png" },
+      { name: "SSN ELC", img: "/events-page/ssn_elc.png" },
+      { name: "SNUC ELC", img: "/events-page/snuc_elc.jpg" },
     ],
     fee: "TBD",
   },
@@ -336,8 +336,8 @@ export const events = [
     clubDescription: `Welcome to the English Literary Club (ELC) at SSN and SNUC, where the magic of literature bursts into vibrant life! Whether you're a seasoned wordsmith or a blossoming writer, our inclusive community revels in a kaleidoscope of talents. Join us for lively debates, stand-up extravaganzas, word puzzles that sizzle, literary jams that resonate, and more. At ELC, creativity knows no boundaries, and we invite everyone to join the fiesta of literary pursuits. Come, dance with words, be a part of our jubilant journey, where collaboration and inspiration celebrate in full fiesta flair!
     `,
     clubLogos: [
-      { name: "SSN ELC", img: "/events-page/event-dummy.png" },
-      { name: "SNUC ELC", img: "/events-page/event-dummy.png" },
+      { name: "SSN ELC", img: "/events-page/ssn_elc.png" },
+      { name: "SNUC ELC", img: "/events-page/snuc_elc.jpg" },
     ],
     fee: "TBD",
   },
@@ -380,7 +380,7 @@ export const events = [
     contacts: ["Janaaki - +91 8300380507", "Bhava Nidhi - +91 9962161104"],
     clubDescription: `Handila is a community of artists and art lovers who come together regularly to create, share, and appreciate various forms of art. We offer a supportive and inclusive space for members to improve their skills, make connections, and connect with like-minded individuals. Recently, Handila has teamed up with INSTINCTS' 24 to provide an exciting experience for students interested in exploring a lost continent. This adventure combines creative expression and real-world exploration to uncover the secrets of an unknown land. Join the journey with art as your guide and discover the lost continent through adventure and imagination.
     `,
-    clubLogos: [{ name: "Handila", img: "/events-page/event-dummy.png" }],
+    clubLogos: [{ name: "Handila", img: "/events-page/handila.png" }],
     fee: "200/- per team",
   },
   {
@@ -409,7 +409,7 @@ export const events = [
     contacts: ["Maanasa - +91 9884292004", "Ashwatha - +91 9566367991"],
     clubDescription: `Handila is a community of artists and art lovers who come together regularly to create, share, and appreciate various forms of art. We offer a supportive and inclusive space for members to improve their skills, make connections, and connect with like-minded individuals. Recently, Handila has teamed up with INSTINCTS' 24 to provide an exciting experience for students interested in exploring a lost continent. This adventure combines creative expression and real-world exploration to uncover the secrets of an unknown land. Join the journey with art as your guide and discover the lost continent through adventure and imagination.
     `,
-    clubLogos: [{ name: "Handila", img: "/events-page/event-dummy.png" }],
+    clubLogos: [{ name: "Handila", img: "/events-page/handila.png" }],
     fee: "250/- per team",
   },
   {
@@ -437,7 +437,7 @@ export const events = [
     contacts: ["Varun - +91 9514775269", "Mugesh Kanna - +91 9150853524"],
     clubDescription: `Handila is a community of artists and art lovers who come together regularly to create, share, and appreciate various forms of art. We offer a supportive and inclusive space for members to improve their skills, make connections, and connect with like-minded individuals. Recently, Handila has teamed up with INSTINCTS' 24 to provide an exciting experience for students interested in exploring a lost continent. This adventure combines creative expression and real-world exploration to uncover the secrets of an unknown land. Join the journey with art as your guide and discover the lost continent through adventure and imagination.
     `,
-    clubLogos: [{ name: "Handila", img: "/events-page/event-dummy.png" }],
+    clubLogos: [{ name: "Handila", img: "/events-page/handila.png" }],
     fee: "200/- per team",
   },
   {
@@ -563,8 +563,8 @@ export const events = [
     ],
     clubDescription: `Step into the vibrant world of our Western Dance Club, where every movement ignites the spirit of celebration! Embracing the theme of "Viva La Fiesta," our dancers fuse passion with rhythm, delivering electrifying performances that transport you to the heart of a lively fiesta. With dynamic choreography and infectious energy, we invite you to join us on a journey filled with pulsating beats and sizzling moves, where every step is a celebration of life and culture. Get ready to unleash your inner dancer and let the fiesta begin!`,
     clubLogos: [
-      { name: "N2K", img: "/events-page/event-dummy.png" },
-      { name: "Rhythm", img: "/events-page/event-dummy.png" },
+      { name: "N2K", img: "/events-page/n2k.png" },
+      { name: "Rhythm", img: "/events-page/rhythm.jpg" },
     ],
     fee: "200/- per head",
   },
@@ -599,8 +599,8 @@ export const events = [
     ],
     clubDescription: `Step into the vibrant world of our Western Dance Club, where every movement ignites the spirit of celebration! Embracing the theme of "Viva La Fiesta," our dancers fuse passion with rhythm, delivering electrifying performances that transport you to the heart of a lively fiesta. With dynamic choreography and infectious energy, we invite you to join us on a journey filled with pulsating beats and sizzling moves, where every step is a celebration of life and culture. Get ready to unleash your inner dancer and let the fiesta begin!`,
     clubLogos: [
-      { name: "N2K", img: "/events-page/event-dummy.png" },
-      { name: "Rhythm", img: "/events-page/event-dummy.png" },
+      { name: "N2K", img: "/events-page/n2k.png" },
+      { name: "Rhythm", img: "/events-page/rhythm.jpg" },
     ],
     fee: "100/- per head",
   },
@@ -645,8 +645,8 @@ export const events = [
     ],
     clubDescription: `Step into the vibrant world of our Western Dance Club, where every movement ignites the spirit of celebration! Embracing the theme of "Viva La Fiesta," our dancers fuse passion with rhythm, delivering electrifying performances that transport you to the heart of a lively fiesta. With dynamic choreography and infectious energy, we invite you to join us on a journey filled with pulsating beats and sizzling moves, where every step is a celebration of life and culture. Get ready to unleash your inner dancer and let the fiesta begin!`,
     clubLogos: [
-      { name: "N2K", img: "/events-page/event-dummy.png" },
-      { name: "Rhythm", img: "/events-page/event-dummy.png" },
+      { name: "N2K", img: "/events-page/n2k.png" },
+      { name: "Rhythm", img: "/events-page/rhythm.jpg" },
     ],
     fee: "100/- per head",
   },
@@ -846,7 +846,7 @@ The following actions are strictly prohibited during the tournament and will res
 Lakshya stands as a testament to the unwavering spirit of entrepreneurship, fostering a vibrant community through a myriad of events designed to ignite the entrepreneurial spark in students. Since its inception, the cell has left an indelible mark on the lives and perspectives of the youth of India. Our E-cell achieved a significant milestone by clinching the prestigious E-Week India trophy in 2010 and 2011, and earning the runners-up title in 2012 and 2013.
 We take pride in our journey, from a handful of enthusiasts to a thriving community of young minds dedicated to shaping the future of entrepreneurship at SSN. Lakshya continues to be the driving force behind the entrepreneurial ambitions of students, providing a platform for innovation, learning, and success.
 `,
-    clubLogos: [{ name: "SSN Lakshya", img: "/events-page/event-dummy.png" }],
+    clubLogos: [{ name: "SSN Lakshya", img: "/events-page/lakshya.png" }],
     fee: "TBD",
   },
   {
@@ -876,8 +876,8 @@ We take pride in our journey, from a handful of enthusiasts to a thriving commun
     clubDescription: `Explore the world of films with SSN Film Club at SSN College of Engineering and Montage, SNUC Film Club at Shiv Nadar University Chennai! Dive into the magic of cinema through movie screenings, discussions, and fun events. Whether you're a movie buff or just getting into films, our welcoming clubs offer a great space for you to enjoy the rich variety of movies. Come join us for an exciting cinematic journey, where each frame has a story to tell!
     `,
     clubLogos: [
-      { name: "SFC", img: "/events-page/event-dummy.png" },
-      { name: "Montage", img: "/events-page/event-dummy.png" },
+      { name: "SFC", img: "/events-page/sfc.png" },
+      { name: "Montage", img: "/events-page/montage.png" },
     ],
     fee: "500/- per team",
   },
@@ -904,8 +904,8 @@ Decode the series of pictures showcasing iconic scenes, just like the classical 
     clubDescription: `Explore the world of films with SSN Film Club at SSN College of Engineering and Montage, SNUC Film Club at Shiv Nadar University Chennai! Dive into the magic of cinema through movie screenings, discussions, and fun events. Whether you're a movie buff or just getting into films, our welcoming clubs offer a great space for you to enjoy the rich variety of movies. Come join us for an exciting cinematic journey, where each frame has a story to tell!
     `,
     clubLogos: [
-      { name: "SFC", img: "/events-page/event-dummy.png" },
-      { name: "Montage", img: "/events-page/event-dummy.png" },
+      { name: "SFC", img: "/events-page/sfc.png" },
+      { name: "Montage", img: "/events-page/montage.png" },
     ],
     fee: "200/- per team",
   },
@@ -942,8 +942,8 @@ Decode the series of pictures showcasing iconic scenes, just like the classical 
     clubDescription: `Arudhra and Ameya, a dynamic sister collaboration, breathe life into traditional Indian dance, showcasing profound excellence with skilled and passionate dancers. Through a seamless blend of passion, discipline, and flair, our performances transcend boundaries, leaving an indelible mark on every event. As we continue to weave the tapestry of tradition and innovation, we invite you to join us on a journey through the heart of classical dance.
     `,
     clubLogos: [
-      { name: "Arudhra CDT", img: "/events-page/event-dummy.png" },
-      { name: "Ameya CDC", img: "/events-page/event-dummy.png" },
+      { name: "Arudhra CDT", img: "/events-page/arudra.png" },
+      { name: "Ameya CDC", img: "/events-page/ameya.png" },
     ],
     fee: 150,
   },
@@ -979,8 +979,8 @@ Prepare yourself for a visual and rhythmic challenge. An audio-visual of a class
     clubDescription: `Arudhra and Ameya, a dynamic sister collaboration, breathe life into traditional Indian dance, showcasing profound excellence with skilled and passionate dancers. Through a seamless blend of passion, discipline, and flair, our performances transcend boundaries, leaving an indelible mark on every event. As we continue to weave the tapestry of tradition and innovation, we invite you to join us on a journey through the heart of classical dance.
     `,
     clubLogos: [
-      { name: "Arudhra CDT", img: "/events-page/event-dummy.png" },
-      { name: "Ameya CDC", img: "/events-page/event-dummy.png" },
+      { name: "Arudhra CDT", img: "/events-page/arudra.png" },
+      { name: "Ameya CDC", img: "/events-page/ameya.png" },
     ],
     fee: "250/- per team",
   },
@@ -1022,8 +1022,8 @@ Prepare yourself for a visual and rhythmic challenge. An audio-visual of a class
     clubDescription: `A land where the music never stops and the energy is always electric! Immerse yourself in a pulsating atmosphere that celebrates the spirit of fiesta, bringing the vibrant beats to life. Join us for a fiesta-filled experience that transcends borders, uniting music lovers in a joyous celebration of life and rhythm. It's a fiesta waiting to be unleashed!
     `,
     clubLogos: [
-      { name: "SMC", img: "/events-page/event-dummy.png" },
-      { name: "SNU Isai", img: "/events-page/event-dummy.png" },
+      { name: "SMC", img: "/events-page/smc.png" },
+      { name: "SNU Isai", img: "/events-page/isai.jpg" },
     ],
     fee: 150,
   },
@@ -1057,8 +1057,8 @@ Prepare yourself for a visual and rhythmic challenge. An audio-visual of a class
     clubDescription: `A land where the music never stops and the energy is always electric! Immerse yourself in a pulsating atmosphere that celebrates the spirit of fiesta, bringing the vibrant beats to life. Join us for a fiesta-filled experience that transcends borders, uniting music lovers in a joyous celebration of life and rhythm. It's a fiesta waiting to be unleashed!
     `,
     clubLogos: [
-      { name: "SMC", img: "/events-page/event-dummy.png" },
-      { name: "SNU Isai", img: "/events-page/event-dummy.png" },
+      { name: "SMC", img: "/events-page/smc.png" },
+      { name: "SNU Isai", img: "/events-page/isai.jpg" },
     ],
     fee: "200 (Club Pass)",
   },
@@ -1103,8 +1103,8 @@ Prepare yourself for a visual and rhythmic challenge. An audio-visual of a class
     clubDescription: `A land where the music never stops and the energy is always electric! Immerse yourself in a pulsating atmosphere that celebrates the spirit of fiesta, bringing the vibrant beats to life. Join us for a fiesta-filled experience that transcends borders, uniting music lovers in a joyous celebration of life and rhythm. It's a fiesta waiting to be unleashed!
     `,
     clubLogos: [
-      { name: "SMC", img: "/events-page/event-dummy.png" },
-      { name: "SNU Isai", img: "/events-page/event-dummy.png" },
+      { name: "SMC", img: "/events-page/smc.png" },
+      { name: "SNU Isai", img: "/events-page/isai.jpg" },
     ],
     fee: "200 (Club Pass)",
   },
@@ -1144,8 +1144,8 @@ Prepare yourself for a visual and rhythmic challenge. An audio-visual of a class
     clubDescription: `A land where the music never stops and the energy is always electric! Immerse yourself in a pulsating atmosphere that celebrates the spirit of fiesta, bringing the vibrant beats to life. Join us for a fiesta-filled experience that transcends borders, uniting music lovers in a joyous celebration of life and rhythm. It's a fiesta waiting to be unleashed!
     `,
     clubLogos: [
-      { name: "SMC", img: "/events-page/event-dummy.png" },
-      { name: "SNU Isai", img: "/events-page/event-dummy.png" },
+      { name: "SMC", img: "/events-page/smc.png" },
+      { name: "SNU Isai", img: "/events-page/isai.jpg" },
     ],
     fee: "200 (Club Pass)",
   },
@@ -1197,8 +1197,8 @@ This event focuses on the ability of a designer to comprehend a given concept an
     contacts: ["Abhinaya (+91 91766 39302)", "Aditya Varun (+91 95660 73896)"],
     clubDescription: `Welcome to Gradient and Aura, the design clubs of SSN and SNUC, respectively. We are inclusive communities that embrace diversity across all skill levels. Whether you're an experienced pro or an emerging designer, you'll find a supportive network for exchanging experiences and exploring various design forms. Here, creativity knows no bounds, and we enthusiastically celebrate every artistic pursuit. Join us for a journey of collaboration and inspiration!`,
     clubLogos: [
-      { name: "SDC", img: "/events-page/event-dummy.png" },
-      { name: "Aura", img: "/events-page/event-dummy.png" },
+      { name: "SDC", img: "/events-page/sdc.png" },
+      { name: "Aura", img: "/events-page/aura.png" },
     ],
     fee: "200/- per individual",
   },
@@ -1237,8 +1237,8 @@ This event focuses on the ability of a designer to comprehend a given concept an
     ],
     clubDescription: `Welcome to Gradient and Aura, the design clubs of SSN and SNUC, respectively. We are inclusive communities that embrace diversity across all skill levels. Whether you're an experienced pro or an emerging designer, you'll find a supportive network for exchanging experiences and exploring various design forms. Here, creativity knows no bounds, and we enthusiastically celebrate every artistic pursuit. Join us for a journey of collaboration and inspiration!`,
     clubLogos: [
-      { name: "SDC", img: "/events-page/event-dummy.png" },
-      { name: "Aura", img: "/events-page/event-dummy.png" },
+      { name: "SDC", img: "/events-page/sdc.png" },
+      { name: "Aura", img: "/events-page/aura.png" },
     ],
     fee: "200/- per team",
   },
@@ -1270,8 +1270,8 @@ This event focuses on the ability of a designer to comprehend a given concept an
     ],
     clubDescription: `Welcome to Gradient and Aura, the design clubs of SSN and SNUC, respectively. We are inclusive communities that embrace diversity across all skill levels. Whether you're an experienced pro or an emerging designer, you'll find a supportive network for exchanging experiences and exploring various design forms. Here, creativity knows no bounds, and we enthusiastically celebrate every artistic pursuit. Join us for a journey of collaboration and inspiration!`,
     clubLogos: [
-      { name: "SDC", img: "/events-page/event-dummy.png" },
-      { name: "Aura", img: "/events-page/event-dummy.png" },
+      { name: "SDC", img: "/events-page/sdc.png" },
+      { name: "Aura", img: "/events-page/aura.png" },
     ],
     fee: "200/- per team",
   },
@@ -1320,7 +1320,7 @@ This event focuses on the ability of a designer to comprehend a given concept an
     Regardless of whether you have a flair for business, or if you're just looking for a good time, look no further. The SNUC Business Club has got you covered!
     `,
     clubLogos: [
-      { name: "SNUC Business Club", img: "/events-page/event-dummy.png" },
+      { name: "SNUC Business Club", img: "/events-page/business_club.jpg" },
     ],
     fee: 100,
   },
@@ -1353,11 +1353,11 @@ This event focuses on the ability of a designer to comprehend a given concept an
     clubLogos: [
       {
         name: "SPC",
-        img: "/events-page/event-dummy.png",
+        img: "/events-page/spc.jpg",
       },
       {
         name: "Capturesque",
-        img: "/events-page/event-dummy.png",
+        img: "/events-page/capturesque.jpg",
       },
     ],
     fee: 100,
@@ -1400,11 +1400,11 @@ This event focuses on the ability of a designer to comprehend a given concept an
     clubLogos: [
       {
         name: "SPC",
-        img: "/events-page/event-dummy.png",
+        img: "/events-page/spc.jpg",
       },
       {
         name: "Capturesque",
-        img: "/events-page/event-dummy.png",
+        img: "/events-page/capturesque.jpg",
       },
     ],
     fee: 150,
