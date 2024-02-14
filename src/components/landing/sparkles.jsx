@@ -23,7 +23,7 @@ export default function Sparkles() {
           alt="sparkles"
           width={1100}
           height={685}
-          className="z-30 absolute left-[50%] top-[50%] transform translate-x-[-50%] translate-y-[-50%]"
+          className="z-[12] absolute left-[50%] top-[50%] transform translate-x-[-50%] translate-y-[-50%]"
         />
       )}
       {sparkles === 2 && (
@@ -32,7 +32,7 @@ export default function Sparkles() {
           alt="sparkles"
           width={1100}
           height={685}
-          className="z-30 absolute left-[50%] top-[50%] transform translate-x-[-50%] translate-y-[-50%]"
+          className="z-[12] absolute left-[50%] top-[50%] transform translate-x-[-50%] translate-y-[-50%]"
         />
       )}
       {sparkles === 3 && (
@@ -41,7 +41,7 @@ export default function Sparkles() {
           alt="sparkles"
           width={1100}
           height={685}
-          className="z-30 absolute left-[50%] top-[50%] transform translate-x-[-50%] translate-y-[-50%]"
+          className="z-[12] absolute left-[50%] top-[50%] transform translate-x-[-50%] translate-y-[-50%]"
         />
       )}
     </>

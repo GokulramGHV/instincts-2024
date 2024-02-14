@@ -16,8 +16,16 @@ export const categories = [
     color: "#2E3192",
   },
   {
+    name: "Theatre",
+    color: "#F6C826",
+  },
+  {
     name: "Design",
     color: "#F6800E",
+  },
+  {
+    name: "English Lit.",
+    color: "#05B163",
   },
   {
     name: "Photography",
@@ -26,6 +34,10 @@ export const categories = [
   {
     name: "Film",
     color: "#914E0D",
+  },
+  {
+    name: "Fine Arts",
+    color: "#C297F9",
   },
   {
     name: "Classical Dance",
@@ -47,6 +59,482 @@ export const categories = [
 
 export const events = [
   {
+    title: "Pattimandram",
+    dayDetail: "TBD",
+    category: "Tamil Lit.",
+    image: "/events-page/event-dummy.png",
+    color: "#DB2525",
+    teamSize: "1",
+    prize: [
+      { place: "FIRST", amount: "TBD" },
+      { place: "SECOND", amount: "TBD" },
+      { place: "THIRD", amount: "TBD" },
+    ],
+    description: ``,
+    rules: `- இப்போட்டியில் கலந்துக் கொள்ள உங்களுக்குத் தமிழ் பேசத் தெரிந்திருந்தாலே போதும்.
+- பட்டிமன்றத்திற்கான நுழைவுப் போட்டி, அதாவது Prelims
+### Prelims:
+1. ஒரு வாரத்திற்கு முன்னதாகவே போட்டியிற்கான 3 தலைப்புகள் வழங்கப்படும்.
+2. போட்டியாளர்கள் தங்களுக்கு விருப்பமான கொடுக்கப்பட்டுள்ள தலைப்புகளில் ஏதேனும் ஒன்றைத் தேர்ந்தெடுத்துக் கொள்ளலாம்.
+3. தங்களின் கருத்துகளை பதிய தலா ஐந்து நிமிடங்கள் கொடுக்கப்படும்.
+4. நடுவரின் தீர்மானத்தில் உங்களில் சிறந்த ஆறு நாவலர்கள் தேர்ந்தெடுக்கப்படுவர்.
+### Finals:
+5. அந்த அறுவரும் 2 குழுக்களாக பிரிக்கப்பட்டு பட்டிமன்றத்தில் பேச வாய்ப்பளிக்கப்படுவர்.
+6. தங்களின் கருத்துக்களை பதிய இங்கும் தலா 5 நிமிடங்கள் கொடுக்கப்படும்.
+7. நடுவரின் தீர்ப்புக்கு உடன்பட்டு வெற்றியாளர் அறிவிக்கப்படுவர்.
+    `,
+    contacts: ["Yogesh Raj RB (7373346068)"],
+    clubDescription: `சாரல் தமிழ் மன்றத்திலிருந்தொரு தமிழ் வணக்கம்!
+    மனம் கமழும் மொழி வளத்தில் 
+    மொழி வளர்க்க பல கலைகள் ஊன்றி
+    பதம் கோர்க்க   தன்னில் கருத்துரித்து
+    களம் எடுத்து உன்னை வளர்த்தெடுத்தோம் !
+    ஆம்! சாரல் தமிழ் மன்றத்தின் உங்களுக்கான போட்டி தான் இது,
+    பட்டிமன்றத்திற்கான நுழைவு போட்டி!
+    உங்களின் சொல்லாற்றளையும், நாவின்மையும் சோதித்துப் பார்க்க சாரல் தமிழ் மன்றம் களம் அமைக்க போகிறது!
+    `,
+    clubLogos: [
+      { name: "Saaral", img: "/events-page/event-dummy.png" },
+      { name: "Mudivizhi", img: "/events-page/event-dummy.png" },
+    ],
+    fee: "150",
+  },
+  {
+    title: "Sagalagalavalavan",
+    dayDetail: "TBD",
+    category: "Tamil Lit.",
+    image: "/events-page/event-dummy.png",
+    color: "#DB2525",
+    teamSize: "2",
+    prize: [
+      { place: "FIRST", amount: "TBD" },
+      { place: "SECOND", amount: "TBD" },
+      { place: "THIRD", amount: "TBD" },
+    ],
+    description: ``,
+    rules: `### வசன கர்த்தா
+முதல் ஷோ சீட்டு வாங்கி தலைவர் பட வசனங்களை மணப்பாடமாய் பார்த்து பேசிய நமக்கு, திறமையை வெளி படுத்த ஒரு வாய்ப்பு தருகிறது வசன கர்த்தா போட்டி!!
+1. உங்களுக்கு ஏதேனும் ஒரு திரை பட வசன காட்சி காண்பிக்க படும்
+2. அதை இருவரில் ஒருவர்பேசி காட்ட வேண்டும். சிறந்த முறையில் வசனத்தை சொல்பவருக்கு மதிப்பெண்கள் வழங்கப் படும்.
+3. ஒரு அணிக்கு ஒரு வாய்ப்பு மட்டுமே 
+4.இரு முறை மட்டுமே காட்சி காண்பிக்க படும்.
+### இசைத் தமிழ்
+இளங்கோவடிகள் முதல் அனிருத் வரை நம்மை இசையால் கட்டி போட்ட மாயத்தை ஊரறியும். அந்த இசையில் உள்ள பாடல்களில் சில சொற்களின் பொருளை சொல்ல பொருளை தரும் போட்டி இசை தமிழ்
+1. எங்கள் குழுவினர் பாத்து பாடல்களை உங்களுக்கு இசைத்து காண்பிப்பார்கள்.
+2. அந்த பத்து பாடல்களில் உள்ள வார்த்தைகள் அல்லது சொற்தொடரின் பொருளை மையமாக வைத்து கேள்விதாள் வழங்கப்படும்.
+3. சரியான பதிலை வழங்கும் பொருட்டு மதிப்பெண் வழங்கப்படும்.
+4. கைபேசியைப் பயன் படுத்த கூடாது
+### வாயை மூடி பேசவும்
+முத்தமிழில் மூன்றாம் தமிழாம் நாடகத்தை போற்றுவது வாயை மூடி பேசவும் போட்டி.
+1. உங்கள் குழுவில் இருவரில் ஒருவர் காதில் திருக்குறள் பழமொழிகள் என ஏதோ ஒன்று சொல்ல படும் அதை அவர் மற்றொரு குழுவினருக்கு நடித்து காட்டி கண்டு புடிக்க
+வேண்டும்.
+2. குறிப்பிட்ட நேர அவகாசத்திற்குள் எத்தனை குரலை சொல்கிறீர்களோ அத்தனை மதிப்பெண் வழங்கப்படும்.
+### தொடரி போட்டி
+செங்கலை வைத்து வீடு கட்டலாம் வார்த்தைகளை
+வைத்து கதை கட்டலாம் வாருங்கள். தொடரியை போல்
+வார்த்தைகளை எடுத்து அதை கதையாய் தொடுக்க
+வெற்றி நமதே!   
+1.ஒருங்கிணைப்பாளர் ஒரு வார்த்தையை சொல்லி துவங்குவார். அதற்கு தொடர்புடைய வார்த்தை ஒன்றை ஒரு குழு சொல்ல வேண்டும். அந்த வார்த்தைக்கு தொடர்புடைய வார்த்தையை மற்றொரு குழு சொல்ல வேண்டும்.
+2. இப்படி இரண்டு குழுக்கள் மாற்றி மாற்றி வார்த்தைகளை 5 நொடி இடைவெளிக்குள் சொல்ல வேண்டும். 20 வார்த்தைகள் வந்ததும். அந்த 20 வார்த்தைகளை வைத்து 2 குழுவும் தனி தனியாக கதை சொல்ல வேண்டும். கதையின் சுவை பொறுத்து மதிப்பெண்கள் வழங்கப்படும்.
+    `,
+    contacts: ["Prathosh (9003570127)", "Swathi (9444238426)"],
+    clubDescription: `சாரல் தமிழ் மன்றத்திலிருந்தொரு தமிழ் வணக்கம்!
+    மனம் கமழும் மொழி வளத்தில் 
+    மொழி வளர்க்க பல கலைகள் ஊன்றி
+    பதம் கோர்க்க   தன்னில் கருத்துரித்து
+    களம் எடுத்து உன்னை வளர்த்தெடுத்தோம் !
+    ஆம்! சாரல் தமிழ் மன்றத்தின் உங்களுக்கான போட்டி தான் இது,
+    பட்டிமன்றத்திற்கான நுழைவு போட்டி!
+    உங்களின் சொல்லாற்றளையும், நாவின்மையும் சோதித்துப் பார்க்க சாரல் தமிழ் மன்றம் களம் அமைக்க போகிறது!
+    `,
+    clubLogos: [
+      { name: "Saaral", img: "/events-page/event-dummy.png" },
+      { name: "Mudivizhi", img: "/events-page/event-dummy.png" },
+    ],
+    fee: "200/- per team",
+  },
+  {
+    title: "Debate",
+    dayDetail: "TBD",
+    category: "English Lit.",
+    image: "/events-page/event-dummy.png",
+    color: "#05B163",
+    teamSize: "2",
+    prize: [
+      { place: "FIRST", amount: "TBD" },
+      { place: "SECOND", amount: "TBD" },
+      { place: "THIRD", amount: "TBD" },
+    ],
+    description: `Dear Debaters and Wordsmiths,
+    Step right up to the greatest show of intellect in town! We're thrilled to invite you to our debating extravaganza, where the carnival of ideas is in full swing. Roll up your sleeves, unleash your rhetoric, and join the lively spectacle at our cultural fest. This isn't just any debate—it's a carousel of wit, a tilt-a-whirl of viewpoints, and a rollercoaster of eloquence. So, tighten your grip on the microphone, as we promise a debate that'll leave you spinning with excitement. Let's turn the arena into a debate midway, where every argument is a game-changer. See you at the debate carnival—it's time to make your words the star attraction!    
+    `,
+    rules: `- Each debating round will consist of two teams - one to propose (for) the motion and one to oppose (against) the motion.
+- 3 minutes for each speaker to present their argument and 1 minute for rebuttal each.
+- Preparation time will be given for each topic.
+- Registration is on a first-come-first-serve basis.
+    `,
+    contacts: ["Yashasvee - 8925155539", "Aditi - 9791011123"],
+    clubDescription: `Welcome to the English Literary Club (ELC) at SSN and SNUC, where the magic of literature bursts into vibrant life! Whether you're a seasoned wordsmith or a blossoming writer, our inclusive community revels in a kaleidoscope of talents. Join us for lively debates, stand-up extravaganzas, word puzzles that sizzle, literary jams that resonate, and more. At ELC, creativity knows no boundaries, and we invite everyone to join the fiesta of literary pursuits. Come, dance with words, be a part of our jubilant journey, where collaboration and inspiration celebrate in full fiesta flair!
+    `,
+    clubLogos: [
+      { name: "SSN ELC", img: "/events-page/event-dummy.png" },
+      { name: "SNUC ELC", img: "/events-page/event-dummy.png" },
+    ],
+    fee: "TBD",
+  },
+  {
+    title: "JAM",
+    dayDetail: "TBD",
+    category: "English Lit.",
+    image: "/events-page/event-dummy.png",
+    color: "#05B163",
+    teamSize: "1",
+    prize: [
+      { place: "FIRST", amount: "TBD" },
+      { place: "SECOND", amount: "TBD" },
+      { place: "THIRD", amount: "TBD" },
+    ],
+    description: `The fireworks are ready, the playlist is queued, and the crowd is electrified by the festival air. But oh wait, boredom is creeping into the shadows and threatening to ruin the party. To defeat them, you must capture the audience's attention successfully for an entire minute without errors. Behold, amid this lively celebration, a special room filled with laughter and cheer awaits your presence. Can you captivate the audience, and deliver a minute of funny magic, logic be damned? Are you ready for the ultimate challenge that could fill your pockets with prizes and treasures beyond your wildest dreams? Claim your place as the crowned champion of "Viva La Fiesta", by embracing the carnival spirit and letting the fiesta of a lifetime unfold!    
+    `,
+    rules: `- Each round of this game is for 60 seconds each.
+- Points are awarded for the amount of time spoken for, as well as correct objections.
+- In case of a wrong objection, points will be deducted.
+    `,
+    contacts: ["Anirudh - 9841817634", "Raya - 8903060081"],
+    clubDescription: `Welcome to the English Literary Club (ELC) at SSN and SNUC, where the magic of literature bursts into vibrant life! Whether you're a seasoned wordsmith or a blossoming writer, our inclusive community revels in a kaleidoscope of talents. Join us for lively debates, stand-up extravaganzas, word puzzles that sizzle, literary jams that resonate, and more. At ELC, creativity knows no boundaries, and we invite everyone to join the fiesta of literary pursuits. Come, dance with words, be a part of our jubilant journey, where collaboration and inspiration celebrate in full fiesta flair!
+    `,
+    clubLogos: [
+      { name: "SSN ELC", img: "/events-page/event-dummy.png" },
+      { name: "SNUC ELC", img: "/events-page/event-dummy.png" },
+    ],
+    fee: "TBD",
+  },
+  {
+    title: "Stand-Up Comedy Contest",
+    dayDetail: "TBD",
+    category: "English Lit.",
+    image: "/events-page/event-dummy.png",
+    color: "#05B163",
+    teamSize: "1",
+    prize: [
+      { place: "FIRST", amount: "TBD" },
+      { place: "SECOND", amount: "TBD" },
+      { place: "THIRD", amount: "TBD" },
+    ],
+    description: `Exactly as the name suggests, the participants will be required to perform a set for a judge and an audience. Everybody is welcome, if you're funny, we'll laugh at your jokes. If not... Well, we'll laugh at you.
+    `,
+    rules: `- Keep your sets under 5 minutes.
+- Sets in English are preferred, Tamil and Hindi are okay as well.
+- Obscenity is to be avoided!
+- Kindly refrain from topics directly derogatory towards colleges, faculties, or any student.
+- Plagiarism will lead to disqualification.
+- Taking names of any person, reputed celebrities, or institutions will lead to instant disqualification.
+    `,
+    contacts: ["Aadithya - 9176312598", "Rahil - 9840828309"],
+    clubDescription: `Welcome to the English Literary Club (ELC) at SSN and SNUC, where the magic of literature bursts into vibrant life! Whether you're a seasoned wordsmith or a blossoming writer, our inclusive community revels in a kaleidoscope of talents. Join us for lively debates, stand-up extravaganzas, word puzzles that sizzle, literary jams that resonate, and more. At ELC, creativity knows no boundaries, and we invite everyone to join the fiesta of literary pursuits. Come, dance with words, be a part of our jubilant journey, where collaboration and inspiration celebrate in full fiesta flair!
+    `,
+    clubLogos: [
+      { name: "SSN ELC", img: "/events-page/event-dummy.png" },
+      { name: "SNUC ELC", img: "/events-page/event-dummy.png" },
+    ],
+    fee: "TBD",
+  },
+  {
+    title: "A Musing Affair",
+    dayDetail: "TBD",
+    category: "English Lit.",
+    image: "/events-page/event-dummy.png",
+    color: "#05B163",
+    teamSize: "1",
+    prize: [
+      { place: "FIRST", amount: "TBD" },
+      { place: "SECOND", amount: "TBD" },
+      { place: "THIRD", amount: "TBD" },
+    ],
+    description: `Round 1: Alluring Ink
+    You look up at the sky, as the fireworks start. They arouse a sense of belonging and nostalgia in you. That makes you think of someone or something, a memory even. You see words over the fireworks, and before they rush away from you, you quickly open your notes app to write down as the fireworks fade away into the background
+    Round 2: Whimsical Wordsmith 
+    You're at the gala now, and some words start to glimmer, they're all connected somehow. You run, wanting more and they bring you into this realm of your making. Colour it the way you want, and spin that magical yarn. But, as time goes on the words fade away. Complete this realm using every word.
+    `,
+    rules: `- **Round 1**:
+  - 2-3 lines of written captions will be collected from participants, 90 - 120 seconds after each picture has been displayed.
+  - Captions will be judged and the best of them will be nominated to round 2.
+- **Round 2**:
+  - Make sure to include all the given words in the submission.
+  - Submissions, in the form of prose or poetry, will be accepted.
+  - Word limit:
+    - Poem: 70 lines
+    - Prose: 700 words
+  - Late submissions will not be accepted.
+  - The submissions must be entirely the original work of the participant.
+    `,
+    contacts: ["Abinaya - 9360630071", "Sukirtha - 8525862033"],
+    clubDescription: `Welcome to the English Literary Club (ELC) at SSN and SNUC, where the magic of literature bursts into vibrant life! Whether you're a seasoned wordsmith or a blossoming writer, our inclusive community revels in a kaleidoscope of talents. Join us for lively debates, stand-up extravaganzas, word puzzles that sizzle, literary jams that resonate, and more. At ELC, creativity knows no boundaries, and we invite everyone to join the fiesta of literary pursuits. Come, dance with words, be a part of our jubilant journey, where collaboration and inspiration celebrate in full fiesta flair!
+    `,
+    clubLogos: [
+      { name: "SSN ELC", img: "/events-page/event-dummy.png" },
+      { name: "SNUC ELC", img: "/events-page/event-dummy.png" },
+    ],
+    fee: "TBD",
+  },
+  {
+    title: "Potpourri",
+    dayDetail: "TBD",
+    category: "English Lit.",
+    image: "/events-page/event-dummy.png",
+    color: "#05B163",
+    teamSize: "1",
+    prize: [
+      { place: "FIRST", amount: "TBD" },
+      { place: "SECOND", amount: "TBD" },
+      { place: "THIRD", amount: "TBD" },
+    ],
+    description: `A clown approaches with a cunning grin
+    Asks you to juggle word games, crosswords and puzzles for the win. 
+    
+    Will you choose to put your festive 'Instincts' to the test,
+    Don your carnival mask,
+    Attempt a Potpourri of games to complete the task?
+    You have a clown to best.    
+    `,
+    rules: `- Round 1 is a written quiz with puzzles.
+- Teams that clear Round 1 enter Round 2.
+- Round 2 will have miscellaneous games like dumb charades, Pictionary, etc.
+    `,
+    contacts: ["Nivedita - 7338757385", "Farhaan - 8925149937"],
+    clubDescription: `Welcome to the English Literary Club (ELC) at SSN and SNUC, where the magic of literature bursts into vibrant life! Whether you're a seasoned wordsmith or a blossoming writer, our inclusive community revels in a kaleidoscope of talents. Join us for lively debates, stand-up extravaganzas, word puzzles that sizzle, literary jams that resonate, and more. At ELC, creativity knows no boundaries, and we invite everyone to join the fiesta of literary pursuits. Come, dance with words, be a part of our jubilant journey, where collaboration and inspiration celebrate in full fiesta flair!
+    `,
+    clubLogos: [
+      { name: "SSN ELC", img: "/events-page/event-dummy.png" },
+      { name: "SNUC ELC", img: "/events-page/event-dummy.png" },
+    ],
+    fee: "TBD",
+  },
+  {
+    title: "Stew",
+    dayDetail: "TBD",
+    category: "English Lit.",
+    image: "/events-page/event-dummy.png",
+    color: "#05B163",
+    teamSize: "1",
+    prize: [
+      { place: "FIRST", amount: "TBD" },
+      { place: "SECOND", amount: "TBD" },
+      { place: "THIRD", amount: "TBD" },
+    ],
+    description: `Embark on a daring adventure through treacherous seas, facing a merciless storm that leaves you with only a single life jacket as a potential lifeline. Skillfully plead your case before the captain to secure your journey. Once on board, immerse yourself in a captivating odyssey of tales and legends spun by master storytellers, transporting you to magical realms amid the vibrant colours and lively music of Carnaval. This treacherous path leads to a delectable stew, capturing the essence of celebration in every spoonful, making the feast worth the adventurous journey.
+    `,
+    rules: `- **Round 1 - Shipwreck**:
+  - Participants will be assigned famous personalities.
+  - 3 to 5 minutes of speaking time.
+- **Round 2 - Surprise!**
+  - Performances can be in either English or Tamil.
+  - Winners will be selected based on judges' discretion following eliminations from round 1.
+- Judges’ decisions are final.
+    `,
+    contacts: ["Smruthi - 7092230140", "Ahana - 8925666996"],
+    clubDescription: `Welcome to the English Literary Club (ELC) at SSN and SNUC, where the magic of literature bursts into vibrant life! Whether you're a seasoned wordsmith or a blossoming writer, our inclusive community revels in a kaleidoscope of talents. Join us for lively debates, stand-up extravaganzas, word puzzles that sizzle, literary jams that resonate, and more. At ELC, creativity knows no boundaries, and we invite everyone to join the fiesta of literary pursuits. Come, dance with words, be a part of our jubilant journey, where collaboration and inspiration celebrate in full fiesta flair!
+    `,
+    clubLogos: [
+      { name: "SSN ELC", img: "/events-page/event-dummy.png" },
+      { name: "SNUC ELC", img: "/events-page/event-dummy.png" },
+    ],
+    fee: "TBD",
+  },
+  {
+    title: "Draw with comali",
+    dayDetail: "TBD",
+    category: "Fine Arts",
+    image: "/events-page/event-dummy.png",
+    color: "#C297F9",
+    teamSize: "2",
+    prize: [
+      { place: "FIRST", amount: "TBD" },
+      { place: "SECOND", amount: "TBD" },
+      { place: "THIRD", amount: "TBD" },
+    ],
+    description: `Inspired by the famous TV show cook with  comali with a twist of drawing, showcase your talent on the canvas while facing a few fun hurdles and hindrances along the way.   
+    `,
+    rules: `- This event is inspired by the popular TV show CooK with Comali, with an artistic twist.
+- There will be two rounds, each with a different set of obstacles.
+- Number of members per team: 2.
+- The duration of the event will be 2 hours.
+- **Charts will be provided** by the organizers.
+- All other supplies should be brought by the participants.
+- The hindrances will be pre-selected by the hosts.
+
+## Round 1
+- This round will be held during the first hour.
+- Once the participants start with their artwork, the first hindrance will be provided.
+- If they try to remove the hindrance, a punishment will be given.
+- After facing the punishment, they can resume their artwork.
+- This will continue for however many times they fail to do the hindrance task.
+
+## Round 2
+- The second hour of the event will comprise round 2.
+- A different hindrance will be provided this time.
+- Similar to round 1, there will be a set of punishments if they fail to complete the hindrance task.
+- No extra time will be given to the participants.
+- Each team has to adhere to the time limit.
+    `,
+    contacts: ["Janaaki - +91 8300380507", "Bhava Nidhi - +91 9962161104"],
+    clubDescription: `Handila is a community of artists and art lovers who come together regularly to create, share, and appreciate various forms of art. We offer a supportive and inclusive space for members to improve their skills, make connections, and connect with like-minded individuals. Recently, Handila has teamed up with INSTINCTS' 24 to provide an exciting experience for students interested in exploring a lost continent. This adventure combines creative expression and real-world exploration to uncover the secrets of an unknown land. Join the journey with art as your guide and discover the lost continent through adventure and imagination.
+    `,
+    clubLogos: [{ name: "Handila", img: "/events-page/event-dummy.png" }],
+    fee: "200/- per team",
+  },
+  {
+    title: "Roaming Paris",
+    dayDetail: "TBD",
+    category: "Fine Arts",
+    image: "/events-page/event-dummy.png",
+    color: "#C297F9",
+    teamSize: "2",
+    prize: [
+      { place: "FIRST", amount: "TBD" },
+      { place: "SECOND", amount: "TBD" },
+      { place: "THIRD", amount: "TBD" },
+    ],
+    description: `Costume designing event where participants are challenged to create costumes based upon the materials provided. 
+    `,
+    rules: `- Each team participating may be comprised of two to three members.
+- The teams will be provided with two hours to complete their costumes.
+- The participants are allowed to bring art supplies like glue, tape, colored sheets, sketch pens, and paint, and these will not be provided by the organizers.
+- Materials based on which the costumes are to be designed will be announced on the spot.
+- Participants are advised not to use store-bought costume elements such as clothes, ready-made dresses, etc. to enhance the sense of originality of their costumes.
+- Only the use of basic art supplies, as mentioned above, and material provided by the organizers to design the costumes are allowed.
+- The use of mobile phones or other electronic gadgets is strictly prohibited.
+- Vulgarity and obscenity will not be entertained in any form.
+    `,
+    contacts: ["Maanasa - +91 9884292004", "Ashwatha - +91 9566367991"],
+    clubDescription: `Handila is a community of artists and art lovers who come together regularly to create, share, and appreciate various forms of art. We offer a supportive and inclusive space for members to improve their skills, make connections, and connect with like-minded individuals. Recently, Handila has teamed up with INSTINCTS' 24 to provide an exciting experience for students interested in exploring a lost continent. This adventure combines creative expression and real-world exploration to uncover the secrets of an unknown land. Join the journey with art as your guide and discover the lost continent through adventure and imagination.
+    `,
+    clubLogos: [{ name: "Handila", img: "/events-page/event-dummy.png" }],
+    fee: "250/- per team",
+  },
+  {
+    title: "Carnival night sky",
+    dayDetail: "TBD",
+    category: "Fine Arts",
+    image: "/events-page/event-dummy.png",
+    color: "#C297F9",
+    teamSize: "2",
+    prize: [
+      { place: "FIRST", amount: "TBD" },
+      { place: "SECOND", amount: "TBD" },
+      { place: "THIRD", amount: "TBD" },
+    ],
+    description: `Challenge artists to capture the magic of a carnival at night. This could include vibrant depictions of lit-up rides, Ferris wheels, and the overall enchanting atmosphere under the night sky.
+    `,
+    rules: `- Time duration: 1 hour
+- Cannot refer to the phone during the competition
+- Maximum size of the team is 2
+- Both the team mates will paint together
+- The canvas sheets will be provided by the organizers
+- Any other art supply should be brought by the participants
+- Should stick to the given theme
+    `,
+    contacts: ["Varun - +91 9514775269", "Mugesh Kanna - +91 9150853524"],
+    clubDescription: `Handila is a community of artists and art lovers who come together regularly to create, share, and appreciate various forms of art. We offer a supportive and inclusive space for members to improve their skills, make connections, and connect with like-minded individuals. Recently, Handila has teamed up with INSTINCTS' 24 to provide an exciting experience for students interested in exploring a lost continent. This adventure combines creative expression and real-world exploration to uncover the secrets of an unknown land. Join the journey with art as your guide and discover the lost continent through adventure and imagination.
+    `,
+    clubLogos: [{ name: "Handila", img: "/events-page/event-dummy.png" }],
+    fee: "200/- per team",
+  },
+  {
+    title: "Spotlight",
+    dayDetail: "TBD",
+    category: "Theatre",
+    image: "/events-page/event-dummy.png",
+    color: "#F6C826",
+    teamSize: "1",
+    prize: [
+      { place: "FIRST", amount: "TBD" },
+      { place: "SECOND", amount: "TBD" },
+      { place: "THIRD", amount: "TBD" },
+    ],
+    description: `Do you have a passion for bringing characters to life with a captivating solo performance? Whether you're an experienced actor or someone stepping into the limelight for the first time, this is your chance to shine. Join us in an event where you can let your inner thespian thrive to make every monologue a masterpiece.
+    Participate in this competition hosted by the theater clubs of SSN and SNU - Lights Out Please! and All The World’s A Stage.    
+    `,
+    rules: `1. Please refrain from using any profanity throughout the monologue.
+2. Stick to the time limit (4-6 mins).
+3. Utilize the space on the stage well!
+4. Language used must primarily be English (Short phrases from other languages are acceptable)    
+    `,
+    contacts: ["Smruthi - 70922 30140", "Suhasini - 91335 00870"],
+    clubDescription: `Welcome to Lights Out Please! and All The World’s A Stage, the Theater Clubs of SSN and SNU. Whether you enjoy lighting up an entire stage with your storytelling or sitting watchfully with your quill giving a voice to the actors, we have a spot for you. We invite you to explore your passion, creativity, and artistic skills. Join us for a magical theatrical experience where the spotlight now lies on you.
+    `,
+    clubLogos: [
+      { name: "Lights Out Please", img: "/events-page/event-dummy.png" },
+      { name: "All The World's A Stage", img: "/events-page/event-dummy.png" },
+    ],
+    fee: "250 (Club Pass)",
+  },
+  {
+    title: "Enigma",
+    dayDetail: "TBD",
+    category: "Theatre",
+    image: "/events-page/event-dummy.png",
+    color: "#F6C826",
+    teamSize: "1",
+    prize: [
+      { place: "FIRST", amount: "TBD" },
+      { place: "SECOND", amount: "TBD" },
+      { place: "THIRD", amount: "TBD" },
+    ],
+    description: `Join in the intrigue as the Theatre Clubs of SSN and SNU proudly present our mystery event Enigma!
+    Think you've got the detective chops and a flair for the dramatic? Here's your chance to be Sherlock with a touch of Shakespeare. Get ready for a mix of mystery, madness, and, of course, loads of drama.
+    Everyone loves a good theatrical mystery, and we've got just the right dose for you. It's our  mystery event, and we're keeping the details under wraps until the big day. But here's a little teaser – actions will speak louder than words, and the script is nothing but a ruse. Eager to know more? Secure your spot by registering for the event right away! It's time to unravel the enigma.      
+    `,
+    rules: `Haven’t you heard it’s a mystery event!
+    `,
+    contacts: ["Hrithin - 99416 69034", "Danush - 824-8996178"],
+    clubDescription: `Welcome to Lights Out Please! and All The World’s A Stage, the Theater Clubs of SSN and SNU. Whether you enjoy lighting up an entire stage with your storytelling or sitting watchfully with your quill giving a voice to the actors, we have a spot for you. We invite you to explore your passion, creativity, and artistic skills. Join us for a magical theatrical experience where the spotlight now lies on you.
+    `,
+    clubLogos: [
+      { name: "Lights Out Please", img: "/events-page/event-dummy.png" },
+      { name: "All The World's A Stage", img: "/events-page/event-dummy.png" },
+    ],
+    fee: "250 (Club Pass)",
+  },
+
+  {
+    title: "Quills Out Please!",
+    dayDetail: "TBD",
+    category: "Theatre",
+    image: "/events-page/event-dummy.png",
+    color: "#F6C826",
+    teamSize: "1",
+    prize: [
+      { place: "FIRST", amount: "TBD" },
+      { place: "SECOND", amount: "TBD" },
+      { place: "THIRD", amount: "TBD" },
+    ],
+    description: `A perception can change the way we see a story; a story can change the way we perceive. Are you ready to transform your perspective into a fascinating play? Here is your chance...
+    Register now for the playwriting competition, hosted by the Theater Clubs of SSN and SNU - Lights Out Please! and All The World’s A Stage. With minimal rules and maximal allowance to let your creativity run wild, we guarantee a fun and enthralling experience!        
+    Submit your full length scripts by 8th March.
+    `,
+    rules: `1. Scripts must be original, and unpublished elsewhere.
+2. Explicit content is not encouraged.
+3. Include a title, Log line, and Character sketches before the play!
+4. Font: TNR size 12, line spacing 1, limit 40 pages.
+5. Open theme.
+    `,
+    contacts: ["Ashir Rehaan -  98408 31050", "Vidhyashree - 94890 66698"],
+    clubDescription: `Welcome to Lights Out Please! and All The World’s A Stage, the Theater Clubs of SSN and SNU. Whether you enjoy lighting up an entire stage with your storytelling or sitting watchfully with your quill giving a voice to the actors, we have a spot for you. We invite you to explore your passion, creativity, and artistic skills. Join us for a magical theatrical experience where the spotlight now lies on you.
+    `,
+    clubLogos: [
+      { name: "Lights Out Please", img: "/events-page/event-dummy.png" },
+      { name: "All The World's A Stage", img: "/events-page/event-dummy.png" },
+    ],
+    fee: "250 (Club Pass)",
+  },
+  {
+    title: "Reels of fire",
+    dayDetail: "TBD",
+    category: "Film",
+    image: "/events-page/event-dummy.png",
+    color: "#914E0D",
+    teamSize: "Flexible",
     title: "WESTERN SOLO",
     dayDetail: "7th March",
     category: "Western Dance",
@@ -406,7 +894,7 @@ We take pride in our journey, from a handful of enthusiasts to a thriving commun
       { place: "THIRD", amount: "TBD" },
     ],
     description: `The "Lights, Camera, Sale!" event will feature teams competing by bidding on movie-related questions and participating in exciting quiz rounds. Quiz enthusiasts and movie buffs, this is your chance to show your zeal and knowledge in the world of films, and it will be super fun, we promise! Each round introduces a new topic, and teams must provide diverse answers within a set time. Eliminations occur based on the points scored in each round.`,
-    rules: `### Round 1: Auction Time!**
+    rules: `### Round 1: Auction Time!
 This is a movie-based auction you wouldn’t have seen anywhere ever before. The auctioneer would announce the question (say number of movies with female protagonists) and teams bid on the number of such movies they know. The highest bidder answers the questions and on failing to, the next highest bidder gets the chance. The auction continues and the teams with the highest points proceed to the next round.
 
 ### Round 2: The Mega Movies Quiz!
@@ -837,46 +1325,88 @@ This event focuses on the ability of a designer to comprehend a given concept an
     fee: 100,
   },
   {
-    title: "Photography Event",
+    title: "Online Photography Contest",
     dayDetail: "TBD",
     category: "Photography",
     image: "/events-page/event-dummy.png",
-    color: "#3D3D3D",
-    teamSize: 2,
+    color: "#00644C",
+    teamSize: 1,
     prize: [
       { place: "FIRST", amount: "TBD" },
       { place: "SECOND", amount: "TBD" },
     ],
-    description: `Get your dance partner to duke it out with the best hip hop
-            freestyle dancers in the city. Watch the crowd roar as you showcase
-            your best moves in the cypher.`,
-    rules: [
-      "Team of 2.",
-      "Time limit : 60-120 seconds per team.",
-      "Pairs will be pitted against each other at random.",
-      "Team dynamics, cohesion of groove, creativity and audience response will be judged.",
-      "Usage of props is allowed.",
-      "Obscenity and vulgarity will not be entertained.",
-      "Inflammable objects, water and heavy objects are not allowed on stage.",
-      "Decisions of the judges and coordinators will be final and binding.",
-      "The Organizing Committee reserves the right to modify the event at any point.",
-    ],
-    contacts: ["9876346765"],
-    clubDescription: `Step into the vibrant world of our Western Dance Club, where every
-              movement ignites the spirit of celebration! Embracing the theme of
-              "Viva La Fiesta," our dancers fuse passion with rhythm, delivering
-              electrifying performances that transport you to the heart of a
-              lively fiesta. With dynamic choreography and infectious energy, we
-              invite you to join us on a journey filled with pulsating beats and
-              sizzling moves, where every step is a celebration of life and
-              culture. Get ready to unleash your inner dancer and let the fiesta
-              begin!`,
+    description: `Having a knack for taking great pictures? Or looking out for frames when your eyes are wide open? If that’s the case, flex your talents here and win alluring prizes.`,
+    rules: `- Two submissions per participant (Applicable to all college students)
+- Theme: **Yet to Decide**
+- Participants must follow @ssn_photography_club, @snuc_capturesque
+- Basic Colour Correction is allowed; photo manipulation is strictly prohibited. Plagiarism will lead to disqualification.
+- Pictures to be sent as .jpeg/.jpg (along with RAW if picture has been edited).
+- Pictures with watermarks shall not be evaluated.
+- The submission must include your Name and Contact Details which are to be emailed to ssnphotographyclub@ssn.edu.in with the subject OPC '24 (Format for file name: FullName_College)
+- Decision of the judge shall be bound and final.
+    `,
+    contacts: ["Krishna Karthikeyan - 8618584124", "Jaishree - 6379631417"],
+    clubDescription: `SPC x Capturesque enables you to capture moments which would make you look at it like "No way I clicked this."
+    Together, we will make you turn into a photographer (at least we'll teach you how to pretend) and have lots of fun together as one community both on and off our lenses.
+    Community and Captures, Peers and Photographs,All at one place.
+    `,
     clubLogos: [
       {
         name: "SPC",
-        img: "",
+        img: "/events-page/event-dummy.png",
+      },
+      {
+        name: "Capturesque",
+        img: "/events-page/event-dummy.png",
       },
     ],
     fee: 100,
+  },
+  {
+    title: "SnapQuest",
+    dayDetail: "TBD",
+    category: "Photography",
+    image: "/events-page/event-dummy.png",
+    color: "#00644C",
+    teamSize: 1,
+    prize: [
+      { place: "FIRST", amount: "TBD" },
+      { place: "SECOND", amount: "TBD" },
+    ],
+    description: `The offline photography contest cherishes candid moments, weaving enchanting stories through captured frames. It revels in the joy of photography, celebrating spontaneous beauty and genuine emotions. Embracing abstract images, reflections, and patterns in nature, the contest transforms ordinary scenes into extraordinary tales. Each click is a poetic exploration, revealing the profound beauty hidden in unscripted moments and the intricate details of our surroundings. The competition beckons photographers to discover bliss in the art, where the fusion of candid storytelling and the artistry of abstract compositions paints a vibrant canvas of visual delight.
+    `,
+    rules: `1. Three submissions per participant (Applicable to all college students)
+2. Theme : Open 
+3. Duration : From March 7th - 9 am to March 8th - 8 pm (2 days)
+4. The entries must be submitted by 12 pm noon (March 9th) for evaluation.
+5. Photos should be shot inside the college premises only.
+6.  Participants must follow @ssn_photography_club, @snuc_capturesque
+7.  Basic Colour Correction is allowed; photo manipulation is strictly prohibited. Plagiarism will   lead to disqualification.
+8.  Pictures to be sent as .jpeg/.jpg (along with RAW if the picture has been edited).
+9.  Pictures with watermarks shall not be evaluated.
+10.  The submission must include your Name and Contact Details which are to be emailed to ssnphotographyclub@ssn.edu.in with the subject SnapQuest '24 (Format for file name: FullName_College)
+11.  Decision of the judge shall be bound and final.
+### Important guidelines to be followed - 
+- Don't take pictures that make people look bad or uncomfortable.
+- Respect personal space, especially in busy places.
+- Only share photos that follow community rules and are okay for everyone to see.
+    
+    `,
+    contacts: ["Venkatanathan M A - 9176762175", "Raveesh - 9995985389"],
+    clubDescription: `SPC x Capturesque enables you to capture moments which would make you look at it like "No way I clicked this."
+    Together, we will make you turn into a photographer (at least we'll teach you how to pretend) and have lots of fun together as one community both on and off our lenses.
+    Community and Captures, Peers and Photographs,All at one place.
+    `,
+    clubLogos: [
+      {
+        name: "SPC",
+        img: "/events-page/event-dummy.png",
+      },
+      {
+        name: "Capturesque",
+        img: "/events-page/event-dummy.png",
+      },
+    ],
+    fee: 150,
   },
 ];
