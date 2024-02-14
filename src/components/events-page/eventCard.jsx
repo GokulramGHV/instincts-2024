@@ -28,8 +28,8 @@ export default function EventCard({ event, setModalOpen, setSelectedEvent }) {
           <Image
             src={event.image}
             alt="event-image"
-            className="p-4 sm:px-5 sm:pt-5 sm:pb-0 w-full h-full"
-            width={300}
+            className="p-4 sm:px-5 sm:pt-5 sm:pb-0 w-full h-full object-cover"
+            width={400}
             height={200}
           />
         </div>
