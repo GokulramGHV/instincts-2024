@@ -42,15 +42,22 @@ export default function HeroSection() {
               className="w-20 sm:w-28 lg:w-36"
             />
 
-            <Image
+            {/* <Image
               src="/logos/SSN.png"
               alt="SNU"
               width={404}
               height={178}
               className="w-16 sm:w-24 lg:w-32"
-            />
+            /> */}
           </div>
-          <div className="absolute right-7 top-6 sm:right-10 sm:top-10 md:right-12 md:top-12 z-30">
+          <div className="flex gap-3 absolute right-7 top-6 sm:right-10 sm:top-10 md:right-12 md:top-12 z-30">
+            <Image
+                src="/logos/SSN.png"
+                alt="SNU"
+                width={404}
+                height={178}
+                className="w-16 sm:w-24 lg:w-32"
+            />
             <NavButton />
           </div>
           <Image
