@@ -1,54 +1,87 @@
-"use client";
-import Image from "next/image";
-import Link from "next/link";
-import { useState } from "react";
-import { FaBars } from "react-icons/fa";
-import { RiCloseFill } from "react-icons/ri";
+'use client';
+import Image from 'next/image';
+import Link from 'next/link';
+import { useContext, useState } from 'react';
+import { FaBars } from 'react-icons/fa';
+import { RiCloseFill } from 'react-icons/ri';
+import navContext from '@/hooks/navContext';
 
 const navOptions = [
-  { label: "HOME", imageSrc: "/navbar_images/home.png", link: "/" },
+  { label: 'HOME', imageSrc: '/navbar_images/home.png', link: '/' },
   {
-    label: "CLUB EVENTS",
-    imageSrc: "/navbar_images/club_events.png",
-    link: "/events",
+    label: 'CLUB EVENTS',
+    imageSrc: '/navbar_images/club_events.png',
+    link: '/events',
   },
   {
-    label: "CENTRAL EVENTS",
-    imageSrc: "/navbar_images/central_events.png",
-    link: "/",
+    label: 'CENTRAL EVENTS',
+    imageSrc: '/navbar_images/central_events.png',
+    link: '/',
   },
-  { label: "GALLERY", imageSrc: "/navbar_images/gallery.png", link: "/" },
-  { label: "CONTACT US", imageSrc: "/navbar_images/contact_us.png", link: "/" },
-  { label: "SPONSORS", imageSrc: "/navbar_images/sponsors.png", link: "/" },
-  { label: "GET PASSES", imageSrc: "/navbar_images/get_passes.png", link: "/" },
+  { label: 'GALLERY', imageSrc: '/navbar_images/gallery.png', link: '/' },
+  { label: 'CONTACT US', imageSrc: '/navbar_images/contact_us.png', link: '/' },
+  { label: 'SPONSORS', imageSrc: '/navbar_images/sponsors.png', link: '/' },
+  { label: 'GET PASSES', imageSrc: '/navbar_images/get_passes.png', link: '/' },
 ];
 
-const Navbar = ({ isNavbarOpen, setNavbarOpen }) => {
+export function NavButton({ className = '' }) {
+  const { isNavOpen, setNavOpen } = useContext(navContext);
+  return (
+    <>
+      {!isNavOpen && (
+        <div
+          className={`${className} cursor-pointer z-30 bg-[#202020] md:bg-inherit p-2 rounded-xl md:p-0`}
+          onClick={() => setNavOpen(!isNavOpen)}
+        >
+          <FaBars className="text-white text-2xl sm:text-3xl lg:text-4xl 2xl:text-5xl transition-transform transform hover:scale-110" />
+        </div>
+      )}
+    </>
+  );
+}
+
+const Navbar = () => {
   const [hoveredOption, setHoveredOption] = useState(null);
+  const { isNavOpen, setNavOpen } = useContext(navContext);
 
   return (
-    <div className="z-10">
-      {!isNavbarOpen ? (
+    <>
+      {isNavOpen && (
         <div
-          className="absolute cursor-pointer z-30 right-0 top0 md:my-[calc(5vh+50px)] md:mx-[calc(10vw+70px)] my-[calc(5vh+20px-0.5rem)] mx-[calc(10vw+20px-0.5rem)] bg-black md:bg-inherit p-1 rounded md:p-0"
-          onClick={() => setNavbarOpen(!isNavbarOpen)}
+          onMouseOut={() => setHoveredOption(null)}
+          className="fixed top-0 left-0 h-[100vh] w-[100vw] z-[100] bg-[#202020]"
         >
-          <FaBars className="text-white text-2xl sm:text-3xl lg:text-4xl transition-transform transform hover:scale-110" />
-        </div>
-      ) : (
-        <></>
-      )}
-      {isNavbarOpen && (
-        <div
-        onMouseOut={() => setHoveredOption(null)}
-          className="fixed h-[100vh] w-[100vw] z-20 bg-black"
-        >
-          {hoveredOption && <Image src={hoveredOption?.imageSrc} unoptimized width={0} height={0} sizes="100vw" className="absolute w-screen z-[-1]" />}
-          <div className=" flex justify-between py-16 md:py-24 lg:py-10 px-16 md:px-24 lg:px-32 h-screen w-screen">
+          {hoveredOption && (
+            <Image
+              alt="nav-background"
+              src={hoveredOption?.imageSrc}
+              unoptimized
+              width={0}
+              height={0}
+              sizes="100vw"
+              className="absolute w-screen z-[-1]"
+            />
+          )}
+          {isNavOpen && hoveredOption === null && (
+            <div
+              className="fixed right-12 md:right-24 lg:right-32 top-16 cursor-pointer z-30 md:bg-inherit p-1 rounded md:p-0 max-w-min"
+              onClick={() => setNavOpen(!isNavOpen)}
+            >
+              <RiCloseFill className="text-white text-3xl sm:text-4xl lg:text-5xl transition-transform transform hover:scale-110" />
+            </div>
+          )}
+          <Image
+            src="/logos/Instincts_white.svg"
+            alt="SNU"
+            width={250}
+            height={100}
+            className="lg:block hidden fixed right-12 md:right-24 lg:right-32 bottom-16"
+          />
+
+          <div className="relative flex justify-between py-16 md:py-24 lg:py-10 px-12 md:px-24 lg:px-32 h-screen w-screen">
             <ul
-              style={{ fontFamily: "Londrina Solid, sans-serif" }}
-              className="flex flex-col"
-            
+              style={{ fontFamily: 'Londrina Solid, sans-serif' }}
+              className="flex flex-col w-full"
             >
               {navOptions.map((option, index) => (
                 <li
@@ -58,15 +91,15 @@ const Navbar = ({ isNavbarOpen, setNavbarOpen }) => {
                   <div
                     className={`cursor-pointer h-full ${
                       hoveredOption === option
-                        ? "text-black font-semibold md:text-7xl sm:text-6xl text-5xl "
-                        : "text-white md:text-6xl sm:text-5xl text-4xl"
+                        ? 'text-black font-semibold md:text-7xl sm:text-6xl text-5xl '
+                        : 'text-white md:text-6xl sm:text-5xl text-4xl'
                     }`}
                     onMouseOver={() => setHoveredOption(option)}
                   >
                     <Link
                       href={option.link}
                       onClick={() => {
-                        setNavbarOpen(!isNavbarOpen);
+                        setNavOpen(!isNavOpen);
                         setHoveredOption(null);
                       }}
                     >
@@ -75,9 +108,9 @@ const Navbar = ({ isNavbarOpen, setNavbarOpen }) => {
                         style={
                           hoveredOption !== option && hoveredOption !== null
                             ? {
-                                color: "transparent",
-                                WebkitTextStrokeWidth: "2px",
-                                WebkitTextStrokeColor: "black",
+                                color: 'transparent',
+                                WebkitTextStrokeWidth: '2px',
+                                WebkitTextStrokeColor: 'black',
                               }
                             : {}
                         }
@@ -89,29 +122,10 @@ const Navbar = ({ isNavbarOpen, setNavbarOpen }) => {
                 </li>
               ))}
             </ul>
-            <div className="flex flex-col justify-between items-end">
-              {isNavbarOpen && hoveredOption === null ? (
-                <div
-                  className="cursor-pointer z-30 bg-black md:bg-inherit p-1 rounded md:p-0 max-w-min"
-                  onClick={() => setNavbarOpen(!isNavbarOpen)}
-                >
-                  <RiCloseFill className="text-white text-3xl sm:text-4xl lg:text-5xl transition-transform transform hover:scale-110" />
-                </div>
-              ) : (
-                <div className=""></div>
-              )}
-              <Image
-                src="/logos/Instincts_white.svg"
-                alt="SNU"
-                width={250}
-                height={100}
-                className="lg:block hidden"
-              />
-            </div>
           </div>
         </div>
       )}
-    </div>
+    </>
   );
 };
 

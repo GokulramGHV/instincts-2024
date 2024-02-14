@@ -6,6 +6,8 @@ import { IoIosArrowForward } from 'react-icons/io';
 import { IoIosArrowBack } from 'react-icons/io';
 import Image from 'next/image';
 import { Remarkable } from 'remarkable';
+import CalendarIcon from '@/icons/calendarIcon';
+import TeamIcon from '@/icons/teamIcon';
 
 let md = new Remarkable();
 
@@ -62,9 +64,9 @@ const EventModal = ({ isModalOpen, setModalOpen, event }) => {
       <div
         style={{
           top: yScroll,
-          background: 'rgba(255, 255, 255, 0.5)',
+          background: 'rgba(0, 0, 0, 0.4)',
         }}
-        className="absolute lg:top-inherit top-0 right-0 w-[100vw] h-[100vh] lg:py-[50px] lg:px-[100px] md:p-[50px] lg:overflow-y-scroll lg:block flex items-center p-[10px]"
+        className="absolute top-0 right-0 w-[100vw] h-[100vh] lg:py-[50px] lg:px-[100px] md:p-[50px] lg:overflow-y-scroll lg:block flex items-center p-[10px]"
       >
         <div
           ref={ref}
@@ -73,10 +75,10 @@ const EventModal = ({ isModalOpen, setModalOpen, event }) => {
             borderRadius: '20px',
             background: 'white',
           }}
-          className="flex flex-col lg:gap-[38px] md:py-[30px] md:px-[20px] lg:max-h-[max-content] py-[20px] px-[25px] gap-[20px] max-h-[100%] overflow-y-auto"
+          className="flex flex-col mx-auto lg:w-[65vw] 2xl:w-[50vw] lg:gap-7 gap-[20px] md:py-[30px] md:px-[30px] lg:max-h-[max-content] py-[20px] px-[25px] max-h-[100%] overflow-y-auto"
         >
           <div className="flex items-start justify-between">
-            <h1 className="font-extrabold lg:text-[50px] md:text-[42px] text-[30px]">
+            <h1 className="font-extrabold xl:text-[50px] md:text-[42px] text-[30px]">
               {event.title}
             </h1>
             <AiOutlineCloseCircle
@@ -90,7 +92,7 @@ const EventModal = ({ isModalOpen, setModalOpen, event }) => {
           {(isLargeScreen || currentInfo === 'DETAILS') && (
             <>
               <div
-                className="flex items-center lg:gap-[38px] md:gap-[35px] lg:flex-row lg:px-[15px] lg:py[10px] md:p-[20px] flex-col gap-[30px] py-[14px] px-[16px]  lg:self-start self-center"
+                className="flex flex-col lg:flex-row items-center gap-3 md:gap-[30px] py-2 px-5  lg:self-start self-center"
                 style={{
                   border: '1px solid gray',
                   borderRadius: 20,
@@ -103,11 +105,9 @@ const EventModal = ({ isModalOpen, setModalOpen, event }) => {
                     onMouseEnter={() => setTooltipOpen(true)}
                     onMouseLeave={() => setTooltipOpen(false)}
                   >
-                    <HiUserGroup
-                      className="lg:text-3xl md:text-[32px] text-[24px]"
-                      color="grey"
-                    />
-                    <span className="lg:text-3xl md:text-[30px] font-bold text-[19px]">
+                    {/* <HiUserGroup className="md:text-3xl text-xl" color="grey" /> */}
+                    <TeamIcon className="fill-current w-6 md:w-7 xl:w-8" />
+                    <span className="xl:text-3xl md:text-2xl font-bold text-[19px]">
                       {event.teamSize}
                     </span>
                     {isTooltipOpen && (
@@ -123,32 +123,27 @@ const EventModal = ({ isModalOpen, setModalOpen, event }) => {
                     )}
                   </div>
                   <div className="flex items-center gap-2">
-                    <FaCalendar
-                      className="lg:text-3xl md:text-[32px] text-[24px]"
-                      color="grey"
-                    />
-                    <span className="lg:text-3xl md:text-[30px] font-bold text-[19px]">
+                    {/* <FaCalendar className="md:text-3xl text-xl" color="grey" /> */}
+                    <CalendarIcon className="fill-current w-5 md:w-6 xl:w-7" />
+                    <span className="xl:text-3xl md:text-2xl font-bold text-[19px]">
                       {event.dayDetail}
                     </span>
                   </div>
                 </div>
-                <div className="flex items-center lg:gap-[38px] gap-[30px]">
+                <div className="flex items-center gap-5 md:gap-8">
                   {event.prize.map((p, index) => (
                     <div key={index} className="flex items-center flex-col">
-                      <span className="lg:text-3xl md:text-[28px] text-[19px] font-extrabold">
+                      <span className="xl:text-3xl md:text-2xl text-xl font-extrabold">
                         ₹{p.amount}
                       </span>
-                      <span
-                        className="lg:text-2xl md:text-[20px] text-[14px] font-light"
-                        style={{ color: 'gray' }}
-                      >
+                      <span className="text-lg" style={{ color: 'gray' }}>
                         {p.place}
                       </span>
                     </div>
                   ))}
                 </div>
               </div>
-              <div className="lg:text-2xl md:text-[24px] font-medium text-[15px]">
+              <div className="md:text-xl font-medium text-[15px]">
                 {event.description}
               </div>
             </>
@@ -160,12 +155,12 @@ const EventModal = ({ isModalOpen, setModalOpen, event }) => {
                 <hr
                   className="flex-[2]"
                   style={{
-                    borderBottom: '4px solid gray',
+                    border: '2px solid #8F8D8D',
                     borderRadius: '10px',
                   }}
                 />
                 <span
-                  className="flex justify-center lg:text-2xl md:text-[24px] text-[18px] font-semibold lg:flex-[1] flex-[2]"
+                  className="flex justify-center lg:text-2xl md:text-xl text-[18px] font-semibold lg:flex-[1] flex-[2]"
                   style={{ letterSpacing: '4px' }}
                 >
                   RULES
@@ -173,7 +168,7 @@ const EventModal = ({ isModalOpen, setModalOpen, event }) => {
                 <hr
                   className="flex-[2]"
                   style={{
-                    borderBottom: '4px solid gray',
+                    border: '2px solid #8F8D8D',
                     borderRadius: '10px',
                   }}
                 />
@@ -256,7 +251,7 @@ const EventModal = ({ isModalOpen, setModalOpen, event }) => {
                   ))}
                 </div>
                 <div
-                  className="font-medium lg:text-[21px] md:text-[18px] text-[14px] text-justify"
+                  className="font-medium lg:text-xl md:text-lg text-justify"
                   style={{ flex: 3 }}
                 >
                   {event.clubDescription}
