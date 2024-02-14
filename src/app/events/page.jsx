@@ -1,21 +1,20 @@
-'use client';
+"use client";
 
-import Hero from '@/sections/events-page/hero';
-import CategoryPicker from '@/sections/events-page/categoryPicker';
-import EventsSection from '@/sections/events-page/eventsSection';
-import Footer from '@/sections/footer/footer';
-
-import { useState } from 'react';
-import EventModal from '@/components/events-page/EventModal';
-import { categories, events } from './events';
+import Hero from "@/sections/events-page/hero";
+import CategoryPicker from "@/sections/events-page/categoryPicker";
+import EventsSection from "@/sections/events-page/eventsSection";
+import Footer from "@/sections/footer/footer";
+import { useState } from "react";
+import EventModal from "@/components/events-page/EventModal";
+import { categories, events } from "./events";
 
 export default function EventsPage() {
-  const [selectedCategory, setSelectedCategory] = useState('All Events');
+  const [selectedCategory, setSelectedCategory] = useState("All Events");
   const [isModalOpen, setModalOpen] = useState(false);
   const [selectedEvent, setSelectedEvent] = useState(null);
 
   const filteredEvents = events.filter((event) => {
-    if (selectedCategory === 'All Events') {
+    if (selectedCategory === "All Events") {
       return true;
     } else {
       return event.category === selectedCategory;
