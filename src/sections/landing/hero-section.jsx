@@ -40,29 +40,42 @@ export default function HeroSection() {
               height={182}
               className="w-20 sm:w-28 lg:w-36"
             />
+          </div>
 
+          <div className="flex gap-3 absolute right-8 top-8 sm:right-10 sm:top-10 md:right-12 md:top-12 z-30">
             <Image
               src="/logos/SSN.png"
               alt="SNU"
               width={404}
               height={178}
-              className="w-16 sm:w-24 lg:w-32"
+              className="w-16 sm:w-24 h-fit lg:w-28"
             />
-          </div>
-          <div className="absolute right-7 top-6 sm:right-10 sm:top-10 md:right-12 md:top-12 z-30">
-            <NavButton className="md:p-0 md:bg-inherit" />
           </div>
           <Image
             src="/logos/Instincts_white.svg"
             alt="SNU"
             width={504}
             height={200}
-            className="z-40 w-60 sm:w-96 xl:w-fit "
+            className="z-40 w-60 sm:w-[50vh] "
           />
           <div
             className="absolute cursor-pointer height:auto  right-8 top-8 sm:right-10 sm:top-10 z-30 flex items-center gap-5 sm:gap-10"
             onClick={() => setOverlayVisible(!isOverlayVisible)}
           ></div>
+          <div className="z-20 absolute left-[50%] top-[50%] transform translate-x-[-50%] translate-y-[-50%]">
+            <div className="relative bottom-28 sm:bottom-[20vh] flex flex-col justify-center items-center">
+              <Image
+                src="/sponsors/hcl_logo.png"
+                alt="hcl logo"
+                className="w-[300px]"
+                width={418}
+                height={221}
+              />
+              <h3 className="font-satoshi font-bold text-white text-lg sm:text-3xl relative bottom-4 sm:bottom-8">
+                Presents
+              </h3>
+            </div>
+          </div>
 
           <div className="z-20 absolute left-[50%] top-[50%] transform translate-x-[-50%] translate-y-[-50%]">
             <Countdown slideNo={slideNo} />
