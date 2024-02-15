@@ -23,7 +23,11 @@ const navOptions = [
     link: '/#gallery_section' 
   },
   { label: 'CONTACT US', imageSrc: '/navbar_images/contact_us.png', link: '/' },
-  { label: 'SPONSORS', imageSrc: '/navbar_images/sponsors.png', link: '/' },
+  {
+    label: 'SPONSORS',
+    imageSrc: '/navbar_images/sponsors.png',
+    link: '/sponsors',
+  },
   { label: 'GET PASSES', imageSrc: '/navbar_images/get_passes.png', link: '/' },
 ];
 
@@ -33,10 +37,10 @@ export function NavButton({ className = '' }) {
     <>
       {!isNavOpen && (
         <div
-          className={`${className} cursor-pointer z-30 bg-[#202020] md:bg-inherit p-2 rounded-xl md:p-0`}
+          className={`${className} cursor-pointer z-30 bg-[#202020] p-2 rounded-xl`}
           onClick={() => setNavOpen(!isNavOpen)}
         >
-          <FaBars className="text-white text-2xl sm:text-3xl lg:text-4xl 2xl:text-5xl transition-transform transform hover:scale-110" />
+          <FaBars className="text-white text-2xl sm:text-3xl lg:text-4xl transition-transform transform hover:scale-110" />
         </div>
       )}
     </>
