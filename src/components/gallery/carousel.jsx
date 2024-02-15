@@ -29,8 +29,14 @@ export default function Carousel() {
 
   const images = [
     "/gallery_images/pic1.png",
-    "/gallery_images/pic2.png",
+    "/gallery_images/pic2.jpg",
     "/gallery_images/pic3.png",
+    "/gallery_images/pic4.jpg",
+    "/gallery_images/pic5.jpg",
+    "/gallery_images/pic6.jpg",
+    "/gallery_images/pic7.jpg",
+    "/gallery_images/pic8.jpg",
+    "/gallery_images/pic9.png",
   ];
 
   return (
@@ -46,8 +52,8 @@ export default function Carousel() {
           style={{ transition: 'opacity .3s ease-in-out' }}
           alt=''
           />)}
-        <div className='h-full w-1/2 z-20 hidden sm:block' onClick={handlePrevious}></div>
-        <div className='h-full w-1/2 z-20 hidden sm:block' onClick={handleNext}></div>
+        <div className='h-full w-1/2 z-20 hidden cursor-pointer sm:block' onClick={handlePrevious}></div>
+        <div className='h-full w-1/2 z-20 hidden cursor-pointer sm:block' onClick={handleNext}></div>
       </div>
 
       <div className='h-4 right-0 left-0 bottom-[-1.5rem] flex gap-2 justify-center absolute sm:hidden'>

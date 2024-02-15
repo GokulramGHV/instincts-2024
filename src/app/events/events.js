@@ -464,8 +464,8 @@ export const events = [
     clubDescription: `Welcome to Lights Out Please! and All The World’s A Stage, the Theater Clubs of SSN and SNU. Whether you enjoy lighting up an entire stage with your storytelling or sitting watchfully with your quill giving a voice to the actors, we have a spot for you. We invite you to explore your passion, creativity, and artistic skills. Join us for a magical theatrical experience where the spotlight now lies on you.
     `,
     clubLogos: [
-      { name: "Lights Out Please", img: "/events-page/event-dummy.png" },
-      { name: "All The World's A Stage", img: "/events-page/event-dummy.png" },
+      { name: "Lights Out Please", img: "/events-page/LOP.png" },
+      { name: "All The World's A Stage", img: "/events-page/snu_theatre.jpg" },
     ],
     fee: "250 (Club Pass)",
   },
@@ -491,8 +491,8 @@ export const events = [
     clubDescription: `Welcome to Lights Out Please! and All The World’s A Stage, the Theater Clubs of SSN and SNU. Whether you enjoy lighting up an entire stage with your storytelling or sitting watchfully with your quill giving a voice to the actors, we have a spot for you. We invite you to explore your passion, creativity, and artistic skills. Join us for a magical theatrical experience where the spotlight now lies on you.
     `,
     clubLogos: [
-      { name: "Lights Out Please", img: "/events-page/event-dummy.png" },
-      { name: "All The World's A Stage", img: "/events-page/event-dummy.png" },
+      { name: "Lights Out Please", img: "/events-page/LOP.png" },
+      { name: "All The World's A Stage", img: "/events-page/snu_theatre.jpg" },
     ],
     fee: "250 (Club Pass)",
   },
@@ -523,8 +523,8 @@ export const events = [
     clubDescription: `Welcome to Lights Out Please! and All The World’s A Stage, the Theater Clubs of SSN and SNU. Whether you enjoy lighting up an entire stage with your storytelling or sitting watchfully with your quill giving a voice to the actors, we have a spot for you. We invite you to explore your passion, creativity, and artistic skills. Join us for a magical theatrical experience where the spotlight now lies on you.
     `,
     clubLogos: [
-      { name: "Lights Out Please", img: "/events-page/event-dummy.png" },
-      { name: "All The World's A Stage", img: "/events-page/event-dummy.png" },
+      { name: "Lights Out Please", img: "/events-page/LOP.png" },
+      { name: "All The World's A Stage", img: "/events-page/snu_theatre.jpg" },
     ],
     fee: "250 (Club Pass)",
   },
@@ -749,7 +749,7 @@ All players are expected to exhibit good sportsmanship and maintain respect for 
     contacts: ["Pradeeshwar (9952353704)", "Shriram (8838308395)"],
     clubDescription: `Dive into a world of pixels and play at SSN & SNUC Gaming Club! Join weekly gaming sessions, epic tournaments, and tech talks. Forge friendships, showcase your creativity, and level up your college experience with us. The next gaming adventure awaits—grab your controller and join the fun! 🎮🕹️`,
     clubLogos: [
-      { name: "SSN Gaming Club", img: "/events-page/event-dummy.png" },
+      { name: "SSN Gaming Club", img: "/events-page/SGC.jpg" },
     ],
     fee: "TBD",
   },
@@ -812,7 +812,7 @@ The following actions are strictly prohibited during the tournament and will res
     contacts: ["Akhshan (9159379997)", "Sanjay (8072781606)"],
     clubDescription: `Dive into a world of pixels and play at SSN & SNUC Gaming Club! Join weekly gaming sessions, epic tournaments, and tech talks. Forge friendships, showcase your creativity, and level up your college experience with us. The next gaming adventure awaits—grab your controller and join the fun! 🎮🕹️`,
     clubLogos: [
-      { name: "SSN Gaming Club", img: "/events-page/event-dummy.png" },
+      { name: "SSN Gaming Club", img: "/events-page/SGC.jpg" },
     ],
     fee: "TBD",
   },
