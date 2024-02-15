@@ -63,15 +63,16 @@ export default function HeroSection() {
             onClick={() => setOverlayVisible(!isOverlayVisible)}
           ></div>
           <div className="z-20 absolute left-[50%] top-[50%] transform translate-x-[-50%] translate-y-[-50%]">
-            <div className="relative bottom-28 sm:bottom-[20vh] flex flex-col justify-center items-center">
+            <div className="relative bottom-28 sm:bottom-[21vh] gap-3 flex flex-col justify-center items-center">
               <Image
-                src="/sponsors/hcl_logo.png"
+                src="/logos/hcl-logo-white.png"
                 alt="hcl logo"
-                className="w-[300px]"
-                width={418}
-                height={221}
+                className="w-[160px]"
+                width={1116}
+                height={600}
+                quality={100}
               />
-              <h3 className="font-satoshi font-bold text-white text-lg sm:text-3xl relative bottom-4 sm:bottom-8">
+              <h3 className="font-satoshi font-bold text-white text-lg sm:text-xl md:text-2xl">
                 Presents
               </h3>
             </div>
