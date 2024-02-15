@@ -8,7 +8,6 @@ import SpinningBackground from '@/components/landing/spinning-background';
 import Navbar, { NavButton } from '@/components/navbar/navbar';
 import Image from 'next/image';
 import { useEffect, useState } from 'react';
-import { FaBars } from 'react-icons/fa';
 
 export default function HeroSection() {
   const [slideNo, setSlideNo] = useState(1);
@@ -51,7 +50,7 @@ export default function HeroSection() {
             />
           </div>
           <div className="absolute right-7 top-6 sm:right-10 sm:top-10 md:right-12 md:top-12 z-30">
-            <NavButton />
+            <NavButton className="md:p-0 md:bg-inherit" />
           </div>
           <Image
             src="/logos/Instincts_white.svg"
