@@ -1,10 +1,5 @@
 import { NavButton } from '@/components/navbar/navbar';
-import { Londrina_Solid } from 'next/font/google';
 import Image from 'next/image';
-const londonFont = Londrina_Solid({
-  weight: ['100', '300', '400', '900'],
-  subsets: ['latin'],
-});
 
 export default function SponsorsHero() {
   return (
@@ -20,18 +15,28 @@ export default function SponsorsHero() {
         <NavButton />
       </div>
       <div className="flex items-center py-8 pl-6 w-full justify-between overflow-hidden">
-        <img src='/sponsors/title.svg' alt='sponsors title' className='w-1/2' />
-        <img
-          alt="sponsors-pattern"
-          src="/sponsors/pattern.svg"
-          className='w-1/2 ml-6'
+        <Image
+          src="/sponsors/title.svg"
+          alt="sponsors title"
+          className="w-1/2"
+          width={556}
+          height={109}
         />
-        <img
+        <Image
           alt="sponsors-pattern"
           src="/sponsors/pattern.svg"
-          className='w-1/2 hidden lg:block'
+          className="w-1/2 ml-12"
+          width={630}
+          height={318}
+        />
+        <Image
+          alt="sponsors-pattern"
+          src="/sponsors/pattern.svg"
+          className="w-1/2 hidden lg:block"
+          width={630}
+          height={318}
         />
       </div>
     </header>
-  )
+  );
 }
