@@ -16,22 +16,31 @@ const navOptions = [
   {
     label: 'CENTRAL EVENTS',
     imageSrc: '/navbar_images/central_events.png',
-    link: '/',
+    link: '/coming-soon',
   },
-  { label: 'GALLERY', 
-    imageSrc: '/navbar_images/gallery.png', 
-    link: '/#gallery_section' 
+  {
+    label: 'GALLERY',
+    imageSrc: '/navbar_images/gallery.png',
+    link: '/#gallery_section',
   },
-  { label: 'CONTACT US', imageSrc: '/navbar_images/contact_us.png', link: '/' },
+  {
+    label: 'CONTACT US',
+    imageSrc: '/navbar_images/contact_us.png',
+    link: '/coming-soon',
+  },
   {
     label: 'SPONSORS',
     imageSrc: '/navbar_images/sponsors.png',
     link: '/sponsors',
   },
-  { label: 'GET PASSES', imageSrc: '/navbar_images/get_passes.png', link: '/' },
+  {
+    label: 'GET PASSES',
+    imageSrc: '/navbar_images/get_passes.png',
+    link: '/coming-soon',
+  },
 ];
 
-export function NavButton({ className = '' }) {
+export function NavButton({ className = '', iconClassName = '' }) {
   const { isNavOpen, setNavOpen } = useContext(navContext);
   return (
     <>
@@ -40,7 +49,7 @@ export function NavButton({ className = '' }) {
           className={`${className} cursor-pointer z-30 bg-[#202020] p-2 rounded-xl`}
           onClick={() => setNavOpen(!isNavOpen)}
         >
-          <FaBars className="text-white text-2xl sm:text-3xl lg:text-4xl transition-transform transform hover:scale-110" />
+          <FaBars className="text-inherit text-2xl sm:text-3xl lg:text-4xl transition-transform transform hover:scale-110" />
         </div>
       )}
     </>

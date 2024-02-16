@@ -27,7 +27,7 @@ export default function Home() {
     <main className="min-h-screen">
       {isVisible && (
         <div className="z-[100] fixed top-14 right-10 md:top-20 md:right-20">
-          <NavButton />
+          <NavButton className='text-white' />
         </div>
       )}
       <HeroSection />

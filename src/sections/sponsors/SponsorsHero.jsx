@@ -17,7 +17,7 @@ export default function SponsorsHero() {
             alt="instincts-logo"
           />
         </Link>
-        <NavButton />
+        <NavButton className='text-white' />
       </div>
       <div className="flex items-center py-8 pl-6 w-full justify-between overflow-hidden">
         <Image

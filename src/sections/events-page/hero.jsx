@@ -13,9 +13,7 @@ export default function Hero() {
       <div className="bg-[#FB6655] relative overflow-clip">
         <div className="">
           <div className="md:px-12 px-6 pt-10 flex justify-between items-center">
-            < Link
-              href={"/"}
-            >
+            <Link href={'/'}>
               <Image
                 src="/events-page/top-logo.svg"
                 className="sm:w-[276px] w-[200px] sm:h-[106px] h-[77px]"
@@ -24,7 +22,7 @@ export default function Hero() {
                 alt="instincts-logo"
               />
             </Link>
-            <NavButton />
+            <NavButton className="text-white" />
           </div>
           <div className="flex items-center py-12 md:pl-12 pl-6 gap-6 sm:gap-12 xl:gap-32 2xl:gap-40">
             <h1

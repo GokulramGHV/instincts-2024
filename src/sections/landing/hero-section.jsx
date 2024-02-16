@@ -32,7 +32,7 @@ export default function HeroSection() {
         <div className="z-10 relative flex flex-col justify-center items-center w-full h-full rounded-[20px] overflow-hidden">
           <Sparkles />
           <HeroCarousel slideNo={slideNo} />
-          <div className="absolute left-8 top-8 sm:left-10 sm:top-10 z-20 flex items-center gap-5 sm:gap-10">
+          <div className="absolute left-8 top-8 sm:left-10 sm:top-10 md:right-12 md:top-12 z-20 flex items-center gap-5 sm:gap-10">
             <Image
               src="/logos/SNU.png"
               alt="SNU"
