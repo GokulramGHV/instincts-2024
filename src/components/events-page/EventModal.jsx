@@ -325,7 +325,12 @@ const EventModal = ({ isModalOpen, setModalOpen, event }) => {
               color: "#E6FCFF",
             }}
           >
-            REGISTER: <span className="font-bold">₹{event.fee}</span>
+            REGISTER:
+            {event.fee.map((feeOption, index) => (
+              <div key={index}>
+                <span className="font-bold">₹{feeOption}</span>
+              </div>
+            ))}
           </button>
         </div>
       </div>
