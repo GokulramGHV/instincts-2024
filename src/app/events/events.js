@@ -1408,4 +1408,127 @@ This event focuses on the ability of a designer to comprehend a given concept an
     ],
     fee: ["150/- Per Head"],
   },
+  {
+    title: "The Funda-Mavan quiz",
+    dayDetail: "TBD",
+    category: "Quiz",
+    image: "/events-page/event-dummy.png",
+    color: "#00644C",
+    teamSize: "1-3",
+    prize: [
+      { place: "FIRST", amount: "TBD" },
+      { place: "SECOND", amount: "TBD" },
+    ],
+    description: `Leaving no topic too bizarre, encompassing everything. General quiz.`,
+    rules: `1. All Participants MUST be college students with a valid college ID card. 
+2. Registration Fee can be paid on the spot 
+3. This is a two-stage event. Both Prelims and Finals will be conducted offline.
+4. Cross College teams are allowed. Teams of max 3
+5. General quiz, questions on everything under the sun and over.
+### Prelims: 
+- Written prelims round.
+- Top teams from the prelims will qualify for the finals.
+
+### Finals:
+- A variety of rounds will be held, not limited to anything. 
+- Top-scoring teams will be crowned winners and awarded the prize.
+    
+    `,
+    contacts: ["Contacts : Arjun - 95001 47579", "Varsha - 9499037154", "Abhinav - 9941749999"],
+    clubDescription: `Do you have trouble answering life's big questions? Are you often left high and dry? Fret not, the art of quizzing is much simpler and our dries are much easier. Behold Q! And Cognition, the quiz clubs of SSN and SNUC. We promise an exhilarating experience for trivia enthusiasts, blending wit and wisdom in a captivating quiz format. Assemble your sharpest minds and embark on a journey through a diverse range of topics, from history to pop culture. There are many here, vying for the prizes. Outsmart them all and beat them. Put funda, Get funds.
+    `,
+    clubLogos: [
+      {
+        name: "Q!",
+        img: "/events-page/quiz_ssn.png",
+      },
+      {
+        name: "Cognition",
+        img: "/events-page/quiz_ssn.png",
+      },
+    ],
+    fee: "200 (Club Pass)",
+  },
+  {
+    title: "MELA",
+    dayDetail: "TBD",
+    category: "Quiz",
+    image: "/events-page/event-dummy.png",
+    color: "#00644C",
+    teamSize: "1-3",
+    prize: [
+      { place: "FIRST", amount: "TBD" },
+      { place: "SECOND", amount: "TBD" },
+    ],
+    description: `Music, Entertainment, Literature and Arts quiz.`,
+    rules: `1. All Participants MUST be college students with a valid college ID card. 
+2. Registration Fee can be paid on the spot 
+3. This is a two-stage event. Both Prelims and Finals will be conducted offline.
+4. Cross College teams are allowed. Teams of max 3
+5. Themed quiz, as specified above.
+### Prelims: 
+- Written prelims round.
+- Top teams from the prelims will qualify for the finals.
+
+### Finals:
+- A variety of rounds will be held, not limited to anything. 
+- Top scoring teams will be crowned winners and awarded the prize
+    
+    `,
+    contacts: ["Contacts : Sreeram -  7539923977", "Sharath - 9110316645"],
+    clubDescription: `Do you have trouble answering life's big questions? Are you often left high and dry? Fret not, the art of quizzing is much simpler and our dries are much easier. Behold Q! And Cognition, the quiz clubs of SSN and SNUC. We promise an exhilarating experience for trivia enthusiasts, blending wit and wisdom in a captivating quiz format. Assemble your sharpest minds and embark on a journey through a diverse range of topics, from history to pop culture. There are many here, vying for the prizes. Outsmart them all and beat them. Put funda, Get funds.
+    `,
+    clubLogos: [
+      {
+        name: "Q!",
+        img: "/events-page/quiz_ssn.png",
+      },
+      {
+        name: "Cognition",
+        img: "/events-page/quiz_ssn.png",
+      },
+    ],
+    fee: "200 (Club Pass)",
+  },
+  {
+    title: "Sports Quiz ",
+    dayDetail: "TBD",
+    category: "Quiz",
+    image: "/events-page/event-dummy.png",
+    color: "#00644C",
+    teamSize: "1-3",
+    prize: [
+      { place: "FIRST", amount: "TBD" },
+      { place: "SECOND", amount: "TBD" },
+    ],
+    description: `Themed quiz on sports.`,
+    rules: `1. All Participants MUST be college students with a valid college ID card. 
+2. Registration Fee can be paid on the spot 
+3. This is a two-stage event. Both Prelims and Finals will be conducted offline.
+4. Cross College teams are allowed. Teams of max 3
+5. General quiz, questions on everything under the sun and over.
+### Prelims: 
+- Written prelims round.
+- Top teams from the prelims will qualify for the finals.
+
+### Finals:
+- A variety of rounds will be held, not limited to anything. 
+- Top-scoring teams will be crowned winners and awarded the prize.
+    
+    `,
+    contacts: ["Contacts : Tejas- 9499944705", "Deepak-6369075710", "Ashvanth-7397352960"],
+    clubDescription: `Do you have trouble answering life's big questions? Are you often left high and dry? Fret not, the art of quizzing is much simpler and our dries are much easier. Behold Q! And Cognition, the quiz clubs of SSN and SNUC. We promise an exhilarating experience for trivia enthusiasts, blending wit and wisdom in a captivating quiz format. Assemble your sharpest minds and embark on a journey through a diverse range of topics, from history to pop culture. There are many here, vying for the prizes. Outsmart them all and beat them. Put funda, Get funds.
+    `,
+    clubLogos: [
+      {
+        name: "Q!",
+        img: "/events-page/quiz_ssn.png",
+      },
+      {
+        name: "Cognition",
+        img: "/events-page/quiz_ssn.png",
+      },
+    ],
+    fee: "200 (Club Pass)",
+  },
 ];
