@@ -8,6 +8,10 @@ export const categories = [
     color: "#DB2525",
   },
   {
+    name: "Photography",
+    color: "#00644C",
+  },
+  {
     name: "Music",
     color: "#0C5AB9",
   },
@@ -28,8 +32,12 @@ export const categories = [
     color: "#05B163",
   },
   {
-    name: "Photography",
-    color: "#00644C",
+    name: "Gaming",
+    color: "#8638eb",
+  },
+  {
+    name: "Entrepreneurship",
+    color: "#FC6655",
   },
   {
     name: "Film",
@@ -40,21 +48,17 @@ export const categories = [
     color: "#C297F9",
   },
   {
+    name: "Western Dance",
+    color: "#4FB6F0",
+  },
+  {
     name: "Classical Dance",
     color: "#FEDE88",
   },
   {
-    name: "Western Dance",
-    color: "#FC6655",
-  },
-  {
-    name: "Entrepreneurship",
-    color: "#C297F9",
-  },
-  {
-    name: "Gaming",
-    color: "#FDAF46",
-  },
+    name: "Quizzes",
+    color: "#C31C80",
+  }
 ];
 
 export const events = [
@@ -62,7 +66,7 @@ export const events = [
     title: "Pattimandram",
     dayDetail: "TBD",
     category: "Tamil Lit.",
-    image: "/events-page/event-dummy.png",
+    image: "/events-page/event-dummy-1.png",
     color: "#DB2525",
     teamSize: "1",
     prize: [
@@ -97,13 +101,13 @@ export const events = [
       { name: "Saaral", img: "/events-page/saaral.png" },
       { name: "Mudivizhi", img: "/events-page/mudivili.png" },
     ],
-    fee: "150",
+    fee: ["150/- Per Head"],
   },
   {
     title: "Sagalagalavalavan",
     dayDetail: "TBD",
     category: "Tamil Lit.",
-    image: "/events-page/event-dummy.png",
+    image: "/events-page/event-dummy-1.png",
     color: "#DB2525",
     teamSize: "2",
     prize: [
@@ -151,13 +155,13 @@ export const events = [
       { name: "Saaral", img: "/events-page/saaral.png" },
       { name: "Mudivizhi", img: "/events-page/mudivili.png" },
     ],
-    fee: "200/- per team",
+    fee: ["200/- Per Team"],
   },
   {
     title: "Debate",
     dayDetail: "TBD",
     category: "English Lit.",
-    image: "/events-page/event-dummy.png",
+    image: "/events-page/event-dummy-1.png",
     color: "#05B163",
     teamSize: "2",
     prize: [
@@ -180,13 +184,13 @@ export const events = [
       { name: "SSN ELC", img: "/events-page/ssn_elc.png" },
       { name: "SNUC ELC", img: "/events-page/snuc_elc.jpg" },
     ],
-    fee: "TBD",
+    fee: ["150/- Per Head (Day Pass)", "300/- Per Head (Club Pass)"],
   },
   {
     title: "JAM",
     dayDetail: "TBD",
     category: "English Lit.",
-    image: "/events-page/event-dummy.png",
+    image: "/events-page/event-dummy-1.png",
     color: "#05B163",
     teamSize: "1",
     prize: [
@@ -207,13 +211,13 @@ export const events = [
       { name: "SSN ELC", img: "/events-page/ssn_elc.png" },
       { name: "SNUC ELC", img: "/events-page/snuc_elc.jpg" },
     ],
-    fee: "TBD",
+    fee: ["150/- Per Head (Day Pass)", "300/- Per Head (Club Pass)"],
   },
   {
     title: "Stand-Up Comedy Contest",
     dayDetail: "TBD",
     category: "English Lit.",
-    image: "/events-page/event-dummy.png",
+    image: "/events-page/event-dummy-1.png",
     color: "#05B163",
     teamSize: "1",
     prize: [
@@ -237,13 +241,13 @@ export const events = [
       { name: "SSN ELC", img: "/events-page/ssn_elc.png" },
       { name: "SNUC ELC", img: "/events-page/snuc_elc.jpg" },
     ],
-    fee: "TBD",
+    fee: ["150/- Per Head (Day Pass)", "300/- Per Head (Club Pass)"],
   },
   {
     title: "A Musing Affair",
     dayDetail: "TBD",
     category: "English Lit.",
-    image: "/events-page/event-dummy.png",
+    image: "/events-page/event-dummy-1.png",
     color: "#05B163",
     teamSize: "1",
     prize: [
@@ -275,15 +279,15 @@ export const events = [
       { name: "SSN ELC", img: "/events-page/ssn_elc.png" },
       { name: "SNUC ELC", img: "/events-page/snuc_elc.jpg" },
     ],
-    fee: "TBD",
+    fee: ["150/- Per Head (Day Pass)", "300/- Per Head (Club Pass)"],
   },
   {
     title: "Potpourri",
     dayDetail: "TBD",
     category: "English Lit.",
-    image: "/events-page/event-dummy.png",
+    image: "/events-page/event-dummy-1.png",
     color: "#05B163",
-    teamSize: "1",
+    teamSize: "1-3",
     prize: [
       { place: "FIRST", amount: "TBD" },
       { place: "SECOND", amount: "TBD" },
@@ -308,13 +312,13 @@ export const events = [
       { name: "SSN ELC", img: "/events-page/ssn_elc.png" },
       { name: "SNUC ELC", img: "/events-page/snuc_elc.jpg" },
     ],
-    fee: "TBD",
+    fee: ["150/- Per Head (Day Pass)", "300/- Per Head (Club Pass)"],
   },
   {
     title: "Stew",
     dayDetail: "TBD",
     category: "English Lit.",
-    image: "/events-page/event-dummy.png",
+    image: "/events-page/event-dummy-1.png",
     color: "#05B163",
     teamSize: "1",
     prize: [
@@ -339,13 +343,13 @@ export const events = [
       { name: "SSN ELC", img: "/events-page/ssn_elc.png" },
       { name: "SNUC ELC", img: "/events-page/snuc_elc.jpg" },
     ],
-    fee: "TBD",
+    fee: ["150/- Per Head (Day Pass)", "300/- Per Head (Club Pass)"],
   },
   {
     title: "Draw with comali",
     dayDetail: "TBD",
     category: "Fine Arts",
-    image: "/events-page/event-dummy.png",
+    image: "/events-page/event-dummy-2.png",
     color: "#C297F9",
     teamSize: "2",
     prize: [
@@ -381,13 +385,13 @@ export const events = [
     clubDescription: `Handila is a community of artists and art lovers who come together regularly to create, share, and appreciate various forms of art. We offer a supportive and inclusive space for members to improve their skills, make connections, and connect with like-minded individuals. Recently, Handila has teamed up with INSTINCTS' 24 to provide an exciting experience for students interested in exploring a lost continent. This adventure combines creative expression and real-world exploration to uncover the secrets of an unknown land. Join the journey with art as your guide and discover the lost continent through adventure and imagination.
     `,
     clubLogos: [{ name: "Handila", img: "/events-page/handila.png" }],
-    fee: "200/- per team",
+    fee: ["200/- Per Team"],
   },
   {
     title: "Roaming Paris",
     dayDetail: "TBD",
     category: "Fine Arts",
-    image: "/events-page/event-dummy.png",
+    image: "/events-page/event-dummy-2.png",
     color: "#C297F9",
     teamSize: "2-3",
     prize: [
@@ -410,13 +414,13 @@ export const events = [
     clubDescription: `Handila is a community of artists and art lovers who come together regularly to create, share, and appreciate various forms of art. We offer a supportive and inclusive space for members to improve their skills, make connections, and connect with like-minded individuals. Recently, Handila has teamed up with INSTINCTS' 24 to provide an exciting experience for students interested in exploring a lost continent. This adventure combines creative expression and real-world exploration to uncover the secrets of an unknown land. Join the journey with art as your guide and discover the lost continent through adventure and imagination.
     `,
     clubLogos: [{ name: "Handila", img: "/events-page/handila.png" }],
-    fee: "250/- per team",
+    fee: ["250/- Per Team"],
   },
   {
-    title: "Carnival night sky",
+    title: "Fantast Night",
     dayDetail: "TBD",
     category: "Fine Arts",
-    image: "/events-page/event-dummy.png",
+    image: "/events-page/event-dummy-2.png",
     color: "#C297F9",
     teamSize: "2",
     prize: [
@@ -438,13 +442,13 @@ export const events = [
     clubDescription: `Handila is a community of artists and art lovers who come together regularly to create, share, and appreciate various forms of art. We offer a supportive and inclusive space for members to improve their skills, make connections, and connect with like-minded individuals. Recently, Handila has teamed up with INSTINCTS' 24 to provide an exciting experience for students interested in exploring a lost continent. This adventure combines creative expression and real-world exploration to uncover the secrets of an unknown land. Join the journey with art as your guide and discover the lost continent through adventure and imagination.
     `,
     clubLogos: [{ name: "Handila", img: "/events-page/handila.png" }],
-    fee: "200/- per team",
+    fee: ["200/- Per Team"],
   },
   {
     title: "Spotlight",
     dayDetail: "TBD",
     category: "Theatre",
-    image: "/events-page/event-dummy.png",
+    image: "/events-page/event-dummy-3.png",
     color: "#F6C826",
     teamSize: "1",
     prize: [
@@ -467,13 +471,13 @@ export const events = [
       { name: "Lights Out Please", img: "/events-page/LOP.png" },
       { name: "All The World's A Stage", img: "/events-page/snu_theatre.jpg" },
     ],
-    fee: "250 (Club Pass)",
+    fee: ["250/- Per Head (Club Pass)"],
   },
   {
     title: "Enigma",
     dayDetail: "TBD",
     category: "Theatre",
-    image: "/events-page/event-dummy.png",
+    image: "/events-page/event-dummy-3.png",
     color: "#F6C826",
     teamSize: "1",
     prize: [
@@ -494,14 +498,13 @@ export const events = [
       { name: "Lights Out Please", img: "/events-page/LOP.png" },
       { name: "All The World's A Stage", img: "/events-page/snu_theatre.jpg" },
     ],
-    fee: "250 (Club Pass)",
+    fee: ["250/- Per Head (Club Pass)"],
   },
-
   {
     title: "Quills Out Please!",
     dayDetail: "TBD",
     category: "Theatre",
-    image: "/events-page/event-dummy.png",
+    image: "/events-page/event-dummy-3.png",
     color: "#F6C826",
     teamSize: "1",
     prize: [
@@ -526,20 +529,14 @@ export const events = [
       { name: "Lights Out Please", img: "/events-page/LOP.png" },
       { name: "All The World's A Stage", img: "/events-page/snu_theatre.jpg" },
     ],
-    fee: "250 (Club Pass)",
+    fee: ["250/- Per Head (Club Pass)"],
   },
   {
-    title: "Reels of fire",
-    dayDetail: "TBD",
-    category: "Film",
-    image: "/events-page/event-dummy.png",
-    color: "#914E0D",
-    teamSize: "Flexible",
     title: "WESTERN SOLO",
     dayDetail: "7th March",
     category: "Western Dance",
-    image: "/events-page/event-dummy.png",
-    color: "#FC6655",
+    image: "/events-page/event-dummy-4.png",
+    color: "#4FB6F0",
     teamSize: "1",
     prize: [
       { place: "FIRST", amount: "TBD" },
@@ -566,14 +563,14 @@ export const events = [
       { name: "N2K", img: "/events-page/n2k.png" },
       { name: "Rhythm", img: "/events-page/rhythm.jpg" },
     ],
-    fee: "200/- per head",
+    fee: ["200/- Per Head"],
   },
   {
     title: "2v2 DANCE BATTLE",
     dayDetail: "7th March",
     category: "Western Dance",
-    image: "/events-page/event-dummy.png",
-    color: "#FC6655",
+    image: "/events-page/event-dummy-4.png",
+    color: "#4FB6F0",
     teamSize: "2",
     prize: [
       { place: "FIRST", amount: "TBD" },
@@ -602,14 +599,14 @@ export const events = [
       { name: "N2K", img: "/events-page/n2k.png" },
       { name: "Rhythm", img: "/events-page/rhythm.jpg" },
     ],
-    fee: "100/- per head",
+    fee: ["100/- Per Head"],
   },
   {
     title: "CHOREONITE",
     dayDetail: "7th March",
     category: "Western Dance",
-    image: "/events-page/event-dummy.png",
-    color: "#FC6655",
+    image: "/events-page/event-dummy-4.png",
+    color: "#4FB6F0",
     teamSize: "8-25",
     prize: [
       { place: "FIRST", amount: "TBD" },
@@ -648,14 +645,14 @@ export const events = [
       { name: "N2K", img: "/events-page/n2k.png" },
       { name: "Rhythm", img: "/events-page/rhythm.jpg" },
     ],
-    fee: "100/- per head",
+    fee: ["200/- Per Head"],
   },
   {
     title: "The Valor Cup",
     dayDetail: "TBD",
     category: "Gaming",
-    image: "/events-page/event-dummy.png",
-    color: "#FDAF46",
+    image: "/events-page/event-dummy-1.png",
+    color: "#8638eb",
     teamSize: "5",
     prize: [
       { place: "FIRST", amount: "TBD" },
@@ -752,14 +749,14 @@ All players are expected to exhibit good sportsmanship and maintain respect for 
       { name: "SSN Gaming Club", img: "/events-page/SGC.jpg" },
       { name: "SNU Gaming Club", img: "/events-page/spectre.png" }
     ],
-    fee: "TBD",
+    fee: ["250/- Per Team"],
   },
   {
     title: "COD Mayhem",
     dayDetail: "TBD",
     category: "Gaming",
-    image: "/events-page/event-dummy.png",
-    color: "#FDAF46",
+    image: "/events-page/event-dummy-1.png",
+    color: "#8638eb",
     teamSize: "5",
     prize: [
       { place: "FIRST", amount: "TBD" },
@@ -816,14 +813,14 @@ The following actions are strictly prohibited during the tournament and will res
       { name: "SSN Gaming Club", img: "/events-page/SGC.jpg" },
       { name: "SNU Gaming Club", img: "/events-page/spectre.png" }
     ],
-    fee: "TBD",
+    fee: ["250/- Per Team"],
   },
   {
     title: "Marketplace Maze: Startup Edition",
     dayDetail: "TBD",
     category: "Entrepreneurship",
-    image: "/events-page/event-dummy.png",
-    color: "#C297F9",
+    image: "/events-page/event-dummy-3.png",
+    color: "#FC6655",
     teamSize: "3-4",
     prize: [
       { place: "FIRST", amount: "TBD" },
@@ -849,13 +846,13 @@ Lakshya stands as a testament to the unwavering spirit of entrepreneurship, fost
 We take pride in our journey, from a handful of enthusiasts to a thriving community of young minds dedicated to shaping the future of entrepreneurship at SSN. Lakshya continues to be the driving force behind the entrepreneurial ambitions of students, providing a platform for innovation, learning, and success.
 `,
     clubLogos: [{ name: "SSN Lakshya", img: "/events-page/lakshya.png" }],
-    fee: "TBD",
+    fee: ["TBD"],
   },
   {
     title: "REELS OF FIRE",
     dayDetail: "TBD",
     category: "Film",
-    image: "/events-page/event-dummy.png",
+    image: "/events-page/event-dummy-3.png",
     color: "#914E0D",
     teamSize: "Flexible",
     prize: [
@@ -881,13 +878,13 @@ We take pride in our journey, from a handful of enthusiasts to a thriving commun
       { name: "SFC", img: "/events-page/sfc.png" },
       { name: "Montage", img: "/events-page/montage.png" },
     ],
-    fee: "500/- per team",
+    fee: ["500/- Per Team"],
   },
   {
     title: "LIGHTS CAMERA SALE!",
     dayDetail: "TBD",
     category: "Film",
-    image: "/events-page/event-dummy.png",
+    image: "/events-page/event-dummy-3.png",
     color: "#914E0D",
     teamSize: 2,
     prize: [
@@ -909,13 +906,13 @@ Decode the series of pictures showcasing iconic scenes, just like the classical 
       { name: "SFC", img: "/events-page/sfc.png" },
       { name: "Montage", img: "/events-page/montage.png" },
     ],
-    fee: "200/- per team",
+    fee: ["200/- Per Team"],
   },
   {
     title: "LIGHTS. CAMERA. THADHINGINATHOM.",
     dayDetail: "TBD",
     category: "Classical Dance",
-    image: "/events-page/event-dummy.png",
+    image: "/events-page/event-dummy-4.png",
     color: "#FEDE88",
     teamSize: 1,
     prize: [
@@ -947,13 +944,13 @@ Decode the series of pictures showcasing iconic scenes, just like the classical 
       { name: "Arudhra CDT", img: "/events-page/arudra.png" },
       { name: "Ameya CDC", img: "/events-page/ameya.png" },
     ],
-    fee: 150,
+    fee: ["150/- Per Head"],
   },
   {
     title: "CHATHURANGA",
     dayDetail: "TBD",
     category: "Classical Dance",
-    image: "/events-page/event-dummy.png",
+    image: "/events-page/event-dummy-4.png",
     color: "#FEDE88",
     teamSize: 4,
     prize: [
@@ -984,13 +981,13 @@ Prepare yourself for a visual and rhythmic challenge. An audio-visual of a class
       { name: "Arudhra CDT", img: "/events-page/arudra.png" },
       { name: "Ameya CDC", img: "/events-page/ameya.png" },
     ],
-    fee: "250/- per team",
+    fee: ["250/- Per Team"],
   },
   {
     title: "Anunad",
     dayDetail: "TBD",
     category: "Music",
-    image: "/events-page/event-dummy.png",
+    image: "/events-page/event-dummy-4.png",
     color: "#0C5AB9",
     teamSize: 1,
     prize: [
@@ -1027,13 +1024,13 @@ Prepare yourself for a visual and rhythmic challenge. An audio-visual of a class
       { name: "SMC", img: "/events-page/smc.png" },
       { name: "SNU Isai", img: "/events-page/isai.jpg" },
     ],
-    fee: 150,
+    fee: ["150/- Per Head (Event Pass)", "200/- Per Head (Club Pass)"],
   },
   {
     title: "Riff Off",
     dayDetail: "TBD",
     category: "Music",
-    image: "/events-page/event-dummy.png",
+    image: "/events-page/event-dummy-4.png",
     color: "#0C5AB9",
     teamSize: 1,
     prize: [
@@ -1062,13 +1059,13 @@ Prepare yourself for a visual and rhythmic challenge. An audio-visual of a class
       { name: "SMC", img: "/events-page/smc.png" },
       { name: "SNU Isai", img: "/events-page/isai.jpg" },
     ],
-    fee: "200 (Club Pass)",
+    fee: ["200/- Per Head (Club Pass)"],
   },
   {
     title: "Band Hunt",
     dayDetail: "TBD",
     category: "Music",
-    image: "/events-page/event-dummy.png",
+    image: "/events-page/event-dummy-4.png",
     color: "#0C5AB9",
     teamSize: "3-10",
     prize: [
@@ -1108,13 +1105,13 @@ Prepare yourself for a visual and rhythmic challenge. An audio-visual of a class
       { name: "SMC", img: "/events-page/smc.png" },
       { name: "SNU Isai", img: "/events-page/isai.jpg" },
     ],
-    fee: "200 (Club Pass)",
+    fee: ["200/- Per Head (Club Pass)"],
   },
   {
     title: "Verse and Beats",
     dayDetail: "TBD",
     category: "Music",
-    image: "/events-page/event-dummy.png",
+    image: "/events-page/event-dummy-4.png",
     color: "#0C5AB9",
     teamSize: "1",
     prize: [
@@ -1149,13 +1146,13 @@ Prepare yourself for a visual and rhythmic challenge. An audio-visual of a class
       { name: "SMC", img: "/events-page/smc.png" },
       { name: "SNU Isai", img: "/events-page/isai.jpg" },
     ],
-    fee: "200 (Club Pass)",
+    fee: ["200/- Per Head"],
   },
   {
     title: "DESIGNATHON - TRACKS 1 & 2",
     dayDetail: "TBD",
     category: "Design",
-    image: "/events-page/event-dummy.png",
+    image: "/events-page/event-dummy-2.png",
     color: "#F6800E",
     teamSize: 1,
     prize: [
@@ -1202,13 +1199,13 @@ This event focuses on the ability of a designer to comprehend a given concept an
       { name: "SDC", img: "/events-page/sdc.png" },
       { name: "Aura", img: "/events-page/aura.png" },
     ],
-    fee: "200/- per individual",
+    fee: ["200/- Per Head"],
   },
   {
     title: "INTERFACE-OFF",
     dayDetail: "TBD",
     category: "Design",
-    image: "/events-page/event-dummy.png",
+    image: "/events-page/event-dummy-2.png",
     color: "#F6800E",
     teamSize: 2,
     prize: [
@@ -1242,13 +1239,13 @@ This event focuses on the ability of a designer to comprehend a given concept an
       { name: "SDC", img: "/events-page/sdc.png" },
       { name: "Aura", img: "/events-page/aura.png" },
     ],
-    fee: "200/- per team",
+    fee: ["200/- Per Team"],
   },
   {
     title: "REEL IT",
     dayDetail: "TBD",
     category: "Design",
-    image: "/events-page/event-dummy.png",
+    image: "/events-page/event-dummy-2.png",
     color: "#F6800E",
     teamSize: 2,
     prize: [
@@ -1275,13 +1272,13 @@ This event focuses on the ability of a designer to comprehend a given concept an
       { name: "SDC", img: "/events-page/sdc.png" },
       { name: "Aura", img: "/events-page/aura.png" },
     ],
-    fee: "200/- per team",
+    fee: ["200/- Per Team"],
   },
   {
-    title: "The SNUC IPL Auction",
+    title: "IPL Auction",
     dayDetail: "TBD",
     category: "Business",
-    image: "/events-page/event-dummy.png",
+    image: "/events-page/event-dummy-3.png",
     color: "#2E3192",
     teamSize: "3-6",
     prize: [
@@ -1324,13 +1321,13 @@ This event focuses on the ability of a designer to comprehend a given concept an
     clubLogos: [
       { name: "SNUC Business Club", img: "/events-page/business_club.jpg" },
     ],
-    fee: 100,
+    fee: ["100/- Per Head"],
   },
   {
     title: "Online Photography Contest",
     dayDetail: "TBD",
     category: "Photography",
-    image: "/events-page/event-dummy.png",
+    image: "/events-page/event-dummy-4.png",
     color: "#00644C",
     teamSize: 1,
     prize: [
@@ -1362,13 +1359,13 @@ This event focuses on the ability of a designer to comprehend a given concept an
         img: "/events-page/capturesque.jpg",
       },
     ],
-    fee: 100,
+    fee: ["100/- Per Head"],
   },
   {
     title: "SnapQuest",
     dayDetail: "TBD",
     category: "Photography",
-    image: "/events-page/event-dummy.png",
+    image: "/events-page/event-dummy-4.png",
     color: "#00644C",
     teamSize: 1,
     prize: [
@@ -1409,14 +1406,14 @@ This event focuses on the ability of a designer to comprehend a given concept an
         img: "/events-page/capturesque.jpg",
       },
     ],
-    fee: 150,
+    fee: ["150/- Per Head"],
   },
   {
     title: "The Funda-Mavan quiz",
     dayDetail: "TBD",
-    category: "Quiz",
-    image: "/events-page/event-dummy.png",
-    color: "#00644C",
+    category: "Quizzes",
+    image: "/events-page/event-dummy-1.png",
+    color: "#C31C80",
     teamSize: "1-3",
     prize: [
       { place: "FIRST", amount: "TBD" },
@@ -1450,14 +1447,14 @@ This event focuses on the ability of a designer to comprehend a given concept an
         img: "/events-page/quiz_ssn.png",
       },
     ],
-    fee: "200 (Club Pass)",
+    fee: ["200/- Per Head (Club Pass)"],
   },
   {
     title: "MELA",
     dayDetail: "TBD",
-    category: "Quiz",
-    image: "/events-page/event-dummy.png",
-    color: "#00644C",
+    category: "Quizzes",
+    image: "/events-page/event-dummy-1.png",
+    color: "#C31C80",
     teamSize: "1-3",
     prize: [
       { place: "FIRST", amount: "TBD" },
@@ -1491,14 +1488,14 @@ This event focuses on the ability of a designer to comprehend a given concept an
         img: "/events-page/quiz_ssn.png",
       },
     ],
-    fee: "200 (Club Pass)",
+    fee: ["200/- Per Head (Club Pass)"],
   },
   {
     title: "Sports Quiz ",
     dayDetail: "TBD",
-    category: "Quiz",
-    image: "/events-page/event-dummy.png",
-    color: "#00644C",
+    category: "Quizzes",
+    image: "/events-page/event-dummy-1.png",
+    color: "#C31C80",
     teamSize: "1-3",
     prize: [
       { place: "FIRST", amount: "TBD" },
@@ -1532,6 +1529,6 @@ This event focuses on the ability of a designer to comprehend a given concept an
         img: "/events-page/quiz_ssn.png",
       },
     ],
-    fee: "200 (Club Pass)",
+    fee: ["200/- Per Head (Club Pass)"],
   },
 ];

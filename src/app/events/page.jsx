@@ -13,7 +13,9 @@ export default function EventsPage() {
   const [isModalOpen, setModalOpen] = useState(false);
   const [selectedEvent, setSelectedEvent] = useState(null);
 
-  const filteredEvents = events.filter((event) => {
+  const sortedcategories = categories.sort((a, b) => a.name.localeCompare(b.name));
+
+  const filteredEvents = events.sort((a, b) => a.title.localeCompare(b.title)).filter((event) => {
     if (selectedCategory === "All Events") {
       return true;
     } else {
@@ -26,7 +28,7 @@ export default function EventsPage() {
       <div>
         <Hero />
         <CategoryPicker
-          categories={categories}
+          categories={sortedcategories}
           selectedCategory={selectedCategory}
           setSelectedCategory={setSelectedCategory}
         />
