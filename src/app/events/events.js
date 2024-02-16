@@ -389,7 +389,7 @@ export const events = [
     category: "Fine Arts",
     image: "/events-page/event-dummy.png",
     color: "#C297F9",
-    teamSize: "2",
+    teamSize: "2-3",
     prize: [
       { place: "FIRST", amount: "TBD" },
       { place: "SECOND", amount: "TBD" },
@@ -750,6 +750,7 @@ All players are expected to exhibit good sportsmanship and maintain respect for 
     clubDescription: `Dive into a world of pixels and play at SSN & SNUC Gaming Club! Join weekly gaming sessions, epic tournaments, and tech talks. Forge friendships, showcase your creativity, and level up your college experience with us. The next gaming adventure awaits—grab your controller and join the fun! 🎮🕹️`,
     clubLogos: [
       { name: "SSN Gaming Club", img: "/events-page/SGC.jpg" },
+      { name: "SNU Gaming Club", img: "/events-page/spectre.png" }
     ],
     fee: "TBD",
   },
@@ -813,6 +814,7 @@ The following actions are strictly prohibited during the tournament and will res
     clubDescription: `Dive into a world of pixels and play at SSN & SNUC Gaming Club! Join weekly gaming sessions, epic tournaments, and tech talks. Forge friendships, showcase your creativity, and level up your college experience with us. The next gaming adventure awaits—grab your controller and join the fun! 🎮🕹️`,
     clubLogos: [
       { name: "SSN Gaming Club", img: "/events-page/SGC.jpg" },
+      { name: "SNU Gaming Club", img: "/events-page/spectre.png" }
     ],
     fee: "TBD",
   },
@@ -948,7 +950,7 @@ Decode the series of pictures showcasing iconic scenes, just like the classical 
     fee: 150,
   },
   {
-    title: "CHATURANGA",
+    title: "CHATHURANGA",
     dayDetail: "TBD",
     category: "Classical Dance",
     image: "/events-page/event-dummy.png",
@@ -959,7 +961,7 @@ Decode the series of pictures showcasing iconic scenes, just like the classical 
       { place: "SECOND", amount: "TBD" },
       { place: "THIRD", amount: "TBD" },
     ],
-    description: `Get ready to celebrate the spirit of dance, teamwork, and cultural recognition in CHATURANGA, a thrilling classical dance event featuring four dynamic rounds of skill, knowledge, and synchronization, where every move, guess, and character reveal brings you closer to victory! This event is open to all, inviting participants from diverse backgrounds to join the celebration!
+    description: `Get ready to celebrate the spirit of dance, teamwork, and cultural recognition in CHATHURANGA, a thrilling classical dance event featuring four dynamic rounds of skill, knowledge, and synchronization, where every move, guess, and character reveal brings you closer to victory! This event is open to all, inviting participants from diverse backgrounds to join the celebration!
     `,
     rules: `**Round 1: Sampadam**
 Witness an image of a 4-member classical dance pose and race against time to replicate the stance as identically as possible. Quick precision earns your team valuable points!

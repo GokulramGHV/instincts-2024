@@ -1,6 +1,7 @@
 import { NavButton } from '@/components/navbar/navbar';
 import { Londrina_Solid } from 'next/font/google';
 import Image from 'next/image';
+import Link from 'next/link';
 const londonFont = Londrina_Solid({
   weight: ['100', '300', '400', '900'],
   subsets: ['latin'],
@@ -12,13 +13,17 @@ export default function Hero() {
       <div className="bg-[#FB6655] relative overflow-clip">
         <div className="">
           <div className="md:px-12 px-6 pt-10 flex justify-between items-center">
-            <Image
-              src="/events-page/top-logo.svg"
-              className="sm:w-[276px] w-[200px] sm:h-[106px] h-[77px]"
-              width={276}
-              height={106}
-              alt="instincts-logo"
-            />
+            < Link
+              href={"/"}
+            >
+              <Image
+                src="/events-page/top-logo.svg"
+                className="sm:w-[276px] w-[200px] sm:h-[106px] h-[77px]"
+                width={276}
+                height={106}
+                alt="instincts-logo"
+              />
+            </Link>
             <NavButton />
           </div>
           <div className="flex items-center py-12 md:pl-12 pl-6 gap-6 sm:gap-12 xl:gap-32 2xl:gap-40">
