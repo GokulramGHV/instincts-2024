@@ -4,7 +4,7 @@ import Accordion from './Accordian';
 
 export default function MobileLayout() {
   return (
-    <div className="lg:md:hidden min-h-[90vh] flex flex-col gap-8 w-full items-center justify-between">
+    <div className="lg:md:hidden flex flex-col gap-14 w-full items-center justify-between">
       <div className="mt-10">
         <Row gap={10}>
           <Image src="/logos/SNU.png" alt="snu_logo" width={120} height={120} />
@@ -15,7 +15,7 @@ export default function MobileLayout() {
       <Image
         src="/logos/Instincts_footer.svg"
         alt="instincts_logo"
-        className="w-full"
+        className="w-full mb-8"
         width={1440}
         height={50}
       />
