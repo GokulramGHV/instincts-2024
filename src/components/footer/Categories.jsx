@@ -40,7 +40,7 @@ export function ReachOut() {
         Contact Us
       </Link>
       <Link
-        href={'/'}
+        href={'/sponsors'}
         className="text-white font-semibold font-satoshi text-[22px]"
       >
         Sponsors
