@@ -34,7 +34,7 @@ export function ReachOut() {
   return (
     <>
       <Link
-        href={'/'}
+        href={'/coming-soon'}
         className="text-white font-semibold font-satoshi text-[22px]"
       >
         Contact Us
@@ -52,7 +52,7 @@ export function ReachOut() {
 export function JoinUs() {
   return (
     <Link
-      href={'/'}
+      href={'/coming-soon'}
       className="text-white font-semibold font-satoshi text-[22px]"
     >
       Get Passes

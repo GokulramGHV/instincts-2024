@@ -1440,11 +1440,11 @@ This event focuses on the ability of a designer to comprehend a given concept an
     clubLogos: [
       {
         name: "Q!",
-        img: "/events-page/quiz_ssn.png",
+        img: "/events-page/qfactorial.png",
       },
       {
         name: "Cognition",
-        img: "/events-page/quiz_ssn.png",
+        img: "/events-page/cognition.png",
       },
     ],
     fee: ["200/- Per Head (Club Pass)"],
@@ -1481,11 +1481,11 @@ This event focuses on the ability of a designer to comprehend a given concept an
     clubLogos: [
       {
         name: "Q!",
-        img: "/events-page/quiz_ssn.png",
+        img: "/events-page/qfactorial.png",
       },
       {
         name: "Cognition",
-        img: "/events-page/quiz_ssn.png",
+        img: "/events-page/cognition.png",
       },
     ],
     fee: ["200/- Per Head (Club Pass)"],
@@ -1522,11 +1522,11 @@ This event focuses on the ability of a designer to comprehend a given concept an
     clubLogos: [
       {
         name: "Q!",
-        img: "/events-page/quiz_ssn.png",
+        img: "/events-page/qfactorial.png",
       },
       {
         name: "Cognition",
-        img: "/events-page/quiz_ssn.png",
+        img: "/events-page/cognition.png",
       },
     ],
     fee: ["200/- Per Head (Club Pass)"],
