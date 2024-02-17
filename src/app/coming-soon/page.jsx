@@ -3,10 +3,10 @@ import Image from 'next/image';
 
 export default function ComingSoonPage() {
   return (
-    <div className="h-screen flex justify-center items-end bg-[#202020] w-full overflow-hidden">
+    <div className="relative h-screen flex justify-center items-end bg-[#202020] w-full overflow-hidden">
       <Image
         alt="logo"
-        className="absolute top-12 left-10 sm:left-20 lg:w-[15vw]"
+        className="absolute top-12 left-10 sm:left-20 lg:w-[15vw] z-30 "
         src="/logos/Instincts_white.svg"
         width="180"
         height="150"
@@ -22,7 +22,7 @@ export default function ComingSoonPage() {
       <h2 className="absolute right-20 sm:left-32 top-[25vh] lg:top-[55%] xl:top-[60%] font-satoshi text-xl lg:text-3xl xl:text-4xl text-white font-medium">
         Stay tuned.
       </h2>
-      <div className="absolute left-0 top-0 sm:top-[50%] sm:translate-y-[-50%] w-full">
+      <div className="absolute left-0 top-0 sm:top-[50%] sm:translate-y-[-50%] w-full z-40">
         <div className="relative">
           <Image
             alt=""
