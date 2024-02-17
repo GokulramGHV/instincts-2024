@@ -1,6 +1,4 @@
 import React, { useEffect, useRef, useState } from "react";
-import { HiUserGroup } from "react-icons/hi2";
-import { FaCalendar } from "react-icons/fa";
 import { AiOutlineCloseCircle } from "react-icons/ai";
 import { IoIosArrowForward } from "react-icons/io";
 import { IoIosArrowBack } from "react-icons/io";
@@ -78,9 +76,29 @@ const EventModal = ({ isModalOpen, setModalOpen, event }) => {
           className="flex flex-col mx-auto lg:w-[65vw] 2xl:w-[50vw] lg:gap-7 gap-[20px] md:py-[30px] md:px-[30px] lg:max-h-[max-content] py-[20px] px-[25px] max-h-[100%] overflow-y-auto"
         >
           <div className="flex items-start justify-between">
-            <h1 className="font-extrabold xl:text-[50px] md:text-[42px] text-[30px]">
-              {event.title}
-            </h1>
+            <div className="flex flex-wrap justify-center items-center gap-x-12 gap-y-5">
+              <h1 className="font-extrabold xl:text-[50px] md:text-[42px] text-[30px]">
+                {event.title}
+              </h1>
+              {event.title === "REELS OF FIRE" && (
+                <div className="flex gap-6 justify-center items-center">
+                  <Image
+                    src="/sponsors/unstop_logo.png"
+                    alt="Unstop"
+                    className="h-fit"
+                    width={100}
+                    height={100}
+                  />
+                  <Image
+                    src="/sponsors/ags_cinemas_logo.png"
+                    alt="AGS"
+                    className="h-fit"
+                    width={70}
+                    height={70}
+                  />
+                </div>
+              )}
+            </div>
             <AiOutlineCloseCircle
               className="lg:hidden"
               color="#8F8D8D"
@@ -143,9 +161,7 @@ const EventModal = ({ isModalOpen, setModalOpen, event }) => {
                   ))}
                 </div>
               </div>
-              <div className="md:text-xl font-medium text-[15px]">
-                {event.description}
-              </div>
+              <div className="md:text-xl font-medium">{event.description}</div>
             </>
           )}
 
@@ -175,7 +191,7 @@ const EventModal = ({ isModalOpen, setModalOpen, event }) => {
               </div>
               {/* <div className="max-h-[60vh] overflow-y-scroll w-full"> */}
               <section
-                className="prose text-xl"
+                className="prose md:text-xl"
                 dangerouslySetInnerHTML={{
                   __html: md.render(event?.rules),
                 }}
@@ -317,21 +333,27 @@ const EventModal = ({ isModalOpen, setModalOpen, event }) => {
             </>
           )}
 
-          <button
-            className="lg:text-[25px] md:text-[22px] text-[20px] font-medium lg:py-[23px] md:py-[20px] py-[15px] lg:w-[70%] w-[100%] self-center"
+          <a
+            className={`flex flex-wrap ${
+              event.fee.length > 1 && "flex-col"
+            } gap-1 justify-center items-center lg:text-xl md:text-lg font-medium lg:py-[23px] md:py-[20px] py-[15px] lg:w-[70%] w-[100%] self-center`}
             style={{
               backgroundColor: "#43A363",
               borderRadius: 60,
               color: "#E6FCFF",
             }}
+            href={event?.registrationLink ? event.registrationLink : "#"}
+            target="_blank"
           >
             REGISTER:
-            {event.fee.map((feeOption, index) => (
-              <div key={index}>
-                <span className="font-bold">₹{feeOption}</span>
-              </div>
-            ))}
-          </button>
+            <div>
+              {event.fee.map((feeOption, index) => (
+                <div key={index}>
+                  <span className="font-bold">₹{feeOption}</span>
+                </div>
+              ))}
+            </div>
+          </a>
         </div>
       </div>
     )

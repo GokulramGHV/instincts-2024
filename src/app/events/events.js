@@ -58,10 +58,68 @@ export const categories = [
   {
     name: "Quizzes",
     color: "#C31C80",
-  }
+  },
+  {
+    name: "Variety Show",
+    color: "#F5A623",
+  },
 ];
 
 export const events = [
+  {
+    title: "Student Variety Show",
+    dayDetail: "TBD",
+    category: "Variety Show",
+    image: "/events-page/event-dummy-1.png",
+    color: "#F5A623",
+    teamSize: "4-12",
+    prize: [
+      { place: "FIRST", amount: "TBD" },
+      { place: "SECOND", amount: "TBD" },
+      { place: "THIRD", amount: "TBD" },
+    ],
+    description: `Witness for yourself what all the fuzz is about! Student variety show is an entertainment-based show that covers a variety of acts such as skits, dance, sketch, comedy, magic acrobatics, etc. Come contest with your equals, and show us what makes you stand out from them!    
+    `,
+    rules: `### General Rules
+1. Participants MUST be college students with a valid college ID card and are required to register priorly.
+2. Registration fees: Rs.150/- per head.
+3. Registered details must be shown to the registration desk prior to entering the show.
+4. Students must report 1 hour prior to the event.
+5. Minimum number of members per team: 4
+6. Maximum number of members per team: 12
+7. Any type of talent can be exhibited.
+8. No second chance will be given to the participants until a technical error occurs.
+9. Usage of flammable things are prohibited in the stage.
+10. Obscenity of any kind is strictly prohibited.
+11. All the necessary items for performing should be brought by the team.   
+
+### Round 1: PRELIMS 
+1. The total duration of performance must NOT exceed 10 minutes, which includes stage setup time. 
+2. All necessary items for the performance should be brought by the teams. 
+3. Audio track must be sent by the team, via mail, 2 days prior to the program.
+4. Decision of the judges will be final and binding.    
+
+### Round 2: FINALS 
+1. The total duration of performance must NOT exceed 15 minutes, which includes stage setup time. 
+2. Decision of the judges will be final and binding.
+
+### Venue
+- Round 1: Prelims - Venue: Mini Auditorium 
+- Round 2: Finals - Venue: Main Auditorium      
+    `,
+    contacts: [
+      "Chenthamarai Kannan - 8825961741",
+      "Yuvashree - 9789995003",
+      "Harshitha – 8825603879",
+      "Thangasudha – 8610255943",
+    ],
+    clubDescription: `Welcome to our Student Variety Show Club - the heartbeat of creativity on campus. Join a diverse community where your talents, whether in music, dance, comedy, or any unique skill, take center stage. Unleash your potential, audition for stardom, and create unforgettable moments. Beyond performances, discover leadership opportunities and skills in event planning. Whether you're a seasoned performer or a first-time talent, our inclusive stage is yours. Join us in crafting memories, where every act contributes to the vibrant tapestry of our Student Variety Show Club. Your journey in the world of entertainment begins here.
+    `,
+    clubLogos: [
+      { name: "Variety Show Club", img: "/events-page/event-dummy-1.png" },
+    ],
+    fee: ["150/- Per Head"],
+  },
   {
     title: "Pattimandram",
     dayDetail: "TBD",
@@ -660,94 +718,18 @@ export const events = [
       { place: "THIRD", amount: "TBD" },
     ],
     description: `This is a valorant game event, plan your strike and plant the spike. Join us here to clutch your way to the top in this classic 5v5 clash. `,
-    rules: `### Team Registration and Rules:
-
-- All members of a team must register on tracker.gg and only use the ID registered on the website in the tournament. A change in accounts will lead to immediate disqualification.
-- Details regarding the matchmaking process, map-picking process, and brackets will be sent to the teams before the tournament.
+    rules: `- All members of a team must register on tracker.gg and only use the ID registered on the website in the tournament.
+- A change in accounts will lead to immediate disqualification. 
+- Details regarding the matchmaking process, map-picking process, and brackets will be sent to the teams before the tournament. 
 - All decisions made by the administrators regarding this and any changes in the process are final.
-
-### Team Captains:
-
-- Each team must have a designated captain.
-- The captain is the link between the organizers, administrators, and his team before, during, and after the event.
-- The captain must be a member of the team.
-- The captain is responsible for the check-in on the day of the tournament.
-- The captain has to be reachable on Discord at all times during the tournament's hours.
-- The captain should frequently check the tournament’s Discord channel to be aware of any announcement made by the Tournament Administrators.
-- The captain will be the spokesperson of the team in case of a dispute.
-
-### Code of Conduct:
-
-All players are expected to exhibit good sportsmanship and maintain respect for one another, players, and the staff. They are to treat others as they themselves would like to be treated. Any behavior that is considered to be inappropriate and in violation of the code of conduct includes, but is not limited to, the following:
-
-- Non-fair-play behavior, physical or verbal abuse towards players, staff, or any participant.
-- Acting in an unsportsmanlike or disruptive manner, or with the intent to disrupt or undermine the legitimate operation of the Tournament, or to annoy, abuse, threaten or harass any other person.
-- Engaging in collusion, which is an agreement between two or more teams or players on different teams to predetermine the outcome of a game.
-- Hacking, exploiting, the use of any kind of cheating device and/or cheat programs, or any similar cheating method.
-- Intentionally using any in-game bugs or so-called “hacks” to seek an advantage.
-- Cheating, manipulating game files, using unapproved game modifications, or any other method by which one may gain an unfair advantage over another player.
-- Engaging in violence or any activity which is deemed in the judgment of the Tournament Administrators to be immoral, unethical, disgraceful, or contrary to common standards of decency.
-- Any player who violates these rules may be disqualified. Warnings and sanctions may lead to immediate disqualification and removal of the player and his team from the tournament. This decision will be at the discretion of the Tournament Administrators. You can talk to your Tournament Administrators if you see any improper or suspicious behavior.
-
-### Betting/Gambling:
-
-- No players may be involved in betting or gambling, nor associate with betters or gamblers or provide anyone any information that may assist betting or gambling, either directly or indirectly, for any of the matches or the tournament.
-- Any betting or gambling will lead to immediate disqualification of the team and a one year ban from competition for all persons involved. Any other violation will be penalized at the sole discretion of the tournament administrator.
-
-### Disciplinary Action for Misconduct:
-
-- In all cases depending on the severity of the behavior in question tournament officials will make final rules and may make more severe punishments if necessary.
-
-### Warning:
-
-- A team may be cautioned and receive a warning if one of his players commits any of the following offenses:
-  - Refuses to follow tournament hosts’ instructions;
-  - Arrives late to the lobby;
-  - Shows dissent by word or action;
-  - Uses insulting language in all chat/party voice comm.;
-  - Is guilty of unsportsmanlike behavior.
-
-### Sanction:
-
-- A team may receive a sanction if one of its players commits any of the following offenses:
-  - Receives more than one warning;
-  - Is guilty of violent conduct;
-  - Uses any unlawful or unfair proceedings;
-  - Mislead or is dishonest to any tournament host.
-
-### Review Send-Off:
-
-- After studying a sanction by the host and the tournament director, a sanctioned team may be subject to additional sanctions such as multiple default losses, disqualification of the team, and banishment of the next competition.
-- A disqualified team will automatically lose all their next matches by default and lose all rights and prizes that would have been awarded.
-
-### Issues During a Match:
-
-- If a match is interrupted for reasons beyond the control of the teams (player crash, server crash, network outage, etc.) no rematch will be conducted.
-- If a major problem or issue takes place before any action happens in round 3 (damage, utility used, etc.)
-- If the match cannot be completed.
-
-### Scripts & Ingame Actions:
-
-- The following actions are strictly prohibited during the tournament and will result in a round loss (the amount is determined by the tournament admin) which will be deducted at the end of the match, and a warning:
-  - Using pause during a round is forbidden (except for technical problems at the end of a round or during freeze time.).
-  - Using bugs that change the game principle (i.e. spawn bugs, leaving the map, etc.).
-  - Using bugs that allow players to see through floors and walls.
-  - Out of map Cypher cameras as well as cameras that are unable to be destroyed.
-  - Any form of script is forbidden.
-  - Any custom (game) files.
-
-### General
-
-- By participating in the tournament, participants acknowledge without limitation to comply with the rules and regulations and with the statements and decisions made by the administration. The interpretation of the rules is solely at the discretion of the administration.
-- All special cases not covered in the rules require an individual assessment by the administration. Actions can vary from the ones mentioned here, they will always be taken considering proportionality and conformity with the remaining rules.
-- No player should participate in more than one team. If found guilty, the teams will be disqualified.
-- The administration’s decisions are final.
+- Additional rule book will be sent upon registration   
+- **Brochure**: [Gaming Club](https://drive.google.com/file/d/1vQam0kWtw0B8vrLag1bTIiIMYAEHCrfY/view?usp=sharing)
 `,
     contacts: ["Pradeeshwar (9952353704)", "Shriram (8838308395)"],
     clubDescription: `Dive into a world of pixels and play at SSN & SNUC Gaming Club! Join weekly gaming sessions, epic tournaments, and tech talks. Forge friendships, showcase your creativity, and level up your college experience with us. The next gaming adventure awaits—grab your controller and join the fun! 🎮🕹️`,
     clubLogos: [
       { name: "SSN Gaming Club", img: "/events-page/SGC.jpg" },
-      { name: "SNU Gaming Club", img: "/events-page/spectre.png" }
+      { name: "SNU Gaming Club", img: "/events-page/spectre.png" },
     ],
     fee: ["250/- Per Team"],
   },
@@ -764,54 +746,18 @@ All players are expected to exhibit good sportsmanship and maintain respect for 
       { place: "THIRD", amount: "TBD" },
     ],
     description: `This is an exciting and competitive mobile gaming multiplayer tournament, where you will unleash your skills and strategic prowess as you go head-to-head with rival teams, navigating modes that demand mastery of various weapons and tactical brilliance.`,
-    rules: `### General Rules:
-
-- By participating in our tournaments, all participants automatically agree that they vow to respect fellow participants and the Organising Members.
-- The usage of cheats, hacks, or any other third-party applications / external devices that give you an unfair advantage over your opponents will result in immediate disqualification. Teams or players may also be banned from future tournaments.
-- It is strictly prohibited to gamble or bet during an ongoing tournament. This rule applies to players or a team management that has any relations to a participating party. Such actions can give unfair advantage to close associates of teams that are playing.
-- Account sharing will be met with disqualification. Only the original owner of the Call of Duty: Mobile account may use it in tournaments.
-- It is prohibited to spam or use any unsportsmanlike behavior, such as trash talking, harassment, or use of offensive language during or post matches and doing so may result in us taking punitive measures against you.
-- Any activities which involve intentionally causing harm or annoyance to other participants are not allowed. This can include team killing, blocking, or any other disruptive behavior that interferes with gameplay.
-- Team captains must make sure that their team shows up before 15 minutes of match time for completing verification processes. If a team does not join the in-game lobby within 5 minutes after the agreed-upon time, they will be at risk of disqualification.
-- All players must remain in the game’s lobby following the conclusion of each match. This allows us to view their final score on the scoreboard. Players that leave the lobby earlier and thus do not show up on the scoreboard may be suspended from on-going tournaments.
-- We reserve the right to edit the rules at any time and disqualify teams for reasons not stated in this list or take other action.
-- The administration’s decisions are final.
-
-### Issues During Match:
-
-- If a match is interrupted for reasons beyond the control of the teams (player crash, server crash, network outage, etc.) no rematch will be conducted.
-- If a major problem or issue takes place before any action happens in round 3 (damage, utility used, etc.).
-- If the match cannot be completed.
-
-### Scripts and In-game Actions:
-
-The following actions are strictly prohibited during the tournament and will result in a round loss (the amount is determined by the tournament admin) which will be deducted at the end of the match, and a warning:
-
-- Using pause during a round is forbidden (except for technical problems at the end of a round or during freeze time.).
-- Using bugs that change the game principle (i.e. spawn bugs, leaving the map, etc.).
-- Any form of script is forbidden.
-- Any custom (game) files.
-
-### Modes and Maps:
-
--  Each team will play a best-of-three series with modes as: Hardpoint, Search and Destroy, and Control
--  The first round will be a HardPoint with a winning condition of 150 points and a time limit of 10 minutes. (Maps are: Take off, Hacienda, Shoot house, Summit)
--  The second round will be a Search and Destroy with a winning condition of 6 rounds. (Maps are: Standoff, Tunisia, Coastal, Crash)
--  The third and final round will be Control mode with a winning condition of 3 matches. ( Maps are: Raid, Crossroad Strike, Rush, Slums). For control participants are required to use unique gun types, such as AR, Sniper Rifle, LMG, Shotgun, SMG, and Marksman Rifle ie.,, each member of the team is required to use a different gun class.
-
-### Banned Items:
-
--  Secondary Weapons such as Pistols and Launchers are allowed, but Melee Weapons are strictly prohibited for kills but can be used for mobility.
--  The scorestreaks UAV, Counter UAV, Hunter Killer Drone, Shock RC and Advanced UAVs are only allowed and others are prohibited.
--  The operator skills - Hive and Reactor core are prohibited.
--  The Red perk - MartyrDom, Dauntless are prohibited and Survival Training, Unit Support, Persistence, Hardline for Blue Perk.
--  Combat Axe, Trip Mine in the category of Lethal and Heartbeat Sensor, Echo Grenade, Stormball, Smoke and Stims in the category of tactical should only be used.
+    rules: `- All members of a team must register on tracker.gg and only use the ID registered on the website in the tournament.
+- A change in accounts will lead to immediate disqualification. 
+- Details regarding the matchmaking process, map-picking process, and brackets will be sent to the teams before the tournament. 
+- All decisions made by the administrators regarding this and any changes in the process are final.
+- Additional rule book will be sent upon registration   
+- **Brochure**: [Gaming Club](https://drive.google.com/file/d/1vQam0kWtw0B8vrLag1bTIiIMYAEHCrfY/view?usp=sharing)
 `,
     contacts: ["Akhshan (9159379997)", "Sanjay (8072781606)"],
     clubDescription: `Dive into a world of pixels and play at SSN & SNUC Gaming Club! Join weekly gaming sessions, epic tournaments, and tech talks. Forge friendships, showcase your creativity, and level up your college experience with us. The next gaming adventure awaits—grab your controller and join the fun! 🎮🕹️`,
     clubLogos: [
       { name: "SSN Gaming Club", img: "/events-page/SGC.jpg" },
-      { name: "SNU Gaming Club", img: "/events-page/spectre.png" }
+      { name: "SNU Gaming Club", img: "/events-page/spectre.png" },
     ],
     fee: ["250/- Per Team"],
   },
@@ -849,7 +795,7 @@ We take pride in our journey, from a handful of enthusiasts to a thriving commun
     fee: ["TBD"],
   },
   {
-    title: "REELS OF FIRE",
+    title: "Reels of Fire",
     dayDetail: "TBD",
     category: "Film",
     image: "/events-page/event-dummy-3.png",
@@ -879,6 +825,50 @@ We take pride in our journey, from a handful of enthusiasts to a thriving commun
       { name: "Montage", img: "/events-page/montage.png" },
     ],
     fee: ["500/- Per Team"],
+    registrationLink:
+      "https://unstop.com/events/reels-of-fire-ssn-college-of-engineering-and-shiv-nadar-university-chennai-886535?lb=z6qdM8t",
+  },
+  {
+    title: "Act Off",
+    dayDetail: "TBD",
+    category: "Film",
+    image: "/events-page/event-dummy-3.png",
+    color: "#914E0D",
+    teamSize: "5-8",
+    prize: [
+      { place: "FIRST", amount: "TBD" },
+      { place: "SECOND", amount: "TBD" },
+      { place: "THIRD", amount: "TBD" },
+    ],
+    description: `Act-off" is a vibrant and
+    exhilarating event designed to ignite
+    creativity and foster teamwork
+    among participants. With 10 teams
+    competing in a skit/drama
+    competition, the atmosphere is
+    charged with excitement as
+    performers take the stage to
+    showcase their talents. Under the
+    guidance of judge Ms. Sharanya
+    Subramaniam, participants are
+    challenged to think on their feet and
+    deliver compelling performances
+    based on provided scripts or
+    situations`,
+    rules: `- Script will be provided on the day of the event
+- Participants will be given 1 hour to prepare
+- The performance will be judged by Ms. Sharanya Subramaniam
+- Date: 7th March 2023 
+- Venue: Mini Auditorium 1pm to 4pm
+    `,
+    contacts: ["R Anush Rajagopalan (9444960590)", "Sai Shanmat (6362282036)"],
+    clubDescription: `Explore the world of films with SSN Film Club at SSN College of Engineering and Montage, SNUC Film Club at Shiv Nadar University Chennai! Dive into the magic of cinema through movie screenings, discussions, and fun events. Whether you're a movie buff or just getting into films, our welcoming clubs offer a great space for you to enjoy the rich variety of movies. Come join us for an exciting cinematic journey, where each frame has a story to tell!
+    `,
+    clubLogos: [
+      { name: "SFC", img: "/events-page/sfc.png" },
+      { name: "Montage", img: "/events-page/montage.png" },
+    ],
+    fee: ["250/- Per Head"],
   },
   {
     title: "LIGHTS CAMERA SALE!",
@@ -1149,7 +1139,7 @@ Prepare yourself for a visual and rhythmic challenge. An audio-visual of a class
     fee: ["200/- Per Head"],
   },
   {
-    title: "DESIGNATHON - TRACKS 1 & 2",
+    title: "Designathon - Tracks 1 & 2",
     dayDetail: "TBD",
     category: "Design",
     image: "/events-page/event-dummy-2.png",
@@ -1202,7 +1192,7 @@ This event focuses on the ability of a designer to comprehend a given concept an
     fee: ["200/- Per Head"],
   },
   {
-    title: "INTERFACE-OFF",
+    title: "Interface-Off",
     dayDetail: "TBD",
     category: "Design",
     image: "/events-page/event-dummy-2.png",
@@ -1242,7 +1232,7 @@ This event focuses on the ability of a designer to comprehend a given concept an
     fee: ["200/- Per Team"],
   },
   {
-    title: "REEL IT",
+    title: "Reel It",
     dayDetail: "TBD",
     category: "Design",
     image: "/events-page/event-dummy-2.png",
@@ -1434,7 +1424,11 @@ This event focuses on the ability of a designer to comprehend a given concept an
 - Top-scoring teams will be crowned winners and awarded the prize.
     
     `,
-    contacts: ["Contacts : Arjun - 95001 47579", "Varsha - 9499037154", "Abhinav - 9941749999"],
+    contacts: [
+      "Contacts : Arjun - 95001 47579",
+      "Varsha - 9499037154",
+      "Abhinav - 9941749999",
+    ],
     clubDescription: `Do you have trouble answering life's big questions? Are you often left high and dry? Fret not, the art of quizzing is much simpler and our dries are much easier. Behold Q! And Cognition, the quiz clubs of SSN and SNUC. We promise an exhilarating experience for trivia enthusiasts, blending wit and wisdom in a captivating quiz format. Assemble your sharpest minds and embark on a journey through a diverse range of topics, from history to pop culture. There are many here, vying for the prizes. Outsmart them all and beat them. Put funda, Get funds.
     `,
     clubLogos: [
@@ -1516,7 +1510,11 @@ This event focuses on the ability of a designer to comprehend a given concept an
 - Top-scoring teams will be crowned winners and awarded the prize.
     
     `,
-    contacts: ["Contacts : Tejas- 9499944705", "Deepak-6369075710", "Ashvanth-7397352960"],
+    contacts: [
+      "Contacts : Tejas- 9499944705",
+      "Deepak-6369075710",
+      "Ashvanth-7397352960",
+    ],
     clubDescription: `Do you have trouble answering life's big questions? Are you often left high and dry? Fret not, the art of quizzing is much simpler and our dries are much easier. Behold Q! And Cognition, the quiz clubs of SSN and SNUC. We promise an exhilarating experience for trivia enthusiasts, blending wit and wisdom in a captivating quiz format. Assemble your sharpest minds and embark on a journey through a diverse range of topics, from history to pop culture. There are many here, vying for the prizes. Outsmart them all and beat them. Put funda, Get funds.
     `,
     clubLogos: [
