@@ -13,15 +13,19 @@ export default function EventsPage() {
   const [isModalOpen, setModalOpen] = useState(false);
   const [selectedEvent, setSelectedEvent] = useState(null);
 
-  const sortedcategories = categories.sort((a, b) => a.name.localeCompare(b.name));
+  const sortedcategories = categories.sort((a, b) =>
+    a.name.localeCompare(b.name)
+  );
 
-  const filteredEvents = events.sort((a, b) => a.title.localeCompare(b.title)).filter((event) => {
-    if (selectedCategory === "All Events") {
-      return true;
-    } else {
-      return event.category === selectedCategory;
-    }
-  });
+  const filteredEvents = events
+    .sort((a, b) => a.title.localeCompare(b.title))
+    .filter((event) => {
+      if (selectedCategory === "All Events") {
+        return true;
+      } else {
+        return event.category === selectedCategory;
+      }
+    });
 
   return (
     <div className="font-satoshi">

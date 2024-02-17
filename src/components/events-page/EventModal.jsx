@@ -80,7 +80,7 @@ const EventModal = ({ isModalOpen, setModalOpen, event }) => {
               <h1 className="font-extrabold xl:text-[50px] md:text-[42px] text-[30px]">
                 {event.title}
               </h1>
-              {event.title === "REELS OF FIRE" && (
+              {event.title === "Reels of Fire" && (
                 <div className="flex gap-6 justify-center items-center">
                   <Image
                     src="/sponsors/unstop_logo.png"
@@ -333,7 +333,7 @@ const EventModal = ({ isModalOpen, setModalOpen, event }) => {
             </>
           )}
 
-          <a
+          <button
             className={`flex flex-wrap ${
               event.fee.length > 1 && "flex-col"
             } gap-1 justify-center items-center lg:text-xl md:text-lg font-medium lg:py-[23px] md:py-[20px] py-[15px] lg:w-[70%] w-[100%] self-center`}
@@ -342,8 +342,11 @@ const EventModal = ({ isModalOpen, setModalOpen, event }) => {
               borderRadius: 60,
               color: "#E6FCFF",
             }}
-            href={event?.registrationLink ? event.registrationLink : "#"}
-            target="_blank"
+            onClick={() => {
+              if (event?.registrationLink && event?.registrationLink !== "")
+                window.open(event?.registrationLink, "_blank");
+              else alert("Registration link will be updated soon!");
+            }}
           >
             REGISTER:
             <div>
@@ -353,7 +356,7 @@ const EventModal = ({ isModalOpen, setModalOpen, event }) => {
                 </div>
               ))}
             </div>
-          </a>
+          </button>
         </div>
       </div>
     )
