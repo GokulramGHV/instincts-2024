@@ -162,7 +162,7 @@ export const events = [
     fee: ['150/- Per Head'],
   },
   {
-    title: 'Sagalagalavalavan',
+    title: 'Sagalagala Valavan',
     dayDetail: 'TBD',
     category: 'Tamil Lit.',
     image: '/events-page/event-dummy-1.png',
@@ -475,7 +475,7 @@ export const events = [
     fee: ['250/- Per Team'],
   },
   {
-    title: 'Fantast Night',
+    title: 'Carnival Night Sky',
     dayDetail: 'TBD',
     category: 'Fine Arts',
     image: '/events-page/event-dummy-2.png',
@@ -496,7 +496,7 @@ export const events = [
 - Any other art supply should be brought by the participants
 - Should stick to the given theme
     `,
-    contacts: ['Varun - +91 9514775269', 'Mugesh Kanna - +91 9150853524'],
+    contacts: ['Varun - +91 9514775269', 'Agilan - +91 9790974144'],
     clubDescription: `Handila is a community of artists and art lovers who come together regularly to create, share, and appreciate various forms of art. We offer a supportive and inclusive space for members to improve their skills, make connections, and connect with like-minded individuals. Recently, Handila has teamed up with INSTINCTS' 24 to provide an exciting experience for students interested in exploring a lost continent. This adventure combines creative expression and real-world exploration to uncover the secrets of an unknown land. Join the journey with art as your guide and discover the lost continent through adventure and imagination.
     `,
     clubLogos: [{ name: 'Handila', img: '/events-page/handila.png' }],
@@ -762,7 +762,7 @@ export const events = [
     fee: ['250/- Per Team'],
   },
   {
-    title: 'Marketplace Maze: Startup Edition',
+    title: 'Market Place Mystery',
     dayDetail: 'TBD',
     category: 'Entrepreneurship',
     image: '/events-page/event-dummy-3.png',
@@ -937,7 +937,7 @@ Decode the series of pictures showcasing iconic scenes, just like the classical 
     fee: ['150/- Per Head'],
   },
   {
-    title: 'CHATHURANGA',
+    title: 'CHATHU RANGA',
     dayDetail: 'TBD',
     category: 'Classical Dance',
     image: '/events-page/event-dummy-4.png',
