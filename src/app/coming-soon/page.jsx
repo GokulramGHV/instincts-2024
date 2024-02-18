@@ -1,16 +1,19 @@
 import { NavButton } from '@/components/navbar/navbar';
 import Image from 'next/image';
+import Link from 'next/link';
 
 export default function ComingSoonPage() {
   return (
     <div className="relative h-screen flex justify-center items-end bg-[#202020] w-full overflow-hidden">
-      <Image
-        alt="logo"
-        className="absolute top-12 left-10 sm:left-20 lg:w-[15vw] z-30 "
-        src="/logos/Instincts_white.svg"
-        width="180"
-        height="150"
-      />
+      <Link href={"/"}>
+        <Image
+          alt="logo"
+          className="absolute top-12 left-10 sm:left-20 lg:w-[15vw] z-30 "
+          src="/logos/Instincts_white.svg"
+          width="180"
+          height="150"
+        />
+      </Link>
       <NavButton className="absolute right-10 top-16 sm:right-20 bg-white text-[#202020] z-[100]" />
       <Image
         alt=""
