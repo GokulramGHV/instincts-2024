@@ -1,46 +1,52 @@
-'use client';
-import Image from 'next/image';
-import Link from 'next/link';
-import { useContext, useState } from 'react';
-import { FaBars } from 'react-icons/fa';
-import { RiCloseFill } from 'react-icons/ri';
-import navContext from '@/hooks/navContext';
+"use client";
+import Image from "next/image";
+import Link from "next/link";
+import { useContext, useState } from "react";
+import { FaBars } from "react-icons/fa";
+import { RiCloseFill } from "react-icons/ri";
+import navContext from "@/hooks/navContext";
+import { Londrina_Solid } from "next/font/google";
+
+const londrina_solid = Londrina_Solid({
+  subsets: ["latin"],
+  weight: ["400", "100", "300", "900"],
+});
 
 const navOptions = [
-  { label: 'HOME', imageSrc: '/navbar_images/home.png', link: '/' },
+  { label: "HOME", imageSrc: "/navbar_images/home.png", link: "/" },
   {
-    label: 'CLUB EVENTS',
-    imageSrc: '/navbar_images/club_events.png',
-    link: '/events',
+    label: "CLUB EVENTS",
+    imageSrc: "/navbar_images/club_events.png",
+    link: "/events",
   },
   {
-    label: 'CENTRAL EVENTS',
-    imageSrc: '/navbar_images/central_events.png',
-    link: '/coming-soon',
+    label: "CENTRAL EVENTS",
+    imageSrc: "/navbar_images/central_events.png",
+    link: "/coming-soon",
   },
   {
-    label: 'GALLERY',
-    imageSrc: '/navbar_images/gallery.png',
-    link: '/#gallery_section',
+    label: "GALLERY",
+    imageSrc: "/navbar_images/gallery.png",
+    link: "/#gallery_section",
   },
   {
-    label: 'CONTACT US',
-    imageSrc: '/navbar_images/contact_us.png',
-    link: '/coming-soon',
+    label: "CONTACT US",
+    imageSrc: "/navbar_images/contact_us.png",
+    link: "/coming-soon",
   },
   {
-    label: 'SPONSORS',
-    imageSrc: '/navbar_images/sponsors.png',
-    link: '/sponsors',
+    label: "SPONSORS",
+    imageSrc: "/navbar_images/sponsors.png",
+    link: "/sponsors",
   },
   {
-    label: 'GET PASSES',
-    imageSrc: '/navbar_images/get_passes.png',
-    link: '/coming-soon',
+    label: "GET PASSES",
+    imageSrc: "/navbar_images/get_passes.png",
+    link: "/coming-soon",
   },
 ];
 
-export function NavButton({ className = '', iconClassName = '' }) {
+export function NavButton({ className = "", iconClassName = "" }) {
   const { isNavOpen, setNavOpen } = useContext(navContext);
   return (
     <>
@@ -95,10 +101,7 @@ const Navbar = () => {
           />
 
           <div className="relative flex justify-between py-16 md:py-24 lg:py-10 px-12 md:px-24 lg:px-32 h-screen w-screen">
-            <ul
-              style={{ fontFamily: 'Londrina Solid, sans-serif' }}
-              className="flex flex-col w-full"
-            >
+            <ul className={`flex flex-col w-full ${londrina_solid.className}`}>
               {navOptions.map((option, index) => (
                 <li
                   key={index}
@@ -107,8 +110,8 @@ const Navbar = () => {
                   <div
                     className={`cursor-pointer h-full ${
                       hoveredOption === option
-                        ? 'text-black font-semibold md:text-7xl sm:text-6xl text-5xl '
-                        : 'text-white md:text-6xl sm:text-5xl text-4xl'
+                        ? "text-black font-semibold md:text-7xl sm:text-6xl text-5xl "
+                        : "text-white md:text-6xl sm:text-5xl text-4xl"
                     }`}
                     onMouseOver={() => setHoveredOption(option)}
                   >
@@ -124,9 +127,9 @@ const Navbar = () => {
                         style={
                           hoveredOption !== option && hoveredOption !== null
                             ? {
-                                color: 'transparent',
-                                WebkitTextStrokeWidth: '2px',
-                                WebkitTextStrokeColor: 'black',
+                                color: "transparent",
+                                WebkitTextStrokeWidth: "2px",
+                                WebkitTextStrokeColor: "black",
                               }
                             : {}
                         }
