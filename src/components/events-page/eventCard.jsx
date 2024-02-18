@@ -49,7 +49,7 @@ export default function EventCard({ event, setModalOpen, setSelectedEvent }) {
           </div>
           <div className="sm:px-5 pt-4 sm:pt-3 sm:min-h-40 flex-1">
             <h1
-              className="text-2xl w-44 sm:w-full whitespace-nowrap text-ellipsis overflow-hidden xl:text-3xl font-[900]"
+              className="text-2xl w-44 sm:w-full line-clamp-2 text-ellipsis overflow-hidden xl:text-3xl font-[900]"
               title={event.title}
             >
               {event.title}

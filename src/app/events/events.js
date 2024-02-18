@@ -162,7 +162,7 @@ export const events = [
     fee: ['150/- Per Head'],
   },
   {
-    title: 'Sagalagalavalavan',
+    title: 'Sagalagala Valavan',
     dayDetail: 'TBD',
     category: 'Tamil Lit.',
     image: '/events-page/event-dummy-1.png',
@@ -937,7 +937,7 @@ Decode the series of pictures showcasing iconic scenes, just like the classical 
     fee: ['150/- Per Head'],
   },
   {
-    title: 'CHATHURANGA',
+    title: 'CHATHU RANGA',
     dayDetail: 'TBD',
     category: 'Classical Dance',
     image: '/events-page/event-dummy-4.png',
