@@ -6,7 +6,12 @@ const londonFont = Londrina_Solid({
 });
 
 const companies = [
-  { name: 'unstop', website: 'https://unstop.com/', width: 474, height: 188 },
+  {
+    name: 'ags_cinemas',
+    website: 'https://www.agscinemas.com/',
+    width: 220,
+    height: 136,
+  },
   {
     name: 'sattva',
     website: 'https://www.sattva.in/',
@@ -14,11 +19,11 @@ const companies = [
     height: 64,
   },
   {
-    name: 'ags_cinemas',
-    website: 'https://www.agscinemas.com/',
-    width: 220,
-    height: 136,
-  },
+    name: 'unstop',
+    website: 'https://unstop.com/',
+    width: 474,
+    height: 188
+  }
 ];
 
 export default function Sponsormdain() {
@@ -40,7 +45,7 @@ export default function Sponsormdain() {
           className="flex items-center justify-center aspect-[2] 
             h-[9rem] md:h-[14rem] 2xl:h-[16rem]"
           style={{
-            backgroundImage: 'url(/sponsors/clip3.svg)',
+            backgroundImage: 'url(/sponsors/clip0.svg)',
             backgroundSize: 'contain',
             backgroundRepeat: 'no-repeat',
           }}
