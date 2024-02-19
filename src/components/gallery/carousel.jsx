@@ -38,6 +38,7 @@ export default function Carousel() {
     "/gallery_images/pic7.JPG",
     "/gallery_images/pic8.jpg",
     "/gallery_images/pic9.png",
+    "/gallery_images/pic10.jpg",
   ];
 
   return (
