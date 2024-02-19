@@ -18,7 +18,7 @@ export default function CentralEventCard(
             backgroundColor: cardColor
         }}>
             <Image src={eventBG} height={100} width={100} className="h-full w-full" />
-            <p className={`absolute z-10 bottom-0 left-0 ${londonFont.className} text-white text-6xl p-5`}>{(!shouldBreak) ? eventTitle : (eventTitle === "FIRE SILAMBAM") ? <>{eventTitle.split(" ")[0]} <br/> {eventTitle.split(" ")[1]}</> : <>{eventTitle.split(" ")[0]} <br/> {eventTitle.split(" ")[1]} {eventTitle.split(" ")[2]}</>}</p>
+            <p className={`absolute z-10 bottom-0 left-0 ${londonFont.className} text-white text-5xl sm:text-6xl p-5`}>{(!shouldBreak) ? eventTitle : (eventTitle === "FIRE SILAMBAM") ? <>{eventTitle.split(" ")[0]} <br/> {eventTitle.split(" ")[1]}</> : <>{eventTitle.split(" ")[0]} <br/> {eventTitle.split(" ")[1]} {eventTitle.split(" ")[2]}</>}</p>
         </div>
     </Link>
 }
