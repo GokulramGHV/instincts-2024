@@ -22,7 +22,7 @@ const navOptions = [
   {
     label: "CENTRAL EVENTS",
     imageSrc: "/navbar_images/central_events.png",
-    link: "/coming-soon",
+    link: "/central-events",
   },
   {
     label: "GALLERY",

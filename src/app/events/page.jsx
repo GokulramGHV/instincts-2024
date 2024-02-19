@@ -30,7 +30,7 @@ export default function EventsPage() {
   return (
     <div className="font-satoshi">
       <div>
-        <Hero />
+        <Hero headingName="CLUB EVENTS" heroColor="#FB6655" heroImage="/events-page/hero-pattern.png" fontColor="#FFFCEA"/>
         <CategoryPicker
           categories={sortedcategories}
           selectedCategory={selectedCategory}
