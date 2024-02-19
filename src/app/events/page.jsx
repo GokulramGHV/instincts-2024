@@ -13,20 +13,26 @@ export default function EventsPage() {
   const [isModalOpen, setModalOpen] = useState(false);
   const [selectedEvent, setSelectedEvent] = useState(null);
 
-  const filteredEvents = events.filter((event) => {
-    if (selectedCategory === "All Events") {
-      return true;
-    } else {
-      return event.category === selectedCategory;
-    }
-  });
+  const sortedcategories = categories.sort((a, b) =>
+    a.name.localeCompare(b.name)
+  );
+
+  const filteredEvents = events
+    .sort((a, b) => a.title.localeCompare(b.title))
+    .filter((event) => {
+      if (selectedCategory === "All Events") {
+        return true;
+      } else {
+        return event.category === selectedCategory;
+      }
+    });
 
   return (
     <div className="font-satoshi">
       <div>
-        <Hero />
+        <Hero headingName="CLUB EVENTS" heroColor="#FB6655" heroImage="/events-page/hero-pattern.png" fontColor="#FFFCEA"/>
         <CategoryPicker
-          categories={categories}
+          categories={sortedcategories}
           selectedCategory={selectedCategory}
           setSelectedCategory={setSelectedCategory}
         />
