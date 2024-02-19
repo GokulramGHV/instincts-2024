@@ -32,7 +32,7 @@ export default function EventDetails({ params }) {
             <div className="grid grid-cols-2 sm:grid-cols-3 gap-5 mt-5">
                 {
                     eventDetails[params["event-name"]]["images"].map((eventImage) => {
-                        return <div className="w-full  bg-[#5C5C5C] col-span-1 rounded-lg h-[100px]"></div>
+                        return <div key={eventImage} className="w-full  bg-[#5C5C5C] col-span-1 rounded-lg h-[100px]"></div>
                     })
                 }
             </div>

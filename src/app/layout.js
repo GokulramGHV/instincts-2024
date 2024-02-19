@@ -1,11 +1,10 @@
 "use client";
-import { Inter } from "next/font/google";
+
 import "./globals.css";
 import Navbar from "@/components/navbar/navbar";
 import { useState } from "react";
 import navContext from "@/hooks/navContext";
 import { ProgressLoader } from "nextjs-progressloader";
-const inter = Inter({ subsets: ["latin"] });
 
 export default function RootLayout({ children }) {
   const [isNavOpen, setNavOpen] = useState(false);
@@ -20,7 +19,6 @@ export default function RootLayout({ children }) {
         />
       </head>
       <body
-        className={inter.className}
         style={{
           position: "relative",
           overflowY: isNavOpen ? "hidden" : "scroll",
