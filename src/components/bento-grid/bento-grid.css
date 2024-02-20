@@ -1,0 +1,19 @@
+.image-container {
+    @apply relative;
+}
+
+.image-container:after {
+    @apply content-[''] bg-black -z-10 absolute top-0 left-0 w-full h-full transition-all opacity-0 rounded-xl ease-in-out duration-300 origin-bottom-right;
+}
+
+.image-container:hover:after {
+    @apply opacity-100 rounded-3xl scale-[0.97];
+}
+
+.image {
+    @apply origin-top-left transition-all h-full;
+}
+
+.image:hover {
+    @apply hover:scale-[0.97]
+}

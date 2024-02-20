@@ -5,6 +5,7 @@ import GallerySection from '@/sections/landing/gallery-section';
 import HeroSection from '@/sections/landing/hero-section';
 import { useEffect, useState } from 'react';
 import { NavButton } from '@/components/navbar/navbar';
+import BentoGrid from '@/components/bento-grid/bento-grid';
 
 export default function Home() {
   const [isVisible, setIsVisible] = useState(false);
@@ -15,7 +16,7 @@ export default function Home() {
         window.pageYOffset || document.documentElement.scrollTop;
       setIsVisible(scrollTop > 100); // Change 100 to your desired scroll threshold
     };
-    
+
     window.addEventListener('scroll', handleScroll);
 
     // Remove scroll event listener when component unmounts
@@ -32,6 +33,7 @@ export default function Home() {
       )}
       <HeroSection />
       <AboutUs />
+      <BentoGrid />
       <GallerySection />
       <Footer />
     </main>
