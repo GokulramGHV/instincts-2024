@@ -65,13 +65,13 @@ export default function Sponsormdain() {
         >
           Other Sponsors
         </h2>
-        <div className="flex flex-wrap flex-col w-[95%] mx-auto gap-8 md:flex-row">
+        <div className="flex flex-wrap flex-col w-[95%] 2xl:w-[65%] mx-auto gap-8 md:flex-row">
           {companies.map((company, index) => (
             <a
               key={company.name}
               href={company.website}
               target="_blank"
-              className="m-auto aspect-[2] h-[7rem] md:h-[11rem] 2xl:h-[18rem] flex items-center justify-center"
+              className="m-auto aspect-[2] h-[7rem] md:h-[11rem] flex items-center justify-center"
               style={{
                 backgroundImage: `url(/sponsors/clip${index + 1}.svg)`,
                 backgroundSize: 'contain',
