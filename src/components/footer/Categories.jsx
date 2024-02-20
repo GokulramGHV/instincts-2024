@@ -34,7 +34,7 @@ export function ReachOut() {
   return (
     <>
       <Link
-        href={'/coming-soon'}
+        href={"/contact-us"}
         className="text-white font-semibold font-satoshi text-[22px]"
       >
         Contact Us

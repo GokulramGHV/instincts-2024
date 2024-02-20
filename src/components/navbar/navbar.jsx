@@ -32,7 +32,7 @@ const navOptions = [
   {
     label: "CONTACT US",
     imageSrc: "/navbar_images/contact_us.png",
-    link: "/coming-soon",
+    link: "/contact-us",
   },
   {
     label: "SPONSORS",
