@@ -861,7 +861,7 @@ We take pride in our journey, from a handful of enthusiasts to a thriving commun
 - Date: 7th March 2023 
 - Venue: Mini Auditorium 1pm to 4pm
     `,
-    contacts: ["R Anush Rajagopalan (9444960590)", "Sai Shanmat (6362282036)"],
+    contacts: ["Yogesh Munees (9080827627)", "Bharath (8220615058)"],
     clubDescription: `Explore the world of films with SSN Film Club at SSN College of Engineering and Montage, SNUC Film Club at Shiv Nadar University Chennai! Dive into the magic of cinema through movie screenings, discussions, and fun events. Whether you're a movie buff or just getting into films, our welcoming clubs offer a great space for you to enjoy the rich variety of movies. Come join us for an exciting cinematic journey, where each frame has a story to tell!
     `,
     clubLogos: [
