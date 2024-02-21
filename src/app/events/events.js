@@ -119,6 +119,7 @@ export const events = [
       { name: "Variety Show Club", img: "/events-page/event-dummy-1.png" },
     ],
     fee: ["150/- Per Head"],
+    registrationLink: "https://forms.gle/kpHU25arMpVbtLra9",
   },
   {
     title: "Pattimandram",
@@ -160,6 +161,7 @@ export const events = [
       { name: 'Mudivizhi', img: '/events-page/mudivili.png' },
     ],
     fee: ['150/- Per Head'],
+    registrationLink: "https://forms.gle/MUcoDnyfXeZkub6C6",
   },
   {
     title: 'Sagalagala Valavan',
@@ -214,6 +216,7 @@ export const events = [
       { name: 'Mudivizhi', img: '/events-page/mudivili.png' },
     ],
     fee: ['200/- Per Team'],
+    registrationLink: "https://forms.gle/zWbXLwPVW58qUNxT7",
   },
   {
     title: 'Debate',
@@ -243,6 +246,7 @@ export const events = [
       { name: 'SNUC ELC', img: '/events-page/snuc_elc.jpg' },
     ],
     fee: ['150/- Per Head (Day Pass)', '300/- Per Head (Club Pass)'],
+    registrationLink: "https://forms.gle/kd8rNy7PGiqrWHKR9",
   },
   {
     title: 'JAM',
@@ -270,6 +274,7 @@ export const events = [
       { name: 'SNUC ELC', img: '/events-page/snuc_elc.jpg' },
     ],
     fee: ['150/- Per Head (Day Pass)', '300/- Per Head (Club Pass)'],
+    registrationLink: "https://forms.gle/kd8rNy7PGiqrWHKR9",
   },
   {
     title: 'Stand-Up Comedy Contest',
@@ -300,6 +305,7 @@ export const events = [
       { name: 'SNUC ELC', img: '/events-page/snuc_elc.jpg' },
     ],
     fee: ['150/- Per Head (Day Pass)', '300/- Per Head (Club Pass)'],
+    registrationLink: "https://forms.gle/kd8rNy7PGiqrWHKR9",
   },
   {
     title: 'A Musing Affair',
@@ -338,6 +344,7 @@ export const events = [
       { name: 'SNUC ELC', img: '/events-page/snuc_elc.jpg' },
     ],
     fee: ['150/- Per Head (Day Pass)', '300/- Per Head (Club Pass)'],
+    registrationLink: "https://forms.gle/kd8rNy7PGiqrWHKR9",
   },
   {
     title: 'Potpourri',
@@ -371,6 +378,7 @@ export const events = [
       { name: 'SNUC ELC', img: '/events-page/snuc_elc.jpg' },
     ],
     fee: ['150/- Per Head (Day Pass)', '300/- Per Head (Club Pass)'],
+    registrationLink: "https://forms.gle/kd8rNy7PGiqrWHKR9",
   },
   {
     title: 'Stew',
@@ -402,6 +410,7 @@ export const events = [
       { name: 'SNUC ELC', img: '/events-page/snuc_elc.jpg' },
     ],
     fee: ['150/- Per Head (Day Pass)', '300/- Per Head (Club Pass)'],
+    registrationLink: "https://forms.gle/kd8rNy7PGiqrWHKR9",
   },
   {
     title: 'Draw with comali',
@@ -444,6 +453,7 @@ export const events = [
     `,
     clubLogos: [{ name: 'Handila', img: '/events-page/handila.png' }],
     fee: ['200/- Per Team'],
+    registrationLink: "https://forms.gle/DWdyxPQVNS7NEK6J9",
   },
   {
     title: 'Roaming Paris',
@@ -473,6 +483,7 @@ export const events = [
     `,
     clubLogos: [{ name: 'Handila', img: '/events-page/handila.png' }],
     fee: ['250/- Per Team'],
+    registrationLink: "https://forms.gle/PidbrvbwvtsQpVWU7",
   },
   {
     title: 'Carnival Night Sky',
@@ -501,6 +512,7 @@ export const events = [
     `,
     clubLogos: [{ name: 'Handila', img: '/events-page/handila.png' }],
     fee: ['200/- Per Team'],
+    registrationLink: "https://forms.gle/5DoUy1Wn9NpGAeSJ8",
   },
   {
     title: 'Spotlight',
@@ -530,6 +542,7 @@ export const events = [
       { name: "All The World's A Stage", img: '/events-page/snu_theatre.jpg' },
     ],
     fee: ['250/- Per Head (Club Pass)'],
+    registrationLink: "https://forms.gle/ZDTVstTAoFQ7V8hq5",
   },
   {
     title: 'Enigma',
@@ -557,6 +570,7 @@ export const events = [
       { name: "All The World's A Stage", img: '/events-page/snu_theatre.jpg' },
     ],
     fee: ['250/- Per Head (Club Pass)'],
+    registrationLink: "https://forms.gle/ZDTVstTAoFQ7V8hq5",
   },
   {
     title: 'Quills Out Please!',
@@ -588,6 +602,7 @@ export const events = [
       { name: "All The World's A Stage", img: '/events-page/snu_theatre.jpg' },
     ],
     fee: ['250/- Per Head (Club Pass)'],
+    registrationLink: "https://forms.gle/ZDTVstTAoFQ7V8hq5",
   },
   {
     title: 'WESTERN SOLO',
@@ -622,6 +637,7 @@ export const events = [
       { name: 'Rhythm', img: '/events-page/rhythm.jpg' },
     ],
     fee: ['200/- Per Head'],
+    registrationLink: "https://forms.gle/AzYehDasJd2mdMM89",
   },
   {
     title: '2v2 DANCE BATTLE',
@@ -658,6 +674,7 @@ export const events = [
       { name: 'Rhythm', img: '/events-page/rhythm.jpg' },
     ],
     fee: ['100/- Per Head'],
+    registrationLink: "https://forms.gle/ujD87L28BvEKPee56",
   },
   {
     title: 'CHOREONITE',
@@ -704,6 +721,7 @@ export const events = [
       { name: 'Rhythm', img: '/events-page/rhythm.jpg' },
     ],
     fee: ['200/- Per Head'],
+    registrationLink: "https://forms.gle/g91DqvCwqLvX7kHY7",
   },
   {
     title: 'The Valor Cup',
@@ -732,6 +750,7 @@ export const events = [
       { name: "SNU Gaming Club", img: "/events-page/spectre.png" },
     ],
     fee: ['250/- Per Team'],
+    registrationLink: "https://forms.gle/NBgAjaE6WXSHYdHt7",
   },
   {
     title: 'COD Mayhem',
@@ -760,6 +779,7 @@ export const events = [
       { name: "SNU Gaming Club", img: "/events-page/spectre.png" },
     ],
     fee: ['250/- Per Team'],
+    registrationLink: "https://forms.gle/dRxRbMfdGQX4dP127",
   },
   {
     title: 'Market Place Mystery',
@@ -793,6 +813,7 @@ We take pride in our journey, from a handful of enthusiasts to a thriving commun
 `,
     clubLogos: [{ name: 'SSN Lakshya', img: '/events-page/lakshya.png' }],
     fee: ['TBD'],
+    registrationLink: "https://forms.gle/2y2iS391MPsBeeSS8",
   },
   {
     title: "Reels of Fire",
@@ -869,6 +890,7 @@ We take pride in our journey, from a handful of enthusiasts to a thriving commun
       { name: "Montage", img: "/events-page/montage.png" },
     ],
     fee: ["250/- Per Head"],
+    registrationLink: "https://forms.gle/KhqGtvBtqFpKcWNJ8",
   },
   {
     title: 'LIGHTS CAMERA SALE!',
@@ -897,6 +919,7 @@ Decode the series of pictures showcasing iconic scenes, just like the classical 
       { name: 'Montage', img: '/events-page/montage.png' },
     ],
     fee: ['200/- Per Team'],
+    registrationLink: "https://forms.gle/czoU9GzUmKGdzNwa8",
   },
   {
     title: 'LIGHTS. CAMERA. THADHINGINATHOM.',
@@ -935,6 +958,7 @@ Decode the series of pictures showcasing iconic scenes, just like the classical 
       { name: 'Ameya CDC', img: '/events-page/ameya.png' },
     ],
     fee: ['150/- Per Head'],
+    registrationLink: "https://forms.gle/19rHeeoNu2Uko7b29", 
   },
   {
     title: 'CHATHU RANGA',
@@ -972,6 +996,7 @@ Prepare yourself for a visual and rhythmic challenge. An audio-visual of a class
       { name: 'Ameya CDC', img: '/events-page/ameya.png' },
     ],
     fee: ['250/- Per Team'],
+    registrationLink: "https://forms.gle/ivYjY4wU3WtW1pDx6",
   },
   {
     title: 'Anunad',
@@ -1015,6 +1040,7 @@ Prepare yourself for a visual and rhythmic challenge. An audio-visual of a class
       { name: 'SNU Isai', img: '/events-page/isai.jpg' },
     ],
     fee: ['150/- Per Head (Event Pass)', '200/- Per Head (Club Pass)'],
+    registrationLink: "https://forms.gle/dgXA8uBBtq9zEZWX6",
   },
   {
     title: 'Riff Off',
@@ -1050,6 +1076,7 @@ Prepare yourself for a visual and rhythmic challenge. An audio-visual of a class
       { name: 'SNU Isai', img: '/events-page/isai.jpg' },
     ],
     fee: ['200/- Per Head (Club Pass)'],
+    registrationLink: "https://forms.gle/Je3CF4hk1sPtQDrv6",
   },
   {
     title: 'Band Hunt',
@@ -1096,6 +1123,7 @@ Prepare yourself for a visual and rhythmic challenge. An audio-visual of a class
       { name: 'SNU Isai', img: '/events-page/isai.jpg' },
     ],
     fee: ['200/- Per Head (Club Pass)'],
+    registrationLink: "https://forms.gle/Je3CF4hk1sPtQDrv6",
   },
   {
     title: 'Verse and Beats',
@@ -1137,6 +1165,7 @@ Prepare yourself for a visual and rhythmic challenge. An audio-visual of a class
       { name: 'SNU Isai', img: '/events-page/isai.jpg' },
     ],
     fee: ['200/- Per Head'],
+    registrationLink: "https://forms.gle/Je3CF4hk1sPtQDrv6",
   },
   {
     title: "Designathon - Tracks 1 & 2",
@@ -1190,6 +1219,7 @@ This event focuses on the ability of a designer to comprehend a given concept an
       { name: 'Aura', img: '/events-page/aura.png' },
     ],
     fee: ['200/- Per Head'],
+    registrationLink: "https://forms.gle/dYwZ63NRVESKURry8",
   },
   {
     title: "Interface-Off",
@@ -1230,6 +1260,7 @@ This event focuses on the ability of a designer to comprehend a given concept an
       { name: 'Aura', img: '/events-page/aura.png' },
     ],
     fee: ['200/- Per Team'],
+    registrationLink: "https://forms.gle/gMSwdWD13zF2aL558",
   },
   {
     title: "Reel It",
@@ -1263,6 +1294,7 @@ This event focuses on the ability of a designer to comprehend a given concept an
       { name: 'Aura', img: '/events-page/aura.png' },
     ],
     fee: ['200/- Per Team'],
+    registrationLink: "https://forms.gle/FrjNwt2xAgLj87iY6",
   },
   {
     title: 'IPL Auction',
@@ -1312,6 +1344,7 @@ This event focuses on the ability of a designer to comprehend a given concept an
       { name: 'SNUC Business Club', img: '/events-page/business_club.jpg' },
     ],
     fee: ['100/- Per Head'],
+    registrationLink: "https://forms.gle/T36enXAWgvutvHod9",
   },
   {
     title: 'Online Photography Contest',
@@ -1350,6 +1383,7 @@ This event focuses on the ability of a designer to comprehend a given concept an
       },
     ],
     fee: ['100/- Per Head'],
+    registrationLink: "https://forms.gle/hSFwLQko4ckLNFBM7",
   },
   {
     title: 'SnapQuest',
@@ -1397,6 +1431,7 @@ This event focuses on the ability of a designer to comprehend a given concept an
       },
     ],
     fee: ['150/- Per Head'],
+    registrationLink: "https://forms.gle/Sajm4TAiKdWKVAGg9",
   },
   {
     title: 'The Funda-Mavan quiz',
@@ -1442,6 +1477,7 @@ This event focuses on the ability of a designer to comprehend a given concept an
       },
     ],
     fee: ['200/- Per Head (Club Pass)'],
+    registrationLink: "https://forms.gle/9zf5SCnCK69E53bY7",
   },
   {
     title: 'MELA',
@@ -1483,6 +1519,7 @@ This event focuses on the ability of a designer to comprehend a given concept an
       },
     ],
     fee: ['200/- Per Head (Club Pass)'],
+    registrationLink: "https://forms.gle/9zf5SCnCK69E53bY7",
   },
   {
     title: 'Sports Quiz ',
@@ -1528,5 +1565,6 @@ This event focuses on the ability of a designer to comprehend a given concept an
       },
     ],
     fee: ['200/- Per Head (Club Pass)'],
+    registrationLink: "https://forms.gle/9zf5SCnCK69E53bY7",
   },
 ];
