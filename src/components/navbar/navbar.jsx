@@ -42,7 +42,7 @@ const navOptions = [
   {
     label: "GET PASSES",
     imageSrc: "/navbar_images/get_passes.png",
-    link: "/coming-soon",
+    link: "/get-passes",
   },
 ];
 
