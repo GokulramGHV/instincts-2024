@@ -1039,7 +1039,7 @@ Prepare yourself for a visual and rhythmic challenge. An audio-visual of a class
 - The judge's decision will be final.    
     `,
     contacts: [
-      'Suganeshwar: 9444496098',
+      'Suganeshwar: 9444496089',
       'Supraj: 7094401529',
       'Sanjai: 9962224180',
     ],
