@@ -32,7 +32,7 @@ const navOptions = [
   {
     label: "CONTACT US",
     imageSrc: "/navbar_images/contact_us.png",
-    link: "/coming-soon",
+    link: "/contact-us",
   },
   {
     label: "SPONSORS",
@@ -42,7 +42,7 @@ const navOptions = [
   {
     label: "GET PASSES",
     imageSrc: "/navbar_images/get_passes.png",
-    link: "/coming-soon",
+    link: "/get-passes",
   },
 ];
 

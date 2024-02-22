@@ -6,6 +6,7 @@ import Image from "next/image";
 import { Remarkable } from "remarkable";
 import CalendarIcon from "@/icons/calendarIcon";
 import TeamIcon from "@/icons/teamIcon";
+import Link from "next/link";
 
 let md = new Remarkable();
 
@@ -254,7 +255,7 @@ const EventModal = ({ isModalOpen, setModalOpen, event }) => {
                           sizes="100vw"
                           style={{
                             borderRadius: 10,
-                            objectFit: "cover",
+                            objectFit: "contain",
                             height: "100%",
                             width: "100%",
                           }}
@@ -343,9 +344,16 @@ const EventModal = ({ isModalOpen, setModalOpen, event }) => {
               color: "#E6FCFF",
             }}
             onClick={() => {
-              if (event?.registrationLink && event?.registrationLink !== "")
-                window.open(event?.registrationLink, "_blank");
-              else alert("Registration link will be updated soon!");
+              if (event.title === "Reels of Fire") {
+                window.open(event.registrationLink, "_blank");
+              } else {
+                window.open(
+                  `/get-passes/register?event=${encodeURIComponent(
+                    event.title
+                  )}#main`,
+                  "_blank"
+                );
+              }
             }}
           >
             REGISTER:

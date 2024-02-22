@@ -6,7 +6,12 @@ const londonFont = Londrina_Solid({
 });
 
 const companies = [
-  { name: 'unstop', website: 'https://unstop.com/', width: 474, height: 188 },
+  {
+    name: 'ags_cinemas',
+    website: 'https://www.agscinemas.com/',
+    width: 220,
+    height: 136,
+  },
   {
     name: 'sattva',
     website: 'https://www.sattva.in/',
@@ -14,11 +19,11 @@ const companies = [
     height: 64,
   },
   {
-    name: 'ags_cinemas',
-    website: 'https://www.agscinemas.com/',
-    width: 220,
-    height: 136,
-  },
+    name: 'unstop',
+    website: 'https://unstop.com/',
+    width: 474,
+    height: 188
+  }
 ];
 
 export default function Sponsormdain() {
@@ -40,7 +45,7 @@ export default function Sponsormdain() {
           className="flex items-center justify-center aspect-[2] 
             h-[9rem] md:h-[14rem] 2xl:h-[16rem]"
           style={{
-            backgroundImage: 'url(/sponsors/clip3.svg)',
+            backgroundImage: 'url(/sponsors/clip0.svg)',
             backgroundSize: 'contain',
             backgroundRepeat: 'no-repeat',
           }}
@@ -60,13 +65,13 @@ export default function Sponsormdain() {
         >
           Other Sponsors
         </h2>
-        <div className="flex flex-wrap flex-col w-[95%] mx-auto gap-8 md:flex-row">
+        <div className="flex flex-wrap flex-col w-[95%] 2xl:w-[65%] mx-auto gap-8 md:flex-row">
           {companies.map((company, index) => (
             <a
               key={company.name}
               href={company.website}
               target="_blank"
-              className="m-auto aspect-[2] h-[7rem] md:h-[11rem] 2xl:h-[18rem] flex items-center justify-center"
+              className="m-auto aspect-[2] h-[7rem] md:h-[11rem] flex items-center justify-center"
               style={{
                 backgroundImage: `url(/sponsors/clip${index + 1}.svg)`,
                 backgroundSize: 'contain',
