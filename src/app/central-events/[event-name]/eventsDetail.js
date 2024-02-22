@@ -1,5 +1,5 @@
 export const eventDetails = {
-  chorenite: {
+  choreonite: {
     name: 'CHOREONITE',
     description:
       'At Instincts 24, the pulsating heartbeat of creativity resonates through the corridors of our campus as students converge for a whirlwind of cultural celebration. Among the many electrifying events, Choreonite stands as a dazzling spectacle, where the stage becomes a canvas for artistic expression. Here, students from different colleges and universities unite, each step a brushstroke painting the air with their passion for dance. With expert judges on the lookout for the next dance sensation, every twist and turn becomes a testament to skill and artistry. Yet beyond the competition lies the essence of unity and celebration, where dance transcends barriers, forging bonds that echo long after the final curtain falls. Instincts 24 embodies the spirit of creativity, fostering a vibrant tapestry of culture and expression that illuminates the college landscape. So come, and join us at Choreonite, where the spotlight awaits and dreams take flight on the wings of dance!',
