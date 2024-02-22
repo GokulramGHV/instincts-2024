@@ -3,6 +3,7 @@ import { eventDetails } from "./eventsDetail"
 
 
 import { Londrina_Solid } from 'next/font/google';
+import Image from "next/image";
 
 const londonFont = Londrina_Solid({
     weight: ['100', '300', '400', '900'],
@@ -29,10 +30,12 @@ export default function EventDetails({ params }) {
         <div className="sm:px-16 px-6">
             <p className="text-justify font-satoshi sm:text-xl text-[#5C5C5C]">{eventDetails[params["event-name"]]["description"]
             }</p>
-            <div className="grid grid-cols-2 sm:grid-cols-3 gap-5 mt-5">
+            <div className="grid sm:grid-cols-2 sm:grid-cols-3 gap-5 mt-5">
                 {
                     eventDetails[params["event-name"]]["images"].map((eventImage) => {
-                        return <div key={eventImage} className="w-full  bg-[#5C5C5C] col-span-1 rounded-lg h-[100px]"></div>
+                        return <div key={eventImage} className="w-full  bg-[#5C5C5C] col-span-1 rounded-lg overflow-hidden">
+                            <Image src={eventImage} width={200} height={100} quality={100} unoptimized className="h-full w-full"/>
+                        </div>
                     })
                 }
             </div>
