@@ -10,6 +10,12 @@ export default function RootLayout({ children }) {
 
   return (
     <html lang="en">
+      <head>
+        <meta
+          name="google-site-verification"
+          content="1WUzRSM28Z9ZiONkHW2P-gKIPR1BaWutcD3Dr3qTFWc"
+        />
+      </head>
       <body
         style={{
           position: 'relative',
