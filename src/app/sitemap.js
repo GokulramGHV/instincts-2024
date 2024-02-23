@@ -16,7 +16,13 @@ export default function sitemap() {
       url: 'https://ssnsnucinstincts.com/central-events',
       lastModified: new Date(),
       changeFrequency: 'yearly',
-      priority: 0.5,
+      priority: 0.8,
+    },
+    {
+      url: 'https://ssnsnucinstincts.com/get-passes',
+      lastModified: new Date(),
+      changeFrequency: 'yearly',
+      priority: 0.8,
     },
     {
       url: 'https://ssnsnucinstincts.com/contact-us',
@@ -26,12 +32,6 @@ export default function sitemap() {
     },
     {
       url: 'https://ssnsnucinstincts.com/sponsors',
-      lastModified: new Date(),
-      changeFrequency: 'yearly',
-      priority: 0.5,
-    },
-    {
-      url: 'https://ssnsnucinstincts.com/get-passes',
       lastModified: new Date(),
       changeFrequency: 'yearly',
       priority: 0.5,
