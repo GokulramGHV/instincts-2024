@@ -71,7 +71,7 @@ const Navbar = () => {
       {isNavOpen && (
         <div
           onMouseOut={() => setHoveredOption(null)}
-          className="fixed top-0 left-0 h-[100vh]  w-[100vw] z-[100] bg-[#202020] overflow-y-auto"
+          className="fixed top-0 left-0 h-[100vh]  w-[100vw] z-[100] bg-[#202020] overflow-y-auto md:lg:overflow-hidden"
         >
           {hoveredOption && (
             <Image
@@ -102,7 +102,7 @@ const Navbar = () => {
 
           <div className="relative flex justify-between py-16 md:py-24 lg:py-10 px-12 md:px-24 lg:px-32 h-screen w-screen">
             <ul
-              className={`flex flex-col sm:gap-6 w-full ${londrina_solid.className}`}
+              className={`flex flex-col sm:gap-7 w-full ${londrina_solid.className}`}
             >
               {navOptions.map((option, index) => (
                 <li
