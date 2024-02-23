@@ -245,7 +245,7 @@ export const events = [
       { name: 'SSN ELC', img: '/events-page/ssn_elc.png' },
       { name: 'SNUC ELC', img: '/events-page/snuc_elc.jpg' },
     ],
-    fee: ['150/- Per Head (Day Pass)', '300/- Per Head (Club Pass)'],
+    fee: ['300/- Per Head (Club Pass)'],
     registrationLink: "https://forms.gle/kd8rNy7PGiqrWHKR9",
   },
   {
@@ -273,7 +273,7 @@ export const events = [
       { name: 'SSN ELC', img: '/events-page/ssn_elc.png' },
       { name: 'SNUC ELC', img: '/events-page/snuc_elc.jpg' },
     ],
-    fee: ['150/- Per Head (Day Pass)', '300/- Per Head (Club Pass)'],
+    fee: ['300/- Per Head (Club Pass)'],
     registrationLink: "https://forms.gle/kd8rNy7PGiqrWHKR9",
   },
   {
@@ -304,7 +304,7 @@ export const events = [
       { name: 'SSN ELC', img: '/events-page/ssn_elc.png' },
       { name: 'SNUC ELC', img: '/events-page/snuc_elc.jpg' },
     ],
-    fee: ['150/- Per Head (Day Pass)', '300/- Per Head (Club Pass)'],
+    fee: ['300/- Per Head (Club Pass)'],
     registrationLink: "https://forms.gle/kd8rNy7PGiqrWHKR9",
   },
   {
@@ -336,14 +336,14 @@ export const events = [
   - Late submissions will not be accepted.
   - The submissions must be entirely the original work of the participant.
     `,
-    contacts: ['Abinaya - 9360630071', 'Sukirtha - 8525862033'],
+    contacts: ['Abinaya - 9360630071', 'Sanjeevni - 8428706729'],
     clubDescription: `Welcome to the English Literary Club (ELC) at SSN and SNUC, where the magic of literature bursts into vibrant life! Whether you're a seasoned wordsmith or a blossoming writer, our inclusive community revels in a kaleidoscope of talents. Join us for lively debates, stand-up extravaganzas, word puzzles that sizzle, literary jams that resonate, and more. At ELC, creativity knows no boundaries, and we invite everyone to join the fiesta of literary pursuits. Come, dance with words, be a part of our jubilant journey, where collaboration and inspiration celebrate in full fiesta flair!
     `,
     clubLogos: [
       { name: 'SSN ELC', img: '/events-page/ssn_elc.png' },
       { name: 'SNUC ELC', img: '/events-page/snuc_elc.jpg' },
     ],
-    fee: ['150/- Per Head (Day Pass)', '300/- Per Head (Club Pass)'],
+    fee: ['300/- Per Head (Club Pass)'],
     registrationLink: "https://forms.gle/kd8rNy7PGiqrWHKR9",
   },
   {
@@ -377,7 +377,7 @@ export const events = [
       { name: 'SSN ELC', img: '/events-page/ssn_elc.png' },
       { name: 'SNUC ELC', img: '/events-page/snuc_elc.jpg' },
     ],
-    fee: ['150/- Per Head (Day Pass)', '300/- Per Head (Club Pass)'],
+    fee: ['300/- Per Head (Club Pass)'],
     registrationLink: "https://forms.gle/kd8rNy7PGiqrWHKR9",
   },
   {
@@ -409,7 +409,7 @@ export const events = [
       { name: 'SSN ELC', img: '/events-page/ssn_elc.png' },
       { name: 'SNUC ELC', img: '/events-page/snuc_elc.jpg' },
     ],
-    fee: ['150/- Per Head (Day Pass)', '300/- Per Head (Club Pass)'],
+    fee: ['300/- Per Head (Club Pass)'],
     registrationLink: "https://forms.gle/kd8rNy7PGiqrWHKR9",
   },
   {
@@ -812,7 +812,7 @@ Lakshya stands as a testament to the unwavering spirit of entrepreneurship, fost
 We take pride in our journey, from a handful of enthusiasts to a thriving community of young minds dedicated to shaping the future of entrepreneurship at SSN. Lakshya continues to be the driving force behind the entrepreneurial ambitions of students, providing a platform for innovation, learning, and success.
 `,
     clubLogos: [{ name: 'SSN Lakshya', img: '/events-page/lakshya.png' }],
-    fee: ['TBD'],
+    fee: ['150/- Per Head'],
     registrationLink: "https://forms.gle/2y2iS391MPsBeeSS8",
   },
   {
@@ -961,7 +961,7 @@ Decode the series of pictures showcasing iconic scenes, just like the classical 
     registrationLink: "https://forms.gle/19rHeeoNu2Uko7b29", 
   },
   {
-    title: 'CHATHU RANGA',
+    title: 'Chathuranga',
     dayDetail: 'TBD',
     category: 'Classical Dance',
     image: '/events-page/event-dummy-4.png',
@@ -1010,7 +1010,7 @@ Prepare yourself for a visual and rhythmic challenge. An audio-visual of a class
       { place: 'SECOND', amount: 'TBD' },
       { place: 'THIRD', amount: 'TBD' },
     ],
-    description: `Anunad is SMC's eastern solo singing event. It is the right place if you are looking to prove your mettle as a singer. Flaunt your singing skills in the light music solo vocal event. Enthrall us with your voice, all eyes are going to be on you and the stage is all yours. The event is not to be missed by all you aspiring singers!`,
+    description: `Anunad is the music club's eastern solo singing event. It is the right place if you are looking to prove your mettle as a singer. Flaunt your singing skills in the light music solo vocal event. Enthrall us with your voice, all eyes are going to be on you and the stage is all yours. The event is not to be missed by all you aspiring singers!`,
     rules: `- All Participants MUST be college students with a valid college ID card.
 - Registration Fee can be paid on spot
 - This is a two stage event. Both Prelims and Finals will be conducted offline.
@@ -1039,7 +1039,7 @@ Prepare yourself for a visual and rhythmic challenge. An audio-visual of a class
       { name: 'SMC', img: '/events-page/smc.png' },
       { name: 'SNU Isai', img: '/events-page/isai.jpg' },
     ],
-    fee: ['150/- Per Head (Event Pass)', '200/- Per Head (Club Pass)'],
+    fee: ['150/- Per Head (Event Pass)'],
     registrationLink: "https://forms.gle/dgXA8uBBtq9zEZWX6",
   },
   {
@@ -1090,7 +1090,7 @@ Prepare yourself for a visual and rhythmic challenge. An audio-visual of a class
       { place: 'SECOND', amount: 'TBD' },
       { place: 'THIRD', amount: 'TBD' },
     ],
-    description: `Band hunt is SMC's Eastern and Western band event. If you love playing Carnatic fusion, rock ‘n’ roll, blues, pop or light film music with your band, this is the right place for you. Come battle it out with other amazing bands and prove that you have what it takes to be the best.
+    description: `Band hunt is the music club's Eastern and Western band event. If you love playing Carnatic fusion, rock ‘n’ roll, blues, pop or light film music with your band, this is the right place for you. Come battle it out with other amazing bands and prove that you have what it takes to be the best.
     Music lovers everywhere, this event is handcrafted just for you. Don't miss it!!
     `,
     rules: `- Participants MUST be college students with a valid college ID card.
@@ -1137,7 +1137,7 @@ Prepare yourself for a visual and rhythmic challenge. An audio-visual of a class
       { place: 'SECOND', amount: 'TBD' },
       { place: 'THIRD', amount: 'TBD' },
     ],
-    description: `Get ready to unleash the rhythm, ignite the beats, and witness the most electrifying Rap and Beatbox battles here at SMC’s bars and beats event. Show us your unique flair and compete for our first hiphop title.
+    description: `Get ready to unleash the rhythm, ignite the beats, and witness the most electrifying Rap and Beatbox battles here at the music club's bars and beats event. Show us your unique flair and compete for our first hiphop title.
     `,
     rules: `- Participants can perform either beatboxing or rapping, but not both.
 - Time limit:
