@@ -1,13 +1,13 @@
-import { Londrina_Solid } from "next/font/google";
-import Image from "next/image";
-import Link from "next/link";
+import { Londrina_Solid } from 'next/font/google';
+import Image from 'next/image';
+import Link from 'next/link';
 
 const londrinaSolid = Londrina_Solid({
-  weight: ["400", "900"],
-  subsets: ["latin"],
+  weight: ['400', '900'],
+  subsets: ['latin'],
 });
 
-export default function RegisterPage() {
+export default function GetPassesPage() {
   return (
     <div className=" px-10 xl:px-20 py-20 font-satoshi bg-[#F9FAFB]" id="main">
       <div className="w-full grid lg:grid-cols-2 justify-center">
@@ -47,7 +47,7 @@ export default function RegisterPage() {
               </h4>
               <ul className="list-disc text-lg 2xl:text-xl ml-8 space-y-3">
                 <li>
-                  Payment must be only made through{" "}
+                  Payment must be only made through{' '}
                   <a
                     href="https://rzp.io/l/INSTINCTS-2024"
                     target="_blank"

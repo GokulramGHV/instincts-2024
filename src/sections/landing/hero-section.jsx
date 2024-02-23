@@ -2,10 +2,8 @@
 import CarouselPagination from '@/components/landing/carousel-pagination';
 import Countdown from '@/components/landing/countdown';
 import HeroCarousel from '@/components/landing/hero-carousel';
-import PetalPattern from '@/components/landing/petal-pattern';
 import Sparkles from '@/components/landing/sparkles';
 import SpinningBackground from '@/components/landing/spinning-background';
-import Navbar, { NavButton } from '@/components/navbar/navbar';
 import Image from 'next/image';
 import { useEffect, useState } from 'react';
 

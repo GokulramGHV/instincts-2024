@@ -7,17 +7,15 @@ const londonFont = Londrina_Solid({
   subsets: ['latin'],
 });
 
-export default function Hero({
-  heroImage,
-  headingName,
-  fontColor,
-  heroColor,
-}) {
+export default function Hero({ heroImage, headingName, fontColor, heroColor }) {
   return (
     <>
-      <div className="relative overflow-clip" style={{
-        backgroundColor: heroColor,
-      }}>
+      <div
+        className="relative overflow-clip"
+        style={{
+          backgroundColor: heroColor,
+        }}
+      >
         <div className="">
           <div className="md:px-12 px-6 pt-10 flex justify-between items-center">
             <Link href={'/'}>
@@ -35,12 +33,12 @@ export default function Hero({
             <h1
               className={`${londonFont.className} md:text-9xl xl:text-[10rem] 2xl:text-[13rem] text-7xl sm:my-auto mt-auto`}
               style={{
-                color: fontColor
+                color: fontColor,
               }}
             >
-              {headingName.split(" ")[0]}
+              {headingName.split(' ')[0]}
               <br />
-              {headingName.split(" ")[1]}
+              {headingName.split(' ')[1]}
             </h1>
             <Image
               alt="hero-pattern"
@@ -48,7 +46,7 @@ export default function Hero({
               className="h-full object-cover w-full"
               width={797}
               height={290}
-              objectFit="cover"
+              style={{ objectFit: 'cover' }}
             />
           </div>
         </div>
