@@ -27,7 +27,7 @@ export default function AboutInstincts({ slide }) {
               <img src="/about_us/bottom.svg" className="w-full h-full" />
             </div>
           </div>
-          <div className="bg-white md:w-[40%] p-7 z-10 lg:text-base text-xs">
+          <div className="bg-white md:w-[40%] p-7 z-10 lg:text-xl font-satoshi text-xs">
             Marching towards its 19th year, INSTINCTS has set a benchmark in
             the conduct of college fests where intellectual, social, cultural and
             artistic talents are brought to view. This alluring platform showcases
