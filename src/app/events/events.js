@@ -850,7 +850,7 @@ We take pride in our journey, from a handful of enthusiasts to a thriving commun
       'https://unstop.com/events/reels-of-fire-ssn-college-of-engineering-and-shiv-nadar-university-chennai-886535?lb=z6qdM8t',
   },
   {
-    title: 'Act Off',
+    title: "SST's Act Off",
     dayDetail: '7th March',
     category: 'Film',
     image: '/events-page/event-dummy-3.png',
@@ -861,26 +861,19 @@ We take pride in our journey, from a handful of enthusiasts to a thriving commun
       { place: 'SECOND', amount: 'TBD' },
       { place: 'THIRD', amount: 'TBD' },
     ],
-    description: `Act-off" is a vibrant and
-    exhilarating event designed to ignite
-    creativity and foster teamwork
-    among participants. With 10 teams
-    competing in a skit/drama
-    competition, the atmosphere is
-    charged with excitement as
-    performers take the stage to
-    showcase their talents. Under the
-    guidance of judge Ms. Sharanya
-    Subramaniam, participants are
-    challenged to think on their feet and
-    deliver compelling performances
-    based on provided scripts or
-    situations`,
-    rules: `- Script will be provided on the day of the event
-- Participants will be given 1 hour to prepare
-- The performance will be judged by Ms. Sharanya Subramaniam
-- Date: 7th March 2023 
-- Venue: Mini Auditorium 1pm to 4pm
+    description: `🎭 Greetings ()Hope you're all having a fantastic day! Get ready to showcase your acting talent on a grand scale at the epic event "SST's ACT OFF" conducted at () exclusively by Sharanya Spots Talent. SST is your gateway to the world of acting and is the Casting Company handling the film 'THUG LIFE' directed by Mr. Mani Ratnam.
+    `,
+    rules: `🌟 Key Rules and Points 🌟
+
+Team Event: This is a team event, so gather your Acting squad! Each team shall have 5 to 8 participants (max), and a total of 10 teams can only be registered for the entire event. So hurry up!
+
+Performance: The team shall perform a scene with a self-prepared script/concept that is within a duration of 5-8 minutes.
+
+Judge: The Founder & Casting Director of Sharanya Spots Talent, Ms. Sharanya Subramaniam, will evaluate your team's acting performance and provide instant & detailed feedback.
+
+🏆 Winning Trophy 🏆
+
+Once all the teams finish their performances, the overall 'Best-Performing Team' takes home the prestigious 'Winning Trophy,' and a cash prize of Rs.5000 and one individual will get the 'Star Performer' trophy - talent from any team who stands out with his/her acting talent (regardless of whether they are from the winning team or not) potentially earns an audition opportunity for the upcoming projects of 'Sharanya Spots Talent Casting Solutions.'
     `,
     contacts: ['Yogesh Munees (9080827627)', 'Bharath (8220615058)'],
     clubDescription: `Explore the world of films with SSN Film Club at SSN College of Engineering and Montage, SNUC Film Club at Shiv Nadar University Chennai! Dive into the magic of cinema through movie screenings, discussions, and fun events. Whether you're a movie buff or just getting into films, our welcoming clubs offer a great space for you to enjoy the rich variety of movies. Come join us for an exciting cinematic journey, where each frame has a story to tell!
@@ -1094,7 +1087,7 @@ Prepare yourself for a visual and rhythmic challenge. An audio-visual of a class
     Music lovers everywhere, this event is handcrafted just for you. Don't miss it!!
     `,
     rules: `- Participants MUST be college students with a valid college ID card.
-- Music Pass is **NOT required** for any/all band members to participate **in Round 1**.
+- Music Pass has to be **purchased by one member from each band** to participate **in Round 1**.
 - All members of the bands that **qualify for Round 2, MUST purchase** the Music Pass to be able to perform. Individual Music Pass must be purchased for each band member.
 - Members of the band need not be from the same college. Cross college bands are allowed.
 - Number of Members per band: **3-10**
@@ -1103,7 +1096,8 @@ Prepare yourself for a visual and rhythmic challenge. An audio-visual of a class
 
 ### Online Shortlisting:
 - Bands should send in an online link of their performance, which should not exceed 6 mins. 
-- Note that the drive link shared must be accessible by ‘Anyone with the Link’.
+- Note that the drive link shared must be accessible by ‘Anyone with the Link’.  
+-  ⁠Round 1 entries must be sent on or before **March 2nd, 2024**. 
 
 ### Finals:
 - Each band (if shortlisted) will be given 18 mins on stage inclusive of setup time.
