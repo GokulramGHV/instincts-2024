@@ -16,22 +16,22 @@ export default function AboutSSNSNU({ slide }) {
       <img
         src="/about_us/big-tent.svg"
         alt="decor-tent"
-        className="absolute bottom-0 right-0 sm:h-[33%] md:h-[40%] lg:h-[55%] hidden sm:block"
+        className="absolute bottom-0 right-0 sm:h-[33%] md:h-[40%] lg:h-[55%] 2xl:h-[65%] hidden sm:block"
       />
 
       <div
         style={{ opacity: 1 - slide }}
         className="absolute transition-opacity duration-[500ms]"
       >
-        <h2 className="text-3xl sm:text-6xl xl:text-7xl 2xl:text-8xl px-10 xl:px-20 pt-5">
+        <h2 className="text-3xl sm:text-6xl 2xl:text-7xl px-10 xl:px-20 pt-4">
           About SSN College of Engineering, Chennai
         </h2>
-        <p className="text-base md:text-xl xl:text-2xl 2xl:text-[30px] 2xl:leading-[3rem] xl:w-[70%] w-full p-10 xl:px-20 xl:pt-16 font-satoshi">
+        <p className="text-base md:text-xl 2xl:text-[24px] 2xl:leading-[2rem] lg:w-[70%] w-full p-10 xl:px-20 font-satoshi">
           Sri Sivasubramaniya Nadar (SSN) College of Engineering started in
           1996, is the first initiative of Mr. Shiv Nadar, Founder Chairman, HCL
           Technologies in the field of education. The vision of SSN is &apos;To
           be a world-class institution for technical education and scientific
-          research for public good. Today, SSNCE is an autonomous college
+          research for public good&apos;. Today, SSNCE is an autonomous college
           affiliated with Anna University and ranked 48th in NIRF 2022 by MoE,
           Gol amongst all engineering colleges in India. With a diverse and
           dynamic community of students, SSN offers a distinctive combination of
@@ -50,10 +50,10 @@ export default function AboutSSNSNU({ slide }) {
         style={{ opacity: slide }}
         className="absolute transition-opacity duration-[500ms]"
       >
-        <h2 className="text-3xl sm:text-6xl xl:text-7xl 2xl:text-8xl px-10 xl:px-20 pt-5">
+        <h2 className="text-3xl sm:text-6xl 2xl:text-7xl px-10 xl:px-20 pt-4">
           About Shiv Nadar University, Chennai
         </h2>
-        <p className="text-base md:text-xl xl:text-2xl 2xl:text-[30px] 2xl:leading-[3rem] xl:w-[70%] w-full p-10 xl:px-20 xl:pt-16 font-satoshi">
+        <p className="text-base md:text-xl 2xl:text-[24px] 2xl:leading-[2rem] lg:w-[70%] w-full p-10 xl:px-20 font-satoshi">
           Shiv Nadar University Chennai&apos;s vision is to become a global
           university, focused on innovation, research, academic excellence and
           creativity, to develop socially conscious leaders capable of

@@ -17,7 +17,7 @@ export default function AboutUs() {
   const sticker = useRef(null)
 
   const handleScroll = () => {
-    setSlide(Math.round(2 * sticker.current.offsetTop / (section.current.scrollHeight - sticker.current.scrollHeight)))
+    setSlide(Math.round(2 * sticker.current.offsetTop / (section.current.clientHeight - sticker.current.clientHeight)))
   }
 
   useEffect(() => {
