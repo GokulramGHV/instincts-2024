@@ -817,7 +817,7 @@ We take pride in our journey, from a handful of enthusiasts to a thriving commun
   },
   {
     title: 'Reels of Fire',
-    dayDetail: '8 th March',
+    dayDetail: '8th March',
     category: 'Film',
     image: '/events-page/event-dummy-3.png',
     color: '#914E0D',
