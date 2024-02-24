@@ -5,6 +5,7 @@ import GallerySection from '@/sections/landing/gallery-section';
 import HeroSection from '@/sections/landing/hero-section';
 import { useEffect, useState } from 'react';
 import { NavButton } from '@/components/navbar/navbar';
+import TheTeam from '@/sections/landing/the-team';
 
 export default function Home() {
   const [isVisible, setIsVisible] = useState(false);
@@ -43,6 +44,7 @@ export default function Home() {
       )}
       <HeroSection />
       <AboutUs />
+      <TheTeam />
       <GallerySection />
       <Footer />
     </main>
