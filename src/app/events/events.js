@@ -1348,7 +1348,7 @@ This event focuses on the ability of a designer to comprehend a given concept an
   },
   {
     title: 'Online Photography Contest',
-    dayDetail: 'TBD',
+    dayDetail: '4th March',
     category: 'Photography',
     image: '/events-page/event-dummy-4.png',
     color: '#00644C',
@@ -1357,15 +1357,16 @@ This event focuses on the ability of a designer to comprehend a given concept an
       { place: 'FIRST', amount: 'TBD' },
       { place: 'SECOND', amount: 'TBD' },
     ],
-    description: `Having a knack for taking great pictures? Or looking out for frames when your eyes are wide open? If that’s the case, flex your talents here and win alluring prizes.`,
+    description: `Having a knack for taking great pictures? Or looking out for frames when your eyes are wide open? If that's the case, showcase your best monochrome photographs and get a chance to win exciting cash prizes!`,
     rules: `- Two submissions per participant (Applicable to all college students)
-- Theme: **Yet to Decide**
-- Participants must follow @ssn_photography_club, @snuc_capturesque
+- Theme: **Monochrome**
+- Participants must follow **@ssn_photography_club, @snuc_capturesque**
 - Basic Colour Correction is allowed; photo manipulation is strictly prohibited. Plagiarism will lead to disqualification.
 - Pictures to be sent as .jpeg/.jpg (along with RAW if picture has been edited).
 - Pictures with watermarks shall not be evaluated.
-- The submission must include your Name and Contact Details which are to be emailed to ssnphotographyclub@ssn.edu.in with the subject OPC '24 (Format for file name: FullName_College)
+- A Google Form will be circulated to your registered mobile number in which you'll be asked to submit your photographs.
 - Decision of the judge shall be bound and final.
+- Deadline: On/Before March 4th, 2024.
     `,
     contacts: ['Krishna Karthikeyan - 8618584124', 'Jaishree - 6379631417'],
     clubDescription: `SPC x Capturesque enables you to capture moments which would make you look at it like "No way I clicked this."
@@ -1387,7 +1388,7 @@ This event focuses on the ability of a designer to comprehend a given concept an
   },
   {
     title: 'SnapQuest',
-    dayDetail: 'TBD',
+    dayDetail: 'March 7th-9th',
     category: 'Photography',
     image: '/events-page/event-dummy-4.png',
     color: '#00644C',
@@ -1398,22 +1399,31 @@ This event focuses on the ability of a designer to comprehend a given concept an
     ],
     description: `The offline photography contest cherishes candid moments, weaving enchanting stories through captured frames. It revels in the joy of photography, celebrating spontaneous beauty and genuine emotions. Embracing abstract images, reflections, and patterns in nature, the contest transforms ordinary scenes into extraordinary tales. Each click is a poetic exploration, revealing the profound beauty hidden in unscripted moments and the intricate details of our surroundings. The competition beckons photographers to discover bliss in the art, where the fusion of candid storytelling and the artistry of abstract compositions paints a vibrant canvas of visual delight.
     `,
-    rules: `1. Three submissions per participant (Applicable to all college students)
-2. Theme : Open 
-3. Duration : From March 7th - 9 am to March 8th - 8 pm (2 days)
+    rules: `1. Theme : **Open**
+2. Three submissions per participant (Applicable to all college students) 
+3. Duration : From **March 7th - 9 am to March 8th - 8 pm (2 days)**
 4. The entries must be submitted by 12 pm noon (March 9th) for evaluation.
 5. Photos should be shot inside the college premises only.
-6.  Participants must follow @ssn_photography_club, @snuc_capturesque
-7.  Basic Colour Correction is allowed; photo manipulation is strictly prohibited. Plagiarism will   lead to disqualification.
-8.  Pictures to be sent as .jpeg/.jpg (along with RAW if the picture has been edited).
-9.  Pictures with watermarks shall not be evaluated.
-10.  The submission must include your Name and Contact Details which are to be emailed to ssnphotographyclub@ssn.edu.in with the subject SnapQuest '24 (Format for file name: FullName_College)
-11.  Decision of the judge shall be bound and final.
-### Important guidelines to be followed - 
-- Don't take pictures that make people look bad or uncomfortable.
-- Respect personal space, especially in busy places.
-- Only share photos that follow community rules and are okay for everyone to see.
+6. Participants must follow **@ssn_photography_club, @snuc_capturesque**
+7. Basic Colour Correction is allowed; photo manipulation is strictly prohibited. Plagiarism will lead to disqualification.
+8. Pictures to be sent as .jpeg/.jpg (along with RAW if the picture has been edited).
+9. Pictures with watermarks shall not be evaluated.
+10. A Google Form will be circulated to your registered mobile number in which you'll be asked to submit your photographs.
+11. Decision of the judge shall be bound and final.
     
+### Important guidelines to be followed - 
+- Participants must respect the privacy of the individuals being photographed.
+
+- Participants must ensure that the person being photographed provides full consent for
+their picture to be used. If not, you are required to remove the said pictures from your
+memory.
+
+- Photographs that invade the privacy, depict sensitive and offensive content will
+result in disqualification. And the photographer associated will be reported to festival
+security.
+
+- You will not be permitted to enter the premises of the Career Development Center, the Administration office or offices of any department. You may enter a few spaces only if
+you have the necessary permission to do so.    
     `,
     contacts: ['Venkatanathan M A - 9176762175', 'Raveesh - 9995985389'],
     clubDescription: `SPC x Capturesque enables you to capture moments which would make you look at it like "No way I clicked this."
