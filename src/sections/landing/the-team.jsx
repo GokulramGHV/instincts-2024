@@ -38,7 +38,7 @@ function NameCard({ details }) {
       <h2 className={`${londrina.className} text-base md:text-2xl xl:text-3xl 2xl:text-5xl w-full leading-tight mb-1 xl:mb-3`}>{details.title}</h2>
       {details.names ? 
       <ul className='flex flex-col list-none items-center font-satoshi text-sm md:text-xl xl:text-2xl 2xl:text-4xl'>
-        {details.names.map(name => <li className='xl:mb-1'>{name}</li>)}
+        {details.names.map(name => <li className='xl:mb-1' key={name}>{name}</li>)}
       </ul> : 
       <p className='font-satoshi text-sm md:text-xl xl:text-2xl 2xl:text-4xl'>{details.name}</p>}
     </div>
