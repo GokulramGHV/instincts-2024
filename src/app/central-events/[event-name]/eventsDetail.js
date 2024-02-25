@@ -22,7 +22,7 @@ export const eventDetails = {
   proshow: {
     name: 'PROSHOW',
     description:
-      "Get ready for the most thrilling night of INSTINCTS'24! On Day 2, we raise her hands and dance as the sun sets for our Pro Show. Celebrities and singers turning the stage into a dazzling playground of entertainment. It's like your favorite playlist came to life! The Pro Show isn't just any gig, it's a superstar cast making magic happen right before your eyes. This show brings all the feels, from foot-tapping beats to heartwarming melodies. It's like a giant musical hug that'll leave you buzzing with good vibes. So don't forget to keep a lookout for the upcoming celebrity lineup for it!",
+      "Get ready for the most thrilling night of INSTINCTS'24! On Day 2, we raise our hands and dance as the sun sets for our Pro Show. Celebrities and singers turning the stage into a dazzling playground of entertainment. It's like your favorite playlist came to life! The Pro Show isn't just any gig, it's a superstar cast making magic happen right before your eyes. This show brings all the feels, from foot-tapping beats to heartwarming melodies. It's like a giant musical hug that'll leave you buzzing with good vibes. So don't forget to keep a lookout for the upcoming celebrity lineup for it!",
     images: ["/central_events/event-images/proshow/1.JPG",
       "/central_events/event-images/proshow/2.JPG",
       "/central_events/event-images/proshow/3.jpg"],
