@@ -41,9 +41,9 @@ const SearchBar = ({setChosenEvents, setQuery, query}) => {
             <input
                 type="text"
                 placeholder="Search..."
-                // value={query}
+                value={query}
                 onChange={handleChange}
-                className='cursor-pointer w-full p-3 sm:pl-8 md:text-2xl text-lg hover:text-[#000000] transition-colors rounded-full md:border-4 border-[3px] pr-[60px] font-bold bg-slate-200 bg-opacity-30 backdrop-blur-md focus:border-slate-800 hover:border-slate-500'
+                className='cursor-pointer w-full p-3 sm:pl-8 sm: md:text-2xl text-lg hover:text-[#000000] transition-colors rounded-full md:border-4 border-[3px] pr-[60px] font-bold bg-slate-200 bg-opacity-30 backdrop-blur-md focus:border-slate-800 hover:border-slate-500'
             />
             <img src="/events-page/search-icon.png" alt="" className='sm:h-[30px] h-[20px] w-auto sm:-translate-x-14 -translate-x-9' />
         </div>
