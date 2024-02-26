@@ -16,6 +16,7 @@ export default function EventsPage() {
   const [query, setQuery] = useState(''); //search bar query
 
 
+
   const sortedcategories = categories.sort((a, b) =>
     a.name.localeCompare(b.name)
   );
@@ -23,9 +24,10 @@ export default function EventsPage() {
   const filteredEvents = () => {
     
     //for events selected from search
-    if(chosenEvents){
+    if(chosenEvents != null){
       if(selectedCategory){
-        setSelectedCategory(null);}
+          setSelectedCategory(null);
+      }
       return chosenEvents;
 
     } 
