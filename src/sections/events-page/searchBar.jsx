@@ -32,7 +32,7 @@ const SearchBar = ({setChosenEvents, setQuery, query}) => {
 
 
   const handleChange = (e) => {
-    setQuery(e.target.value);
+    setQuery(e.target.value.toLowerCase());
   };
 
   return (
