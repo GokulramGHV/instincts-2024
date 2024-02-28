@@ -68,7 +68,8 @@ export default function EventsPage() {
         <SearchBar
          setChosenEvents = {setChosenEvents}
          setQuery={setQuery}
-         query={query}/>
+         query={query}
+         setSelectedCategory={setSelectedCategory}/>
 
         <EventsSection
           events={filteredEvents()}

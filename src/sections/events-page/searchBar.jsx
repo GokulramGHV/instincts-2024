@@ -2,7 +2,7 @@ import {events} from '@/app/events/events.js';
 import { useEffect, useState } from 'react';
 
 
-const SearchBar = ({setChosenEvents, setQuery, query}) => {
+const SearchBar = ({setChosenEvents, setQuery, query, setSelectedCategory}) => {
 
   const [count, setCount] = useState(0);
 
@@ -12,7 +12,11 @@ const SearchBar = ({setChosenEvents, setQuery, query}) => {
     }
     else{
     var chosen = [];
-    console.log("quryyyyyyy ==== ",query);
+    if(query.length == 0){
+      setSelectedCategory("All Events");
+      setChosenEvents(null);
+    }
+    else{
     events.forEach(eventDetail => {
       let title=eventDetail.title.toLowerCase();
       let category=eventDetail.category.toLowerCase();
@@ -24,7 +28,7 @@ const SearchBar = ({setChosenEvents, setQuery, query}) => {
           // console.log(chosen)
       }
       setChosenEvents(chosen);
-  })
+  })}
   }
 },[query]);
 
@@ -45,7 +49,7 @@ const SearchBar = ({setChosenEvents, setQuery, query}) => {
                 onChange={handleChange}
                 className='cursor-pointer w-full p-3 sm:pl-8 sm: md:text-2xl text-lg hover:text-[#000000] transition-colors rounded-full md:border-4 border-[3px] pr-[60px] font-bold bg-slate-200 bg-opacity-30 backdrop-blur-md focus:border-slate-800 hover:border-slate-500'
             />
-            <img src="/events-page/search-icon.png" alt="" className='sm:h-[30px] h-[20px] w-auto sm:-translate-x-14 -translate-x-9' />
+            <img src="/events-page/search-icon.png" alt="" className='sm:h-[30px] h-[20px] w-auto absolute right-0 sm:-translate-x-8 md:-translate-x-20 -translate-x-9' />
         </div>
     </>
   );
