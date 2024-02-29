@@ -19,9 +19,21 @@ const companies = [
     width: 220,
     height: 136,
   },
+  {
+    name: 'tnie',
+    website: 'https://www.newindianexpress.com/',
+    width: 400,
+    height: 161,
+  },
+  {
+    name: 'accord',
+    website: 'https://www.theaccordhotels.com/',
+    width: 300,
+    height: 167,
+  },
 ];
 
-export default function Sponsormdain() {
+export default function SponsorsMain() {
   return (
     <section className="w-full bg-[#05B163] pb-20 pt-16 lg:pb-28 lg:pt-24 2xl:pb-36 2xl:pt-32 overflowy-auto">
       <div className="w-full flex items-center justify-center flex-col">
@@ -60,13 +72,13 @@ export default function Sponsormdain() {
         >
           Other Sponsors
         </h2>
-        <div className="flex flex-wrap flex-col w-[95%] mx-auto gap-8 md:flex-row">
+        <div className="flex flex-wrap flex-col w-[95%] mx-auto gap-8 md:gap-y-16 md:flex-row justify-center">
           {companies.map((company, index) => (
             <a
               key={company.name}
               href={company.website}
               target="_blank"
-              className="m-auto aspect-[2] h-[7rem] md:h-[11rem] 2xl:h-[18rem] flex items-center justify-center"
+              className="aspect-[2] h-[7rem] md:h-[11rem] 2xl:h-[18rem] flex items-center justify-center"
               style={{
                 backgroundImage: `url(/sponsors/clip${index + 1}.svg)`,
                 backgroundSize: 'contain',
@@ -77,7 +89,7 @@ export default function Sponsormdain() {
               <Image
                 src={`/sponsors/${company.name}_logo.png`}
                 alt={company.name + ' logo'}
-                className="w-1/2"
+                className='w-[30%] sm:w-1/2'
                 width={company.width}
                 height={company.height}
               />
