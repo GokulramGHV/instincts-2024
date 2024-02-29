@@ -6,7 +6,12 @@ const londonFont = Londrina_Solid({
 });
 
 const companies = [
-  { name: 'unstop', website: 'https://unstop.com/', width: 474, height: 188 },
+  {
+    name: 'unstop',
+    website: 'https://unstop.com/',
+    width: 474,
+    height: 188
+  },
   {
     name: 'sattva',
     website: 'https://www.sattva.in/',
@@ -52,7 +57,7 @@ export default function SponsorsMain() {
           className="flex items-center justify-center aspect-[2] 
             h-[9rem] md:h-[14rem] 2xl:h-[16rem]"
           style={{
-            backgroundImage: 'url(/sponsors/clip3.svg)',
+            backgroundImage: 'url(/sponsors/clip0.svg)',
             backgroundSize: 'contain',
             backgroundRepeat: 'no-repeat',
           }}
@@ -78,7 +83,7 @@ export default function SponsorsMain() {
               key={company.name}
               href={company.website}
               target="_blank"
-              className="aspect-[2] h-[7rem] md:h-[11rem] 2xl:h-[18rem] flex items-center justify-center"
+              className="aspect-[2] h-[7rem] md:h-[11rem] flex items-center justify-center"
               style={{
                 backgroundImage: `url(/sponsors/clip${index + 1}.svg)`,
                 backgroundSize: 'contain',
