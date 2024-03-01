@@ -51,11 +51,19 @@ export function ReachOut() {
 
 export function JoinUs() {
   return (
-    <Link
-      href={"/get-passes"}
-      className="text-white font-semibold font-satoshi text-[22px] hover:scale-110"
-    >
-      Get Passes
-    </Link>
+    <>
+      <Link
+        href={"/get-passes"}
+        className="text-white font-semibold font-satoshi text-[22px] hover:scale-110"
+      >
+        Get Passes
+      </Link>
+      <Link
+        href={"/coming-soon"}
+        className="text-white font-semibold font-satoshi text-[22px] hover:scale-110"
+      >
+        Schedule
+      </Link>
+    </>
   );
 }

@@ -20,7 +20,9 @@ export default function DefaultLayout() {
         </div>
         <div className="flex flex-col gap-5">
           <p className="text-slate-50 font-satoshi text-[22px]">JOIN US</p>
-          <JoinUs />
+          <div className="flex flex-col gap-2">
+            <JoinUs />
+          </div>
         </div>
       </div>
       <div className="mb-20 flex gap-10 items-center justify-center">

@@ -72,7 +72,7 @@ export default function Page() {
                   target="_blank"
                 >
                   <FaPhone
-                    className="md:text-xl"
+                    className="md:text-xl rotate-90"
                     color={contact.secondaryColor}
                   />{' '}
                   {contact.phone}
