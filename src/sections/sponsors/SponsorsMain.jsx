@@ -5,7 +5,7 @@ const londonFont = Londrina_Solid({
   subsets: ['latin'],
 });
 
-const companies = [
+const sponsors = [
   { 
     name: 'unstop', 
     website: 'https://unstop.com/', 
@@ -27,21 +27,48 @@ const companies = [
     width: 220,
     height: 136,
   },
+  {
+    name: 'ponvandu',
+    website: 'https://ponvandu.in/',
+    backgroundClip: 4,
+    width: 420,
+    height: 293
+  }
 ];
 
-const accord = {
-  name: 'accord',
-  website: 'https://www.theaccordhotels.com/',
-  backgroundClip: 5,
-  width: 300,
-  height: 167,
-}
-const tnie = {
-  name: 'tnie',
-  website: 'https://www.newindianexpress.com/',
-  backgroundClip: 4,
-  width: 400,
-  height: 161,
+const partners = [
+  {
+    type: 'Accomodation',
+    name: 'accord',
+    website: 'https://www.theaccordhotels.com/',
+    backgroundClip: 5,
+    width: 300,
+    height: 167,
+  },
+  {
+    type: 'Print',
+    name: 'tnie',
+    website: 'https://www.newindianexpress.com/',
+    backgroundClip: 4,
+    width: 400,
+    height: 161,
+  },
+  {
+    type: 'Healthcare',
+    name: 'rela',
+    website: 'https://www.relainstitute.com/',
+    backgroundClip: 3,
+    width: 380,
+    height: 196
+  }
+]
+
+const aram = {
+  name: 'aram',
+  website: 'https://www.aramiasacademy.com/',
+  backgroundClip: 1,
+  width: 380,
+  height: 214,
 }
 
 const hcl = {
@@ -81,42 +108,51 @@ function SponsorCard({company, heightStyle="h-[7rem] md:h-[11rem]", widthStyle='
 
 export default function SponsorsMain() {
   return (
-    <section className="w-full bg-[#05B163] pb-20 pt-16 lg:pb-28 lg:pt-24 2xl:pb-36 2xl:pt-32 overflowy-auto">
-      <div className="w-full flex items-center justify-center flex-col">
-        <h2
-          className={`
-          ${londonFont.className} 
-          text-[#FFFCEA] text-center 
-          text-4xl md:text-7xl lg:text-8xl
-          pb-8 lg:pb-16`}
-        >
+    <div className="w-full bg-[#05B163] pb-20 pt-16 lg:pb-28 lg:pt-24 2xl:pb-36 2xl:pt-32 overflowy-auto">
+
+      <section className="w-full flex items-center justify-center flex-col">
+        <h2 className={`${londonFont.className} text-[#FFFCEA] text-center 
+          text-4xl md:text-7xl lg:text-8xl pb-8 lg:pb-16`}>
           Title Sponsor
         </h2>
         <SponsorCard company={hcl} heightStyle='h-[9rem] md:h-[14rem] 2xl:h-[16rem]' widthStyle='w-[80%]'/>
-      </div>
-      <div className="w-full mt-20 lg:mt-28 2xl:mt-32">
+      </section>
+
+      <section className="w-full flex items-center justify-center flex-col mt-24">
+        <h2 className={`${londonFont.className} text-[#FFFCEA] text-center 
+          text-4xl md:text-7xl lg:text-8xl pb-8 lg:pb-16`}>
+          Associate Sponsor
+        </h2>
+        <SponsorCard company={aram} heightStyle='h-[8rem] md:h-[12rem] 2xl:h-[14rem]'/>
+      </section>
+
+      <section className='w-[95%] mx-auto mt-20 lg:mt-28 2xl:mt-32 px-4'>
+        <h2
+          className={`${londonFont.className} text-[#FFFCEA] text-center text-4xl md:text-8xl pb-8 lg:pb-16`}>
+          Partners
+        </h2>
+        <div className='w-full flex flex-wrap justify-center gap-8 gap-y-12'>
+          {partners.map(partner => (
+            <div className='flex items-center flex-col' key={partner.type}>
+              <h2 className={`${londonFont.className} text-[#FFFCEA] text-center text-2xl md:text-4xl pb-4 sm:pb-8`}>
+                {partner.type} Partner
+              </h2>
+              <SponsorCard company={partner} />
+            </div>
+          ))}
+         </div>
+      </section>
+
+      <section className="w-full mt-20 lg:mt-28 2xl:mt-32">
         <h2
           className={`${londonFont.className} text-[#FFFCEA] text-center text-4xl md:text-7xl pb-8 lg:pb-16`}>
           Other Sponsors
         </h2>
         <div className="flex flex-wrap flex-col mx-auto gap-8 md:gap-y-16 md:flex-row justify-center">
-          {companies.map(company => <SponsorCard company={company} key={company.name}/>)}
+          {sponsors.map(company => <SponsorCard company={company} key={company.name}/>)}
         </div>
-      </div>
-      <div className='w-[95%] mx-auto mt-20 lg:mt-28 2xl:mt-32 flex justify-center gap-16 sm:gap-24 flex-wrap px-4'>
-        <div className='flex items-center flex-col'>
-          <h2 className={`${londonFont.className} text-[#FFFCEA] text-center text-3xl md:text-5xl pb-8`}>
-              Accomodation Partner
-          </h2>
-          <SponsorCard company={accord} />
-        </div>
-        <div className='flex items-center flex-col'>
-          <h2 className={`${londonFont.className} text-[#FFFCEA] text-center text-3xl md:text-5xl pb-8`}>
-            Print Partner
-          </h2>
-          <SponsorCard company={tnie} />          
-        </div>
-      </div>
-    </section>
+      </section>
+
+    </div>
   );
 }
