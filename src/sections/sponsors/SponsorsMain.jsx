@@ -114,7 +114,7 @@ export default function SponsorsMain() {
           <h2 className={`${londonFont.className} text-[#FFFCEA] text-center text-3xl md:text-5xl pb-8`}>
             Print Partner
           </h2>
-          <SponsorCard company={tnie} />
+          <SponsorCard company={tnie} />          
         </div>
       </div>
     </section>

@@ -6,6 +6,7 @@ import GalleryDesign from "@/components/gallery/gallery_design";
 export default function GallerySection() {
     return (
         <section 
+            id="gallery_section"
             className="flex overflow-hidden justify-center items-center relative aspect-[39/35] max-[1024px]:max-h-[40rem] max-[850px]:max-h-[35rem] w-full sm:h-screen">
             {/* First div with background */}
             <div className="absolute h-full flex items-center inset-0 z-[-1] overflow-hidden bg-[#FC6655]">
