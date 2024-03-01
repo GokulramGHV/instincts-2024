@@ -11,7 +11,7 @@ export default function GetPassesPage() {
   return (
     <div className="px-10 xl:px-20 py-20 font-satoshi bg-[#F9FAFB]" id="main">
       <div className="w-full">
-        <h3 className={`${londrinaSolid.className} text-2xl sm:text-4xl xl:text-5xl text-center mb-4`}>
+        <h3 className={`${londrinaSolid.className} text-3xl sm:text-4xl xl:text-5xl text-center mb-4`}>
           How to get Passes?
         </h3>
 
