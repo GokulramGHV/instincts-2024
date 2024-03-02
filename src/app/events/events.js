@@ -855,13 +855,13 @@ We take pride in our journey, from a handful of enthusiasts to a thriving commun
     category: 'Film',
     image: '/events-page/event-dummy-3.png',
     color: '#914E0D',
-    teamSize: 'Solo',
+    teamSize: '1',
     prize: [
       { place: 'FIRST', amount: 'TBD' },
       { place: 'SECOND', amount: 'TBD' },
       { place: 'THIRD', amount: 'TBD' },
     ],
-    description: `🎭 Greetings ()Hope you're all having a fantastic day! Get ready to showcase your acting talent on a grand scale at the epic event "SST's ACT OFF" conducted at () exclusively by Sharanya Spots Talent. SST is your gateway to the world of acting and is the Casting Company handling the film 'THUG LIFE' directed by Mr. Mani Ratnam.
+    description: `🎭 Greetings! Hope you're all having a fantastic day! Get ready to showcase your acting talent on a grand scale at the epic event "SST's ACT OFF" conducted at SSN exclusively by Sharanya Spots Talent. SST is your gateway to the world of acting and is the Casting Company handling the film 'THUG LIFE' directed by Mr. Mani Ratnam.
     `,
     rules: `🌟 Key Rules and Points 🌟
 
