@@ -68,14 +68,14 @@ export const partners = [
     width: 380,
     height: 196
   },
-  {
-    type: 'Food',
-    name: 'makerscafe',
-    website: '',
-    backgroundClip: 2,
-    width: 350,
-    height: 182
-  }
+  // {
+  //   type: 'Food',
+  //   name: 'makerscafe',
+  //   website: '',
+  //   backgroundClip: 2,
+  //   width: 350,
+  //   height: 182
+  // }
 ]
 
 export const aram = {
