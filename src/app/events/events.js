@@ -855,7 +855,7 @@ We take pride in our journey, from a handful of enthusiasts to a thriving commun
     category: 'Film',
     image: '/events-page/event-dummy-3.png',
     color: '#914E0D',
-    teamSize: '5-8',
+    teamSize: 'Solo',
     prize: [
       { place: 'FIRST', amount: 'TBD' },
       { place: 'SECOND', amount: 'TBD' },
