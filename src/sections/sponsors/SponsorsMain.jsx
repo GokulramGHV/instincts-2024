@@ -23,7 +23,7 @@ const sponsors = [
   {
     name: 'ags_cinemas',
     website: 'https://www.agscinemas.com/',
-    backgroundClip: 3,
+    backgroundClip: 1,
     width: 220,
     height: 136,
   },
@@ -33,6 +33,20 @@ const sponsors = [
     backgroundClip: 4,
     width: 420,
     height: 293
+  },
+  {
+    name: 'sathya',
+    website: 'https://www.sathya.store/',
+    backgroundClip: 5,
+    width: 350,
+    height: 221
+  },
+  {
+    name: 'munchys',
+    website: '',
+    backgroundClip: 4,
+    width: 380,
+    height: 156
   }
 ];
 
@@ -60,6 +74,14 @@ const partners = [
     backgroundClip: 3,
     width: 380,
     height: 196
+  },
+  {
+    type: 'Food',
+    name: 'makerscafe',
+    website: '',
+    backgroundClip: 2,
+    width: 350,
+    height: 182
   }
 ]
 
