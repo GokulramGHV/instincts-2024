@@ -865,15 +865,16 @@ We take pride in our journey, from a handful of enthusiasts to a thriving commun
     `,
     rules: `🌟 Key Rules and Points 🌟
 
-Team Event: This is a team event, so gather your Acting squad! Each team shall have 5 to 8 participants (max), and a total of 10 teams can only be registered for the entire event. So hurry up!
+Team Event: This is a solo event, so gather your Acting skills and earn a chance to get selected for audition!
 
-Performance: The team shall perform a scene with a self-prepared script/concept that is within a duration of 5-8 minutes.
+Performance: The person shall perform a scene with a self-prepared script/concept that is within a duration of 2-3 minutes.
 
 Judge: The Founder & Casting Director of Sharanya Spots Talent, Ms. Sharanya Subramaniam, will evaluate your team's acting performance and provide instant & detailed feedback.
+    
 
 🏆 Winning Trophy 🏆
 
-Once all the teams finish their performances, the overall 'Best-Performing Team' takes home the prestigious 'Winning Trophy,' and a cash prize of Rs.5000 and one individual will get the 'Star Performer' trophy - talent from any team who stands out with his/her acting talent (regardless of whether they are from the winning team or not) potentially earns an audition opportunity for the upcoming projects of 'Sharanya Spots Talent Casting Solutions.'
+Once all of them  finish their performances, the overall 'Best-Performer' takes home the prestigious 'Winning Trophy,' and a cash prize of Rs.5000 and potentially earns an audition opportunity for the upcoming projects of 'Sharanya Spots Talent Casting Solutions.
     `,
     contacts: ['Yogesh Munees (9080827627)', 'Bharath (8220615058)'],
     clubDescription: `Explore the world of films with SSN Film Club at SSN College of Engineering and Montage, SNUC Film Club at Shiv Nadar University Chennai! Dive into the magic of cinema through movie screenings, discussions, and fun events. Whether you're a movie buff or just getting into films, our welcoming clubs offer a great space for you to enjoy the rich variety of movies. Come join us for an exciting cinematic journey, where each frame has a story to tell!
