@@ -1293,7 +1293,7 @@ This event focuses on the ability of a designer to comprehend a given concept an
   },
   {
     title: 'IPL Auction',
-    dayDetail: '7th March',
+    dayDetail: '7th March (Prelims) & 9th Match (Finals)',
     category: 'Business',
     image: '/events-page/event-dummy-3.png',
     color: '#2E3192',
