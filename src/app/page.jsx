@@ -6,6 +6,7 @@ import HeroSection from '@/sections/landing/hero-section';
 import { useEffect, useState } from 'react';
 import { NavButton } from '@/components/navbar/navbar';
 import TheTeam from '@/sections/landing/the-team';
+import BentoGrid from '@/sections/landing/bento-grid';
 
 export default function Home() {
   const [isVisible, setIsVisible] = useState(false);
@@ -45,6 +46,7 @@ export default function Home() {
       <HeroSection />
       <AboutUs />
       <TheTeam />
+      <BentoGrid />
       <GallerySection />
       <Footer />
     </main>
