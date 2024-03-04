@@ -59,7 +59,7 @@ export default function Page() {
             return (
               <div
                 key={contact.name}
-                className="rounded-lg md:px-12 px-5 py-8 w-full md:w-fit flex flex-col items-center border"
+                className="rounded-lg md:px-12 px-5 py-6 w-full md:w-fit flex flex-col items-center border"
                 style={{ borderColor: contact.color }}
               >
                 <h2
