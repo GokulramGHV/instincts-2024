@@ -40,6 +40,13 @@ export const sponsors = [
     backgroundClip: 4,
     width: 380,
     height: 156
+  },
+  {
+    name: 'sandburgs',
+    website: '',
+    backgroundClip: 3,
+    width: 450,
+    height: 300,
   }
 ];
 
