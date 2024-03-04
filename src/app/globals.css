@@ -36,6 +36,36 @@
   animation: marqueeRep 100s linear infinite;
 }
 
+#bento-section {
+  height: 100vh;
+}
+
+@media screen and (min-height: 1024px) {
+  #bento-section {
+    height: auto;
+    padding: 4rem 0;
+  }
+
+  #bento-grid {
+    height: auto;
+    width: 90%;
+    max-width: 2000px;
+  }
+}
+
+@media screen and (height: 768px) and (width: 1024px) {
+  #bento-section {
+    height: auto;
+    padding: 4rem 0;
+  }
+
+  #bento-grid {
+    height: auto;
+    width: 90%;
+    max-width: 2000px;
+  }
+}
+
 .scrollbar-hidden::-webkit-scrollbar {
   display: none;
 }
