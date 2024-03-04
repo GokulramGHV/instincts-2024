@@ -1,5 +1,6 @@
 .animate-move {
     animation: move 3000ms linear infinite;
+    translate: -110% 0;
 }
 
 .animate-move:nth-child(1) {
@@ -24,6 +25,22 @@
 
 .animate-move:nth-child(6) {
     animation-delay: 2.5s;
+}
+
+.animate-move:nth-child(7) {
+    animation-delay: 3s;
+}
+
+.animate-move:nth-child(8) {
+    animation-delay: 3.5s;
+}
+
+.animate-move:nth-child(9) {
+    animation-delay: 4s;
+}
+
+.animate-move:nth-child(10) {
+    animation-delay: 4.5s;
 }
 
 @keyframes move {
