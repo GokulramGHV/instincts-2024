@@ -35,6 +35,13 @@ const contacts = [
     color: '#0C5AB9',
     secondaryColor: '#4FB6F0',
   },
+  {
+    name: "Indhuja S K",
+    phone: "93609 88688",
+    email: "indhuja2110694@ssn.edu.in",
+    color: '#FF4E84',
+    secondaryColor: '#FA99B4'
+  },
 ];
 
 export default function Page() {
@@ -52,12 +59,12 @@ export default function Page() {
         >
           Overall Event Coordinators
         </h1>
-        <div className="flex flex-wrap justify-center gap-10 mt-12">
+        <div className="flex flex-wrap justify-center gap-8 mt-12">
           {contacts.map((contact) => {
             return (
               <div
                 key={contact.name}
-                className="rounded-lg md:px-12 px-5 py-6 w-full md:w-fit flex flex-col items-center border"
+                className="rounded-lg md:px-8 px-5 py-6 w-full md:w-fit flex flex-col items-center border"
                 style={{ borderColor: contact.color }}
               >
                 <h2
