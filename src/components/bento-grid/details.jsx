@@ -16,7 +16,7 @@ export default [
     },
     color: '#0C5AB9',
     component: GalleryBento,
-    link: '#gallery'
+    link: '#gallery_section'
   },
   {
     name: 'sponsors',
