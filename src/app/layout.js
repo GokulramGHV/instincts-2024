@@ -1,10 +1,9 @@
-"use client";
-
-import "./globals.css";
-import Navbar from "@/components/navbar/navbar";
-import { useState } from "react";
-import navContext from "@/hooks/navContext";
-import { ProgressLoader } from "nextjs-progressloader";
+'use client';
+import './globals.css';
+import Navbar from '@/components/navbar/navbar';
+import { useState } from 'react';
+import navContext from '@/hooks/navContext';
+import { ProgressLoader } from 'nextjs-progressloader';
 
 export default function RootLayout({ children }) {
   const [isNavOpen, setNavOpen] = useState(false);
@@ -12,16 +11,15 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-        <title>Instincts 2024</title>
         <meta
-          name="description"
-          content="SSN-SNUC Instincts is one of the most awaited cultural events in the country. This year, Instincts will be held over three days with an exciting prize pool of over ₹5,00,000 across more than 50 events hosted by over 20 clubs!"
+          name="google-site-verification"
+          content="1WUzRSM28Z9ZiONkHW2P-gKIPR1BaWutcD3Dr3qTFWc"
         />
       </head>
       <body
         style={{
-          position: "relative",
-          overflowY: isNavOpen ? "hidden" : "scroll",
+          position: 'relative',
+          overflowY: isNavOpen ? 'hidden' : 'scroll',
         }}
       >
         <ProgressLoader

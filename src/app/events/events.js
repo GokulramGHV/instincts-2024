@@ -56,27 +56,27 @@ export const categories = [
     color: '#FEDE88',
   },
   {
-    name: "Quizzes",
-    color: "#C31C80",
+    name: 'Quizzes',
+    color: '#C31C80',
   },
   {
-    name: "Variety Show",
-    color: "#F5A623",
+    name: 'Variety Show',
+    color: '#F5A623',
   },
 ];
 
 export const events = [
   {
-    title: "Student Variety Show",
-    dayDetail: "TBD",
-    category: "Variety Show",
-    image: "/events-page/event-dummy-1.png",
-    color: "#F5A623",
-    teamSize: "4-12",
+    title: 'Student Variety Show',
+    dayDetail: '8th March',
+    category: 'Variety Show',
+    image: '/events-page/event-dummy-1.png',
+    color: '#F5A623',
+    teamSize: '4-12',
     prize: [
-      { place: "FIRST", amount: "TBD" },
-      { place: "SECOND", amount: "TBD" },
-      { place: "THIRD", amount: "TBD" },
+      { place: 'FIRST', amount: 'TBD' },
+      { place: 'SECOND', amount: 'TBD' },
+      { place: 'THIRD', amount: 'TBD' },
     ],
     description: `Witness for yourself what all the fuzz is about! Student variety show is an entertainment-based show that covers a variety of acts such as skits, dance, sketch, comedy, magic acrobatics, etc. Come contest with your equals, and show us what makes you stand out from them!    
     `,
@@ -108,25 +108,26 @@ export const events = [
 - Round 2: Finals - Venue: Main Auditorium      
     `,
     contacts: [
-      "Chenthamarai Kannan - 8825961741",
-      "Yuvashree - 9789995003",
-      "Harshitha – 8825603879",
-      "Thangasudha – 8610255943",
+      'Chenthamarai Kannan - 8825961741',
+      'Yuvashree - 9789995003',
+      'Harshitha – 8825603879',
+      'Thangasudha – 8610255943',
     ],
     clubDescription: `Welcome to our Student Variety Show Club - the heartbeat of creativity on campus. Join a diverse community where your talents, whether in music, dance, comedy, or any unique skill, take center stage. Unleash your potential, audition for stardom, and create unforgettable moments. Beyond performances, discover leadership opportunities and skills in event planning. Whether you're a seasoned performer or a first-time talent, our inclusive stage is yours. Join us in crafting memories, where every act contributes to the vibrant tapestry of our Student Variety Show Club. Your journey in the world of entertainment begins here.
     `,
     clubLogos: [
-      { name: "Variety Show Club", img: "/events-page/event-dummy-1.png" },
+      { name: 'Variety Show Club', img: '/events-page/event-dummy-1.png' },
     ],
-    fee: ["150/- Per Head"],
+    fee: ['150/- Per Head'],
+    registrationLink: 'https://forms.gle/kpHU25arMpVbtLra9',
   },
   {
-    title: "Pattimandram",
-    dayDetail: "TBD",
-    category: "Tamil Lit.",
-    image: "/events-page/event-dummy-1.png",
-    color: "#DB2525",
-    teamSize: "1",
+    title: 'Pattimandram',
+    dayDetail: '7th March',
+    category: 'Tamil Lit.',
+    image: '/events-page/event-dummy-1.png',
+    color: '#DB2525',
+    teamSize: '1',
     prize: [
       { place: 'FIRST', amount: 'TBD' },
       { place: 'SECOND', amount: 'TBD' },
@@ -160,10 +161,11 @@ export const events = [
       { name: 'Mudivizhi', img: '/events-page/mudivili.png' },
     ],
     fee: ['150/- Per Head'],
+    registrationLink: 'https://forms.gle/MUcoDnyfXeZkub6C6',
   },
   {
     title: 'Sagalagala Valavan',
-    dayDetail: 'TBD',
+    dayDetail: '8th March',
     category: 'Tamil Lit.',
     image: '/events-page/event-dummy-1.png',
     color: '#DB2525',
@@ -214,10 +216,11 @@ export const events = [
       { name: 'Mudivizhi', img: '/events-page/mudivili.png' },
     ],
     fee: ['200/- Per Team'],
+    registrationLink: 'https://forms.gle/zWbXLwPVW58qUNxT7',
   },
   {
     title: 'Debate',
-    dayDetail: 'TBD',
+    dayDetail: '8th March',
     category: 'English Lit.',
     image: '/events-page/event-dummy-1.png',
     color: '#05B163',
@@ -242,11 +245,12 @@ export const events = [
       { name: 'SSN ELC', img: '/events-page/ssn_elc.png' },
       { name: 'SNUC ELC', img: '/events-page/snuc_elc.jpg' },
     ],
-    fee: ['150/- Per Head (Day Pass)', '300/- Per Head (Club Pass)'],
+    fee: ['300/- Per Head (Club Pass)'],
+    registrationLink: 'https://forms.gle/kd8rNy7PGiqrWHKR9',
   },
   {
     title: 'JAM',
-    dayDetail: 'TBD',
+    dayDetail: '9th March',
     category: 'English Lit.',
     image: '/events-page/event-dummy-1.png',
     color: '#05B163',
@@ -269,11 +273,12 @@ export const events = [
       { name: 'SSN ELC', img: '/events-page/ssn_elc.png' },
       { name: 'SNUC ELC', img: '/events-page/snuc_elc.jpg' },
     ],
-    fee: ['150/- Per Head (Day Pass)', '300/- Per Head (Club Pass)'],
+    fee: ['300/- Per Head (Club Pass)'],
+    registrationLink: 'https://forms.gle/kd8rNy7PGiqrWHKR9',
   },
   {
     title: 'Stand-Up Comedy Contest',
-    dayDetail: 'TBD',
+    dayDetail: '9th March',
     category: 'English Lit.',
     image: '/events-page/event-dummy-1.png',
     color: '#05B163',
@@ -299,11 +304,12 @@ export const events = [
       { name: 'SSN ELC', img: '/events-page/ssn_elc.png' },
       { name: 'SNUC ELC', img: '/events-page/snuc_elc.jpg' },
     ],
-    fee: ['150/- Per Head (Day Pass)', '300/- Per Head (Club Pass)'],
+    fee: ['300/- Per Head (Club Pass)'],
+    registrationLink: 'https://forms.gle/kd8rNy7PGiqrWHKR9',
   },
   {
     title: 'A Musing Affair',
-    dayDetail: 'TBD',
+    dayDetail: '8th March',
     category: 'English Lit.',
     image: '/events-page/event-dummy-1.png',
     color: '#05B163',
@@ -330,18 +336,19 @@ export const events = [
   - Late submissions will not be accepted.
   - The submissions must be entirely the original work of the participant.
     `,
-    contacts: ['Abinaya - 9360630071', 'Sukirtha - 8525862033'],
+    contacts: ['Abinaya - 9360630071', 'Sanjeevni - 8428706729'],
     clubDescription: `Welcome to the English Literary Club (ELC) at SSN and SNUC, where the magic of literature bursts into vibrant life! Whether you're a seasoned wordsmith or a blossoming writer, our inclusive community revels in a kaleidoscope of talents. Join us for lively debates, stand-up extravaganzas, word puzzles that sizzle, literary jams that resonate, and more. At ELC, creativity knows no boundaries, and we invite everyone to join the fiesta of literary pursuits. Come, dance with words, be a part of our jubilant journey, where collaboration and inspiration celebrate in full fiesta flair!
     `,
     clubLogos: [
       { name: 'SSN ELC', img: '/events-page/ssn_elc.png' },
       { name: 'SNUC ELC', img: '/events-page/snuc_elc.jpg' },
     ],
-    fee: ['150/- Per Head (Day Pass)', '300/- Per Head (Club Pass)'],
+    fee: ['300/- Per Head (Club Pass)'],
+    registrationLink: 'https://forms.gle/kd8rNy7PGiqrWHKR9',
   },
   {
     title: 'Potpourri',
-    dayDetail: 'TBD',
+    dayDetail: '9th March',
     category: 'English Lit.',
     image: '/events-page/event-dummy-1.png',
     color: '#05B163',
@@ -370,11 +377,12 @@ export const events = [
       { name: 'SSN ELC', img: '/events-page/ssn_elc.png' },
       { name: 'SNUC ELC', img: '/events-page/snuc_elc.jpg' },
     ],
-    fee: ['150/- Per Head (Day Pass)', '300/- Per Head (Club Pass)'],
+    fee: ['300/- Per Head (Club Pass)'],
+    registrationLink: 'https://forms.gle/kd8rNy7PGiqrWHKR9',
   },
   {
     title: 'Stew',
-    dayDetail: 'TBD',
+    dayDetail: '7th March',
     category: 'English Lit.',
     image: '/events-page/event-dummy-1.png',
     color: '#05B163',
@@ -401,11 +409,12 @@ export const events = [
       { name: 'SSN ELC', img: '/events-page/ssn_elc.png' },
       { name: 'SNUC ELC', img: '/events-page/snuc_elc.jpg' },
     ],
-    fee: ['150/- Per Head (Day Pass)', '300/- Per Head (Club Pass)'],
+    fee: ['300/- Per Head (Club Pass)'],
+    registrationLink: 'https://forms.gle/kd8rNy7PGiqrWHKR9',
   },
   {
     title: 'Draw with comali',
-    dayDetail: 'TBD',
+    dayDetail: '7th March',
     category: 'Fine Arts',
     image: '/events-page/event-dummy-2.png',
     color: '#C297F9',
@@ -444,10 +453,11 @@ export const events = [
     `,
     clubLogos: [{ name: 'Handila', img: '/events-page/handila.png' }],
     fee: ['200/- Per Team'],
+    registrationLink: 'https://forms.gle/DWdyxPQVNS7NEK6J9',
   },
   {
     title: 'Roaming Paris',
-    dayDetail: 'TBD',
+    dayDetail: '8th March',
     category: 'Fine Arts',
     image: '/events-page/event-dummy-2.png',
     color: '#C297F9',
@@ -473,10 +483,11 @@ export const events = [
     `,
     clubLogos: [{ name: 'Handila', img: '/events-page/handila.png' }],
     fee: ['250/- Per Team'],
+    registrationLink: 'https://forms.gle/PidbrvbwvtsQpVWU7',
   },
   {
     title: 'Carnival Night Sky',
-    dayDetail: 'TBD',
+    dayDetail: '9th March',
     category: 'Fine Arts',
     image: '/events-page/event-dummy-2.png',
     color: '#C297F9',
@@ -501,10 +512,11 @@ export const events = [
     `,
     clubLogos: [{ name: 'Handila', img: '/events-page/handila.png' }],
     fee: ['200/- Per Team'],
+    registrationLink: 'https://forms.gle/5DoUy1Wn9NpGAeSJ8',
   },
   {
     title: 'Spotlight',
-    dayDetail: 'TBD',
+    dayDetail: '8th March',
     category: 'Theatre',
     image: '/events-page/event-dummy-3.png',
     color: '#F6C826',
@@ -530,10 +542,11 @@ export const events = [
       { name: "All The World's A Stage", img: '/events-page/snu_theatre.jpg' },
     ],
     fee: ['250/- Per Head (Club Pass)'],
+    registrationLink: 'https://forms.gle/ZDTVstTAoFQ7V8hq5',
   },
   {
     title: 'Enigma',
-    dayDetail: 'TBD',
+    dayDetail: '8th March',
     category: 'Theatre',
     image: '/events-page/event-dummy-3.png',
     color: '#F6C826',
@@ -557,6 +570,7 @@ export const events = [
       { name: "All The World's A Stage", img: '/events-page/snu_theatre.jpg' },
     ],
     fee: ['250/- Per Head (Club Pass)'],
+    registrationLink: 'https://forms.gle/ZDTVstTAoFQ7V8hq5',
   },
   {
     title: 'Quills Out Please!',
@@ -588,6 +602,7 @@ export const events = [
       { name: "All The World's A Stage", img: '/events-page/snu_theatre.jpg' },
     ],
     fee: ['250/- Per Head (Club Pass)'],
+    registrationLink: 'https://forms.gle/ZDTVstTAoFQ7V8hq5',
   },
   {
     title: 'WESTERN SOLO',
@@ -622,6 +637,7 @@ export const events = [
       { name: 'Rhythm', img: '/events-page/rhythm.jpg' },
     ],
     fee: ['200/- Per Head'],
+    registrationLink: 'https://forms.gle/AzYehDasJd2mdMM89',
   },
   {
     title: '2v2 DANCE BATTLE',
@@ -658,6 +674,7 @@ export const events = [
       { name: 'Rhythm', img: '/events-page/rhythm.jpg' },
     ],
     fee: ['100/- Per Head'],
+    registrationLink: 'https://forms.gle/ujD87L28BvEKPee56',
   },
   {
     title: 'CHOREONITE',
@@ -704,10 +721,11 @@ export const events = [
       { name: 'Rhythm', img: '/events-page/rhythm.jpg' },
     ],
     fee: ['200/- Per Head'],
+    registrationLink: 'https://forms.gle/g91DqvCwqLvX7kHY7',
   },
   {
     title: 'The Valor Cup',
-    dayDetail: 'TBD',
+    dayDetail: '7th March',
     category: 'Gaming',
     image: '/events-page/event-dummy-1.png',
     color: '#8638eb',
@@ -728,14 +746,15 @@ export const events = [
     contacts: ['Pradeeshwar (9952353704)', 'Shriram (8838308395)'],
     clubDescription: `Dive into a world of pixels and play at SSN & SNUC Gaming Club! Join weekly gaming sessions, epic tournaments, and tech talks. Forge friendships, showcase your creativity, and level up your college experience with us. The next gaming adventure awaits—grab your controller and join the fun! 🎮🕹️`,
     clubLogos: [
-      { name: "SSN Gaming Club", img: "/events-page/SGC.jpg" },
-      { name: "SNU Gaming Club", img: "/events-page/spectre.png" },
+      { name: 'SSN Gaming Club', img: '/events-page/SGC.jpg' },
+      { name: 'SNU Gaming Club', img: '/events-page/spectre.png' },
     ],
     fee: ['250/- Per Team'],
+    registrationLink: 'https://forms.gle/NBgAjaE6WXSHYdHt7',
   },
   {
     title: 'COD Mayhem',
-    dayDetail: 'TBD',
+    dayDetail: '8th March',
     category: 'Gaming',
     image: '/events-page/event-dummy-1.png',
     color: '#8638eb',
@@ -756,14 +775,15 @@ export const events = [
     contacts: ['Akhshan (9159379997)', 'Sanjay (8072781606)'],
     clubDescription: `Dive into a world of pixels and play at SSN & SNUC Gaming Club! Join weekly gaming sessions, epic tournaments, and tech talks. Forge friendships, showcase your creativity, and level up your college experience with us. The next gaming adventure awaits—grab your controller and join the fun! 🎮🕹️`,
     clubLogos: [
-      { name: "SSN Gaming Club", img: "/events-page/SGC.jpg" },
-      { name: "SNU Gaming Club", img: "/events-page/spectre.png" },
+      { name: 'SSN Gaming Club', img: '/events-page/SGC.jpg' },
+      { name: 'SNU Gaming Club', img: '/events-page/spectre.png' },
     ],
     fee: ['250/- Per Team'],
+    registrationLink: 'https://forms.gle/dRxRbMfdGQX4dP127',
   },
   {
-    title: 'Market Place Mystery',
-    dayDetail: 'TBD',
+    title: 'Marketplace Maze',
+    dayDetail: '7th March',
     category: 'Entrepreneurship',
     image: '/events-page/event-dummy-3.png',
     color: '#FC6655',
@@ -792,15 +812,16 @@ Lakshya stands as a testament to the unwavering spirit of entrepreneurship, fost
 We take pride in our journey, from a handful of enthusiasts to a thriving community of young minds dedicated to shaping the future of entrepreneurship at SSN. Lakshya continues to be the driving force behind the entrepreneurial ambitions of students, providing a platform for innovation, learning, and success.
 `,
     clubLogos: [{ name: 'SSN Lakshya', img: '/events-page/lakshya.png' }],
-    fee: ['TBD'],
+    fee: ['150/- Per Head'],
+    registrationLink: 'https://forms.gle/2y2iS391MPsBeeSS8',
   },
   {
-    title: "Reels of Fire",
-    dayDetail: "TBD",
-    category: "Film",
-    image: "/events-page/event-dummy-3.png",
-    color: "#914E0D",
-    teamSize: "Flexible",
+    title: 'Reels of Fire',
+    dayDetail: '8th March',
+    category: 'Film',
+    image: '/events-page/event-dummy-3.png',
+    color: '#914E0D',
+    teamSize: 'Flexible',
     prize: [
       { place: 'FIRST', amount: 'TBD' },
       { place: 'SECOND', amount: 'TBD' },
@@ -824,55 +845,50 @@ We take pride in our journey, from a handful of enthusiasts to a thriving commun
       { name: 'SFC', img: '/events-page/sfc.png' },
       { name: 'Montage', img: '/events-page/montage.png' },
     ],
-    fee: ["500/- Per Team"],
+    fee: ['500/- Per Team'],
     registrationLink:
-      "https://unstop.com/events/reels-of-fire-ssn-college-of-engineering-and-shiv-nadar-university-chennai-886535?lb=z6qdM8t",
+      'https://unstop.com/events/reels-of-fire-ssn-college-of-engineering-and-shiv-nadar-university-chennai-886535?lb=z6qdM8t',
   },
   {
-    title: "Act Off",
-    dayDetail: "TBD",
-    category: "Film",
-    image: "/events-page/event-dummy-3.png",
-    color: "#914E0D",
-    teamSize: "5-8",
+    title: "SST's Act Off",
+    dayDetail: '7th March',
+    category: 'Film',
+    image: '/events-page/event-dummy-3.png',
+    color: '#914E0D',
+    teamSize: '1',
     prize: [
-      { place: "FIRST", amount: "TBD" },
-      { place: "SECOND", amount: "TBD" },
-      { place: "THIRD", amount: "TBD" },
+      { place: 'FIRST', amount: 'TBD' },
+      { place: 'SECOND', amount: 'TBD' },
+      { place: 'THIRD', amount: 'TBD' },
     ],
-    description: `Act-off" is a vibrant and
-    exhilarating event designed to ignite
-    creativity and foster teamwork
-    among participants. With 10 teams
-    competing in a skit/drama
-    competition, the atmosphere is
-    charged with excitement as
-    performers take the stage to
-    showcase their talents. Under the
-    guidance of judge Ms. Sharanya
-    Subramaniam, participants are
-    challenged to think on their feet and
-    deliver compelling performances
-    based on provided scripts or
-    situations`,
-    rules: `- Script will be provided on the day of the event
-- Participants will be given 1 hour to prepare
-- The performance will be judged by Ms. Sharanya Subramaniam
-- Date: 7th March 2023 
-- Venue: Mini Auditorium 1pm to 4pm
+    description: `🎭 Greetings! Hope you're all having a fantastic day! Get ready to showcase your acting talent on a grand scale at the epic event "SST's ACT OFF" conducted at SSN exclusively by Sharanya Spots Talent. SST is your gateway to the world of acting and is the Casting Company handling the film 'THUG LIFE' directed by Mr. Mani Ratnam.
     `,
-    contacts: ["Yogesh Munees (9080827627)", "Bharath (8220615058)"],
+    rules: `🌟 Key Rules and Points 🌟
+
+Team Event: This is a solo event, so gather your Acting skills and earn a chance to get selected for audition!
+
+Performance: The person shall perform a scene with a self-prepared script/concept that is within a duration of 2-3 minutes.
+
+Judge: The Founder & Casting Director of Sharanya Spots Talent, Ms. Sharanya Subramaniam, will evaluate your team's acting performance and provide instant & detailed feedback.
+    
+
+🏆 Winning Trophy 🏆
+
+Once all of them  finish their performances, the overall 'Best-Performer' takes home the prestigious 'Winning Trophy,' and a cash prize of Rs.5000 and potentially earns an audition opportunity for the upcoming projects of 'Sharanya Spots Talent Casting Solutions.
+    `,
+    contacts: ['Yogesh Munees (9080827627)', 'Bharath (8220615058)'],
     clubDescription: `Explore the world of films with SSN Film Club at SSN College of Engineering and Montage, SNUC Film Club at Shiv Nadar University Chennai! Dive into the magic of cinema through movie screenings, discussions, and fun events. Whether you're a movie buff or just getting into films, our welcoming clubs offer a great space for you to enjoy the rich variety of movies. Come join us for an exciting cinematic journey, where each frame has a story to tell!
     `,
     clubLogos: [
-      { name: "SFC", img: "/events-page/sfc.png" },
-      { name: "Montage", img: "/events-page/montage.png" },
+      { name: 'SFC', img: '/events-page/sfc.png' },
+      { name: 'Montage', img: '/events-page/montage.png' },
     ],
-    fee: ["250/- Per Head"],
+    fee: ['250/- Per Head'],
+    registrationLink: 'https://forms.gle/KhqGtvBtqFpKcWNJ8',
   },
   {
     title: 'LIGHTS CAMERA SALE!',
-    dayDetail: 'TBD',
+    dayDetail: '9th March',
     category: 'Film',
     image: '/events-page/event-dummy-3.png',
     color: '#914E0D',
@@ -897,10 +913,11 @@ Decode the series of pictures showcasing iconic scenes, just like the classical 
       { name: 'Montage', img: '/events-page/montage.png' },
     ],
     fee: ['200/- Per Team'],
+    registrationLink: 'https://forms.gle/czoU9GzUmKGdzNwa8',
   },
   {
     title: 'LIGHTS. CAMERA. THADHINGINATHOM.',
-    dayDetail: 'TBD',
+    dayDetail: '8th March',
     category: 'Classical Dance',
     image: '/events-page/event-dummy-4.png',
     color: '#FEDE88',
@@ -935,10 +952,11 @@ Decode the series of pictures showcasing iconic scenes, just like the classical 
       { name: 'Ameya CDC', img: '/events-page/ameya.png' },
     ],
     fee: ['150/- Per Head'],
+    registrationLink: 'https://forms.gle/19rHeeoNu2Uko7b29',
   },
   {
-    title: 'CHATHU RANGA',
-    dayDetail: 'TBD',
+    title: 'Chathuranga',
+    dayDetail: '9th March',
     category: 'Classical Dance',
     image: '/events-page/event-dummy-4.png',
     color: '#FEDE88',
@@ -972,10 +990,11 @@ Prepare yourself for a visual and rhythmic challenge. An audio-visual of a class
       { name: 'Ameya CDC', img: '/events-page/ameya.png' },
     ],
     fee: ['250/- Per Team'],
+    registrationLink: 'https://forms.gle/ivYjY4wU3WtW1pDx6',
   },
   {
     title: 'Anunad',
-    dayDetail: 'TBD',
+    dayDetail: '9th March',
     category: 'Music',
     image: '/events-page/event-dummy-4.png',
     color: '#0C5AB9',
@@ -985,7 +1004,7 @@ Prepare yourself for a visual and rhythmic challenge. An audio-visual of a class
       { place: 'SECOND', amount: 'TBD' },
       { place: 'THIRD', amount: 'TBD' },
     ],
-    description: `Anunad is SMC's eastern solo singing event. It is the right place if you are looking to prove your mettle as a singer. Flaunt your singing skills in the light music solo vocal event. Enthrall us with your voice, all eyes are going to be on you and the stage is all yours. The event is not to be missed by all you aspiring singers!`,
+    description: `Anunad is the music club's eastern solo singing event. It is the right place if you are looking to prove your mettle as a singer. Flaunt your singing skills in the light music solo vocal event. Enthrall us with your voice, all eyes are going to be on you and the stage is all yours. The event is not to be missed by all you aspiring singers!`,
     rules: `- All Participants MUST be college students with a valid college ID card.
 - Registration Fee can be paid on spot
 - This is a two stage event. Both Prelims and Finals will be conducted offline.
@@ -1014,11 +1033,12 @@ Prepare yourself for a visual and rhythmic challenge. An audio-visual of a class
       { name: 'SMC', img: '/events-page/smc.png' },
       { name: 'SNU Isai', img: '/events-page/isai.jpg' },
     ],
-    fee: ['150/- Per Head (Event Pass)', '200/- Per Head (Club Pass)'],
+    fee: ['150/- Per Head (Event Pass)'],
+    registrationLink: 'https://forms.gle/dgXA8uBBtq9zEZWX6',
   },
   {
     title: 'Riff Off',
-    dayDetail: 'TBD',
+    dayDetail: '7th March',
     category: 'Music',
     image: '/events-page/event-dummy-4.png',
     color: '#0C5AB9',
@@ -1039,7 +1059,7 @@ Prepare yourself for a visual and rhythmic challenge. An audio-visual of a class
 - The judge's decision will be final.    
     `,
     contacts: [
-      'Suganeshwar: 9444496098',
+      'Suganeshwar: 9444496089',
       'Supraj: 7094401529',
       'Sanjai: 9962224180',
     ],
@@ -1050,10 +1070,11 @@ Prepare yourself for a visual and rhythmic challenge. An audio-visual of a class
       { name: 'SNU Isai', img: '/events-page/isai.jpg' },
     ],
     fee: ['200/- Per Head (Club Pass)'],
+    registrationLink: 'https://forms.gle/Je3CF4hk1sPtQDrv6',
   },
   {
     title: 'Band Hunt',
-    dayDetail: 'TBD',
+    dayDetail: '8th March',
     category: 'Music',
     image: '/events-page/event-dummy-4.png',
     color: '#0C5AB9',
@@ -1063,11 +1084,11 @@ Prepare yourself for a visual and rhythmic challenge. An audio-visual of a class
       { place: 'SECOND', amount: 'TBD' },
       { place: 'THIRD', amount: 'TBD' },
     ],
-    description: `Band hunt is SMC's Eastern and Western band event. If you love playing Carnatic fusion, rock ‘n’ roll, blues, pop or light film music with your band, this is the right place for you. Come battle it out with other amazing bands and prove that you have what it takes to be the best.
+    description: `Band hunt is the music club's Eastern and Western band event. If you love playing Carnatic fusion, rock ‘n’ roll, blues, pop or light film music with your band, this is the right place for you. Come battle it out with other amazing bands and prove that you have what it takes to be the best.
     Music lovers everywhere, this event is handcrafted just for you. Don't miss it!!
     `,
     rules: `- Participants MUST be college students with a valid college ID card.
-- Music Pass is **NOT required** for any/all band members to participate **in Round 1**.
+- Music Pass has to be **purchased by one member from each band** to participate **in Round 1**.
 - All members of the bands that **qualify for Round 2, MUST purchase** the Music Pass to be able to perform. Individual Music Pass must be purchased for each band member.
 - Members of the band need not be from the same college. Cross college bands are allowed.
 - Number of Members per band: **3-10**
@@ -1076,7 +1097,8 @@ Prepare yourself for a visual and rhythmic challenge. An audio-visual of a class
 
 ### Online Shortlisting:
 - Bands should send in an online link of their performance, which should not exceed 6 mins. 
-- Note that the drive link shared must be accessible by ‘Anyone with the Link’.
+- Note that the drive link shared must be accessible by ‘Anyone with the Link’.  
+-  ⁠Round 1 entries must be sent on or before **March 2nd, 2024**. 
 
 ### Finals:
 - Each band (if shortlisted) will be given 18 mins on stage inclusive of setup time.
@@ -1096,10 +1118,11 @@ Prepare yourself for a visual and rhythmic challenge. An audio-visual of a class
       { name: 'SNU Isai', img: '/events-page/isai.jpg' },
     ],
     fee: ['200/- Per Head (Club Pass)'],
+    registrationLink: 'https://forms.gle/Je3CF4hk1sPtQDrv6',
   },
   {
     title: 'Verse and Beats',
-    dayDetail: 'TBD',
+    dayDetail: '9th March',
     category: 'Music',
     image: '/events-page/event-dummy-4.png',
     color: '#0C5AB9',
@@ -1109,7 +1132,7 @@ Prepare yourself for a visual and rhythmic challenge. An audio-visual of a class
       { place: 'SECOND', amount: 'TBD' },
       { place: 'THIRD', amount: 'TBD' },
     ],
-    description: `Get ready to unleash the rhythm, ignite the beats, and witness the most electrifying Rap and Beatbox battles here at SMC’s bars and beats event. Show us your unique flair and compete for our first hiphop title.
+    description: `Get ready to unleash the rhythm, ignite the beats, and witness the most electrifying Rap and Beatbox battles here at the music club's bars and beats event. Show us your unique flair and compete for our first hiphop title.
     `,
     rules: `- Participants can perform either beatboxing or rapping, but not both.
 - Time limit:
@@ -1137,13 +1160,14 @@ Prepare yourself for a visual and rhythmic challenge. An audio-visual of a class
       { name: 'SNU Isai', img: '/events-page/isai.jpg' },
     ],
     fee: ['200/- Per Head'],
+    registrationLink: 'https://forms.gle/Je3CF4hk1sPtQDrv6',
   },
   {
-    title: "Designathon - Tracks 1 & 2",
-    dayDetail: "TBD",
-    category: "Design",
-    image: "/events-page/event-dummy-2.png",
-    color: "#F6800E",
+    title: 'Designathon - Tracks 1 & 2',
+    dayDetail: '9th March',
+    category: 'Design',
+    image: '/events-page/event-dummy-2.png',
+    color: '#F6800E',
     teamSize: 1,
     prize: [
       { place: 'FIRST', amount: 'TBD' },
@@ -1190,13 +1214,14 @@ This event focuses on the ability of a designer to comprehend a given concept an
       { name: 'Aura', img: '/events-page/aura.png' },
     ],
     fee: ['200/- Per Head'],
+    registrationLink: 'https://forms.gle/dYwZ63NRVESKURry8',
   },
   {
-    title: "Interface-Off",
-    dayDetail: "TBD",
-    category: "Design",
-    image: "/events-page/event-dummy-2.png",
-    color: "#F6800E",
+    title: 'Interface-Off',
+    dayDetail: '8th March',
+    category: 'Design',
+    image: '/events-page/event-dummy-2.png',
+    color: '#F6800E',
     teamSize: 2,
     prize: [
       { place: 'FIRST', amount: 'TBD' },
@@ -1230,13 +1255,14 @@ This event focuses on the ability of a designer to comprehend a given concept an
       { name: 'Aura', img: '/events-page/aura.png' },
     ],
     fee: ['200/- Per Team'],
+    registrationLink: 'https://forms.gle/gMSwdWD13zF2aL558',
   },
   {
-    title: "Reel It",
-    dayDetail: "TBD",
-    category: "Design",
-    image: "/events-page/event-dummy-2.png",
-    color: "#F6800E",
+    title: 'Reel It',
+    dayDetail: '7th March',
+    category: 'Design',
+    image: '/events-page/event-dummy-2.png',
+    color: '#F6800E',
     teamSize: 2,
     prize: [
       { place: 'FIRST', amount: 'TBD' },
@@ -1263,10 +1289,11 @@ This event focuses on the ability of a designer to comprehend a given concept an
       { name: 'Aura', img: '/events-page/aura.png' },
     ],
     fee: ['200/- Per Team'],
+    registrationLink: 'https://forms.gle/FrjNwt2xAgLj87iY6',
   },
   {
     title: 'IPL Auction',
-    dayDetail: 'TBD',
+    dayDetail: '7th March (Prelims) & 9th Match (Finals)',
     category: 'Business',
     image: '/events-page/event-dummy-3.png',
     color: '#2E3192',
@@ -1312,10 +1339,11 @@ This event focuses on the ability of a designer to comprehend a given concept an
       { name: 'SNUC Business Club', img: '/events-page/business_club.jpg' },
     ],
     fee: ['100/- Per Head'],
+    registrationLink: 'https://forms.gle/T36enXAWgvutvHod9',
   },
   {
     title: 'Online Photography Contest',
-    dayDetail: 'TBD',
+    dayDetail: '4th March',
     category: 'Photography',
     image: '/events-page/event-dummy-4.png',
     color: '#00644C',
@@ -1324,15 +1352,16 @@ This event focuses on the ability of a designer to comprehend a given concept an
       { place: 'FIRST', amount: 'TBD' },
       { place: 'SECOND', amount: 'TBD' },
     ],
-    description: `Having a knack for taking great pictures? Or looking out for frames when your eyes are wide open? If that’s the case, flex your talents here and win alluring prizes.`,
+    description: `Having a knack for taking great pictures? Or looking out for frames when your eyes are wide open? If that's the case, showcase your best monochrome photographs and get a chance to win exciting cash prizes!`,
     rules: `- Two submissions per participant (Applicable to all college students)
-- Theme: **Yet to Decide**
-- Participants must follow @ssn_photography_club, @snuc_capturesque
+- Theme: **Monochrome**
+- Participants must follow **@ssn_photography_club, @snuc_capturesque**
 - Basic Colour Correction is allowed; photo manipulation is strictly prohibited. Plagiarism will lead to disqualification.
 - Pictures to be sent as .jpeg/.jpg (along with RAW if picture has been edited).
 - Pictures with watermarks shall not be evaluated.
-- The submission must include your Name and Contact Details which are to be emailed to ssnphotographyclub@ssn.edu.in with the subject OPC '24 (Format for file name: FullName_College)
+- A Google Form will be circulated to your registered mobile number in which you'll be asked to submit your photographs.
 - Decision of the judge shall be bound and final.
+- Deadline: On/Before March 4th, 2024.
     `,
     contacts: ['Krishna Karthikeyan - 8618584124', 'Jaishree - 6379631417'],
     clubDescription: `SPC x Capturesque enables you to capture moments which would make you look at it like "No way I clicked this."
@@ -1350,10 +1379,11 @@ This event focuses on the ability of a designer to comprehend a given concept an
       },
     ],
     fee: ['100/- Per Head'],
+    registrationLink: 'https://forms.gle/hSFwLQko4ckLNFBM7',
   },
   {
     title: 'SnapQuest',
-    dayDetail: 'TBD',
+    dayDetail: 'March 7th-9th',
     category: 'Photography',
     image: '/events-page/event-dummy-4.png',
     color: '#00644C',
@@ -1364,22 +1394,31 @@ This event focuses on the ability of a designer to comprehend a given concept an
     ],
     description: `The offline photography contest cherishes candid moments, weaving enchanting stories through captured frames. It revels in the joy of photography, celebrating spontaneous beauty and genuine emotions. Embracing abstract images, reflections, and patterns in nature, the contest transforms ordinary scenes into extraordinary tales. Each click is a poetic exploration, revealing the profound beauty hidden in unscripted moments and the intricate details of our surroundings. The competition beckons photographers to discover bliss in the art, where the fusion of candid storytelling and the artistry of abstract compositions paints a vibrant canvas of visual delight.
     `,
-    rules: `1. Three submissions per participant (Applicable to all college students)
-2. Theme : Open 
-3. Duration : From March 7th - 9 am to March 8th - 8 pm (2 days)
+    rules: `1. Theme : **Open**
+2. Three submissions per participant (Applicable to all college students) 
+3. Duration : From **March 7th - 9 am to March 8th - 8 pm (2 days)**
 4. The entries must be submitted by 12 pm noon (March 9th) for evaluation.
 5. Photos should be shot inside the college premises only.
-6.  Participants must follow @ssn_photography_club, @snuc_capturesque
-7.  Basic Colour Correction is allowed; photo manipulation is strictly prohibited. Plagiarism will   lead to disqualification.
-8.  Pictures to be sent as .jpeg/.jpg (along with RAW if the picture has been edited).
-9.  Pictures with watermarks shall not be evaluated.
-10.  The submission must include your Name and Contact Details which are to be emailed to ssnphotographyclub@ssn.edu.in with the subject SnapQuest '24 (Format for file name: FullName_College)
-11.  Decision of the judge shall be bound and final.
-### Important guidelines to be followed - 
-- Don't take pictures that make people look bad or uncomfortable.
-- Respect personal space, especially in busy places.
-- Only share photos that follow community rules and are okay for everyone to see.
+6. Participants must follow **@ssn_photography_club, @snuc_capturesque**
+7. Basic Colour Correction is allowed; photo manipulation is strictly prohibited. Plagiarism will lead to disqualification.
+8. Pictures to be sent as .jpeg/.jpg (along with RAW if the picture has been edited).
+9. Pictures with watermarks shall not be evaluated.
+10. A Google Form will be circulated to your registered mobile number in which you'll be asked to submit your photographs.
+11. Decision of the judge shall be bound and final.
     
+### Important guidelines to be followed - 
+- Participants must respect the privacy of the individuals being photographed.
+
+- Participants must ensure that the person being photographed provides full consent for
+their picture to be used. If not, you are required to remove the said pictures from your
+memory.
+
+- Photographs that invade the privacy, depict sensitive and offensive content will
+result in disqualification. And the photographer associated will be reported to festival
+security.
+
+- You will not be permitted to enter the premises of the Career Development Center, the Administration office or offices of any department. You may enter a few spaces only if
+you have the necessary permission to do so.    
     `,
     contacts: ['Venkatanathan M A - 9176762175', 'Raveesh - 9995985389'],
     clubDescription: `SPC x Capturesque enables you to capture moments which would make you look at it like "No way I clicked this."
@@ -1397,10 +1436,11 @@ This event focuses on the ability of a designer to comprehend a given concept an
       },
     ],
     fee: ['150/- Per Head'],
+    registrationLink: 'https://forms.gle/Sajm4TAiKdWKVAGg9',
   },
   {
     title: 'The Funda-Mavan quiz',
-    dayDetail: 'TBD',
+    dayDetail: '7th March',
     category: 'Quizzes',
     image: '/events-page/event-dummy-1.png',
     color: '#C31C80',
@@ -1425,9 +1465,9 @@ This event focuses on the ability of a designer to comprehend a given concept an
     
     `,
     contacts: [
-      "Contacts : Arjun - 95001 47579",
-      "Varsha - 9499037154",
-      "Abhinav - 9941749999",
+      'Contacts : Arjun - 95001 47579',
+      'Varsha - 9499037154',
+      'Abhinav - 9941749999',
     ],
     clubDescription: `Do you have trouble answering life's big questions? Are you often left high and dry? Fret not, the art of quizzing is much simpler and our dries are much easier. Behold Q! And Cognition, the quiz clubs of SSN and SNUC. We promise an exhilarating experience for trivia enthusiasts, blending wit and wisdom in a captivating quiz format. Assemble your sharpest minds and embark on a journey through a diverse range of topics, from history to pop culture. There are many here, vying for the prizes. Outsmart them all and beat them. Put funda, Get funds.
     `,
@@ -1442,10 +1482,11 @@ This event focuses on the ability of a designer to comprehend a given concept an
       },
     ],
     fee: ['200/- Per Head (Club Pass)'],
+    registrationLink: 'https://forms.gle/9zf5SCnCK69E53bY7',
   },
   {
     title: 'MELA',
-    dayDetail: 'TBD',
+    dayDetail: '8th March',
     category: 'Quizzes',
     image: '/events-page/event-dummy-1.png',
     color: '#C31C80',
@@ -1483,10 +1524,11 @@ This event focuses on the ability of a designer to comprehend a given concept an
       },
     ],
     fee: ['200/- Per Head (Club Pass)'],
+    registrationLink: 'https://forms.gle/9zf5SCnCK69E53bY7',
   },
   {
     title: 'Sports Quiz ',
-    dayDetail: 'TBD',
+    dayDetail: '8th March',
     category: 'Quizzes',
     image: '/events-page/event-dummy-1.png',
     color: '#C31C80',
@@ -1511,9 +1553,9 @@ This event focuses on the ability of a designer to comprehend a given concept an
     
     `,
     contacts: [
-      "Contacts : Tejas- 9499944705",
-      "Deepak-6369075710",
-      "Ashvanth-7397352960",
+      'Contacts : Tejas- 9499944705',
+      'Deepak-6369075710',
+      'Ashvanth-7397352960',
     ],
     clubDescription: `Do you have trouble answering life's big questions? Are you often left high and dry? Fret not, the art of quizzing is much simpler and our dries are much easier. Behold Q! And Cognition, the quiz clubs of SSN and SNUC. We promise an exhilarating experience for trivia enthusiasts, blending wit and wisdom in a captivating quiz format. Assemble your sharpest minds and embark on a journey through a diverse range of topics, from history to pop culture. There are many here, vying for the prizes. Outsmart them all and beat them. Put funda, Get funds.
     `,
@@ -1528,5 +1570,6 @@ This event focuses on the ability of a designer to comprehend a given concept an
       },
     ],
     fee: ['200/- Per Head (Club Pass)'],
+    registrationLink: 'https://forms.gle/9zf5SCnCK69E53bY7',
   },
 ];

@@ -1,46 +1,38 @@
-"use client";
+import AboutInstincts from "@/components/about_us/about-instincts";
+import AboutSSNSNU from "@/components/about_us/about-ssn-snu";
+import { useEffect, useRef, useState } from "react";
 
-import MarqueeClouds from "@/components/about_us/marquee-clouds";
+function debounce(cb, time) {
+  let timeoutId;
+  return (...args) => {
+    clearTimeout(timeoutId)
+    timeoutId = setTimeout(() => cb(...args), time)
+  }
+}
 
 export default function AboutUs() {
+  const [slide, setSlide] = useState(0)
+
+  const section = useRef(null)
+  const sticker = useRef(null)
+
+  const handleScroll = () => {
+    setSlide(Math.round(2 * sticker.current.offsetTop / (section.current.clientHeight - sticker.current.clientHeight)))
+  }
+
+  useEffect(() => {
+    window.addEventListener('scroll', handleScroll)
+    return () => window.removeEventListener('scroll', handleScroll)
+  }, [])
+
   return (
-    <div className="relative overflow-hidden">
-      <MarqueeClouds />
-      <div className="bg-[#B0E9F9] min-h-screen w-full flex flex-col justify-center p-5">
-        <div className="mx-auto flex md:flex-row flex-col justify-center relative py-20">
-          <div className="my-auto mx-auto md:mx-0 z-10">
-            <img src="/about_us/blimp.png" />
-          </div>
-          <div className="hidden md:block -ml-3 z-0 md:-ml-5 lg:w-64 xl:w-60 2xl:w-40 -mr-3">
-            <div className="h-1/2">
-              <img src="/about_us/top.svg" className="h-full float-bottom" />
-            </div>
-            <div className="h-1/2">
-              <img src="/about_us/bottom.svg" className="h-full" />
-            </div>
-          </div>
-          <div className="md:hidden flex -mt-3 -ml-1.5 z-0">
-            <div className="md:w-1/2 -rotate-[6.5deg] z-10">
-              <img src="/about_us/top.svg" className="w-full h-full" />
-            </div>
-            <div className="md:w-1/2">
-              <img src="/about_us/bottom.svg" className="w-full h-full" />
-            </div>
-          </div>
-          <div className="bg-white md:w-[40%] p-7 z-10 lg:text-base text-xs">
-            Marching towards its 19th year, INSTINCTS has set a benchmark in
-            the conduct of college fests where intellectual, social, cultural and
-            artistic talents are brought to view. This alluring platform showcases
-            the latent talents of students from colleges across the nation.
-            Instincts has seen an average footfall of 30000+ every year.
-            <br /><br />
-            SSN SNUC Instincts is one of the most awaited cultural events in the
-            country. This year, Instincts will be held over three days with an
-            exciting prize pool of ₹5,00,000+ across 50 + events hosted by 20+
-            clubs!
-          </div>
+    <section className="w-full h-[250vh] sm:h-[200vh] relative" ref={section}>
+      <div className="w-full h-[100vh] sticky top-0" ref={sticker}>
+        <div className="w-full h-full relative">
+          <AboutSSNSNU slide={slide} />
+          <AboutInstincts slide={slide} />
         </div>
       </div>
-    </div>
-  );
+    </section>
+  )
 }
