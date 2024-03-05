@@ -6,24 +6,28 @@ import { RiFacebookBoxLine } from 'react-icons/ri';
 export function Socials() {
   return (
     <>
-      <Row gap={2} onHoverScaleTo={110}>
-        <FaInstagram color="white" className="ml-[0.09rem]" size={30} />
+      <Link
+        href={"/contact-us"}
+        className="text-white font-semibold font-satoshi text-[22px] hover:scale-110"
+      >
+        Contact Us
+      </Link>
+
+      <Row gap={2}>
         <Link
           href={'https://www.instagram.com/ssnsnucinstincts'}
-          className="text-white font-semibold font-satoshi text-[22px]"
+          className="text-white font-semibold font-satoshi text-[22px] hover:scale-110"
           target="_blank"
         >
-          Instagram
+          <FaInstagram color="white" className="ml-[0.09rem]" size={30} />
         </Link>
-      </Row>
-      <Row gap={2} onHoverScaleTo={110}>
-        <RiFacebookBoxLine color="white" size={30} />
+
         <Link
           href={'https://www.facebook.com/instincts.ssn/'}
-          className="text-white font-semibold font-satoshi text-[22px]"
+          className="text-white font-semibold font-satoshi text-[22px] hover:scale-110"
           target="_blank"
         >
-          Facebook
+          <RiFacebookBoxLine color="white" size={30} />
         </Link>
       </Row>
     </>
@@ -34,17 +38,23 @@ export function ReachOut() {
   return (
     <>
       <Link
-        href={"/contact-us"}
-        className="text-white font-semibold font-satoshi text-[22px] hover:scale-110"
-      >
-        Contact Us
-      </Link>
-      <Link
-        href={'/sponsors'}
-        className="text-white font-semibold font-satoshi text-[22px] hover:scale-110"
+        href={"/sponsors"}
+        className="text-white font-semibold font-satoshi text-[22px] hover:scale-110 mx-auto lg:mx-0"
       >
         Sponsors
       </Link>
+      <Link
+        href={'/events'}
+        className="text-white font-semibold font-satoshi text-[22px] hover:scale-110 mx-auto lg:mx-0"
+      >
+        Events
+      </Link>
+      {/* <Link
+        href={'/'}
+        className="text-white font-semibold font-satoshi text-[22px] hover:scale-110 mx-auto lg:mx-0"
+      >
+        Website Team
+      </Link> */}
     </>
   );
 }

@@ -35,7 +35,7 @@ export default function EventCard({ event, setModalOpen, setSelectedEvent }) {
           setSelectedEvent(event);
           setModalOpen(true);
         }}
-        className="sm:min-h-80 flex flex-col transition-all duration-300 rounded-xl box-border border-4 border-black"
+        className="sm:min-h-80 flex flex-col transition-all duration-300 rounded-xl box-border border-4 border-black cursor-pointer"
       >
         <div className="flex sm:flex-col flex-row">
           <div className="w-32 h-32 sm:w-auto sm:h-auto overflow-hidden">

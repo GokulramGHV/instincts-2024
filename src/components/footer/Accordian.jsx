@@ -26,7 +26,7 @@ export default function Accordion() {
 
   const categories = [
     {
-      title: <Title name="SOCIALS" activeIndex={activeIndex} index={0} />,
+      title: <Title name="REACH OUT" activeIndex={activeIndex} index={0} />,
       content: (
         <div className="flex flex-col gap-1">
           <Socials />
@@ -34,7 +34,7 @@ export default function Accordion() {
       ),
     },
     {
-      title: <Title name="REACH OUT" activeIndex={activeIndex} index={1} />,
+      title: <Title name="KNOW MORE" activeIndex={activeIndex} index={1} />,
       content: (
         <div className="flex flex-col">
           <ReachOut />
