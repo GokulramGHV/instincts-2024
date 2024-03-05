@@ -1462,7 +1462,7 @@ you have the necessary permission to do so.
     registrationLink: 'https://forms.gle/9zf5SCnCK69E53bY7',
   },
   {
-    title: 'MELA',
+    title: 'MELA QUIZ',
     dayDetail: '8th March',
     category: 'Quizzes',
     image: '/events-page/event-dummy-1.png',
@@ -1504,7 +1504,7 @@ you have the necessary permission to do so.
     registrationLink: 'https://forms.gle/9zf5SCnCK69E53bY7',
   },
   {
-    title: 'Sports Quiz ',
+    title: 'Sports Quiz',
     dayDetail: '8th March',
     category: 'Quizzes',
     image: '/events-page/event-dummy-1.png',
