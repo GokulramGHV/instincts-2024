@@ -8,7 +8,7 @@ const londrinaSolid = Londrina_Solid({
   subsets: ["latin"],
 });
 
-const contacts = [
+const OECs = [
   {
     name: "Abhishek M",
     phone: "99400 51611",
@@ -30,6 +30,9 @@ const contacts = [
     color: "#0C5AB9",
     secondaryColor: "#4FB6F0",
   },
+];
+
+const hospitalityHeads = [
   {
     name: "Indhuja S K",
     phone: "93609 88688",
@@ -37,7 +40,55 @@ const contacts = [
     color: '#FF4E84',
     secondaryColor: '#FA99B4'
   },
-];
+  {
+    name: "Rohan Nivash R S",
+    phone: "75987 38595",
+    email: "rohan2010596@ssn.edu.in",  
+    color: "#DB2525",
+    secondaryColor: "#FC6655",
+  },
+]
+
+function ContactCard({ contact }) {
+  return (
+    <div
+      key={contact.name}
+      className="rounded-lg md:px-12 px-5 py-6 w-full md:w-fit flex flex-col items-center border"
+      style={{ borderColor: contact.color }}
+    >
+      <h2
+        className={`${londrinaSolid.className} text-2xl sm:text-4xl xl:text-5xl text-[#202020]`}
+        style={{ color: contact.color }}
+      >
+        {contact.name}
+      </h2>
+      <a
+        href={`tel:+91${contact.phone.replace(" ", "")}`}
+        className="flex gap-3 items-center sm:text-2xl font-medium text-[#202020] mt-3"
+        target="_blank"
+      >
+        <FaPhone
+          className="md:text-xl"
+          color={contact.secondaryColor}
+        />{" "}
+        {contact.phone}
+      </a>
+      <a
+        href={`mailto:${contact.email}`}
+        className="flex gap-3 items-center break-all text-sm sm:text-2xl font-medium text-[#202020] mt-3"
+        target="_blank"
+      >
+        <FaEnvelope
+          className="md:text-xl relative top-0.5"
+          color={contact.secondaryColor}
+          flex
+          gap-2
+        />{" "}
+        {contact.email}
+      </a>
+    </div>
+  )
+}
 
 export default function Page() {
   return (
@@ -48,53 +99,26 @@ export default function Page() {
         heroImage={"/contact_us/contact-us-hero-image.svg"}
         fontColor={"#202020"}
       />
-      <div className="font-satoshi py-20 px-10">
+
+      <div className="font-satoshi pt-20 pb-10 px-10">
         <h1
           className={`${londrinaSolid.className} text-5xl sm:text-6xl xl:text-7xl text-center text-[#202020]`}
         >
           Overall Event Coordinators
         </h1>
         <div className="flex flex-wrap justify-center gap-10 mt-12">
-          {contacts.map((contact) => {
-            return (
-              <div
-                key={contact.name}
-                className="rounded-lg md:px-12 px-5 py-6 w-full md:w-fit flex flex-col items-center border"
-                style={{ borderColor: contact.color }}
-              >
-                <h2
-                  className={`${londrinaSolid.className} text-2xl sm:text-4xl xl:text-5xl text-[#202020]`}
-                  style={{ color: contact.color }}
-                >
-                  {contact.name}
-                </h2>
-                <a
-                  href={`tel:+91${contact.phone.replace(" ", "")}`}
-                  className="flex gap-3 items-center sm:text-2xl font-medium text-[#202020] mt-3"
-                  target="_blank"
-                >
-                  <FaPhone
-                    className="md:text-xl"
-                    color={contact.secondaryColor}
-                  />{" "}
-                  {contact.phone}
-                </a>
-                <a
-                  href={`mailto:${contact.email}`}
-                  className="flex gap-3 items-center break-all text-sm sm:text-2xl font-medium text-[#202020] mt-3"
-                  target="_blank"
-                >
-                  <FaEnvelope
-                    className="md:text-xl relative top-0.5"
-                    color={contact.secondaryColor}
-                    flex
-                    gap-2
-                  />{" "}
-                  {contact.email}
-                </a>
-              </div>
-            );
-          })}
+          {OECs.map(contact => <ContactCard contact={contact} />)}
+        </div>
+      </div>
+
+      <div className="font-satoshi pt-10 pb-20 px-10">
+        <h1
+          className={`${londrinaSolid.className} text-5xl sm:text-6xl xl:text-7xl text-center text-[#202020]`}
+        >
+          Hospitality Heads
+        </h1>
+        <div className="flex flex-wrap justify-center gap-10 mt-12">
+          {hospitalityHeads.map(contact => <ContactCard contact={contact} />)}
         </div>
       </div>
 
