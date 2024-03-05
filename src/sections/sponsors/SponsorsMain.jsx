@@ -5,7 +5,7 @@ const londonFont = Londrina_Solid({
   subsets: ['latin'],
 });
 
-import { hcl, aram, sponsors, partners } from './details'
+import { hcl, associateSponsors, sponsors, partners } from './details'
 
 function SponsorCard({company, heightStyle="h-[7rem] md:h-[11rem]", widthStyle='w-1/2'}={}) {
   return (
@@ -51,7 +51,11 @@ export default function SponsorsMain() {
           text-4xl md:text-7xl lg:text-8xl pb-8 lg:pb-16`}>
           Associate Sponsor
         </h2>
-        <SponsorCard company={aram} heightStyle='h-[8rem] md:h-[12rem] 2xl:h-[14rem]'/>
+        <div className="flex flex-wrap flex-col mx-auto gap-8 md:gap-y-16 md:flex-row justify-center">
+          {associateSponsors.map(company => (
+            <SponsorCard company={company} heightStyle='h-[8rem] md:h-[12rem] 2xl:h-[14rem]' key={company.name}/>
+          ))}
+        </div>
       </section>
 
       <section className='w-[95%] mx-auto mt-20 lg:mt-28 2xl:mt-32 px-4'>
