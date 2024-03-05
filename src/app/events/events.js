@@ -74,9 +74,9 @@ export const events = [
     color: '#F5A623',
     teamSize: '4-12',
     prize: [
-      { place: 'FIRST', amount: 'TBD' },
-      { place: 'SECOND', amount: 'TBD' },
-      { place: 'THIRD', amount: 'TBD' },
+      { place: 'FIRST', amount: '15,000' },
+      { place: 'SECOND', amount: '10,000' },
+      { place: 'THIRD', amount: '7,500' },
     ],
     description: `Witness for yourself what all the fuzz is about! Student variety show is an entertainment-based show that covers a variety of acts such as skits, dance, sketch, comedy, magic acrobatics, etc. Come contest with your equals, and show us what makes you stand out from them!    
     `,
@@ -129,9 +129,8 @@ export const events = [
     color: '#DB2525',
     teamSize: '1',
     prize: [
-      { place: 'FIRST', amount: 'TBD' },
-      { place: 'SECOND', amount: 'TBD' },
-      { place: 'THIRD', amount: 'TBD' },
+      { place: 'FIRST', amount: '2000' },
+      { place: 'SECOND', amount: '1000' },
     ],
     description: ``,
     rules: `- இப்போட்டியில் கலந்துக் கொள்ள உங்களுக்குத் தமிழ் பேசத் தெரிந்திருந்தாலே போதும்.
@@ -171,9 +170,8 @@ export const events = [
     color: '#DB2525',
     teamSize: '2',
     prize: [
-      { place: 'FIRST', amount: 'TBD' },
-      { place: 'SECOND', amount: 'TBD' },
-      { place: 'THIRD', amount: 'TBD' },
+      { place: 'FIRST', amount: '2000' },
+      { place: 'SECOND', amount: '1000' },
     ],
     description: ``,
     rules: `### வசன கர்த்தா
@@ -226,9 +224,8 @@ export const events = [
     color: '#05B163',
     teamSize: '2',
     prize: [
-      { place: 'FIRST', amount: 'TBD' },
-      { place: 'SECOND', amount: 'TBD' },
-      { place: 'THIRD', amount: 'TBD' },
+      { place: 'FIRST', amount: '2500' },
+      { place: 'SECOND', amount: '1500' },
     ],
     description: `Dear Debaters and Wordsmiths,
     Step right up to the greatest show of intellect in town! We're thrilled to invite you to our debating extravaganza, where the carnival of ideas is in full swing. Roll up your sleeves, unleash your rhetoric, and join the lively spectacle at our cultural fest. This isn't just any debate—it's a carousel of wit, a tilt-a-whirl of viewpoints, and a rollercoaster of eloquence. So, tighten your grip on the microphone, as we promise a debate that'll leave you spinning with excitement. Let's turn the arena into a debate midway, where every argument is a game-changer. See you at the debate carnival—it's time to make your words the star attraction!    
@@ -256,9 +253,8 @@ export const events = [
     color: '#05B163',
     teamSize: '1',
     prize: [
-      { place: 'FIRST', amount: 'TBD' },
-      { place: 'SECOND', amount: 'TBD' },
-      { place: 'THIRD', amount: 'TBD' },
+      { place: 'FIRST', amount: '2000' },
+      { place: 'SECOND', amount: '1500' },
     ],
     description: `The fireworks are ready, the playlist is queued, and the crowd is electrified by the festival air. But oh wait, boredom is creeping into the shadows and threatening to ruin the party. To defeat them, you must capture the audience's attention successfully for an entire minute without errors. Behold, amid this lively celebration, a special room filled with laughter and cheer awaits your presence. Can you captivate the audience, and deliver a minute of funny magic, logic be damned? Are you ready for the ultimate challenge that could fill your pockets with prizes and treasures beyond your wildest dreams? Claim your place as the crowned champion of "Viva La Fiesta", by embracing the carnival spirit and letting the fiesta of a lifetime unfold!    
     `,
@@ -284,9 +280,8 @@ export const events = [
     color: '#05B163',
     teamSize: '1',
     prize: [
-      { place: 'FIRST', amount: 'TBD' },
-      { place: 'SECOND', amount: 'TBD' },
-      { place: 'THIRD', amount: 'TBD' },
+      { place: 'FIRST', amount: '2000' },
+      { place: 'SECOND', amount: '1000' },
     ],
     description: `Exactly as the name suggests, the participants will be required to perform a set for a judge and an audience. Everybody is welcome, if you're funny, we'll laugh at your jokes. If not... Well, we'll laugh at you.
     `,
@@ -315,9 +310,8 @@ export const events = [
     color: '#05B163',
     teamSize: '1',
     prize: [
-      { place: 'FIRST', amount: 'TBD' },
-      { place: 'SECOND', amount: 'TBD' },
-      { place: 'THIRD', amount: 'TBD' },
+      { place: 'FIRST', amount: '2000' },
+      { place: 'SECOND', amount: '1500' },
     ],
     description: `Round 1: Alluring Ink
     You look up at the sky, as the fireworks start. They arouse a sense of belonging and nostalgia in you. That makes you think of someone or something, a memory even. You see words over the fireworks, and before they rush away from you, you quickly open your notes app to write down as the fireworks fade away into the background
@@ -347,16 +341,15 @@ export const events = [
     registrationLink: 'https://forms.gle/kd8rNy7PGiqrWHKR9',
   },
   {
-    title: 'Potpourri',
+    title: 'Pottpouri',
     dayDetail: '9th March',
     category: 'English Lit.',
     image: '/events-page/event-dummy-1.png',
     color: '#05B163',
     teamSize: '1-3',
     prize: [
-      { place: 'FIRST', amount: 'TBD' },
-      { place: 'SECOND', amount: 'TBD' },
-      { place: 'THIRD', amount: 'TBD' },
+      { place: 'FIRST', amount: '2500' },
+      { place: 'SECOND', amount: '1500' },
     ],
     description: `A clown approaches with a cunning grin
     Asks you to juggle word games, crosswords and puzzles for the win. 
@@ -388,9 +381,8 @@ export const events = [
     color: '#05B163',
     teamSize: '1',
     prize: [
-      { place: 'FIRST', amount: 'TBD' },
-      { place: 'SECOND', amount: 'TBD' },
-      { place: 'THIRD', amount: 'TBD' },
+      { place: 'FIRST', amount: '2500' },
+      { place: 'SECOND', amount: '1500' },
     ],
     description: `Embark on a daring adventure through treacherous seas, facing a merciless storm that leaves you with only a single life jacket as a potential lifeline. Skillfully plead your case before the captain to secure your journey. Once on board, immerse yourself in a captivating odyssey of tales and legends spun by master storytellers, transporting you to magical realms amid the vibrant colours and lively music of Carnaval. This treacherous path leads to a delectable stew, capturing the essence of celebration in every spoonful, making the feast worth the adventurous journey.
     `,
@@ -420,9 +412,8 @@ export const events = [
     color: '#C297F9',
     teamSize: '2',
     prize: [
-      { place: 'FIRST', amount: 'TBD' },
-      { place: 'SECOND', amount: 'TBD' },
-      { place: 'THIRD', amount: 'TBD' },
+      { place: 'FIRST', amount: '3000' },
+      { place: 'SECOND', amount: '2000' },
     ],
     description: `Inspired by the famous TV show cook with  comali with a twist of drawing, showcase your talent on the canvas while facing a few fun hurdles and hindrances along the way.   
     `,
@@ -463,9 +454,8 @@ export const events = [
     color: '#C297F9',
     teamSize: '2-3',
     prize: [
-      { place: 'FIRST', amount: 'TBD' },
-      { place: 'SECOND', amount: 'TBD' },
-      { place: 'THIRD', amount: 'TBD' },
+      { place: 'FIRST', amount: '3000' },
+      { place: 'SECOND', amount: '2000' },
     ],
     description: `Costume designing event where participants are challenged to create costumes based upon the materials provided. 
     `,
@@ -493,9 +483,8 @@ export const events = [
     color: '#C297F9',
     teamSize: '2',
     prize: [
-      { place: 'FIRST', amount: 'TBD' },
-      { place: 'SECOND', amount: 'TBD' },
-      { place: 'THIRD', amount: 'TBD' },
+      { place: 'FIRST', amount: '3000' },
+      { place: 'SECOND', amount: '2000' },
     ],
     description: `Challenge artists to capture the magic of a carnival at night. This could include vibrant depictions of lit-up rides, Ferris wheels, and the overall enchanting atmosphere under the night sky.
     `,
@@ -522,9 +511,8 @@ export const events = [
     color: '#F6C826',
     teamSize: '1',
     prize: [
-      { place: 'FIRST', amount: 'TBD' },
-      { place: 'SECOND', amount: 'TBD' },
-      { place: 'THIRD', amount: 'TBD' },
+      { place: 'FIRST', amount: '3000' },
+      { place: 'SECOND', amount: '2000' },
     ],
     description: `Do you have a passion for bringing characters to life with a captivating solo performance? Whether you're an experienced actor or someone stepping into the limelight for the first time, this is your chance to shine. Join us in an event where you can let your inner thespian thrive to make every monologue a masterpiece.
     Participate in this competition hosted by the theater clubs of SSN and SNU - Lights Out Please! and All The World’s A Stage.    
@@ -552,9 +540,8 @@ export const events = [
     color: '#F6C826',
     teamSize: '1',
     prize: [
-      { place: 'FIRST', amount: 'TBD' },
-      { place: 'SECOND', amount: 'TBD' },
-      { place: 'THIRD', amount: 'TBD' },
+      { place: 'FIRST', amount: '2500' },
+      { place: 'SECOND', amount: '2000' },
     ],
     description: `Join in the intrigue as the Theatre Clubs of SSN and SNU proudly present our mystery event Enigma!
     Think you've got the detective chops and a flair for the dramatic? Here's your chance to be Sherlock with a touch of Shakespeare. Get ready for a mix of mystery, madness, and, of course, loads of drama.
@@ -580,9 +567,8 @@ export const events = [
     color: '#F6C826',
     teamSize: '1',
     prize: [
-      { place: 'FIRST', amount: 'TBD' },
-      { place: 'SECOND', amount: 'TBD' },
-      { place: 'THIRD', amount: 'TBD' },
+      { place: 'FIRST', amount: '3000' },
+      { place: 'SECOND', amount: '2000' },
     ],
     description: `A perception can change the way we see a story; a story can change the way we perceive. Are you ready to transform your perspective into a fascinating play? Here is your chance...
     Register now for the playwriting competition, hosted by the Theater Clubs of SSN and SNU - Lights Out Please! and All The World’s A Stage. With minimal rules and maximal allowance to let your creativity run wild, we guarantee a fun and enthralling experience!        
@@ -612,9 +598,8 @@ export const events = [
     color: '#4FB6F0',
     teamSize: '1',
     prize: [
-      { place: 'FIRST', amount: 'TBD' },
-      { place: 'SECOND', amount: 'TBD' },
-      { place: 'THIRD', amount: 'TBD' },
+      { place: 'FIRST', amount: '3000' },
+      { place: 'SECOND', amount: '2000' },
     ],
     description: `Participants flaunt their skills with a choreographed solo performance or a freestyle with the routines being restricted to western styles.`,
     rules: `- Time limit: 3 minutes.
@@ -647,9 +632,8 @@ export const events = [
     color: '#4FB6F0',
     teamSize: '2',
     prize: [
-      { place: 'FIRST', amount: 'TBD' },
-      { place: 'SECOND', amount: 'TBD' },
-      { place: 'THIRD', amount: 'TBD' },
+      { place: 'FIRST', amount: '5000' },
+      { place: 'SECOND', amount: '3000' },
     ],
     description: `Get your dance partner to duke it out with the best hip hop freestyle dancers in the city. Watch the crowd roar as you showcase your best moves in the cypher.`,
     rules: `- Team of 2.
@@ -684,9 +668,8 @@ export const events = [
     color: '#4FB6F0',
     teamSize: '8-25',
     prize: [
-      { place: 'FIRST', amount: 'TBD' },
-      { place: 'SECOND', amount: 'TBD' },
-      { place: 'THIRD', amount: 'TBD' },
+      { place: 'FIRST', amount: '25000' },
+      { place: 'SECOND', amount: '15000' },
     ],
     description: `Get your dance partner to duke it out with the best hip hop freestyle dancers in the city. Watch the crowd roar as you showcase your best moves in the cypher.`,
     rules: `### Round 1 (Online):
@@ -731,9 +714,8 @@ export const events = [
     color: '#8638eb',
     teamSize: '5',
     prize: [
-      { place: 'FIRST', amount: 'TBD' },
-      { place: 'SECOND', amount: 'TBD' },
-      { place: 'THIRD', amount: 'TBD' },
+      { place: 'FIRST', amount: '5000' },
+      { place: 'SECOND', amount: '3000' },
     ],
     description: `This is a valorant game event, plan your strike and plant the spike. Join us here to clutch your way to the top in this classic 5v5 clash. `,
     rules: `- All members of a team must register on tracker.gg and only use the ID registered on the website in the tournament.
@@ -760,9 +742,8 @@ export const events = [
     color: '#8638eb',
     teamSize: '5',
     prize: [
-      { place: 'FIRST', amount: 'TBD' },
-      { place: 'SECOND', amount: 'TBD' },
-      { place: 'THIRD', amount: 'TBD' },
+      { place: 'FIRST', amount: '5000' },
+      { place: 'SECOND', amount: '3000' },
     ],
     description: `This is an exciting and competitive mobile gaming multiplayer tournament, where you will unleash your skills and strategic prowess as you go head-to-head with rival teams, navigating modes that demand mastery of various weapons and tactical brilliance.`,
     rules: `- All members of a team must register on tracker.gg and only use the ID registered on the website in the tournament.
@@ -789,9 +770,8 @@ export const events = [
     color: '#FC6655',
     teamSize: '3-4',
     prize: [
-      { place: 'FIRST', amount: 'TBD' },
-      { place: 'SECOND', amount: 'TBD' },
-      { place: 'THIRD', amount: 'TBD' },
+      { place: 'FIRST', amount: '3000' },
+      { place: 'SECOND', amount: '2000' },
     ],
     description: `Embark on a journey that mirrors the challenges of starting a business. Participants will be thrust into a carefully crafted escape room environment where they must decipher clues, solve entrepreneurial puzzles, and make strategic decisions to overcome obstacles. This event is not only entertaining but also a test of teamwork, problem-solving, and quick thinking.`,
     rules: `### Event Rules:
@@ -823,11 +803,16 @@ We take pride in our journey, from a handful of enthusiasts to a thriving commun
     color: '#914E0D',
     teamSize: 'Flexible',
     prize: [
-      { place: 'FIRST', amount: 'TBD' },
-      { place: 'SECOND', amount: 'TBD' },
-      { place: 'THIRD', amount: 'TBD' },
+      { place: 'See Below For Split-up', amount: '13,000 POOL' },
     ],
     description: `Prepare for an exciting event of cinema with Reels of Fire—a short film competition featuring entries from talented filmmakers across various colleges and universities. Each year, we receive hundreds of submissions, and the top ones are chosen for screening on the day of the event. Our judging panel nominates and selects winners in categories like best film and best screenplay, making it a thrilling precursor to major filmmaking events worldwide. 
+    Prizes: 
+    Best Short Film: 3000,
+    Best Director: 3000,
+    Best Screenplay: 2000,
+    Best Cinematography: 2000,
+    Best Editing: 2000,
+    Best Actor: 1000 
     `,
     rules: `- All short film submissions should have been completed after 1st January 2023.
 - Films must be 30 minutes or shorter.
@@ -857,9 +842,7 @@ We take pride in our journey, from a handful of enthusiasts to a thriving commun
     color: '#914E0D',
     teamSize: '1',
     prize: [
-      { place: 'FIRST', amount: 'TBD' },
-      { place: 'SECOND', amount: 'TBD' },
-      { place: 'THIRD', amount: 'TBD' },
+      { place: 'FIRST', amount: '5000' },
     ],
     description: `🎭 Greetings! Hope you're all having a fantastic day! Get ready to showcase your acting talent on a grand scale at the epic event "SST's ACT OFF" conducted at SSN exclusively by Sharanya Spots Talent. SST is your gateway to the world of acting and is the Casting Company handling the film 'THUG LIFE' directed by Mr. Mani Ratnam.
     `,
@@ -894,9 +877,9 @@ Once all of them  finish their performances, the overall 'Best-Performer' takes 
     color: '#914E0D',
     teamSize: 2,
     prize: [
-      { place: 'FIRST', amount: 'TBD' },
-      { place: 'SECOND', amount: 'TBD' },
-      { place: 'THIRD', amount: 'TBD' },
+      { place: 'FIRST', amount: '3000' },
+      { place: 'SECOND', amount: '2000' },
+      { place: 'THIRD', amount: '1000' },
     ],
     description: `The "Lights, Camera, Sale!" event will feature teams competing by bidding on movie-related questions and participating in exciting quiz rounds. Quiz enthusiasts and movie buffs, this is your chance to show your zeal and knowledge in the world of films, and it will be super fun, we promise! Each round introduces a new topic, and teams must provide diverse answers within a set time. Eliminations occur based on the points scored in each round.`,
     rules: `### Round 1: Auction Time!
@@ -923,9 +906,9 @@ Decode the series of pictures showcasing iconic scenes, just like the classical 
     color: '#FEDE88',
     teamSize: 1,
     prize: [
-      { place: 'FIRST', amount: 'TBD' },
-      { place: 'SECOND', amount: 'TBD' },
-      { place: 'THIRD', amount: 'TBD' },
+      { place: 'FIRST', amount: '3000' },
+      { place: 'SECOND', amount: '2000' },
+      { place: 'THIRD', amount: '1000' },
     ],
     description: `Immerse yourself in elegance and grace by stepping into the spotlight to showcase your artistry in our Solo Classical Dance Competition. Embrace the beauty of traditional Indian dance forms as a solo performer, expressing your unique style, precision, and emotional depth. Join us in celebrating the rich heritage of classical dance – a platform where your talent becomes the focal point. Ignite the dancer in you and be part of this extraordinary journey! 
     `,
@@ -962,9 +945,8 @@ Decode the series of pictures showcasing iconic scenes, just like the classical 
     color: '#FEDE88',
     teamSize: 4,
     prize: [
-      { place: 'FIRST', amount: 'TBD' },
-      { place: 'SECOND', amount: 'TBD' },
-      { place: 'THIRD', amount: 'TBD' },
+      { place: 'FIRST', amount: '6000' },
+      { place: 'SECOND', amount: '4000' },
     ],
     description: `Get ready to celebrate the spirit of dance, teamwork, and cultural recognition in CHATHURANGA, a thrilling classical dance event featuring four dynamic rounds of skill, knowledge, and synchronization, where every move, guess, and character reveal brings you closer to victory! This event is open to all, inviting participants from diverse backgrounds to join the celebration!
     `,
@@ -1000,9 +982,8 @@ Prepare yourself for a visual and rhythmic challenge. An audio-visual of a class
     color: '#0C5AB9',
     teamSize: 1,
     prize: [
-      { place: 'FIRST', amount: 'TBD' },
-      { place: 'SECOND', amount: 'TBD' },
-      { place: 'THIRD', amount: 'TBD' },
+      { place: 'FIRST', amount: '4,000' },
+      { place: 'SECOND', amount: '4,000' },
     ],
     description: `Anunad is the music club's eastern solo singing event. It is the right place if you are looking to prove your mettle as a singer. Flaunt your singing skills in the light music solo vocal event. Enthrall us with your voice, all eyes are going to be on you and the stage is all yours. The event is not to be missed by all you aspiring singers!`,
     rules: `- All Participants MUST be college students with a valid college ID card.
@@ -1044,9 +1025,8 @@ Prepare yourself for a visual and rhythmic challenge. An audio-visual of a class
     color: '#0C5AB9',
     teamSize: 1,
     prize: [
-      { place: 'FIRST', amount: 'TBD' },
-      { place: 'SECOND', amount: 'TBD' },
-      { place: 'THIRD', amount: 'TBD' },
+      { place: 'FIRST', amount: '4,000' },
+      { place: 'SECOND', amount: '2,500' },
     ],
     description: `Riff Off is the solo instrumental event where you can showcase your talent as an individual. Be it with a guitar or drums, literally anything under the sky defined to be an instrument, the stage is yours! Come participate and explore your boundaries as a musician!`,
     rules: `- All Participants MUST be college students with a valid college ID card. 
@@ -1080,9 +1060,9 @@ Prepare yourself for a visual and rhythmic challenge. An audio-visual of a class
     color: '#0C5AB9',
     teamSize: '3-10',
     prize: [
-      { place: 'FIRST', amount: 'TBD' },
-      { place: 'SECOND', amount: 'TBD' },
-      { place: 'THIRD', amount: 'TBD' },
+      { place: 'FIRST', amount: '13,000' },
+      { place: 'SECOND', amount: '8,500' },
+      { place: 'THIRD', amount: '4,000' },
     ],
     description: `Band hunt is the music club's Eastern and Western band event. If you love playing Carnatic fusion, rock ‘n’ roll, blues, pop or light film music with your band, this is the right place for you. Come battle it out with other amazing bands and prove that you have what it takes to be the best.
     Music lovers everywhere, this event is handcrafted just for you. Don't miss it!!
@@ -1128,9 +1108,8 @@ Prepare yourself for a visual and rhythmic challenge. An audio-visual of a class
     color: '#0C5AB9',
     teamSize: '1',
     prize: [
-      { place: 'FIRST', amount: 'TBD' },
-      { place: 'SECOND', amount: 'TBD' },
-      { place: 'THIRD', amount: 'TBD' },
+      { place: 'FIRST', amount: '4,000' },
+      { place: 'SECOND', amount: '2,000' },
     ],
     description: `Get ready to unleash the rhythm, ignite the beats, and witness the most electrifying Rap and Beatbox battles here at the music club's bars and beats event. Show us your unique flair and compete for our first hiphop title.
     `,
@@ -1170,9 +1149,8 @@ Prepare yourself for a visual and rhythmic challenge. An audio-visual of a class
     color: '#F6800E',
     teamSize: 1,
     prize: [
-      { place: 'FIRST', amount: 'TBD' },
-      { place: 'SECOND', amount: 'TBD' },
-      { place: 'THIRD', amount: 'TBD' },
+      { place: 'FIRST', amount: '2500 EACH TRACK' },
+      { place: 'SECOND', amount: '2000 EACH TRACK' },
     ],
     description: `Ready to put your vibe into your design? Go, grab your friends, and form a team! Choose a track and a topic to come up with a design using any design tool. The lone wolves also need not worry, as we also accept individual registrations. The list of topics about the track chosen will be given on the spot. The best works will be awarded cash prizes based on how well the idea is expressed and designed; perhaps design internships will be available as well, tsk tsk.
     `,
@@ -1224,9 +1202,8 @@ This event focuses on the ability of a designer to comprehend a given concept an
     color: '#F6800E',
     teamSize: 2,
     prize: [
-      { place: 'FIRST', amount: 'TBD' },
-      { place: 'SECOND', amount: 'TBD' },
-      { place: 'THIRD', amount: 'TBD' },
+      { place: 'FIRST', amount: '3000' },
+      { place: 'SECOND', amount: '2000' },
     ],
     description: `Embark on a design adventure with our exciting UI/UX event. Participants will dive into creating user-centered interfaces and experiences, inspired by a variety of prompts. Designers will have three hours to showcase their skills and chart a course to design excellence. Participants will be judged based on their approach, innovation, and execution of their designs. Join us to discover hidden treasures as you bring your designs to life. So gear up, grab your design tools, and join us for an exciting journey!
     `,
@@ -1265,9 +1242,8 @@ This event focuses on the ability of a designer to comprehend a given concept an
     color: '#F6800E',
     teamSize: 2,
     prize: [
-      { place: 'FIRST', amount: 'TBD' },
-      { place: 'SECOND', amount: 'TBD' },
-      { place: 'THIRD', amount: 'TBD' },
+      { place: 'FIRST', amount: '3000' },
+      { place: 'SECOND', amount: '1500' },
     ],
     description: `Reel it is an exhilarating end-to-end video production contest that challenges participants to unleash their creativity and storytelling prowess. This offline event invites dynamic teams of two or three per team, each armed with a passion for scriptwriting and a flair for cinematic expression. So, gather your creative partner, and sharpen your scriptwriting skills. An immersive video production contest where your ideas come to life on the screen.
     `,
@@ -1299,9 +1275,8 @@ This event focuses on the ability of a designer to comprehend a given concept an
     color: '#2E3192',
     teamSize: '3-6',
     prize: [
-      { place: 'FIRST', amount: 'TBD' },
-      { place: 'SECOND', amount: 'TBD' },
-      { place: 'THIRD', amount: 'TBD' },
+      { place: 'FIRST', amount: '7500' },
+      { place: 'SECOND', amount: '5500' },
     ],
     description: `In the 3 years since its inception, The SNUC Business Club has become well renowned for its flagship event - The SNUC IPL Auction. After multiple successful editions of the competition within the University, The Business Club brought this exciting event to the inter-college culturals - Instincts’23. 
 
@@ -1343,14 +1318,15 @@ This event focuses on the ability of a designer to comprehend a given concept an
   },
   {
     title: 'Online Photography Contest',
-    dayDetail: '4th March',
+    dayDetail: '7th March',
     category: 'Photography',
     image: '/events-page/event-dummy-4.png',
     color: '#00644C',
     teamSize: 1,
     prize: [
-      { place: 'FIRST', amount: 'TBD' },
-      { place: 'SECOND', amount: 'TBD' },
+      { place: 'FIRST', amount: '3000' },
+      { place: 'SECOND', amount: '1000' },
+      { place: 'THIRD', amount: '500' },
     ],
     description: `Having a knack for taking great pictures? Or looking out for frames when your eyes are wide open? If that's the case, showcase your best monochrome photographs and get a chance to win exciting cash prizes!`,
     rules: `- Two submissions per participant (Applicable to all college students)
@@ -1361,7 +1337,7 @@ This event focuses on the ability of a designer to comprehend a given concept an
 - Pictures with watermarks shall not be evaluated.
 - A Google Form will be circulated to your registered mobile number in which you'll be asked to submit your photographs.
 - Decision of the judge shall be bound and final.
-- Deadline: On/Before March 4th, 2024.
+- Deadline: On/Before March 7th, 2024.
     `,
     contacts: ['Krishna Karthikeyan - 8618584124', 'Jaishree - 6379631417'],
     clubDescription: `SPC x Capturesque enables you to capture moments which would make you look at it like "No way I clicked this."
@@ -1389,8 +1365,9 @@ This event focuses on the ability of a designer to comprehend a given concept an
     color: '#00644C',
     teamSize: 1,
     prize: [
-      { place: 'FIRST', amount: 'TBD' },
-      { place: 'SECOND', amount: 'TBD' },
+      { place: 'FIRST', amount: '3500' },
+      { place: 'SECOND', amount: '1500' },
+      { place: 'THIRD', amount: '1000' },
     ],
     description: `The offline photography contest cherishes candid moments, weaving enchanting stories through captured frames. It revels in the joy of photography, celebrating spontaneous beauty and genuine emotions. Embracing abstract images, reflections, and patterns in nature, the contest transforms ordinary scenes into extraordinary tales. Each click is a poetic exploration, revealing the profound beauty hidden in unscripted moments and the intricate details of our surroundings. The competition beckons photographers to discover bliss in the art, where the fusion of candid storytelling and the artistry of abstract compositions paints a vibrant canvas of visual delight.
     `,
@@ -1446,8 +1423,8 @@ you have the necessary permission to do so.
     color: '#C31C80',
     teamSize: '1-3',
     prize: [
-      { place: 'FIRST', amount: 'TBD' },
-      { place: 'SECOND', amount: 'TBD' },
+      { place: 'FIRST', amount: '3000' },
+      { place: 'SECOND', amount: '2000' },
     ],
     description: `Leaving no topic too bizarre, encompassing everything. General quiz.`,
     rules: `1. All Participants MUST be college students with a valid college ID card. 
@@ -1492,8 +1469,8 @@ you have the necessary permission to do so.
     color: '#C31C80',
     teamSize: '1-3',
     prize: [
-      { place: 'FIRST', amount: 'TBD' },
-      { place: 'SECOND', amount: 'TBD' },
+      { place: 'FIRST', amount: '3000' },
+      { place: 'SECOND', amount: '2000' },
     ],
     description: `Music, Entertainment, Literature and Arts quiz.`,
     rules: `1. All Participants MUST be college students with a valid college ID card. 
@@ -1534,8 +1511,8 @@ you have the necessary permission to do so.
     color: '#C31C80',
     teamSize: '1-3',
     prize: [
-      { place: 'FIRST', amount: 'TBD' },
-      { place: 'SECOND', amount: 'TBD' },
+      { place: 'FIRST', amount: '3000' },
+      { place: 'SECOND', amount: '2000' },
     ],
     description: `Themed quiz on sports.`,
     rules: `1. All Participants MUST be college students with a valid college ID card. 
