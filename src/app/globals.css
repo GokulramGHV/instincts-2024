@@ -36,17 +36,18 @@
   from {
     transform: translateX(0);
   }
+
   to {
     transform: translateX(100%);
   }
 }
 
 .marqueeDiv {
-  animation: marqueeRep 50s linear infinite;
+  animation: marqueeRep 5s linear infinite;
 }
 
 .marqueeDivSecond {
-  animation: marqueeRepSecond 50s linear infinite;
+  animation: marqueeRepSecond 5s linear infinite;
 }
 
 #bento-section {
@@ -54,8 +55,10 @@
 }
 
 @media screen and (max-width: 768px) {
-  .marqueeDiv, .marqueeDivSecond {
-    animation-duration: 25s;
+
+  .marqueeDiv,
+  .marqueeDivSecond {
+    animation-duration: 5s;
   }
 }
 

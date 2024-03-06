@@ -47,8 +47,8 @@ export default function Home() {
       )}
       <HeroSection />
       <AboutUs />
-      <TheTeam />
       <BentoGrid />
+      <TheTeam />
       <GallerySection />
       <Footer setCreditsOpen={setCreditsOpen} />
       <CreditsModal isModalOpen={isCreditsOpen} setModalOpen={setCreditsOpen} />
