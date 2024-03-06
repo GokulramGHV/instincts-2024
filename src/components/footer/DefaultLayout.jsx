@@ -1,8 +1,8 @@
-import Image from 'next/image';
-import { JoinUs, ReachOut, Socials } from './Categories';
-import { Row } from './Row';
+import Image from "next/image";
+import { JoinUs, ReachOut, Socials } from "./Categories";
+import { Row } from "./Row";
 
-export default function DefaultLayout() {
+export default function DefaultLayout({ setCreditsOpen }) {
   return (
     <div className="lg:md:flex w-full items-center justify-between p-16 hidden">
       <div className="lg:md:flex gap-20 hidden">
@@ -15,7 +15,7 @@ export default function DefaultLayout() {
         <div className="flex flex-col gap-5">
           <p className="text-slate-50 font-satoshi text-[22px]">KNOW MORE</p>
           <div className="flex flex-col gap-2">
-            <ReachOut />
+            <ReachOut setCreditsOpen={setCreditsOpen} />
           </div>
         </div>
         <div className="flex flex-col gap-5">

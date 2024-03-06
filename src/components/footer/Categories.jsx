@@ -1,7 +1,7 @@
-import { FaInstagram } from 'react-icons/fa';
-import { Row } from './Row';
-import Link from 'next/link';
-import { RiFacebookBoxLine } from 'react-icons/ri';
+import { FaInstagram } from "react-icons/fa";
+import { Row } from "./Row";
+import Link from "next/link";
+import { RiFacebookBoxLine } from "react-icons/ri";
 
 export function Socials() {
   return (
@@ -15,7 +15,7 @@ export function Socials() {
 
       <Row gap={2}>
         <Link
-          href={'https://www.instagram.com/ssnsnucinstincts'}
+          href={"https://www.instagram.com/ssnsnucinstincts"}
           className="text-white font-semibold font-satoshi text-[22px] hover:scale-110"
           target="_blank"
         >
@@ -23,7 +23,7 @@ export function Socials() {
         </Link>
 
         <Link
-          href={'https://www.facebook.com/instincts.ssn/'}
+          href={"https://www.facebook.com/instincts.ssn/"}
           className="text-white font-semibold font-satoshi text-[22px] hover:scale-110"
           target="_blank"
         >
@@ -34,7 +34,7 @@ export function Socials() {
   );
 }
 
-export function ReachOut() {
+export function ReachOut({ setCreditsOpen }) {
   return (
     <>
       <Link
@@ -44,17 +44,17 @@ export function ReachOut() {
         Sponsors
       </Link>
       <Link
-        href={'/events'}
+        href={"/events"}
         className="text-white font-semibold font-satoshi text-[22px] hover:scale-110 mx-auto lg:mx-0"
       >
         Events
       </Link>
-      {/* <Link
-        href={'/'}
-        className="text-white font-semibold font-satoshi text-[22px] hover:scale-110 mx-auto lg:mx-0"
+      <div
+        onClick={() => setCreditsOpen(true)}
+        className="text-white font-semibold font-satoshi text-[22px] hover:scale-110 mx-auto lg:mx-0 cursor-pointer"
       >
         Website Team
-      </Link> */}
+      </div>
     </>
   );
 }
