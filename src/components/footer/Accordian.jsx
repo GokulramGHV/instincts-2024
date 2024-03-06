@@ -1,8 +1,8 @@
-'use client';
-import { useState } from 'react';
-import { FaMinus, FaPlus } from 'react-icons/fa';
-import { JoinUs, ReachOut, Socials } from './Categories';
-import { Row } from './Row';
+"use client";
+import { useState } from "react";
+import { FaMinus, FaPlus } from "react-icons/fa";
+import { JoinUs, ReachOut, Socials } from "./Categories";
+import { Row } from "./Row";
 
 const Title = ({ name, activeIndex, index }) => {
   return (
@@ -17,7 +17,7 @@ const Title = ({ name, activeIndex, index }) => {
   );
 };
 
-export default function Accordion() {
+export default function Accordion({ setCreditsOpen }) {
   const [activeIndex, setActiveIndex] = useState(null);
 
   const handleClick = (index) => {
@@ -26,7 +26,7 @@ export default function Accordion() {
 
   const categories = [
     {
-      title: <Title name="SOCIALS" activeIndex={activeIndex} index={0} />,
+      title: <Title name="REACH OUT" activeIndex={activeIndex} index={0} />,
       content: (
         <div className="flex flex-col gap-1">
           <Socials />
@@ -34,10 +34,10 @@ export default function Accordion() {
       ),
     },
     {
-      title: <Title name="REACH OUT" activeIndex={activeIndex} index={1} />,
+      title: <Title name="KNOW MORE" activeIndex={activeIndex} index={1} />,
       content: (
         <div className="flex flex-col">
-          <ReachOut />
+          <ReachOut setCreditsOpen={setCreditsOpen} />
         </div>
       ),
     },

@@ -1,12 +1,14 @@
-import DefaultLayout from '@/components/footer/DefaultLayout';
-import MobileLayout from '@/components/footer/MobileLayout';
-import Image from 'next/image';
+"use client";
 
-export default function Footer() {
+import DefaultLayout from "@/components/footer/DefaultLayout";
+import MobileLayout from "@/components/footer/MobileLayout";
+import Image from "next/image";
+
+export default function Footer({ setCreditsOpen }) {
   return (
     <footer className="bg-[#0C5AB9] w-full flex flex-col items-center justify-between">
-      <DefaultLayout />
-      <MobileLayout />
+      <DefaultLayout setCreditsOpen={setCreditsOpen} />
+      <MobileLayout setCreditsOpen={setCreditsOpen} />
       <Image
         src="/logos/Instincts_footer.svg"
         alt="instincts_logo"

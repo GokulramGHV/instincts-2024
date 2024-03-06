@@ -37,17 +37,17 @@ const hospitalityHeads = [
     name: "Indhuja S K",
     phone: "93609 88688",
     email: "indhuja2110694@ssn.edu.in",
-    color: '#FF4E84',
-    secondaryColor: '#FA99B4'
+    color: "#FF4E84",
+    secondaryColor: "#FA99B4",
   },
   {
     name: "Rohan Nivash R S",
     phone: "75987 38595",
-    email: "rohan2010596@ssn.edu.in",  
+    email: "rohan2010596@ssn.edu.in",
     color: "#DB2525",
     secondaryColor: "#FC6655",
   },
-]
+];
 
 function ContactCard({ contact }) {
   return (
@@ -67,7 +67,7 @@ function ContactCard({ contact }) {
         target="_blank"
       >
         <FaPhone
-          className="md:text-xl"
+          className="md:text-xl rotate-90"
           color={contact.secondaryColor}
         />{" "}
         {contact.phone}
@@ -86,7 +86,7 @@ function ContactCard({ contact }) {
         {contact.email}
       </a>
     </div>
-  )
+  );
 }
 
 export default function Page() {
@@ -106,7 +106,9 @@ export default function Page() {
           Overall Event Coordinators
         </h1>
         <div className="flex flex-wrap justify-center gap-10 mt-12">
-          {OECs.map(contact => <ContactCard contact={contact} key={contact.name} />)}
+          {OECs.map((contact) => (
+            <ContactCard contact={contact} key={contact.name} />
+          ))}
         </div>
       </div>
 
@@ -117,7 +119,9 @@ export default function Page() {
           Hospitality Heads
         </h1>
         <div className="flex flex-wrap justify-center gap-10 mt-12">
-          {hospitalityHeads.map(contact => <ContactCard contact={contact} key={contact.name} />)}
+          {hospitalityHeads.map((contact) => (
+            <ContactCard contact={contact} key={contact.name} />
+          ))}
         </div>
       </div>
 
