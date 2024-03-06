@@ -80,9 +80,9 @@ const EventModal = ({ isModalOpen, setModalOpen, event }) => {
             borderRadius: "20px",
             background: "white",
           }}
-          className={`flex flex-col mx-auto lg:w-[65vw] 2xl:w-[50vw]  lg:gap-7 gap-[20px] md:py-[30px] md:px-[30px] lg:max-h-[max-content] py-[20px] px-[25px] max-h-[100%] overflow-y-auto  ${modalHeight>window.screen.height ? "lg:pb-28" : ''}`}
+          className={`flex flex-col mx-auto lg:w-[65vw] 2xl:w-[50vw] lg:gap-7 gap-[20px] md:py-[30px] md:px-[30px] lg:max-h-[max-content] py-[20px] px-[25px] max-h-[90%] overflow-y-auto ${modalHeight>window.screen.height ? "lg:pb-24" : ''}`}
         >
-          <div className="flex items-start justify-between sticky top-0">
+          <div className="flex items-start justify-between">
             <div className="flex flex-wrap justify-center items-center gap-x-12 gap-y-5">
               <h1 className="font-extrabold xl:text-[50px] md:text-[42px] text-[30px]">
                 {event.title}
@@ -108,8 +108,9 @@ const EventModal = ({ isModalOpen, setModalOpen, event }) => {
             </div>
    
       
+              
               <AiOutlineCloseCircle
-                className="lg:hidden"
+                className="lg:hidden absolute top-4 right-4 bg-white rounded-full"
                 color="#8F8D8D"
                 onClick={closeModal}
                 size={30}
@@ -119,6 +120,7 @@ const EventModal = ({ isModalOpen, setModalOpen, event }) => {
 
           {(isLargeScreen || currentInfo === "DETAILS") && (
             <>
+            
               <div
                 className="flex flex-col lg:flex-row items-center gap-3 md:gap-[30px] py-2 px-5  lg:self-start self-center"
                 style={{
@@ -286,14 +288,15 @@ const EventModal = ({ isModalOpen, setModalOpen, event }) => {
             </>
           )}
 
+          <div className="bg-white flex flex-col justify-center sticky bottom-0">
           {!isLargeScreen && (
             <>
               {currentInfo === "DETAILS" && (
-                <div className="flex justify-end">
-                  <div className="flex items-center gap-[5px]">
+                <div className="flex justify-end sticky bottom-14 bg-white">
+                  <div className="flex items-center gap-[5px] ">
                     <span
                       name="button"
-                      className="md:text-[20px] text-[17px] font-bold underline decoration-2"
+                      className="md:text-[20px] text-[17px] font-bold underline decoration-2 "
                       onClick={() => setCurrentInfo("RULES")}
                     >
                       RULES
@@ -345,7 +348,7 @@ const EventModal = ({ isModalOpen, setModalOpen, event }) => {
 
           <button
             className={`flex flex-wrap ${event.fee.length > 1 && "flex-col"
-              } gap-1 justify-center items-center lg:text-xl md:text-lg font-medium lg:py-[23px] md:py-[20px] py-[15px]  self-center opacity-90 hover:opacity-100 hover:shadow-md sticky bottom-0 ${modalHeight>window.screen.height ? "sm:fixed bottom-20 lg:w-[40%] md:w-[50%]" : 'lg:w-[70%] w-[100%]'}`}
+              } gap-1 justify-center items-center lg:text-xl md:text-lg font-medium lg:py-[23px] md:py-[20px] py-[15px]  self-center  hover:opacity-90 hover:shadow-md sticky bottom-0 ${modalHeight>window.screen.height ? "sm:fixed bottom-20 lg:w-[40%] md:w-[50%]" : 'lg:w-[70%] w-[100%]'}`}
             style={{
               backgroundColor: "#43A363",
               borderRadius: 60,
@@ -373,6 +376,7 @@ const EventModal = ({ isModalOpen, setModalOpen, event }) => {
               ))}
             </div>
           </button>
+          </div>
         </div>
       </div>
     )
