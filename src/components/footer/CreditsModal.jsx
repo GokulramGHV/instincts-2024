@@ -66,13 +66,14 @@ const design = [
 
 const Name = ({ item }) => {
   return (
-    <Link
+    <a
       href={item.link}
+      target="_blank"
       className="underline font-bold font-satoshi "
       style={{ color: "#4A4A4A" }}
     >
       {item.name}
-    </Link>
+    </a>
   );
 };
 
