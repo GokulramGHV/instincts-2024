@@ -1,3 +1,5 @@
+"use client";
+
 import Image from "next/image";
 import { Row } from "./Row";
 import Accordion from "./Accordian";

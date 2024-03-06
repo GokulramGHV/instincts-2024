@@ -1,3 +1,5 @@
+"use client";
+
 import { FaInstagram } from "react-icons/fa";
 import { Row } from "./Row";
 import Link from "next/link";

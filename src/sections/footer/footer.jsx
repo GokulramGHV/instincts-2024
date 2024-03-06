@@ -1,3 +1,5 @@
+"use client";
+
 import DefaultLayout from "@/components/footer/DefaultLayout";
 import MobileLayout from "@/components/footer/MobileLayout";
 import Image from "next/image";

@@ -1,3 +1,5 @@
+"use client";
+
 import Image from "next/image";
 import { JoinUs, ReachOut, Socials } from "./Categories";
 import { Row } from "./Row";
