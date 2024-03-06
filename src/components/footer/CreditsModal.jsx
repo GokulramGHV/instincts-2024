@@ -6,7 +6,7 @@ import { AiOutlineCloseCircle } from "react-icons/ai";
 
 const development = [
   {
-    name: "Gokul Ram",
+    name: "GokulRam",
     link: "https://www.linkedin.com/in/gokulrama/",
   },
   {
@@ -46,7 +46,7 @@ const development = [
     link: "https://www.linkedin.com/in/vishal-murugan-251b80258",
   },
   {
-    name: "Vetrivel M",
+    name: "Vetrivel",
     link: "https://www.linkedin.com/in/vetrivel-m-458a3a1b7/",
   },
   {
