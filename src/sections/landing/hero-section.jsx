@@ -7,6 +7,8 @@ import SpinningBackground from '@/components/landing/spinning-background';
 import Image from 'next/image';
 import { useEffect, useState } from 'react';
 
+import { HiChevronDoubleDown } from "react-icons/hi";
+
 export default function HeroSection() {
   const [slideNo, setSlideNo] = useState(1);
 
@@ -81,6 +83,13 @@ export default function HeroSection() {
           </div>
         </div>
       </div>
+
+      <button 
+        className='absolute bottom-28 sm:bottom-12 w-8 p-2 box-content rounded-full aspect-square z-10 backdrop-blur-sm
+       hover:bg-white hover:text-black text-white transition-[background-color_color] duration-100'
+        onClick={() => document.getElementById('about-us').scrollIntoView({ behavior: 'smooth' })}>
+        <HiChevronDoubleDown className='w-full h-full'/>
+      </button>
     </section>
   );
 }

@@ -40,6 +40,13 @@ export const sponsors = [
     backgroundClip: 4,
     width: 380,
     height: 156
+  },
+  {
+    name: 'sandburgs',
+    website: '',
+    backgroundClip: 3,
+    width: 450,
+    height: 300,
   }
 ];
 
@@ -68,23 +75,32 @@ export const partners = [
     width: 380,
     height: 196
   },
-  // {
-  //   type: 'Food',
-  //   name: 'makerscafe',
-  //   website: '',
-  //   backgroundClip: 2,
-  //   width: 350,
-  //   height: 182
-  // }
+  {
+    type: 'Food',
+    name: 'makerscafe',
+    website: '',
+    backgroundClip: 2,
+    width: 350,
+    height: 182
+  }
 ]
 
-export const aram = {
-  name: 'aram',
-  website: 'https://www.aramiasacademy.com/',
-  backgroundClip: 1,
-  width: 380,
-  height: 214,
-}
+export const associateSponsors = [
+  {
+    name: 'aram',
+    website: 'https://www.aramiasacademy.com/',
+    backgroundClip: 1,
+    width: 380,
+    height: 214,
+  },
+  {
+    name: 'gsnr',
+    website: 'https://cauveryrice.com/',
+    backgroundClip: 3,
+    width: 400,
+    height: 269
+  },
+]
 
 export const hcl = {
   name: 'hcl',

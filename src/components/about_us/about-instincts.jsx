@@ -6,6 +6,7 @@ export default function AboutInstincts({ slide }) {
   return (
     <div className="absolute top-0 w-full h-full overflow-hidden transition-opacity duration-[500ms]" style={{ opacity: slide === 2 ? 1 : 0 }}>
       <MarqueeClouds />
+      <MarqueeClouds second={true} />
       <div className="bg-[#B0E9F9] min-h-screen w-full flex flex-col justify-center p-5">
         <div className="mx-auto flex md:flex-row flex-col justify-center relative py-20">
           <div className="my-auto mx-auto md:mx-0 z-10">

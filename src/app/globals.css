@@ -24,20 +24,39 @@
 
 @keyframes marqueeRep {
   0% {
-    transform: translateX(-100vw);
+    transform: translateX(-100%);
   }
 
   100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes marqueeRepSecond {
+  from {
+    transform: translateX(0);
+  }
+  to {
     transform: translateX(100%);
   }
 }
 
 .marqueeDiv {
-  animation: marqueeRep 100s linear infinite;
+  animation: marqueeRep 50s linear infinite;
+}
+
+.marqueeDivSecond {
+  animation: marqueeRepSecond 50s linear infinite;
 }
 
 #bento-section {
   height: 100vh;
+}
+
+@media screen and (max-width: 768px) {
+  .marqueeDiv, .marqueeDivSecond {
+    animation-duration: 25s;
+  }
 }
 
 @media screen and (min-height: 1024px) {

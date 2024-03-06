@@ -149,18 +149,6 @@ const EventModal = ({ isModalOpen, setModalOpen, event }) => {
                     </span>
                   </div>
                 </div>
-                <div className="flex items-center gap-5 md:gap-8">
-                  {event.prize.map((p, index) => (
-                    <div key={index} className="flex items-center flex-col">
-                      <span className="xl:text-3xl md:text-2xl text-xl font-extrabold">
-                        ₹{p.amount}
-                      </span>
-                      <span className="text-lg" style={{ color: "gray" }}>
-                        {p.place}
-                      </span>
-                    </div>
-                  ))}
-                </div>
               </div>
               <div className="md:text-xl font-medium">{event.description}</div>
             </>
