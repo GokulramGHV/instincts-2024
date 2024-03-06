@@ -1,6 +1,3 @@
-"use client";
-
-import Link from "next/link";
 import React, { useEffect, useRef, useState } from "react";
 import { AiOutlineCloseCircle } from "react-icons/ai";
 
@@ -88,7 +85,10 @@ export function CreditsModal({ isModalOpen, setModalOpen }) {
 
   useEffect(() => {
     const handleOutsideClick = (event) => {
-      event.preventDefault();
+      if (event.target.localName !== 'a') {
+        event.preventDefault()
+      }
+      
       if (
         ref.current &&
         !ref.current.contains(event.target) &&
