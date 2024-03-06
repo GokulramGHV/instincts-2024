@@ -345,7 +345,7 @@ const EventModal = ({ isModalOpen, setModalOpen, event }) => {
 
           <button
             className={`flex flex-wrap ${event.fee.length > 1 && "flex-col"
-              } gap-1 justify-center items-center lg:text-xl md:text-lg font-medium lg:py-[23px] md:py-[20px] py-[15px] lg:w-[70%] w-[100%] self-center opacity-90 hover:opacity-100 hover:shadow-md sticky bottom-0 ${modalHeight>window.screen.height ? "sm:fixed bottom-20 lg:w-[40%] md:w-[50%]" : ''}`}
+              } gap-1 justify-center items-center lg:text-xl md:text-lg font-medium lg:py-[23px] md:py-[20px] py-[15px]  self-center opacity-90 hover:opacity-100 hover:shadow-md sticky bottom-0 ${modalHeight>window.screen.height ? "sm:fixed bottom-20 lg:w-[40%] md:w-[50%]" : 'lg:w-[70%] w-[100%]'}`}
             style={{
               backgroundColor: "#43A363",
               borderRadius: 60,
