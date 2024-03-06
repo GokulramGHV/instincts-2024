@@ -46,8 +46,8 @@ export default function Carousel() {
           style={{ transition: 'opacity .3s ease-in-out' }}
           alt=''
           />)}
-        <div className='h-full w-1/2 z-20 hidden sm:block' onClick={handlePrevious}></div>
-        <div className='h-full w-1/2 z-20 hidden sm:block' onClick={handleNext}></div>
+        <div className='h-full w-1/2 z-20 hidden sm:block' onClick={handlePrevious} style={{ cursor: 'url(gallery_images/left-arrow.cur), pointer'}}></div>
+        <div className='h-full w-1/2 z-20 hidden sm:block' onClick={handleNext} style={{ cursor: 'url(gallery_images/right-arrow.cur), pointer' }}></div>
       </div>
 
       <div className='h-4 right-0 left-0 bottom-[-1.5rem] flex gap-2 justify-center absolute sm:hidden'>
