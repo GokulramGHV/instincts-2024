@@ -78,15 +78,15 @@ export default function HeroSection() {
             </div>
           </div>
 
-          <div className="z-20 absolute left-[50%] top-[50%] transform translate-x-[-50%] translate-y-[-50%]">
+          {/* <div className="z-20 absolute left-[50%] top-[50%] transform translate-x-[-50%] translate-y-[-50%]">
             <Countdown slideNo={slideNo} />
-          </div>
+          </div> */}
         </div>
       </div>
 
       <button 
         className='absolute bottom-28 sm:bottom-12 w-8 p-2 box-content rounded-full aspect-square z-10 backdrop-blur-sm
-       hover:bg-white hover:text-black text-white transition-[background-color_color] duration-100'
+       hover:bg-white hover:text-black text-white transition-[background-color_color] duration-100 animate-bounce'
         onClick={() => document.getElementById('about-us').scrollIntoView({ behavior: 'smooth' })}>
         <HiChevronDoubleDown className='w-full h-full'/>
       </button>
