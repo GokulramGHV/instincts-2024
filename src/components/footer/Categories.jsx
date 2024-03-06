@@ -71,7 +71,7 @@ export function JoinUs() {
         Get Passes
       </Link>
       <Link
-        href={"/coming-soon"}
+        href={"/schedule"}
         className="text-white font-semibold font-satoshi text-[22px] hover:scale-110"
       >
         Schedule
