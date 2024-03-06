@@ -1,6 +1,3 @@
-"use client";
-
-import Link from "next/link";
 import React, { useEffect, useRef, useState } from "react";
 import { AiOutlineCloseCircle } from "react-icons/ai";
 
@@ -66,13 +63,14 @@ const design = [
 
 const Name = ({ item }) => {
   return (
-    <Link
+    <a
       href={item.link}
+      target="_blank"
       className="underline font-bold font-satoshi "
       style={{ color: "#4A4A4A" }}
     >
       {item.name}
-    </Link>
+    </a>
   );
 };
 
@@ -87,7 +85,10 @@ export function CreditsModal({ isModalOpen, setModalOpen }) {
 
   useEffect(() => {
     const handleOutsideClick = (event) => {
-      event.preventDefault();
+      if (event.target.localName !== 'a') {
+        event.preventDefault()
+      }
+      
       if (
         ref.current &&
         !ref.current.contains(event.target) &&
