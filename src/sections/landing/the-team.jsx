@@ -29,7 +29,7 @@ const deptCoords2 = {
 const sponsHeads = {
   title: 'Sponsorship Heads', names: [
     'Ashwath S',
-    'Duvaarak Prasanna A',
+    'Duvaarak Prasanna',
     'Pradhyumnan S',
     'Aditya Varun T',
   ]

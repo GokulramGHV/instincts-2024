@@ -10,7 +10,7 @@ const londonFont = Londrina_Solid({
 
 export default function ScheduleHero() {
     return (
-        <header className="w-full bg-[#FFFCEA] pb-6 overflow-x-clip">
+        <header className="w-full bg-[#0C5AB9] pb-6 overflow-x-clip">
             <div className="md:px-12 px-6 pt-10 flex justify-between items-center w-full ">
                 <Link href={"/"}>
                     <Image
@@ -32,14 +32,14 @@ export default function ScheduleHero() {
                 </h1>
                 <Image
                     alt="sponsors-pattern"
-                    src="/sponsors/pattern.svg"
+                    src="/schedule/pattern.svg"
                     className="w-1/2 ml-12"
                     width={630}
                     height={318}
                 />
                 <Image
                     alt="sponsors-pattern"
-                    src="/sponsors/pattern.svg"
+                    src="/schedule/pattern.svg"
                     className="w-1/2 hidden lg:block"
                     width={630}
                     height={318}
