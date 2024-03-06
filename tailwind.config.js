@@ -13,7 +13,13 @@ module.exports = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
+      colors: {
+        'primary-pink': "#FF4E84"
+      },
+    },
+    fontFamily: {
+      satoshi: ['Satoshi-Variable', 'sans-serif'],
     },
   },
-  plugins: [],
+  plugins: [require('@tailwindcss/typography')],
 };

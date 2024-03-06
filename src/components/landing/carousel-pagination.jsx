@@ -1,6 +1,6 @@
 export default function CarouselPagination({ slideNo, setSlideNo }) {
   return (
-    <div className="w-fit absolute z-30 -right-5 sm:-right-7 xl:-right-[33px] top-[8vh]">
+    <div className="w-fit absolute z-30 -right-5 sm:-right-7 xl:-right-[33px] top-[10vh]">
       {[1, 2, 3, 4, 5, 6].map((i) => (
         <svg
           key={i}

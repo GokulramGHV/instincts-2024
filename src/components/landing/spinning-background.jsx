@@ -1,13 +1,13 @@
-'use client';
-import { useEffect } from 'react';
+"use client";
+import { useEffect } from "react";
 
 const colors = [
-  ['#c297f9', '#b76fef'],
-  ['#FF8173', '#FB6655'],
-  ['#9DD764', '#43A363'],
-  ['#FEDE88', '#FBD13D'],
-  ['#4FB6F0', '#0C5AB9'],
-  ['#0C5AB9', '#2E3192'],
+  ["#c297f9", "#b76fef"],
+  ["#FF8173", "#FB6655"],
+  ["#9DD764", "#43A363"],
+  ["#FEDE88", "#FBD13D"],
+  ["#4FB6F0", "#0C5AB9"],
+  ["#0C5AB9", "#2E3192"],
 ];
 
 export default function SpinningBackground({ slideNo }) {

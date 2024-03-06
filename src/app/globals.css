@@ -2,6 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: 'Satoshi-Variable';
+  src: url('/fonts/Satoshi-Variable.woff2') format('woff2'),
+    url('/fonts/Satoshi-Variable.woff') format('woff'),
+    url('/fonts/Satoshi-Variable.ttf') format('truetype');
+  font-weight: 300 900;
+  font-display: swap;
+  font-style: normal;
+}
+
 @keyframes spin {
   to {
     transform: rotate(360deg);
@@ -12,13 +22,78 @@
   animation: spin 15s linear infinite;
 }
 
+@keyframes marqueeRep {
+  0% {
+    transform: translateX(-100%);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes marqueeRepSecond {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(100%);
+  }
+}
+
+.marqueeDiv {
+  animation: marqueeRep 5s linear infinite;
+}
+
+.marqueeDivSecond {
+  animation: marqueeRepSecond 5s linear infinite;
+}
+
+#bento-section {
+  height: 100vh;
+}
+
+@media screen and (max-width: 768px) {
+
+  .marqueeDiv,
+  .marqueeDivSecond {
+    animation-duration: 5s;
+  }
+}
+
+@media screen and (min-height: 1024px) {
+  #bento-section {
+    height: auto;
+    padding: 4rem 0;
+  }
+
+  #bento-grid {
+    height: auto;
+    width: 90%;
+    max-width: 2000px;
+  }
+}
+
+@media screen and (height: 768px) and (width: 1024px) {
+  #bento-section {
+    height: auto;
+    padding: 4rem 0;
+  }
+
+  #bento-grid {
+    height: auto;
+    width: 90%;
+    max-width: 2000px;
+  }
+}
+
 .scrollbar-hidden::-webkit-scrollbar {
   display: none;
 }
 
-
 @media screen and (min-width: 640px) {
   .inactive-image {
-      opacity: 0;
-    }
+    opacity: 0;
+  }
 }
