@@ -71,10 +71,12 @@ export default function Carousel() {
         ))}
         <div
           className="h-full w-1/2 z-20 hidden cursor-pointer sm:block"
+          style={{ cursor: 'url(gallery_images/left-arrow.cur), pointer' }}
           onClick={handlePrevious}
         ></div>
         <div
           className="h-full w-1/2 z-20 hidden cursor-pointer sm:block"
+          style={{ cursor: 'url(gallery_images/right-arrow.cur), pointer' }}
           onClick={handleNext}
         ></div>
       </div>
