@@ -1,8 +1,8 @@
 import Image from "next/image";
 
-export default function MarqueeClouds() {
+export default function MarqueeClouds({ second = false }={}) {
   return (
-    <div className="absolute w-full top-0 left-0 h-full grid grid-rows-12 marqueeDiv">
+    <div className={`absolute w-full top-0 left-0 h-full grid grid-rows-12 ${second ? 'marqueeDivSecond' : 'marqueeDiv'}`}>
       <div></div>
       <div className="grid grid-cols-2 place-items-center">
         <Image src="/about_us/cloud.svg" width="100" height="100" alt="Cloud" />
