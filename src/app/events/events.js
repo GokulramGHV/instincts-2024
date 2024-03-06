@@ -561,7 +561,7 @@ export const events = [
   },
   {
     title: 'Quills Out Please!',
-    dayDetail: 'TBD',
+    dayDetail: 'online',
     category: 'Theatre',
     image: '/events-page/event-dummy-3.png',
     color: '#F6C826',
@@ -1318,7 +1318,7 @@ This event focuses on the ability of a designer to comprehend a given concept an
   },
   {
     title: 'Online Photography Contest',
-    dayDetail: '7th March',
+    dayDetail: '9th March',
     category: 'Photography',
     image: '/events-page/event-dummy-4.png',
     color: '#00644C',
@@ -1337,7 +1337,7 @@ This event focuses on the ability of a designer to comprehend a given concept an
 - Pictures with watermarks shall not be evaluated.
 - A Google Form will be circulated to your registered mobile number in which you'll be asked to submit your photographs.
 - Decision of the judge shall be bound and final.
-- Deadline: On/Before March 7th, 2024.
+- Deadline: On/Before March 9th, 2024.
     `,
     contacts: ['Krishna Karthikeyan - 8618584124', 'Jaishree - 6379631417'],
     clubDescription: `SPC x Capturesque enables you to capture moments which would make you look at it like "No way I clicked this."

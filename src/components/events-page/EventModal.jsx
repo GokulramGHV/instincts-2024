@@ -70,7 +70,7 @@ const EventModal = ({ isModalOpen, setModalOpen, event }) => {
           top: yScroll,
           background: "rgba(0, 0, 0, 0.4)",
         }}
-        className="absolute top-0 right-0 w-[100vw] h-[100vh] lg:py-[50px] lg:px-[100px] md:p-[50px] lg:overflow-y-scroll lg:block flex flex-col items-center p-[10px]"
+        className="absolute top-0 right-0 w-[100vw] h-[100vh] lg:py-[50px] lg:px-[100px] md:p-[50px] lg:overflow-y-scroll lg:block flex flex-col items-center overflow-x-hidden p-[10px]"
       >
         <div className="flex w-full justify-end mr-9 translate-y-14">
         <AiOutlineCloseCircle
@@ -208,7 +208,7 @@ const EventModal = ({ isModalOpen, setModalOpen, event }) => {
 
           {(isLargeScreen || currentInfo === "DETAILS") && (
             <>
-              <div className="flex flex-col justify-center items-center text-center">
+              <div className="flex flex-col justify-center items-center text-center pt-5">
                 <span className="font-medium lg:text-[21px] md:text-[18px] text-[14px]">
                   FOR QUERIES
                 </span>
@@ -342,7 +342,7 @@ const EventModal = ({ isModalOpen, setModalOpen, event }) => {
 
           <button
             className={`flex flex-wrap ${event.fee.length > 1 && "flex-col"
-              } gap-1 justify-center items-center lg:text-xl md:text-lg font-medium lg:py-[23px] md:py-[20px] py-[15px]  self-center  hover:opacity-90 hover:shadow-md sticky bottom-0 ${modalHeight>window.screen.height ? "sm:fixed bottom-24 lg:w-[40%] md:w-[50%]" : 'lg:w-[70%] w-[100%]'}`}
+              } gap-1 justify-center items-center lg:text-xl md:text-lg font-medium lg:py-[23px] md:py-[20px] py-[15px]  self-center  hover:opacity-90 hover:shadow-md sticky bottom-0 ${modalHeight>window.screen.height ? "sm:fixed bottom-20 lg:w-[33%] md:w-[50%]" : 'lg:w-[70%] w-[100%]'}`}
             style={{
               backgroundColor: "#43A363",
               borderRadius: 60,
