@@ -26,7 +26,7 @@ export default function AboutUs() {
   }, [])
 
   return (
-    <section className="w-full h-[250vh] sm:h-[200vh] relative" ref={section}>
+    <section id="about-us" className="w-full h-[250vh] sm:h-[200vh] relative" ref={section}>
       <div className="w-full h-[100vh] sticky top-0" ref={sticker}>
         <div className="w-full h-full relative">
           <AboutSSNSNU slide={slide} />
