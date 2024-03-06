@@ -96,7 +96,7 @@ export default [
     },
     color: '#FC6655',
     component: ScheduleBento,
-    link: 'coming-soon'
+    link: 'schedule'
   },
   {
     name: 'getpasses',
