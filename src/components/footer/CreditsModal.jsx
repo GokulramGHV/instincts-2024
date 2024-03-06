@@ -14,10 +14,6 @@ const development = [
     link: "https://www.linkedin.com/in/thenithinbalaji/",
   },
   {
-    name: "Judah",
-    link: "https://www.linkedin.com/in/judahjacinth/",
-  },
-  {
     name: "Gagan",
     link: "https://www.linkedin.com/in/gagan-sai-c-s-b82041245/",
   },
@@ -28,6 +24,10 @@ const development = [
   {
     name: "Gavutham",
     link: "https://www.linkedin.com/in/gavutham-kanagaraj/",
+  },
+  {
+    name: "Joshua",
+    link: "https://www.linkedin.com/in/joshuabharathi/",
   },
   {
     name: "Akash",
@@ -42,20 +42,20 @@ const development = [
     link: "https://www.linkedin.com/in/nitheeshraajar/",
   },
   {
-    name: "Charumathi",
-    link: "https://www.linkedin.com/in/charumathi-p/",
-  },
-  {
     name: "Vishal",
     link: "https://www.linkedin.com/in/vishal-murugan-251b80258",
   },
   {
-    name: "Joshua",
-    link: "https://www.linkedin.com/in/joshuabharathi/",
-  },
-  {
     name: "Vetrivel M",
     link: "https://www.linkedin.com/in/vetrivel-m-458a3a1b7/",
+  },
+  {
+    name: "Judah",
+    link: "https://www.linkedin.com/in/judahjacinth/",
+  },
+  {
+    name: "Charumathi",
+    link: "https://www.linkedin.com/in/charumathi-p/",
   },
 ];
 
@@ -68,7 +68,7 @@ const Name = ({ item }) => {
   return (
     <Link
       href={item.link}
-      className="underline font-bold"
+      className="underline font-bold font-satoshi "
       style={{ color: "#4A4A4A" }}
     >
       {item.name}
@@ -131,7 +131,7 @@ export function CreditsModal({ isModalOpen, setModalOpen }) {
             size={30}
             className="self-end"
           />
-          <h1 className="text-xl md:text-2xl lg:text-2xl font-light tracking-widest mb-[12px] md:mb-[16px] lg:mb-[20px]">
+          <h1 className="text-xl md:text-2xl lg:text-2xl font-light tracking-widest mb-[12px] md:mb-[16px] lg:mb-[20px] font-satoshi ">
             DEVELOPMENT
           </h1>
           <div className="flex flex-wrap items-center justify-center gap-[18px] md:gap-[20px] lg:gap-[28px] text-xl md:text-2xl lg:text-2xl md:mx-[28px] lg:mx-[50px] mb-[36px] md:mb-[40px] lg:mb-[50px]">
@@ -139,7 +139,7 @@ export function CreditsModal({ isModalOpen, setModalOpen }) {
               <Name key={item.name} item={item} />
             ))}
           </div>
-          <h1 className="text-xl md:text-2xl lg:text-2xl font-light tracking-widest mb-[12px] md:mb-[16px] lg:mb-[20px]">
+          <h1 className="text-xl md:text-2xl lg:text-2xl font-light tracking-widest mb-[12px] md:mb-[16px] lg:mb-[20px] font-satoshi ">
             DESIGN
           </h1>
           <div className="flex flex-wrap items-center justify-center gap-[18px] md:gap-[20px] lg:gap-[28px] text-xl md:text-2xl lg:text-2xl md:mx-[50px] lg:mx-[100px] mb-[36px] md:mb-[40px] lg:mb-[50px]">
@@ -148,7 +148,7 @@ export function CreditsModal({ isModalOpen, setModalOpen }) {
             ))}
           </div>
           <div
-            className="text-lg md:text-xl font-bold"
+            className="text-lg md:text-xl font-bold font-satoshi "
             style={{ color: "#C1C1C1" }}
           >
             made without ❤️ in Chennai
