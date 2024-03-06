@@ -16,11 +16,13 @@ function getIsLargeScreen() {
 }
 
 const EventModal = ({ isModalOpen, setModalOpen, event }) => {
+  
   const yScroll = typeof window !== "undefined" ? window.scrollY : 0;
   const ref = useRef();
   const [isLargeScreen, setIsLargeScreen] = useState(getIsLargeScreen());
   const [currentInfo, setCurrentInfo] = useState("DETAILS");
   const [isTooltipOpen, setTooltipOpen] = useState(false);
+  const [modalHeight, setModalHeight] = useState(0);
 
   const closeModal = () => {
     document.body.style.overflow = "inherit";
@@ -49,9 +51,13 @@ const EventModal = ({ isModalOpen, setModalOpen, event }) => {
     };
 
     if (isModalOpen) {
+      
       document.body.style.overflow = "hidden";
+      setModalHeight(ref.current.offsetHeight);
+      console.log(" === ", modalHeight, window.screen.height);
       document.addEventListener("click", handleOutsideClick);
     }
+
 
     return () => {
       document.removeEventListener("click", handleOutsideClick);
@@ -74,9 +80,9 @@ const EventModal = ({ isModalOpen, setModalOpen, event }) => {
             borderRadius: "20px",
             background: "white",
           }}
-          className="flex flex-col mx-auto lg:w-[65vw] 2xl:w-[50vw] lg:gap-7 gap-[20px] md:py-[30px] md:px-[30px] lg:max-h-[max-content] py-[20px] px-[25px] max-h-[100%] overflow-y-auto"
+          className={`flex flex-col mx-auto lg:w-[65vw] 2xl:w-[50vw]  lg:gap-7 gap-[20px] md:py-[30px] md:px-[30px] lg:max-h-[max-content] py-[20px] px-[25px] max-h-[100%] overflow-y-auto  ${modalHeight>window.screen.height ? "lg:pb-28" : ''}`}
         >
-          <div className="flex items-start justify-between">
+          <div className="flex items-start justify-between sticky top-0">
             <div className="flex flex-wrap justify-center items-center gap-x-12 gap-y-5">
               <h1 className="font-extrabold xl:text-[50px] md:text-[42px] text-[30px]">
                 {event.title}
@@ -100,12 +106,15 @@ const EventModal = ({ isModalOpen, setModalOpen, event }) => {
                 </div>
               )}
             </div>
-            <AiOutlineCloseCircle
-              className="lg:hidden"
-              color="#8F8D8D"
-              onClick={closeModal}
-              size={30}
-            />
+   
+      
+              <AiOutlineCloseCircle
+                className="lg:hidden"
+                color="#8F8D8D"
+                onClick={closeModal}
+                size={30}
+              />
+    
           </div>
 
           {(isLargeScreen || currentInfo === "DETAILS") && (
@@ -336,7 +345,7 @@ const EventModal = ({ isModalOpen, setModalOpen, event }) => {
 
           <button
             className={`flex flex-wrap ${event.fee.length > 1 && "flex-col"
-              } gap-1 justify-center items-center lg:text-xl md:text-lg font-medium lg:py-[23px] md:py-[20px] py-[15px] lg:w-[70%] w-[100%] self-center hover:opacity-90 hover:shadow-md`}
+              } gap-1 justify-center items-center lg:text-xl md:text-lg font-medium lg:py-[23px] md:py-[20px] py-[15px] lg:w-[70%] w-[100%] self-center opacity-90 hover:opacity-100 hover:shadow-md sticky bottom-0 ${modalHeight>window.screen.height ? "sm:fixed bottom-20 lg:w-[40%] md:w-[50%]" : ''}`}
             style={{
               backgroundColor: "#43A363",
               borderRadius: 60,
