@@ -25,6 +25,11 @@ const navOptions = [
     link: '/central-events',
   },
   {
+    label: 'SCHEDULE',
+    imageSrc: '/navbar_images/get_passes.png',
+    link: '/schedule',
+  },
+  {
     label: 'GALLERY',
     imageSrc: '/navbar_images/gallery.png',
     link: '/#gallery_section',
@@ -38,11 +43,6 @@ const navOptions = [
     label: 'SPONSORS',
     imageSrc: '/navbar_images/sponsors.png',
     link: '/sponsors',
-  },
-  {
-    label: 'GET PASSES',
-    imageSrc: '/navbar_images/get_passes.png',
-    link: '/get-passes',
   },
 ];
 
@@ -110,11 +110,10 @@ const Navbar = () => {
                   className="flex flex-1 items-center transition-all duration-500"
                 >
                   <div
-                    className={`cursor-pointer h-full ${
-                      hoveredOption === option
-                        ? 'text-black font-semibold md:text-7xl sm:text-6xl text-5xl '
-                        : 'text-white md:text-6xl sm:text-5xl text-4xl'
-                    }`}
+                    className={`cursor-pointer h-full ${hoveredOption === option
+                      ? 'text-black font-semibold md:text-7xl sm:text-6xl text-5xl '
+                      : 'text-white md:text-6xl sm:text-5xl text-4xl'
+                      }`}
                     onMouseOver={() => setHoveredOption(option)}
                   >
                     <Link
@@ -129,10 +128,10 @@ const Navbar = () => {
                         style={
                           hoveredOption !== option && hoveredOption !== null
                             ? {
-                                color: 'transparent',
-                                WebkitTextStrokeWidth: '2px',
-                                WebkitTextStrokeColor: 'black',
-                              }
+                              color: 'transparent',
+                              WebkitTextStrokeWidth: '2px',
+                              WebkitTextStrokeColor: 'black',
+                            }
                             : {}
                         }
                       >
