@@ -1,6 +1,10 @@
+"use client";
+
+import { CreditsModal } from "@/components/footer/CreditsModal";
 import Hero from "@/sections/events-page/hero";
 import Footer from "@/sections/footer/footer";
 import { Londrina_Solid } from "next/font/google";
+import { useState } from "react";
 import { FaEnvelope, FaPhone } from "react-icons/fa";
 
 const londrinaSolid = Londrina_Solid({
@@ -90,6 +94,8 @@ function ContactCard({ contact }) {
 }
 
 export default function Page() {
+  const [isCreditsOpen, setCreditsOpen] = useState(false);
+
   return (
     <>
       <Hero
@@ -98,7 +104,6 @@ export default function Page() {
         heroImage={"/contact_us/contact-us-hero-image.svg"}
         fontColor={"#202020"}
       />
-
       <div className="font-satoshi pt-20 pb-10 px-10">
         <h1
           className={`${londrinaSolid.className} text-5xl sm:text-6xl xl:text-7xl text-center text-[#202020]`}
@@ -111,7 +116,6 @@ export default function Page() {
           ))}
         </div>
       </div>
-
       <div className="font-satoshi pt-10 pb-20 px-10">
         <h1
           className={`${londrinaSolid.className} text-5xl sm:text-6xl xl:text-7xl text-center text-[#202020]`}
@@ -124,8 +128,11 @@ export default function Page() {
           ))}
         </div>
       </div>
-
-      <Footer />
+      <Footer setCreditsOpen={setCreditsOpen} />
+      <CreditsModal
+        isModalOpen={isCreditsOpen}
+        setModalOpen={setCreditsOpen}
+      />{" "}
     </>
   );
 }

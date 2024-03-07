@@ -1,51 +1,47 @@
-'use client';
-import EventModal from '@/components/events-page/EventModal';
-import CategoryPicker from '@/sections/events-page/categoryPicker';
-import EventsSection from '@/sections/events-page/eventsSection';
-import Hero from '@/sections/events-page/hero';
-import Footer from '@/sections/footer/footer';
-import { useState} from 'react';
-import { categories, events } from './events';
-import SearchBar from '@/sections/events-page/searchBar';
+"use client";
+import EventModal from "@/components/events-page/EventModal";
+import CategoryPicker from "@/sections/events-page/categoryPicker";
+import EventsSection from "@/sections/events-page/eventsSection";
+import Hero from "@/sections/events-page/hero";
+import Footer from "@/sections/footer/footer";
+import { useState } from "react";
+import { categories, events } from "./events";
+import SearchBar from "@/sections/events-page/searchBar";
+import { CreditsModal } from "@/components/footer/CreditsModal";
 
 export default function EventsPage() {
-  const [selectedCategory, setSelectedCategory] = useState('All Events');
+  const [selectedCategory, setSelectedCategory] = useState("All Events");
   const [isModalOpen, setModalOpen] = useState(false);
   const [selectedEvent, setSelectedEvent] = useState(null);
   const [chosenEvents, setChosenEvents] = useState(null); // filtered events from searchbar
-  const [query, setQuery] = useState(''); //search bar query
-
-
+  const [query, setQuery] = useState(""); //search bar query
+  const [isCreditsOpen, setCreditsOpen] = useState(false);
 
   const sortedcategories = categories.sort((a, b) =>
     a.name.localeCompare(b.name)
   );
 
   const filteredEvents = () => {
-    
     //for events selected from search
-    if(chosenEvents != null){
-      if(selectedCategory){
-          setSelectedCategory(null);
+    if (chosenEvents != null) {
+      if (selectedCategory) {
+        setSelectedCategory(null);
       }
       return chosenEvents;
-
-    } 
+    }
 
     //for events selected from category
-    else{
-    return events
-    .sort((a, b) => a.title.localeCompare(b.title))
-    .filter((event) => { 
-
-      if (selectedCategory === 'All Events') {
-        return true;
-      }  
-
-       else {
-        return event.category === selectedCategory;
-      }
-    })};
+    else {
+      return events
+        .sort((a, b) => a.title.localeCompare(b.title))
+        .filter((event) => {
+          if (selectedCategory === "All Events") {
+            return true;
+          } else {
+            return event.category === selectedCategory;
+          }
+        });
+    }
   };
 
   return (
@@ -66,17 +62,22 @@ export default function EventsPage() {
         />
 
         <SearchBar
-         setChosenEvents = {setChosenEvents}
-         setQuery={setQuery}
-         query={query}
-         setSelectedCategory={setSelectedCategory}/>
+          setChosenEvents={setChosenEvents}
+          setQuery={setQuery}
+          query={query}
+          setSelectedCategory={setSelectedCategory}
+        />
 
         <EventsSection
           events={filteredEvents()}
           setModalOpen={setModalOpen}
           setSelectedEvent={setSelectedEvent}
         />
-        <Footer />
+        <Footer setCreditsOpen={setCreditsOpen} />
+        <CreditsModal
+          isModalOpen={isCreditsOpen}
+          setModalOpen={setCreditsOpen}
+        />
       </div>
       <EventModal
         isModalOpen={isModalOpen}
